@@ -11,35 +11,35 @@
         {
           "num": 1,
           "title": "Navigasi Antar Step",
-          "desc": "  • Enter — Lanjut ke step berikutnya (jika valid)\n  • Esc — Tutup canvas / batalkan\n  • Alt + ← — Kembali ke step sebelumnya",
+          "desc": "Enter — Lanjut ke step berikutnya; Esc — Tutup canvas; Alt + ← — Kembali ke step sebelumnya",
           "color": "#3b82f6",
           "bg": "#eff6ff"
         },
         {
           "num": 2,
           "title": "Canvas & Viewport",
-          "desc": "  • Space + Drag — Pan canvas\n  • Scroll — Zoom in / out\n  • Ctrl + - — Zoom out\n  • Ctrl + = — Zoom in\n  • Ctrl + 0 — Reset zoom ke 100%",
+          "desc": "Space + Drag — Pan; Scroll — Zoom; Ctrl + - — Zoom out; Ctrl + = — Zoom in; Ctrl + 0 — Reset zoom",
           "color": "#14b8a6",
           "bg": "#f0fdfa"
         },
         {
           "num": 3,
           "title": "Node Operations",
-          "desc": "  • Klik — Pilih node\n  • Shift + Klik — Multi-select node\n  • Klik + Drag — Pindahkan node / group\n  • Delete — Hapus node / edge yang dipilih\n  • Klik kanan — Buka context menu node",
+          "desc": "Klik — Pilih node; Shift + Klik — Multi-select; Klik + Drag — Pindahkan; Delete — Hapus; Klik kanan — Context menu",
           "color": "#8b5cf6",
           "bg": "#f5f3ff"
         },
         {
           "num": 4,
           "title": "Undo / Redo",
-          "desc": "  • Ctrl + Z — Undo (batalkan aksi terakhir)\n  • Ctrl + Shift + Z — Redo (ulangi aksi yang dibatalkan)\n  • Ctrl + Y — Redo (alternatif)",
+          "desc": "Ctrl + Z — Undo; Ctrl + Shift + Z — Redo; Ctrl + Y — Redo",
           "color": "#f59e0b",
           "bg": "#fffbeb"
         },
         {
           "num": 5,
           "title": "Clipboard",
-          "desc": "  • Ctrl + C — Copy node(s) / group(s) yang dipilih\n  • Ctrl + X — Cut node(s) / group(s) yang dipilih\n  • Ctrl + V — Paste node(s) / group(s) dari clipboard",
+          "desc": "Ctrl + C — Copy; Ctrl + X — Cut; Ctrl + V — Paste",
           "color": "#f43f5e",
           "bg": "#fff1f2"
         }

@@ -6,7 +6,7 @@
       "type": "tutorial",
       "heading": "Ikhtisar Tutorial",
       "id": "tutorial-overview",
-      "intro": "{title}",
+      "intro": "Mulai belajar menggunakan Scenario Studio Canvas dengan tutorial langkah demi langkah. Pelajari cara membuat rule, membangun flow deteksi, dan mengelola groups secara efektif.",
       "steps": [
         {
           "num": 1,

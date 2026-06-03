@@ -6,12 +6,12 @@
       "type": "tutorial",
       "heading": "Deployment",
       "id": "deployment",
-      "intro": "Deployment documentation.",
+      "intro": "Deployment documentation coming soon.",
       "steps": [
         {
           "num": 1,
           "title": "Deployment",
-          "desc": "Deployment documentation is currently under development and will be available soon.",
+          "desc": "Deployment documentation coming soon.",
           "color": "#ec4899",
           "bg": "#fdf2f8"
         }

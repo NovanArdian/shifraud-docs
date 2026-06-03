@@ -11,44 +11,44 @@
         {
           "num": 1,
           "title": "LOGICAL",
-          "desc": "CONSTANT — Mendeteksi nilai tetap pada field tertentu.\nCocok untuk aturan sederhana seperti memeriksa apakah amount > 1000000 atau status = \"FAILED\". Parameter: field, operator, value.",
-          "color": "#0ea5e9",
-          "bg": "#f0f9ff"
+          "desc": "LOGICAL — Kombinasi AND / OR antar kondisi lain",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
         },
         {
           "num": 2,
           "title": "CONTAINS",
-          "desc": "CONTAINS — Mendeteksi substring dalam nilai field.\nBerguna untuk pattern matching seperti memeriksa apakah merchant name mengandung kata tertentu. Parameter: field, keyword.",
-          "color": "#22c55e",
-          "bg": "#f0fdf4"
+          "desc": "CONTAINS — Cek apakah nilai ada dalam daftar",
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         },
         {
           "num": 3,
           "title": "CONSTANT",
-          "desc": "LOGICAL — Operasi logika AND/OR untuk menggabungkan beberapa kondisi.\nDigunakan untuk aturan kompleks yang membutuhkan multiple conditions. Parameter: operator, jumlah kondisi anak.",
-          "color": "#f97316",
-          "bg": "#fff7ed"
+          "desc": "CONSTANT — Perbandingan dengan nilai tetap",
+          "color": "#22c55e",
+          "bg": "#f0fdf4"
         },
         {
           "num": 4,
           "title": "DEVIATION",
-          "desc": "COMPARE — Membandingkan nilai antar field atau dengan constant.\nContoh: membandingkan amount transaksi dengan rata-rata amount historis. Parameter: field A, operator, field B/value.",
-          "color": "#ec4899",
-          "bg": "#fdf2f8"
+          "desc": "DEVIATION — Deteksi penyimpangan statistik",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 5,
           "title": "AGGREGATE",
-          "desc": "RANGE — Mendeteksi nilai dalam rentang tertentu.\nBerguna untuk aturan jumlah transaksi dalam periode waktu. Parameter: field, min, max.",
+          "desc": "AGGREGATE — Count / Sum / Average dalam window",
           "color": "#6366f1",
           "bg": "#eef2ff"
         },
         {
           "num": 6,
           "title": "GEO",
-          "desc": "OCCURS — Mendeteksi frekuensi kejadian dalam periode waktu.\nContoh: deteksi >5 transaksi gagal dalam 1 jam. Parameter: field, threshold, time window.",
-          "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "desc": "GEO — Filter berbasis lokasi geografis / IP",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         }
       ]
     }
