@@ -1,0 +1,15 @@
+{
+  "label": "About Studio",
+  "category": "Scenario Studio",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "About Studio"
+    },
+    {
+      "type": "text",
+      "content": "Dokumentasi untuk About Studio pada Scenario Studio."
+    }
+  ]
+}

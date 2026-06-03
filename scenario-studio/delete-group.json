@@ -1,0 +1,40 @@
+{
+  "label": "Cara Menghapus Group",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Menghapus Group"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Menghapus Group",
+      "id": "delete-group",
+      "intro": "Panduan untuk Cara Menghapus Group.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Pilih Group yang Akan Dihapus",
+          "desc": "Di halaman Scenario Group, cari grup yang ingin dihapus. Perhatikan jumlah scenario di dalam grup.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Klik Tombol Delete",
+          "desc": "Klik icon tempat sampah (Delete) pada baris grup. Sebuah dialog konfirmasi akan muncul.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Konfirmasi Penghapusan",
+          "desc": "Setelah memilih opsi untuk scenario, klik \"Confirm Delete\". Grup akan dihapus dan scenario akan diproses sesuai pilihan Anda.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

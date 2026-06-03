@@ -1,0 +1,61 @@
+{
+  "label": "Cara Memilih & Memindahkan",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Memilih & Memindahkan"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Memilih & Memindahkan",
+      "id": "select",
+      "intro": "Panduan untuk Cara Memilih & Memindahkan.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Memilih Satu Node",
+          "desc": "Klik pada node yang ingin dipilih. Node akan terlihat terpilih (biasanya dengan border yang lebih tebal atau berbeda warna).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Memilih Banyak Node (Multi-select)",
+          "desc": "Tahan tombol Shift pada keyboard, lalu klik setiap node yang ingin dipilih secara bergantian.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Memilih Area (Rubber Band)",
+          "desc": "Klik dan drag mouse di area kosong canvas. Sebuah kotak seleksi (rubber band) akan muncul.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Memindahkan Node",
+          "desc": "Klik dan tahan node yang ingin dipindahkan (atau group yang sudah terpilih).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "Memindahkan dengan Presisi",
+          "desc": "Untuk memindahkan node secara horizontal atau vertikal saja, tahan Shift saat drag.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 6,
+          "title": "Tips",
+          "desc": "• Gunakan multi-select + \"Group\" untuk mengorganisir node yang saling terkait.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

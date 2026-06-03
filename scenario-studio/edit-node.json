@@ -1,0 +1,47 @@
+{
+  "label": "Cara Mengedit Node",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Mengedit Node"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Mengedit Node",
+      "id": "edit-node",
+      "intro": "Panduan untuk Cara Mengedit Node.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Edit Konfigurasi Kondisi",
+          "desc": "Klik kanan pada node kondisi yang ingin diedit.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Ganti Warna Node",
+          "desc": "Klik kanan pada node kondisi atau group.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Edit Label Group",
+          "desc": "Klik kanan pada group yang ingin di-rename.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Tips",
+          "desc": "• Perubahan konfigurasi kondisi bisa di-undo dengan Ctrl+Z.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

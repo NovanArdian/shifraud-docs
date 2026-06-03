@@ -1,0 +1,22 @@
+{
+  "label": "Page Title",
+  "category": "Category Name",
+  "sections": [
+    { "type": "heading", "level": 1, "text": "Page Title" },
+    { "type": "text", "content": "Deskripsi singkat tentang halaman ini." },
+    { "type": "callout", "variant": "info", "title": "Tip", "content": "Gunakan **bold** dan `code` untuk formatting." },
+    { "type": "code", "language": "typescript", "code": "const example = 'hello';" },
+    { "type": "stepper", "steps": [
+      { "num": 1, "title": "Langkah Pertama", "desc": "Deskripsi langkah pertama." },
+      { "num": 2, "title": "Langkah Kedua", "desc": "Deskripsi langkah kedua." }
+    ]},
+    { "type": "table", "headers": ["Key", "Value"], "rows": [
+      { "key": "Nama", "value": "Fitur Baru" },
+      { "key": "Tipe", "value": "Deteksi" }
+    ]},
+    { "type": "tutorial", "heading": "Judul Tutorial", "intro": "Pengantar tutorial...", "steps": [
+      { "num": 1, "title": "Langkah 1", "desc": "Deskripsi", "color": "#6366f1", "bg": "#eef2ff" },
+      { "num": 2, "title": "Langkah 2", "desc": "Deskripsi", "color": "#2563EB", "bg": "#eff6ff" }
+    ]}
+  ]
+}

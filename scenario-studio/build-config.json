@@ -1,0 +1,61 @@
+{
+  "label": "Cara Konfigurasi Build",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Konfigurasi Build"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Konfigurasi Build",
+      "id": "build-config",
+      "intro": "Panduan untuk Cara Konfigurasi Build.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Masuk ke Step Build Flow",
+          "desc": "Setelah mengisi parameter dasar di Step 1, klik \"Next: Build Flow\" untuk masuk ke canvas.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Susun Node Kondisi",
+          "desc": "Gunakan sidebar kiri untuk menambah node kondisi. Setiap node mewakili satu kondisi yang harus diperiksa.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Hubungkan dengan Edge",
+          "desc": "Hubungkan node secara berurutan dari Start → kondisi 1 → kondisi 2 → ... → placeholder.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Gunakan Group untuk Organisasi",
+          "desc": "Jika alur deteksi mulai kompleks (banyak node), gunakan Group untuk mengelompokkan node yang saling terkait.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "Validasi Alur",
+          "desc": "Sebelum lanjut ke step berikutnya, pastikan:",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 6,
+          "title": "Lanjut ke Step 3 atau 4",
+          "desc": "Jika rule bertipe GENERAL, klik \"Continue\" untuk langsung ke Step 4 (Review).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

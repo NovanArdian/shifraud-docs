@@ -1,0 +1,15 @@
+{
+  "label": "Ikhtisar Tutorial",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Ikhtisar Tutorial"
+    },
+    {
+      "type": "text",
+      "content": "Dokumentasi untuk Ikhtisar Tutorial pada Tutorials."
+    }
+  ]
+}

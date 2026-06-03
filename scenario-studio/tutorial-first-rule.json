@@ -1,0 +1,40 @@
+{
+  "label": "Membuat Rule Pertama",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Membuat Rule Pertama"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Membuat Rule Pertama",
+      "id": "tutorial-first-rule",
+      "intro": "Panduan untuk Membuat Rule Pertama.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Buka Scenario Studio",
+          "desc": "Dari sidebar utama, klik menu \"Scenario Management\" lalu pilih \"Scenario Studio\". Klik tombol \"Add New\" untuk membuat scenario baru.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Pilih Tipe Rule",
+          "desc": "Di dialog pembuatan, pilih tipe rule. Untuk tutorial ini, pilih \"GENERAL\" (3 langkah, tanpa Use Condition). Beri nama rule: \"Tutorial - Rule Pertama Saya\".",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 8,
+          "title": "Selesai!",
+          "desc": "Rule pertama Anda sudah tersimpan. Anda bisa melihatnya di halaman Scenario Group atau membuka kembali di Scenario Studio untuk diedit.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

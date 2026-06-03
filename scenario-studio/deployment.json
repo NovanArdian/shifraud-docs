@@ -1,0 +1,15 @@
+{
+  "label": "Deployment",
+  "category": "Scenario Studio",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Deployment"
+    },
+    {
+      "type": "text",
+      "content": "Dokumentasi untuk Deployment pada Scenario Studio."
+    }
+  ]
+}

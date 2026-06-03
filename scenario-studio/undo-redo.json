@@ -1,0 +1,54 @@
+{
+  "label": "Cara Undo & Redo",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Undo & Redo"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Undo & Redo",
+      "id": "undo-redo",
+      "intro": "Panduan untuk Cara Undo & Redo.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Apa yang Bisa Di-undo",
+          "desc": "Hampir semua aksi di canvas masuk ke riwayat undo/redo:",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Undo (Batalkan Aksi)",
+          "desc": "Tekan Ctrl+Z (atau Cmd+Z di Mac) untuk membatalkan aksi terakhir.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Redo (Ulangi Aksi)",
+          "desc": "Setelah melakukan undo, Anda bisa mengulangi aksi yang dibatalkan:",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Batas Riwayat",
+          "desc": "Canvas menyimpan maksimal 50 langkah undo/redo.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "Tips",
+          "desc": "• Biasakan Ctrl+Z setelah melakukan kesalahan — ini adalah safety net terbaik Anda.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

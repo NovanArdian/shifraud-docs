@@ -1,0 +1,15 @@
+{
+  "label": "Sidebar Panel",
+  "category": "Scenario Studio",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Sidebar Panel"
+    },
+    {
+      "type": "text",
+      "content": "Dokumentasi untuk Sidebar Panel pada Scenario Studio."
+    }
+  ]
+}

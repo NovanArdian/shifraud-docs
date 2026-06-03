@@ -1,0 +1,15 @@
+{
+  "label": "Toolbar",
+  "category": "Scenario Studio",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Toolbar"
+    },
+    {
+      "type": "text",
+      "content": "Dokumentasi untuk Toolbar pada Scenario Studio."
+    }
+  ]
+}

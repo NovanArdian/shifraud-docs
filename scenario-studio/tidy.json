@@ -1,0 +1,47 @@
+{
+  "label": "Cara Merapikan Layout",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Merapikan Layout"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Merapikan Layout",
+      "id": "tidy",
+      "intro": "Panduan untuk Cara Merapikan Layout.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Aktifkan Auto-arrange",
+          "desc": "Di toolbar bawah canvas, klik ikon sitemap (Auto-arrange).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Bagaimana Layout Bekerja",
+          "desc": "Auto-arrange menggunakan algoritma dagre untuk mengatur posisi node:",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Kapan Menggunakan Auto-arrange",
+          "desc": "• Setelah menambah banyak node baru yang posisinya belum rapi.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Tips",
+          "desc": "• Auto-arrange tidak bisa di-undo per langkah — tetapi bisa di-undo secara keseluruhan dengan Ctrl+Z.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

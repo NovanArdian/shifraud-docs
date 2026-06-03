@@ -1,0 +1,33 @@
+{
+  "label": "Cara Approve & Aktivasi",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Approve & Aktivasi"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Approve & Aktivasi",
+      "id": "approve-activate",
+      "intro": "Panduan untuk Cara Approve & Aktivasi.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Review Scenario dalam Status Draft",
+          "desc": "Scenario yang siap di-deploy harus melalui review. Buka detail scenario untuk memeriksa konfigurasi canvas, threshold, dan metadata. Pastikan semua sudah benar.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Submit untuk Approval",
+          "desc": "Klik tombol \"Submit\" atau \"Request Approval\". Status scenario akan berubah menjadi **Pending Review**. Sistem akan mengirim notifikasi ke approver yang ditentukan.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

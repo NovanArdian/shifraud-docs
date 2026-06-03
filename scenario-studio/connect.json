@@ -1,0 +1,61 @@
+{
+  "label": "Cara Menghubungkan Node",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Menghubungkan Node"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Menghubungkan Node",
+      "id": "connect",
+      "intro": "Panduan untuk Cara Menghubungkan Node.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Pahami Handle Node",
+          "desc": "Setiap node memiliki lingkaran kecil (handle) di sisi kiri (input) dan kanan (output).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Buat Koneksi Baru",
+          "desc": "Arahkan kursor ke handle kanan (output) node sumber.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Atur Operator Logika",
+          "desc": "Klik pada label edge (AND/OR) di tengah garis penghubung.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Aturan Koneksi",
+          "desc": "• Setiap node hanya bisa memiliki maksimal 1 incoming edge (koneksi masuk).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "Hapus Koneksi",
+          "desc": "Klik pada edge (garis) yang ingin dihapus. Edge akan terpilih (biasanya berubah warna atau menebal).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 6,
+          "title": "Tips",
+          "desc": "• Untuk membuat alur bercabang, gunakan node LOGICAL sebagai container.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

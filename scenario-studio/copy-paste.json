@@ -1,0 +1,54 @@
+{
+  "label": "Cara Copy & Paste",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Copy & Paste"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Copy & Paste",
+      "id": "copy-paste",
+      "intro": "Panduan untuk Cara Copy & Paste.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Copy Node atau Group",
+          "desc": "Pilih node atau group yang ingin di-copy.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Cut Node atau Group",
+          "desc": "Pilih node atau group yang ingin dipotong (cut).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Paste ke Canvas",
+          "desc": "Setelah copy atau cut, tempelkan dengan Ctrl+V (atau Cmd+V di Mac).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Paste ke Dalam Group",
+          "desc": "Untuk menempel node langsung ke dalam group:",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "Tips",
+          "desc": "• Copy/Paste mempertahankan semua konfigurasi kondisi dan koneksi antar node.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

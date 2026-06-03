@@ -1,0 +1,15 @@
+{
+  "label": "Canvas Overview",
+  "category": "Scenario Studio",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Canvas Overview"
+    },
+    {
+      "type": "text",
+      "content": "Dokumentasi untuk Canvas Overview pada Scenario Studio."
+    }
+  ]
+}

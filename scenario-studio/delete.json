@@ -1,0 +1,54 @@
+{
+  "label": "Cara Menghapus Node",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Menghapus Node"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Menghapus Node",
+      "id": "delete",
+      "intro": "Panduan untuk Cara Menghapus Node.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Hapus Node dengan Keyboard",
+          "desc": "Pilih node yang ingin dihapus dengan mengkliknya.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Hapus Node via Context Menu",
+          "desc": "Klik kanan pada node yang ingin dihapus.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Hapus Edge (Koneksi)",
+          "desc": "Klik pada edge (garis) yang ingin dihapus. Edge akan terpilih (berubah warna).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Yang Terjadi Jika Start Node Dihapus",
+          "desc": "Jika node Start dihapus, canvas akan memasuki \"Empty State\".",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "Tips",
+          "desc": "• Semua operasi hapus bisa di-undo dengan Ctrl+Z.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

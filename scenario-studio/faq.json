@@ -1,0 +1,15 @@
+{
+  "label": "FAQ",
+  "category": "Scenario Studio",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "FAQ"
+    },
+    {
+      "type": "text",
+      "content": "Dokumentasi untuk FAQ pada Scenario Studio."
+    }
+  ]
+}

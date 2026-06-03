@@ -1,0 +1,15 @@
+{
+  "label": "Best Practices",
+  "category": "Scenario Studio",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Best Practices"
+    },
+    {
+      "type": "text",
+      "content": "Dokumentasi untuk Best Practices pada Scenario Studio."
+    }
+  ]
+}

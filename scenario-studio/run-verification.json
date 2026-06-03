@@ -1,0 +1,33 @@
+{
+  "label": "Cara Menjalankan Verifikasi",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Menjalankan Verifikasi"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Menjalankan Verifikasi",
+      "id": "run-verification",
+      "intro": "Panduan untuk Cara Menjalankan Verifikasi.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Buka Halaman Verification",
+          "desc": "Dari sidebar, navigasi ke menu \"Scenario Verification\" atau \"Verification\". Halaman ini menampilkan daftar hasil verifikasi sebelumnya dan tombol untuk menjalankan verifikasi baru.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Jalankan Verifikasi",
+          "desc": "Klik \"Run\" atau \"Start Verification\". Proses verifikasi akan berjalan — durasi tergantung pada jumlah data dan kompleksitas scenario. Anda bisa meninggalkan halaman dan kembali nanti.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

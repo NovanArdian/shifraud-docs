@@ -1,0 +1,15 @@
+{
+  "label": "Keyboard Shortcuts",
+  "category": "Scenario Studio",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Keyboard Shortcuts"
+    },
+    {
+      "type": "text",
+      "content": "Dokumentasi untuk Keyboard Shortcuts pada Scenario Studio."
+    }
+  ]
+}

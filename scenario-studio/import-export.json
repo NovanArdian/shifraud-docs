@@ -1,0 +1,33 @@
+{
+  "label": "Cara Import & Export",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Import & Export"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Import & Export",
+      "id": "import-export",
+      "intro": "Panduan untuk Cara Import & Export.",
+      "steps": [
+        {
+          "num": 3,
+          "title": "Import Scenario",
+          "desc": "Klik tombol \"Import\" (icon upload). Pilih file JSON yang sebelumnya di-export. Sistem akan memvalidasi struktur file sebelum memproses.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "Verifikasi Hasil Import",
+          "desc": "Scenario hasil import akan muncul di daftar dengan status **Draft**. Buka kanvas untuk memverifikasi node, edge, dan konfigurasi tersalin dengan benar sebelum di-submit.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

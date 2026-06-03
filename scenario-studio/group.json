@@ -1,0 +1,68 @@
+{
+  "label": "Cara Menggunakan Group",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Cara Menggunakan Group"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Cara Menggunakan Group",
+      "id": "group",
+      "intro": "Panduan untuk Cara Menggunakan Group.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Membuat Group Baru",
+          "desc": "Pilih 2 node atau lebih di canvas (Shift+Klik atau rubber band).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Memindahkan Node ke Group yang Sudah Ada",
+          "desc": "Pilih node yang ingin dipindahkan ke dalam group.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Mengeluarkan Node dari Group",
+          "desc": "Pilih node yang ingin dikeluarkan dari group.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Membubarkan Group (Ungroup)",
+          "desc": "Klik kanan pada group yang ingin dibubarkan.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "Merapikan Node di Dalam Group",
+          "desc": "Klik kanan pada group → pilih \"Stack Vertically\".",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 6,
+          "title": "Mengganti Warna Group",
+          "desc": "Klik kanan pada group → pilih \"Change Color\".",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 7,
+          "title": "Tips",
+          "desc": "• Group bisa di-copy dan di-paste (Ctrl+C / Ctrl+V) bersama seluruh isinya.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}

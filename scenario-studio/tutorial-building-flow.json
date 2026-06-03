@@ -1,0 +1,61 @@
+{
+  "label": "Membangun Detection Flow",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Membangun Detection Flow"
+    },
+    {
+      "type": "tutorial",
+      "heading": "Membangun Detection Flow",
+      "id": "tutorial-building-flow",
+      "intro": "Panduan untuk Membangun Detection Flow.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Buat Rule Baru (Tipe CONDITION)",
+          "desc": "Buat rule baru dengan tipe \"CONDITION\". Beri nama: \"Tutorial - Detection Flow dengan Multiple Kondisi\". Isi parameter dasar seperti biasa di Step 1.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Tambah Kondisi LOGICAL",
+          "desc": "Di Step 2 (Build Flow), klik \"Add Condition\" dan pilih tipe \"LOGICAL\". Kondisi LOGICAL berfungsi sebagai container untuk menggabungkan kondisi lain dengan operator AND/OR. Simpan tanpa mengubah pengaturan default.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Tambah Kondisi CONSTANT",
+          "desc": "Tambah kondisi CONSTANT baru. Atur: atribut = \"amount\", operator = \">\", nilai = \"1000000\".",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Tambah Kondisi CONTAINS",
+          "desc": "Tambah kondisi CONTAINS baru. Atur: atribut = \"merchant_category\", nilai = [\"ECOM\", \"DIGITAL\"].",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "Atur Operator LOGICAL",
+          "desc": "Klik edge dari CONSTANT ke LOGICAL. Ubah operator menjadi \"AND\".",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 7,
+          "title": "Gunakan Auto-arrange",
+          "desc": "Klik ikon Auto-arrange (sitemap) di toolbar. Semua node akan dirapikan secara otomatis dengan layout hierarki. Perhatikan bagaimana node di dalam LOGICAL diatur sebagai sub-grup.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
+    }
+  ]
+}
