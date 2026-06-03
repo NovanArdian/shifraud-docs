@@ -12,45 +12,95 @@
       "content": "Scenario Studio Canvas adalah visual editor untuk membuat dan mengelola aturan deteksi fraud melalui antarmuka berbasis langkah yang intuitif."
     },
     {
+      "type": "callout",
+      "variant": "info",
+      "title": "Pendekatan Terstruktur",
+      "content": "Buat aturan deteksi fraud yang kompleks melalui 4 langkah terstruktur. Setiap langkah memandu konfigurasi dari parameter dasar hingga logika deteksi dan review akhir."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Alur Kerja (4 Langkah)"
+    },
+    {
+      "type": "workflow-steps",
+      "steps": [
+        {
+          "displayNum": "01",
+          "title": "Configure Parameters",
+          "desc": "Atur nama rule, grup, prioritas, risk score, periode aktif, dan cycle indicator",
+          "iconName": "IconSettings",
+          "iconColor": "blue"
+        },
+        {
+          "displayNum": "02",
+          "title": "Build Flow",
+          "desc": "Buat logika deteksi menggunakan node kondisi pada canvas visual. Mendukung group, clipboard, undo/redo, dan tidy layout.",
+          "iconName": "IconGitBranch",
+          "iconColor": "violet"
+        },
+        {
+          "displayNum": "03",
+          "title": "Use Condition",
+          "desc": "Definisikan kondisi penggunaan rule (hanya untuk tipe CONDITION)",
+          "iconName": "IconFilter",
+          "iconColor": "teal"
+        },
+        {
+          "displayNum": "04",
+          "title": "Review & Submit",
+          "desc": "Tinjau semua konfigurasi dan submit scenario untuk disimpan",
+          "iconName": "IconBolt",
+          "iconColor": "orange"
+        }
+      ]
+    },
+    {
       "type": "heading",
       "level": 2,
       "text": "Canvas Features"
     },
     {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Undo / Redo",
-      "content": "Ctrl+Z / Ctrl+Shift+Z — history 50 langkah"
+      "type": "card-grid",
+      "columns": 2,
+      "items": [
+        {
+          "label": "Undo / Redo",
+          "color": "#6366f1",
+          "desc": "Ctrl+Z / Ctrl+Shift+Z — history 50 langkah"
+        },
+        {
+          "label": "Clipboard",
+          "color": "#3b82f6",
+          "desc": "Ctrl+C/X/V — copy/cut/paste node & group"
+        },
+        {
+          "label": "Groups",
+          "color": "#ec4899",
+          "desc": "Group, ungroup, move to group, tidy layout"
+        },
+        {
+          "label": "Color Picker",
+          "color": "#f59e0b",
+          "desc": "Warna node & group via context menu"
+        },
+        {
+          "label": "Auto-arrange",
+          "color": "#22c55e",
+          "desc": "Tidy layout dengan dagre hierarki"
+        },
+        {
+          "label": "Connected Move",
+          "color": "#14b8a6",
+          "desc": "Node yang terhubung ikut dipindahkan"
+        }
+      ]
     },
     {
       "type": "callout",
-      "variant": "tip",
-      "title": "Clipboard",
-      "content": "Ctrl+C/X/V — copy/cut/paste node & group"
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Groups",
-      "content": "Group, ungroup, move to group, tidy layout"
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Color Picker",
-      "content": "Warna node & group via context menu"
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Auto-arrange",
-      "content": "Tidy layout dengan dagre hierarki"
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Connected Move",
-      "content": "Node yang terhubung ikut dipindahkan"
+      "variant": "prerequisite",
+      "title": "Catatan Tipe Rule",
+      "content": "Rule tipe **GENERAL** hanya memiliki 3 langkah (tanpa Step 3: Use Condition). Rule tipe **CONDITION** memiliki 4 langkah lengkap termasuk konfigurasi attribute binding dan use condition canvas."
     }
   ]
 }
