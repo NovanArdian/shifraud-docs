@@ -3,11 +3,6 @@
   "category": "Tutorials",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Cara Menambah Group"
-    },
-    {
       "type": "tutorial",
       "heading": "Cara Menambah Group",
       "id": "add-group",
@@ -16,27 +11,37 @@
         {
           "num": 1,
           "title": "Buka Halaman Scenario Group",
-          "desc": "Dari sidebar, navigasi ke menu \"Scenario Group\". Halaman ini menampilkan daftar grup yang sudah ada beserta jumlah scenario di dalamnya."
+          "desc": "Dari sidebar, navigasi ke menu \"Scenario Group\". Halaman ini menampilkan daftar grup yang sudah ada beserta jumlah scenario di dalamnya.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 2,
           "title": "Klik Tambah Group",
-          "desc": "Klik tombol \"Tambah Group\" atau \"Create Group\" di pojok kanan atas. Sebuah modal/dialog akan terbuka."
+          "desc": "Klik tombol \"Tambah Group\" atau \"Create Group\" di pojok kanan atas. Sebuah modal/dialog akan terbuka.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 3,
           "title": "Isi Informasi Group",
-          "desc": "Lengkapi field di modal:\n• **Nama Group** — nama kategori (contoh: \"E-commerce Fraud\", \"Wire Transfer\")\n• **Deskripsi** — penjelasan tujuan grup (opsional)\n• **Warna Label** — pilih warna untuk identifikasi visual di daftar"
+          "desc": "Lengkapi field di modal:\n• **Nama Group** — nama kategori (contoh: \"E-commerce Fraud\", \"Wire Transfer\")\n• **Deskripsi** — penjelasan tujuan grup (opsional)\n• **Warna Label** — pilih warna untuk identifikasi visual di daftar",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 4,
           "title": "Tambahkan Scenario (Opsional)",
-          "desc": "Setelah group dibuat, Anda bisa langsung menambahkan scenario ke dalamnya. Pilih scenario yang sudah ada dari dropdown \"Add Scenario to Group\", atau buat scenario baru dengan group yang sudah ditentukan."
+          "desc": "Setelah group dibuat, Anda bisa langsung menambahkan scenario ke dalamnya. Pilih scenario yang sudah ada dari dropdown \"Add Scenario to Group\", atau buat scenario baru dengan group yang sudah ditentukan.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 5,
           "title": "Simpan Group",
-          "desc": "Klik \"Save\" atau \"Create\". Group baru akan muncul di daftar. Anda bisa mengklik nama group untuk melihat semua scenario di dalamnya."
+          "desc": "Klik \"Save\" atau \"Create\". Group baru akan muncul di daftar. Anda bisa mengklik nama group untuk melihat semua scenario di dalamnya.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         }
       ]
     }

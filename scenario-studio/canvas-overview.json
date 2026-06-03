@@ -3,37 +3,40 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Canvas Overview"
-    },
-    {
-      "type": "text",
-      "content": "Canvas adalah area utama ReactFlow untuk menyusun dan menghubungkan node kondisi."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Condition Sidebar",
-      "content": "Panel kiri berisi 6 tipe kondisi yang bisa diklik atau di-drag untuk membuat node baru."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Canvas Area",
-      "content": "Area utama untuk menyusun dan menghubungkan node kondisi. Mendukung pan (Space+Drag), zoom (Scroll), dan drag node."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Bottom Toolbar",
-      "content": "Floating bar berisi: info rule, tombol Add Condition, Auto-arrange, Back, dan Continue."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Multi-select Hint",
-      "content": "Panel \"X nodes selected · Right-click for actions\" muncul saat 2+ node dipilih."
+      "type": "tutorial",
+      "heading": "Canvas Overview",
+      "id": "canvas-overview",
+      "intro": "Canvas adalah area utama ReactFlow untuk menyusun dan menghubungkan node kondisi.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Condition Sidebar",
+          "desc": "Panel kiri berisi 6 tipe kondisi yang bisa diklik atau di-drag untuk membuat node baru.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Canvas Area",
+          "desc": "Area utama untuk menyusun dan menghubungkan node kondisi. Mendukung pan (Space+Drag), zoom (Scroll), dan drag node.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Bottom Toolbar",
+          "desc": "Floating bar berisi: info rule, tombol Add Condition, Auto-arrange, Back, dan Continue.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Multi-select Hint",
+          "desc": "Panel \"X nodes selected · Right-click for actions\" muncul saat 2+ node dipilih.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
     }
   ]
 }

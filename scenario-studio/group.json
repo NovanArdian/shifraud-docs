@@ -3,11 +3,6 @@
   "category": "Tutorials",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Cara Menggunakan Group"
-    },
-    {
       "type": "tutorial",
       "heading": "Cara Menggunakan Group",
       "id": "group",
@@ -16,37 +11,51 @@
         {
           "num": 1,
           "title": "Membuat Group Baru",
-          "desc": "Pilih 2 node atau lebih di canvas (Shift+Klik atau rubber band).\nKlik kanan di area canvas. Context menu akan menampilkan \"Group X nodes\" (X = jumlah node terpilih).\nKlik opsi tersebut. Sebuah group container akan dibuat membungkus semua node terpilih.\nEdge yang terhubung ke node di dalam group akan otomatis di-route ke boundary group."
+          "desc": "Pilih 2 node atau lebih di canvas (Shift+Klik atau rubber band).\nKlik kanan di area canvas. Context menu akan menampilkan \"Group X nodes\" (X = jumlah node terpilih).\nKlik opsi tersebut. Sebuah group container akan dibuat membungkus semua node terpilih.\nEdge yang terhubung ke node di dalam group akan otomatis di-route ke boundary group.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 2,
           "title": "Memindahkan Node ke Group yang Sudah Ada",
-          "desc": "Pilih node yang ingin dipindahkan ke dalam group.\nKlik kanan → \"Move to Group\".\nDaftar group yang tersedia akan ditampilkan. Pilih group tujuan.\nNode akan berpindah ke dalam group. Node yang terhubung via edge juga ikut dipindahkan (connected move)."
+          "desc": "Pilih node yang ingin dipindahkan ke dalam group.\nKlik kanan → \"Move to Group\".\nDaftar group yang tersedia akan ditampilkan. Pilih group tujuan.\nNode akan berpindah ke dalam group. Node yang terhubung via edge juga ikut dipindahkan (connected move).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 3,
           "title": "Mengeluarkan Node dari Group",
-          "desc": "Pilih node yang ingin dikeluarkan dari group.\nKlik kanan → \"Remove from Group\".\nNode akan keluar dari group dan naik ke level parent (canvas utama atau group di atasnya).\nPosisi node akan dipertahankan secara absolut."
+          "desc": "Pilih node yang ingin dikeluarkan dari group.\nKlik kanan → \"Remove from Group\".\nNode akan keluar dari group dan naik ke level parent (canvas utama atau group di atasnya).\nPosisi node akan dipertahankan secara absolut.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 4,
           "title": "Membubarkan Group (Ungroup)",
-          "desc": "Klik kanan pada group yang ingin dibubarkan.\nPilih \"Ungroup\" dari context menu.\nGroup akan dibubarkan. Semua node di dalamnya naik ke level parent.\nPosisi node dipertahankan. Edge akan di-route ulang secara otomatis."
+          "desc": "Klik kanan pada group yang ingin dibubarkan.\nPilih \"Ungroup\" dari context menu.\nGroup akan dibubarkan. Semua node di dalamnya naik ke level parent.\nPosisi node dipertahankan. Edge akan di-route ulang secara otomatis.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 5,
           "title": "Merapikan Node di Dalam Group",
-          "desc": "Klik kanan pada group → pilih \"Stack Vertically\".\nSemua node di dalam group akan diatur secara vertikal berurutan.\nBerguna setelah menambah banyak node ke dalam group yang posisinya berantakan."
+          "desc": "Klik kanan pada group → pilih \"Stack Vertically\".\nSemua node di dalam group akan diatur secara vertikal berurutan.\nBerguna setelah menambah banyak node ke dalam group yang posisinya berantakan.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 6,
           "title": "Mengganti Warna Group",
-          "desc": "Klik kanan pada group → pilih \"Change Color\".\nPilih salah satu opsi warna:\n• Preset: pilih dari warna yang sudah tersedia\n• Random: dapatkan warna acak\n• Color Picker: pilih warna kustom dari color picker native"
+          "desc": "Klik kanan pada group → pilih \"Change Color\".\nPilih salah satu opsi warna:\n• Preset: pilih dari warna yang sudah tersedia\n• Random: dapatkan warna acak\n• Color Picker: pilih warna kustom dari color picker native",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 7,
           "title": "Tips",
-          "desc": "• Group bisa di-copy dan di-paste (Ctrl+C / Ctrl+V) bersama seluruh isinya.\n• Beri nama group yang deskriptif agar mudah dipahami tim lain.\n• Gunakan warna berbeda untuk setiap group agar mudah dibedakan secara visual.\n• Auto-arrange akan merapikan group secara hierarki (inner dagre)."
+          "desc": "• Group bisa di-copy dan di-paste (Ctrl+C / Ctrl+V) bersama seluruh isinya.\n• Beri nama group yang deskriptif agar mudah dipahami tim lain.\n• Gunakan warna berbeda untuk setiap group agar mudah dibedakan secara visual.\n• Auto-arrange akan merapikan group secara hierarki (inner dagre).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         }
       ]
     }

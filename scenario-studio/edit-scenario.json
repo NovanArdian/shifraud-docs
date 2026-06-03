@@ -3,11 +3,6 @@
   "category": "Tutorials",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Cara Mengedit Scenario"
-    },
-    {
       "type": "tutorial",
       "heading": "Cara Mengedit Scenario",
       "id": "edit-scenario",
@@ -16,27 +11,37 @@
         {
           "num": 1,
           "title": "Cari Scenario yang Akan Diedit",
-          "desc": "Gunakan kolom pencarian atau filter di halaman daftar scenario untuk menemukan scenario yang ingin diubah. Perhatikan status scenario — beberapa field mungkin tidak bisa diubah jika scenario sudah Active."
+          "desc": "Gunakan kolom pencarian atau filter di halaman daftar scenario untuk menemukan scenario yang ingin diubah. Perhatikan status scenario — beberapa field mungkin tidak bisa diubah jika scenario sudah Active.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 2,
           "title": "Klik Tombol Edit",
-          "desc": "Klik icon pensil (Edit) pada baris scenario yang dituju. Sebuah modal akan terbuka dengan data scenario yang sudah terisi."
+          "desc": "Klik icon pensil (Edit) pada baris scenario yang dituju. Sebuah modal akan terbuka dengan data scenario yang sudah terisi.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 3,
           "title": "Ubah Informasi yang Diperlukan",
-          "desc": "Anda bisa mengubah:\n• **Nama & Deskripsi** — perbarui jika aturan berubah\n• **Group** — pindahkan ke grup yang lebih relevan\n• **Severity** — sesuaikan level prioritas berdasarkan dampak\n• **Tags/Labels** — tambah atau hapus kategorisasi"
+          "desc": "Anda bisa mengubah:\n• **Nama & Deskripsi** — perbarui jika aturan berubah\n• **Group** — pindahkan ke grup yang lebih relevan\n• **Severity** — sesuaikan level prioritas berdasarkan dampak\n• **Tags/Labels** — tambah atau hapus kategorisasi",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 4,
           "title": "Update Konten Canvas (Jika Perlu)",
-          "desc": "Untuk mengubah logika deteksi, klik pada nama scenario atau tombol \"Edit Flow\" untuk membuka kanvas. Lakukan perubahan pada node, edge, atau konfigurasi build di sana."
+          "desc": "Untuk mengubah logika deteksi, klik pada nama scenario atau tombol \"Edit Flow\" untuk membuka kanvas. Lakukan perubahan pada node, edge, atau konfigurasi build di sana.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 5,
           "title": "Simpan Perubahan",
-          "desc": "Klik \"Save\" atau \"Update\" untuk menyimpan perubahan. Jika scenario dalam status Active, perubahan mungkin memerlukan approval sebelum diterapkan."
+          "desc": "Klik \"Save\" atau \"Update\" untuk menyimpan perubahan. Jika scenario dalam status Active, perubahan mungkin memerlukan approval sebelum diterapkan.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         }
       ]
     }

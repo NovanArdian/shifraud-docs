@@ -3,11 +3,6 @@
   "category": "Tutorials",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Cara Mengedit Node"
-    },
-    {
       "type": "tutorial",
       "heading": "Cara Mengedit Node",
       "id": "edit-node",
@@ -16,22 +11,30 @@
         {
           "num": 1,
           "title": "Edit Konfigurasi Kondisi",
-          "desc": "Klik kanan pada node kondisi yang ingin diedit.\nDari context menu yang muncul, pilih \"Edit Condition\".\nDialog konfigurasi akan terbuka menampilkan parameter kondisi yang sudah diisi sebelumnya.\nUbah parameter yang diinginkan (atribut, operator, nilai, dll) lalu klik \"Save\" untuk menyimpan perubahan."
+          "desc": "Klik kanan pada node kondisi yang ingin diedit.\nDari context menu yang muncul, pilih \"Edit Condition\".\nDialog konfigurasi akan terbuka menampilkan parameter kondisi yang sudah diisi sebelumnya.\nUbah parameter yang diinginkan (atribut, operator, nilai, dll) lalu klik \"Save\" untuk menyimpan perubahan.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 2,
           "title": "Ganti Warna Node",
-          "desc": "Klik kanan pada node kondisi atau group.\nPilih \"Color\" dari context menu (untuk node) atau \"Change Color\" (untuk group).\nNative color picker browser akan terbuka. Pilih warna yang diinginkan, lalu klik OK.\nWarna node akan berubah sesuai pilihan. Gunakan warna untuk mengkategorikan node secara visual (misal: merah untuk kondisi kritis, hijau untuk kondisi normal)."
+          "desc": "Klik kanan pada node kondisi atau group.\nPilih \"Color\" dari context menu (untuk node) atau \"Change Color\" (untuk group).\nNative color picker browser akan terbuka. Pilih warna yang diinginkan, lalu klik OK.\nWarna node akan berubah sesuai pilihan. Gunakan warna untuk mengkategorikan node secara visual (misal: merah untuk kondisi kritis, hijau untuk kondisi normal).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 3,
           "title": "Edit Label Group",
-          "desc": "Klik kanan pada group yang ingin di-rename.\nPilih \"Rename Group\" dari context menu.\nSebuah dialog akan terbuka dengan field input berisi nama group saat ini.\nKetik nama baru, lalu klik \"Save\". Label group akan berubah."
+          "desc": "Klik kanan pada group yang ingin di-rename.\nPilih \"Rename Group\" dari context menu.\nSebuah dialog akan terbuka dengan field input berisi nama group saat ini.\nKetik nama baru, lalu klik \"Save\". Label group akan berubah.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 4,
           "title": "Tips",
-          "desc": "• Perubahan konfigurasi kondisi bisa di-undo dengan Ctrl+Z.\n• Gunakan warna yang konsisten: misal warna biru untuk kondisi CONSTANT, hijau untuk CONTAINS.\n• Untuk group, beri nama yang deskriptif agar mudah dipahami tim lain.\n• Jika dialog edit tidak muncul, pastikan node dalam keadaan terpilih sebelum klik kanan."
+          "desc": "• Perubahan konfigurasi kondisi bisa di-undo dengan Ctrl+Z.\n• Gunakan warna yang konsisten: misal warna biru untuk kondisi CONSTANT, hijau untuk CONTAINS.\n• Untuk group, beri nama yang deskriptif agar mudah dipahami tim lain.\n• Jika dialog edit tidak muncul, pastikan node dalam keadaan terpilih sebelum klik kanan.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         }
       ]
     }

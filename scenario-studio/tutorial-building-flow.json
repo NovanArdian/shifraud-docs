@@ -3,11 +3,6 @@
   "category": "Tutorials",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Membangun Detection Flow"
-    },
-    {
       "type": "tutorial",
       "heading": "Membangun Detection Flow",
       "id": "tutorial-building-flow",
@@ -16,42 +11,58 @@
         {
           "num": 1,
           "title": "Buat Rule Baru (Tipe CONDITION)",
-          "desc": "Buat rule baru dengan tipe \"CONDITION\". Beri nama: \"Tutorial - Detection Flow dengan Multiple Kondisi\". Isi parameter dasar seperti biasa di Step 1."
+          "desc": "Buat rule baru dengan tipe \"CONDITION\". Beri nama: \"Tutorial - Detection Flow dengan Multiple Kondisi\". Isi parameter dasar seperti biasa di Step 1.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 2,
           "title": "Tambah Kondisi LOGICAL",
-          "desc": "Di Step 2 (Build Flow), klik \"Add Condition\" dan pilih tipe \"LOGICAL\". Kondisi LOGICAL berfungsi sebagai container untuk menggabungkan kondisi lain dengan operator AND/OR. Simpan tanpa mengubah pengaturan default."
+          "desc": "Di Step 2 (Build Flow), klik \"Add Condition\" dan pilih tipe \"LOGICAL\". Kondisi LOGICAL berfungsi sebagai container untuk menggabungkan kondisi lain dengan operator AND/OR. Simpan tanpa mengubah pengaturan default.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 3,
           "title": "Tambah Kondisi CONSTANT",
-          "desc": "Tambah kondisi CONSTANT baru. Atur: atribut = \"amount\", operator = \">\", nilai = \"1000000\".\nHubungkan node CONSTANT ke node LOGICAL (drag dari kanan CONSTANT ke kiri LOGICAL)."
+          "desc": "Tambah kondisi CONSTANT baru. Atur: atribut = \"amount\", operator = \">\", nilai = \"1000000\".\nHubungkan node CONSTANT ke node LOGICAL (drag dari kanan CONSTANT ke kiri LOGICAL).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 4,
           "title": "Tambah Kondisi CONTAINS",
-          "desc": "Tambah kondisi CONTAINS baru. Atur: atribut = \"merchant_category\", nilai = [\"ECOM\", \"DIGITAL\"].\nHubungkan node CONTAINS ke node LOGICAL juga."
+          "desc": "Tambah kondisi CONTAINS baru. Atur: atribut = \"merchant_category\", nilai = [\"ECOM\", \"DIGITAL\"].\nHubungkan node CONTAINS ke node LOGICAL juga.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 5,
           "title": "Atur Operator LOGICAL",
-          "desc": "Klik edge dari CONSTANT ke LOGICAL. Ubah operator menjadi \"AND\".\nKlik edge dari CONTAINS ke LOGICAL. Ubah operator menjadi \"AND\" juga.\nSekarang rule akan mendeteksi: transaksi > 1 Juta AND kategori ECOM/DIGITAL."
+          "desc": "Klik edge dari CONSTANT ke LOGICAL. Ubah operator menjadi \"AND\".\nKlik edge dari CONTAINS ke LOGICAL. Ubah operator menjadi \"AND\" juga.\nSekarang rule akan mendeteksi: transaksi > 1 Juta AND kategori ECOM/DIGITAL.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 6,
           "title": "Hubungkan ke Flow Utama",
-          "desc": "Sekarang hubungkan:\n• Start node → node LOGICAL (source ke target)\n• node LOGICAL → placeholder \"?\"\nSekarang flow lengkap: Start → LOGICAL (AND) → End."
+          "desc": "Sekarang hubungkan:\n• Start node → node LOGICAL (source ke target)\n• node LOGICAL → placeholder \"?\"\nSekarang flow lengkap: Start → LOGICAL (AND) → End.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 7,
           "title": "Gunakan Auto-arrange",
-          "desc": "Klik ikon Auto-arrange (sitemap) di toolbar. Semua node akan dirapikan secara otomatis dengan layout hierarki. Perhatikan bagaimana node di dalam LOGICAL diatur sebagai sub-grup."
+          "desc": "Klik ikon Auto-arrange (sitemap) di toolbar. Semua node akan dirapikan secara otomatis dengan layout hierarki. Perhatikan bagaimana node di dalam LOGICAL diatur sebagai sub-grup.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 8,
           "title": "Review Logika",
-          "desc": "Periksa alur deteksi:\n• Start → Apakah amount > 1 Juta? (AND)\n• Start → Apakah kategori termasuk ECOM/DIGITAL? (AND)\n• Jika keduanya TRUE → alert terpicu.\nIni adalah pola dasar detection flow. Anda bisa menambah lebih banyak kondisi dan membuat nested LOGICAL untuk logika yang lebih kompleks."
+          "desc": "Periksa alur deteksi:\n• Start → Apakah amount > 1 Juta? (AND)\n• Start → Apakah kategori termasuk ECOM/DIGITAL? (AND)\n• Jika keduanya TRUE → alert terpicu.\nIni adalah pola dasar detection flow. Anda bisa menambah lebih banyak kondisi dan membuat nested LOGICAL untuk logika yang lebih kompleks.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         }
       ]
     }

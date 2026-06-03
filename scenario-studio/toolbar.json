@@ -3,43 +3,47 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Toolbar"
-    },
-    {
-      "type": "text",
-      "content": "Toolbar menyediakan akses cepat ke operasi canvas utama."
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "Add Condition",
-      "content": "Buka dialog untuk menambah node kondisi baru di canvas."
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "Auto-arrange",
-      "content": "Rapikan posisi semua node menggunakan layout hierarki dagre."
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "Zoom Controls",
-      "content": "Zoom in/out dan reset viewport ke posisi default."
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "Undo / Redo",
-      "content": "Batalkan atau ulangi aksi terakhir (Ctrl+Z / Ctrl+Shift+Z)."
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "Back / Continue",
-      "content": "Navigasi antar step: Back ke step sebelumnya, Continue ke step berikutnya."
+      "type": "tutorial",
+      "heading": "Toolbar",
+      "id": "toolbar",
+      "intro": "Toolbar menyediakan akses cepat ke operasi canvas utama.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Add Condition",
+          "desc": "Buka dialog untuk menambah node kondisi baru di canvas.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Auto-arrange",
+          "desc": "Rapikan posisi semua node menggunakan layout hierarki dagre.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Zoom Controls",
+          "desc": "Zoom in/out dan reset viewport ke posisi default.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Undo / Redo",
+          "desc": "Batalkan atau ulangi aksi terakhir (Ctrl+Z / Ctrl+Shift+Z).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "Back / Continue",
+          "desc": "Navigasi antar step: Back ke step sebelumnya, Continue ke step berikutnya.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
     }
   ]
 }

@@ -3,49 +3,54 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Sidebar Panel"
-    },
-    {
-      "type": "text",
-      "content": "Sidebar kiri canvas menampilkan daftar tipe kondisi yang tersedia. Klik untuk menambah node atau drag langsung ke canvas."
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "LOGICAL",
-      "content": "Kombinasi AND / OR antar kondisi lain"
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "CONTAINS",
-      "content": "Cek apakah nilai ada dalam daftar"
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "CONSTANT",
-      "content": "Perbandingan dengan nilai tetap"
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "DEVIATION",
-      "content": "Deteksi penyimpangan statistik"
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "AGGREGATE",
-      "content": "Count / Sum / Average dalam window"
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "GEO",
-      "content": "Filter berbasis lokasi geografis / IP"
+      "type": "tutorial",
+      "heading": "Sidebar Panel",
+      "id": "sidebar",
+      "intro": "Sidebar kiri canvas menampilkan daftar tipe kondisi yang tersedia. Klik untuk menambah node atau drag langsung ke canvas.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "LOGICAL",
+          "desc": "Kombinasi AND / OR antar kondisi lain",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "CONTAINS",
+          "desc": "Cek apakah nilai ada dalam daftar",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "CONSTANT",
+          "desc": "Perbandingan dengan nilai tetap",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "DEVIATION",
+          "desc": "Deteksi penyimpangan statistik",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "AGGREGATE",
+          "desc": "Count / Sum / Average dalam window",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 6,
+          "title": "GEO",
+          "desc": "Filter berbasis lokasi geografis / IP",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
     }
   ]
 }

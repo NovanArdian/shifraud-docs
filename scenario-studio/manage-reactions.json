@@ -3,11 +3,6 @@
   "category": "Tutorials",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Cara Mengelola Reactions"
-    },
-    {
       "type": "tutorial",
       "heading": "Cara Mengelola Reactions",
       "id": "manage-reactions",
@@ -16,27 +11,37 @@
         {
           "num": 1,
           "title": "Buka Detail Scenario",
-          "desc": "Pilih scenario yang ingin dikelola reaksi-nya. Klik nama scenario untuk membuka detail. Di halaman detail, cari tab atau section \"Reactions\"."
+          "desc": "Pilih scenario yang ingin dikelola reaksi-nya. Klik nama scenario untuk membuka detail. Di halaman detail, cari tab atau section \"Reactions\".",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 2,
           "title": "Pahami Jenis Reactions",
-          "desc": "Reactions menentukan aksi yang dilakukan sistem saat scenario terdeteksi. Jenis reactions yang umum:\n• **Push Notification** — kirim notifikasi ke mobile/desktop\n• **Email Alert** — kirim email ke tim terkait\n• **Webhook** — panggil API eksternal\n• **SMS** — kirim SMS ke nomor tertentu"
+          "desc": "Reactions menentukan aksi yang dilakukan sistem saat scenario terdeteksi. Jenis reactions yang umum:\n• **Push Notification** — kirim notifikasi ke mobile/desktop\n• **Email Alert** — kirim email ke tim terkait\n• **Webhook** — panggil API eksternal\n• **SMS** — kirim SMS ke nomor tertentu",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 3,
           "title": "Tambah Reaction Baru",
-          "desc": "Klik \"Add Reaction\" atau \"Tambah Reaksi\". Pilih jenis reaksi dari dropdown. Isi konfigurasi yang diperlukan (contoh: alamat email untuk Email Alert, URL untuk Webhook, nomor telepon untuk SMS)."
+          "desc": "Klik \"Add Reaction\" atau \"Tambah Reaksi\". Pilih jenis reaksi dari dropdown. Isi konfigurasi yang diperlukan (contoh: alamat email untuk Email Alert, URL untuk Webhook, nomor telepon untuk SMS).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 4,
           "title": "Atur Threshold & Filter",
-          "desc": "Setiap reaction bisa memiliki filter tambahan:\n• **Minimum Score** — reaction hanya dipicu jika skor melebihi threshold\n• **Cooldown Period** — jeda waktu sebelum reaction bisa dipicu lagi\n• **Channel Filter** — pilih channel transaksi tertentu"
+          "desc": "Setiap reaction bisa memiliki filter tambahan:\n• **Minimum Score** — reaction hanya dipicu jika skor melebihi threshold\n• **Cooldown Period** — jeda waktu sebelum reaction bisa dipicu lagi\n• **Channel Filter** — pilih channel transaksi tertentu",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 5,
           "title": "Test & Simpan Reactions",
-          "desc": "Gunakan tombol \"Test\" untuk mengirim reaction percobaan. Verifikasi bahwa notifikasi/webhook berfungsi. Klik \"Save\" untuk menyimpan konfigurasi reactions."
+          "desc": "Gunakan tombol \"Test\" untuk mengirim reaction percobaan. Verifikasi bahwa notifikasi/webhook berfungsi. Klik \"Save\" untuk menyimpan konfigurasi reactions.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         }
       ]
     }

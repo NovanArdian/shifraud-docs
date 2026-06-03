@@ -3,11 +3,6 @@
   "category": "Tutorials",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Cara Undo & Redo"
-    },
-    {
       "type": "tutorial",
       "heading": "Cara Undo & Redo",
       "id": "undo-redo",
@@ -16,27 +11,37 @@
         {
           "num": 1,
           "title": "Apa yang Bisa Di-undo",
-          "desc": "Hampir semua aksi di canvas masuk ke riwayat undo/redo:\n• Menambah, menghapus, atau memindahkan node\n• Membuat, mengubah, atau menghapus edge/koneksi\n• Operasi group: create, ungroup, move to group, remove from group\n• Operasi clipboard: paste, cut\n• Auto-arrange (tidy layout)\n• Perubahan warna node/group\n• Drag dan drop node"
+          "desc": "Hampir semua aksi di canvas masuk ke riwayat undo/redo:\n• Menambah, menghapus, atau memindahkan node\n• Membuat, mengubah, atau menghapus edge/koneksi\n• Operasi group: create, ungroup, move to group, remove from group\n• Operasi clipboard: paste, cut\n• Auto-arrange (tidy layout)\n• Perubahan warna node/group\n• Drag dan drop node",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 2,
           "title": "Undo (Batalkan Aksi)",
-          "desc": "Tekan Ctrl+Z (atau Cmd+Z di Mac) untuk membatalkan aksi terakhir.\nSetiap tekanan akan mundur satu langkah ke belakang dalam riwayat.\nAnda bisa undo hingga 50 langkah ke belakang.\nCanvas akan kembali ke keadaan sebelum aksi dilakukan."
+          "desc": "Tekan Ctrl+Z (atau Cmd+Z di Mac) untuk membatalkan aksi terakhir.\nSetiap tekanan akan mundur satu langkah ke belakang dalam riwayat.\nAnda bisa undo hingga 50 langkah ke belakang.\nCanvas akan kembali ke keadaan sebelum aksi dilakukan.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 3,
           "title": "Redo (Ulangi Aksi)",
-          "desc": "Setelah melakukan undo, Anda bisa mengulangi aksi yang dibatalkan:\n• Ctrl+Shift+Z (Windows/Linux)\n• Ctrl+Y (alternatif, Windows/Linux)\nSetiap tekanan akan maju satu langkah ke depan dalam riwayat.\nRedo hanya tersedia jika Anda belum melakukan aksi baru setelah undo."
+          "desc": "Setelah melakukan undo, Anda bisa mengulangi aksi yang dibatalkan:\n• Ctrl+Shift+Z (Windows/Linux)\n• Ctrl+Y (alternatif, Windows/Linux)\nSetiap tekanan akan maju satu langkah ke depan dalam riwayat.\nRedo hanya tersedia jika Anda belum melakukan aksi baru setelah undo.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 4,
           "title": "Batas Riwayat",
-          "desc": "Canvas menyimpan maksimal 50 langkah undo/redo.\nJika sudah mencapai 50 langkah, aksi paling lama akan dihapus dari riwayat.\nRiwayat akan di-reset jika canvas ditutup atau rule di-submit.\nTidak ada cara untuk melihat daftar riwayat — hanya bisa maju/mundur."
+          "desc": "Canvas menyimpan maksimal 50 langkah undo/redo.\nJika sudah mencapai 50 langkah, aksi paling lama akan dihapus dari riwayat.\nRiwayat akan di-reset jika canvas ditutup atau rule di-submit.\nTidak ada cara untuk melihat daftar riwayat — hanya bisa maju/mundur.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 5,
           "title": "Tips",
-          "desc": "• Biasakan Ctrl+Z setelah melakukan kesalahan — ini adalah safety net terbaik Anda.\n• Jika undo tidak berjalan, pastikan canvas dalam keadaan fokus (klik canvas terlebih dahulu).\n• Jangan takut bereksperimen — hampir semua aksi bisa di-undo.\n• Jika Anda melakukan redo dan kemudian melakukan aksi baru, riwayat redo akan terhapus."
+          "desc": "• Biasakan Ctrl+Z setelah melakukan kesalahan — ini adalah safety net terbaik Anda.\n• Jika undo tidak berjalan, pastikan canvas dalam keadaan fokus (klik canvas terlebih dahulu).\n• Jangan takut bereksperimen — hampir semua aksi bisa di-undo.\n• Jika Anda melakukan redo dan kemudian melakukan aksi baru, riwayat redo akan terhapus.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         }
       ]
     }

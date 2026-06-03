@@ -3,61 +3,68 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Best Practices"
-    },
-    {
-      "type": "text",
-      "content": "Panduan untuk membuat scenario yang efektif dan mudah di-maintain."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Penamaan yang Jelas",
-      "content": "Gunakan nama spesifik seperti \"Transaksi > 10 Juta di Luar Jam Kerja\" agar mudah diaudit dan dipahami tim."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Validasi Sebelum Submit",
-      "content": "Pastikan semua kondisi sudah benar dan terhubung di canvas sebelum submit ke production."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Gunakan Cycle Indicator",
-      "content": "Manfaatkan Cycle Indicator untuk membatasi rule hanya aktif pada jam/hari tertentu, mengurangi false positive."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Isi Deskripsi",
-      "content": "Selalu isi field deskripsi dengan penjelasan logika deteksi agar tim lain bisa memahami tujuan rule."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Monitor Efektivitas",
-      "content": "Pantau metrik efektivitas scenario secara berkala dan sesuaikan threshold berdasarkan data nyata."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Gunakan Group untuk Organisasi",
-      "content": "Group node kondisi yang saling terkait secara logis untuk memudahkan pembacaan alur dan operasi batch."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Manfaatkan Undo/Redo",
-      "content": "Jangan ragu untuk bereksperimen — hampir semua aksi bisa di-undo dengan Ctrl+Z."
-    },
-    {
-      "type": "callout",
-      "variant": "tip",
-      "title": "Pelajari Keyboard Shortcuts",
-      "content": "Shortcuts seperti Ctrl+C/X/V, Shift+Klik, dan Space+Drag akan mempercepat workflow."
+      "type": "tutorial",
+      "heading": "Best Practices",
+      "id": "best-practices",
+      "intro": "Panduan untuk membuat scenario yang efektif dan mudah di-maintain.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Penamaan yang Jelas",
+          "desc": "Gunakan nama spesifik seperti \"Transaksi > 10 Juta di Luar Jam Kerja\" agar mudah diaudit dan dipahami tim.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 2,
+          "title": "Validasi Sebelum Submit",
+          "desc": "Pastikan semua kondisi sudah benar dan terhubung di canvas sebelum submit ke production.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 3,
+          "title": "Gunakan Cycle Indicator",
+          "desc": "Manfaatkan Cycle Indicator untuk membatasi rule hanya aktif pada jam/hari tertentu, mengurangi false positive.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 4,
+          "title": "Isi Deskripsi",
+          "desc": "Selalu isi field deskripsi dengan penjelasan logika deteksi agar tim lain bisa memahami tujuan rule.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 5,
+          "title": "Monitor Efektivitas",
+          "desc": "Pantau metrik efektivitas scenario secara berkala dan sesuaikan threshold berdasarkan data nyata.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 6,
+          "title": "Gunakan Group untuk Organisasi",
+          "desc": "Group node kondisi yang saling terkait secara logis untuk memudahkan pembacaan alur dan operasi batch.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 7,
+          "title": "Manfaatkan Undo/Redo",
+          "desc": "Jangan ragu untuk bereksperimen — hampir semua aksi bisa di-undo dengan Ctrl+Z.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        },
+        {
+          "num": 8,
+          "title": "Pelajari Keyboard Shortcuts",
+          "desc": "Shortcuts seperti Ctrl+C/X/V, Shift+Klik, dan Space+Drag akan mempercepat workflow.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
     }
   ]
 }

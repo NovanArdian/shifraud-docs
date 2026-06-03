@@ -3,13 +3,19 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Deployment"
-    },
-    {
-      "type": "text",
-      "content": "Deployment documentation is currently under development and will be available soon."
+      "type": "tutorial",
+      "heading": "Deployment",
+      "id": "deployment",
+      "intro": "Deployment documentation.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Deployment",
+          "desc": "Deployment documentation is currently under development and will be available soon.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
+        }
+      ]
     }
   ]
 }

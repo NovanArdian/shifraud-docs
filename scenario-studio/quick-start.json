@@ -3,41 +3,45 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Quick Start"
-    },
-    {
-      "type": "text",
-      "content": "Mulai menggunakan Scenario Studio Canvas dalam beberapa langkah cepat."
-    },
-    {
-      "type": "stepper",
+      "type": "tutorial",
+      "heading": "Quick Start",
+      "id": "quick-start",
+      "intro": "Mulai menggunakan Scenario Studio Canvas dalam beberapa langkah cepat.",
       "steps": [
         {
           "num": 1,
           "title": "Buka Scenario Management",
-          "desc": "Navigasi ke menu Scenario Management dari sidebar utama."
+          "desc": "Navigasi ke menu Scenario Management dari sidebar utama.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 2,
           "title": "Buat Scenario Baru",
-          "desc": "Klik tombol \"Add New\" untuk memulai scenario baru. Pilih tipe rule: GENERAL atau CONDITION."
+          "desc": "Klik tombol \"Add New\" untuk memulai scenario baru. Pilih tipe rule: GENERAL atau CONDITION.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 3,
           "title": "Isi Parameter Dasar",
-          "desc": "Lengkapi semua field wajib di Step 1: Rule Name, Description, Risk Score, Priority, Active Period."
+          "desc": "Lengkapi semua field wajib di Step 1: Rule Name, Description, Risk Score, Priority, Active Period.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 4,
           "title": "Bangun Logika Deteksi",
-          "desc": "Lanjut ke Step 2 (Build Flow). Seret kondisi dari sidebar ke canvas, hubungkan node, dan atur parameter kondisi."
+          "desc": "Lanjut ke Step 2 (Build Flow). Seret kondisi dari sidebar ke canvas, hubungkan node, dan atur parameter kondisi.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 5,
           "title": "Review & Submit",
-          "desc": "Periksa ringkasan di Step 4. Klik \"Submit Scenario\" dan isi komentar untuk menyimpan."
+          "desc": "Periksa ringkasan di Step 4. Klik \"Submit Scenario\" dan isi komentar untuk menyimpan.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         }
       ]
     }

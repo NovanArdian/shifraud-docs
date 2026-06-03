@@ -3,11 +3,6 @@
   "category": "Tutorials",
   "sections": [
     {
-      "type": "heading",
-      "level": 1,
-      "text": "Cara Menambah Node"
-    },
-    {
       "type": "tutorial",
       "heading": "Cara Menambah Node",
       "id": "add-nodes",
@@ -16,32 +11,44 @@
         {
           "num": 1,
           "title": "Buka Canvas Build Flow",
-          "desc": "Buat atau buka scenario yang sudah ada. Lanjutkan ke Step 2 (Build Flow) untuk masuk ke canvas.\nDi canvas, Anda akan melihat sidebar kiri berisi 6 tipe kondisi dan area canvas kosong dengan node Start dan placeholder (?)."
+          "desc": "Buat atau buka scenario yang sudah ada. Lanjutkan ke Step 2 (Build Flow) untuk masuk ke canvas.\nDi canvas, Anda akan melihat sidebar kiri berisi 6 tipe kondisi dan area canvas kosong dengan node Start dan placeholder (?).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 2,
           "title": "Metode 1: Klik Tombol \"Add Condition\"",
-          "desc": "Di toolbar bawah canvas, klik tombol \"Add Condition\". Sebuah dialog akan terbuka menampilkan 6 tipe kondisi.\nPilih tipe kondisi yang diinginkan (CONSTANT, CONTAINS, LOGICAL, dll), lalu klik \"Save\".\nNode kondisi baru akan muncul di canvas dan otomatis siap untuk dihubungkan."
+          "desc": "Di toolbar bawah canvas, klik tombol \"Add Condition\". Sebuah dialog akan terbuka menampilkan 6 tipe kondisi.\nPilih tipe kondisi yang diinginkan (CONSTANT, CONTAINS, LOGICAL, dll), lalu klik \"Save\".\nNode kondisi baru akan muncul di canvas dan otomatis siap untuk dihubungkan.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 3,
           "title": "Metode 2: Klik di Sidebar",
-          "desc": "Di sidebar kiri, klik langsung salah satu tipe kondisi (misal: CONSTANT).\nDialog konfigurasi kondisi akan terbuka langsung. Atur parameter kondisi, lalu klik \"Save\".\nNode akan muncul di canvas dan langsung masuk ke alur yang sedang dibuat."
+          "desc": "Di sidebar kiri, klik langsung salah satu tipe kondisi (misal: CONSTANT).\nDialog konfigurasi kondisi akan terbuka langsung. Atur parameter kondisi, lalu klik \"Save\".\nNode akan muncul di canvas dan langsung masuk ke alur yang sedang dibuat.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 4,
           "title": "Metode 3: Drag & Drop",
-          "desc": "Klik dan tahan salah satu tipe kondisi di sidebar kiri.\nDrag (seret) mouse ke area canvas. Anda akan melihat bayangan node mengikuti kursor.\nLepaskan drag di posisi yang diinginkan. Node draft akan dibuat dan dialog konfigurasi akan terbuka.\nKeuntungan metode ini: Anda bisa langsung menempatkan node di posisi yang tepat."
+          "desc": "Klik dan tahan salah satu tipe kondisi di sidebar kiri.\nDrag (seret) mouse ke area canvas. Anda akan melihat bayangan node mengikuti kursor.\nLepaskan drag di posisi yang diinginkan. Node draft akan dibuat dan dialog konfigurasi akan terbuka.\nKeuntungan metode ini: Anda bisa langsung menempatkan node di posisi yang tepat.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 5,
           "title": "Metode 4: Double-click Placeholder",
-          "desc": "Setiap canvas memiliki node placeholder bertanda \"?\" di ujung kanan alur.\nDouble-click pada node placeholder tersebut. Dialog konfigurasi akan terbuka.\nPilih tipe kondisi, atur parameternya, dan klik \"Save\". Node placeholder akan berubah menjadi node kondisi yang sudah dikonfigurasi."
+          "desc": "Setiap canvas memiliki node placeholder bertanda \"?\" di ujung kanan alur.\nDouble-click pada node placeholder tersebut. Dialog konfigurasi akan terbuka.\nPilih tipe kondisi, atur parameternya, dan klik \"Save\". Node placeholder akan berubah menjadi node kondisi yang sudah dikonfigurasi.",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 6,
           "title": "Tips",
-          "desc": "• Setelah node ditambahkan, hubungkan dengan node lain melalui handle lingkaran di tepi node.\n• Gunakan metode Drag & Drop jika ingin mengatur posisi node secara presisi.\n• Setiap node yang ditambahkan bisa di-undo dengan Ctrl+Z jika terjadi kesalahan.\n• Untuk menambah node di dalam group, pastikan group dalam keadaan aktif (terpilih)."
+          "desc": "• Setelah node ditambahkan, hubungkan dengan node lain melalui handle lingkaran di tepi node.\n• Gunakan metode Drag & Drop jika ingin mengatur posisi node secara presisi.\n• Setiap node yang ditambahkan bisa di-undo dengan Ctrl+Z jika terjadi kesalahan.\n• Untuk menambah node di dalam group, pastikan group dalam keadaan aktif (terpilih).",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         }
       ]
     }
