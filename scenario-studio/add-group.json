@@ -25,7 +25,7 @@
         {
           "num": 3,
           "title": "Isi Informasi Group",
-          "desc": "Lengkapi field di modal:\n• Nama Group — nama kategori (contoh: \"E-commerce Fraud\", \"Wire Transfer\")\n• Deskripsi — penjelasan tujuan grup (opsional)\n• Warna Label — pilih warna untuk identifikasi visual di daftar",
+          "desc": "Lengkapi field di modal:\n• **Nama Group** — nama kategori (contoh: \"E-commerce Fraud\", \"Wire Transfer\")\n• **Deskripsi** — penjelasan tujuan grup (opsional)\n• **Warna Label** — pilih warna untuk identifikasi visual di daftar",
           "color": "#8b5cf6",
           "bg": "#f5f3ff"
         },

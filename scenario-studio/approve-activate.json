@@ -18,28 +18,28 @@
         {
           "num": 2,
           "title": "Submit untuk Approval",
-          "desc": "Klik tombol \"Submit\" atau \"Request Approval\". Status scenario akan berubah menjadi Pending Review. Sistem akan mengirim notifikasi ke approver yang ditentukan.",
+          "desc": "Klik tombol \"Submit\" atau \"Request Approval\". Status scenario akan berubah menjadi **Pending Review**. Sistem akan mengirim notifikasi ke approver yang ditentukan.",
           "color": "#6366f1",
           "bg": "#eef2ff"
         },
         {
           "num": 3,
           "title": "Proses Approval",
-          "desc": "User dengan role Approver akan melihat notifikasi. Mereka bisa:\n• Approve — menyetujui scenario untuk melanjutkan ke aktivasi\n• Reject — menolak dengan catatan revisi\n• Request Changes — meminta perbaikan sebelum approve",
+          "desc": "User dengan role Approver akan melihat notifikasi. Mereka bisa:\n• **Approve** — menyetujui scenario untuk melanjutkan ke aktivasi\n• **Reject** — menolak dengan catatan revisi\n• **Request Changes** — meminta perbaikan sebelum approve",
           "color": "#3b82f6",
           "bg": "#eff6ff"
         },
         {
           "num": 4,
           "title": "Aktivasi Scenario",
-          "desc": "Setelah di-approve, klik tombol \"Activate\" untuk menyalakan scenario. Pilih schedule aktivasi:\n• Activate Now — langsung aktif\n• Schedule Activation — aktif di waktu yang ditentukan",
+          "desc": "Setelah di-approve, klik tombol \"Activate\" untuk menyalakan scenario. Pilih schedule aktivasi:\n• **Activate Now** — langsung aktif\n• **Schedule Activation** — aktif di waktu yang ditentukan",
           "color": "#14b8a6",
           "bg": "#f0fdfa"
         },
         {
           "num": 5,
           "title": "Monitoring Pasca Aktivasi",
-          "desc": "Scenario Active akan mulai memproses data real-time. Pantau metrik di dashboard:\n• Alert Volume — jumlah alert yang dihasilkan\n• Effectiveness Rate — persentase alert yang valid\n• False Positive Rate — alert yang ternyata bukan fraud",
+          "desc": "Scenario Active akan mulai memproses data real-time. Pantau metrik di dashboard:\n• **Alert Volume** — jumlah alert yang dihasilkan\n• **Effectiveness Rate** — persentase alert yang valid\n• **False Positive Rate** — alert yang ternyata bukan fraud",
           "color": "#8b5cf6",
           "bg": "#f5f3ff"
         }

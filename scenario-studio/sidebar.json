@@ -3,52 +3,42 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "tutorial",
-      "heading": "Sidebar Panel",
-      "id": "sidebar",
-      "intro": "Sidebar kiri canvas menampilkan daftar tipe kondisi yang tersedia. Klik untuk menambah node atau drag langsung ke canvas.",
-      "steps": [
+      "type": "text",
+      "content": "Sidebar kiri canvas menampilkan daftar tipe kondisi yang tersedia. Klik untuk menambah node atau drag langsung ke canvas."
+    },
+    {
+      "type": "card-grid",
+      "columns": 2,
+      "items": [
         {
-          "num": 1,
-          "title": "LOGICAL",
-          "desc": "LOGICAL — Kombinasi AND / OR antar kondisi lain",
+          "label": "LOGICAL",
           "color": "#8b5cf6",
-          "bg": "#f5f3ff"
+          "desc": "Kombinasi AND / OR antar kondisi lain"
         },
         {
-          "num": 2,
-          "title": "CONTAINS",
-          "desc": "CONTAINS — Cek apakah nilai ada dalam daftar",
+          "label": "CONTAINS",
           "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "desc": "Cek apakah nilai ada dalam daftar"
         },
         {
-          "num": 3,
-          "title": "CONSTANT",
-          "desc": "CONSTANT — Perbandingan dengan nilai tetap",
+          "label": "CONSTANT",
           "color": "#22c55e",
-          "bg": "#f0fdf4"
+          "desc": "Perbandingan dengan nilai tetap"
         },
         {
-          "num": 4,
-          "title": "DEVIATION",
-          "desc": "DEVIATION — Deteksi penyimpangan statistik",
+          "label": "DEVIATION",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "desc": "Deteksi penyimpangan statistik"
         },
         {
-          "num": 5,
-          "title": "AGGREGATE",
-          "desc": "AGGREGATE — Count / Sum / Average dalam window",
+          "label": "AGGREGATE",
           "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Count / Sum / Average dalam window"
         },
         {
-          "num": 6,
-          "title": "GEO",
-          "desc": "GEO — Filter berbasis lokasi geografis / IP",
+          "label": "GEO",
           "color": "#ec4899",
-          "bg": "#fdf2f8"
+          "desc": "Filter berbasis lokasi geografis / IP"
         }
       ]
     }

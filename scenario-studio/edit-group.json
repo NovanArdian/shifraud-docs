@@ -25,14 +25,14 @@
         {
           "num": 3,
           "title": "Ubah Informasi Group",
-          "desc": "Anda bisa mengubah:\n• Nama Group — rename jika kategori berubah\n• Deskripsi — perbarui dokumentasi grup\n• Warna Label — ganti warna identifikasi",
+          "desc": "Anda bisa mengubah:\n• **Nama Group** — rename jika kategori berubah\n• **Deskripsi** — perbarui dokumentasi grup\n• **Warna Label** — ganti warna identifikasi",
           "color": "#6366f1",
           "bg": "#eef2ff"
         },
         {
           "num": 4,
           "title": "Kelola Anggota Group",
-          "desc": "Di tab \"Members\", Anda bisa:\n• Tambah Scenario — pilih scenario dari dropdown untuk dimasukkan ke grup\n• Hapus Scenario — klik icon X pada scenario yang ingin dikeluarkan dari grup\nPerubahan anggota grup tidak mempengaruhi konfigurasi scenario itu sendiri.",
+          "desc": "Di tab \"Members\", Anda bisa:\n• **Tambah Scenario** — pilih scenario dari dropdown untuk dimasukkan ke grup\n• **Hapus Scenario** — klik icon X pada scenario yang ingin dikeluarkan dari grup\nPerubahan anggota grup tidak mempengaruhi konfigurasi scenario itu sendiri.",
           "color": "#3b82f6",
           "bg": "#eff6ff"
         },

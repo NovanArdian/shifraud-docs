@@ -25,7 +25,7 @@
         {
           "num": 3,
           "title": "Atur Scenario di Dalam Group",
-          "desc": "Jika grup masih memiliki scenario, sistem akan menanyakan tindakan untuk scenario tersebut:\n• Pindahkan ke default group — scenario tetap ada tanpa grup\n• Pindahkan ke grup lain — pilih grup tujuan dari dropdown\n• Hapus semua — hapus grup beserta semua scenario di dalamnya",
+          "desc": "Jika grup masih memiliki scenario, sistem akan menanyakan tindakan untuk scenario tersebut:\n• **Pindahkan ke default group** — scenario tetap ada tanpa grup\n• **Pindahkan ke grup lain** — pilih grup tujuan dari dropdown\n• **Hapus semua** — hapus grup beserta semua scenario di dalamnya",
           "color": "#8b5cf6",
           "bg": "#f5f3ff"
         },

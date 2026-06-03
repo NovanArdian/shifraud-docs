@@ -18,14 +18,14 @@
         {
           "num": 2,
           "title": "Pilih Scenario untuk Verifikasi",
-          "desc": "Klik \"Run Verification\" atau \"New Verification\". Pilih scenario yang akan diverifikasi. Anda bisa memilih:\n• Single Scenario — verifikasi satu scenario tertentu\n• Multiple Scenarios — pilih beberapa scenario sekaligus\n• All Active Scenarios — verifikasi semua scenario yang aktif",
+          "desc": "Klik \"Run Verification\" atau \"New Verification\". Pilih scenario yang akan diverifikasi. Anda bisa memilih:\n• **Single Scenario** — verifikasi satu scenario tertentu\n• **Multiple Scenarios** — pilih beberapa scenario sekaligus\n• **All Active Scenarios** — verifikasi semua scenario yang aktif",
           "color": "#f59e0b",
           "bg": "#fffbeb"
         },
         {
           "num": 3,
           "title": "Atur Parameter Verifikasi",
-          "desc": "Tentukan parameter pengujian:\n• Date Range — periode data yang akan diuji\n• Sample Size — jumlah sample transaksi (jika berlaku)\n• Threshold Override — ubah threshold sementara untuk testing\n• Test Mode — pilih mode dry-run (tidak menghasilkan alert nyata)",
+          "desc": "Tentukan parameter pengujian:\n• **Date Range** — periode data yang akan diuji\n• **Sample Size** — jumlah sample transaksi (jika berlaku)\n• **Threshold Override** — ubah threshold sementara untuk testing\n• **Test Mode** — pilih mode dry-run (tidak menghasilkan alert nyata)",
           "color": "#f43f5e",
           "bg": "#fff1f2"
         },
@@ -39,14 +39,14 @@
         {
           "num": 5,
           "title": "Review Hasil Verifikasi",
-          "desc": "Setelah selesai, hasil akan ditampilkan:\n• Total Transactions Tested — jumlah transaksi yang diuji\n• Alerts Generated — jumlah alert yang dihasilkan\n• Effectiveness Score — persentase deteksi yang akurat\n• False Positives — jumlah false positive yang terdeteksi\n• Execution Time — waktu eksekusi verifikasi",
+          "desc": "Setelah selesai, hasil akan ditampilkan:\n• **Total Transactions Tested** — jumlah transaksi yang diuji\n• **Alerts Generated** — jumlah alert yang dihasilkan\n• **Effectiveness Score** — persentase deteksi yang akurat\n• **False Positives** — jumlah false positive yang terdeteksi\n• **Execution Time** — waktu eksekusi verifikasi",
           "color": "#22c55e",
           "bg": "#f0fdf4"
         },
         {
           "num": 6,
           "title": "Export & Tindak Lanjut",
-          "desc": "Dari hasil verifikasi, Anda bisa:\n• Export Report — download hasil dalam format PDF/CSV\n• Adjust Threshold — langsung sesuaikan threshold berdasarkan hasil\n• Create Ticket — buat tugas untuk perbaikan jika diperlukan",
+          "desc": "Dari hasil verifikasi, Anda bisa:\n• **Export Report** — download hasil dalam format PDF/CSV\n• **Adjust Threshold** — langsung sesuaikan threshold berdasarkan hasil\n• **Create Ticket** — buat tugas untuk perbaikan jika diperlukan",
           "color": "#f97316",
           "bg": "#fff7ed"
         }

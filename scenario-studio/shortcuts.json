@@ -3,45 +3,112 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "tutorial",
-      "heading": "Keyboard Shortcuts",
-      "id": "shortcuts",
-      "intro": "Keyboard shortcuts untuk mempercepat navigasi dan editing di Scenario Studio Canvas.",
-      "steps": [
+      "type": "text",
+      "content": "Keyboard shortcuts untuk mempercepat navigasi dan editing di Scenario Studio Canvas."
+    },
+    {
+      "type": "shortcuts",
+      "sections": [
         {
-          "num": 1,
           "title": "Navigasi Antar Step",
-          "desc": "Enter — Lanjut ke step berikutnya; Esc — Tutup canvas; Alt + ← — Kembali ke step sebelumnya",
-          "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "rows": [
+            {
+              "key": "Enter",
+              "value": "Lanjut ke step berikutnya (jika valid)"
+            },
+            {
+              "key": "Esc",
+              "value": "Tutup canvas / batalkan"
+            },
+            {
+              "key": "Alt + ←",
+              "value": "Kembali ke step sebelumnya"
+            }
+          ]
         },
         {
-          "num": 2,
           "title": "Canvas & Viewport",
-          "desc": "Space + Drag — Pan; Scroll — Zoom; Ctrl + - — Zoom out; Ctrl + = — Zoom in; Ctrl + 0 — Reset zoom",
-          "color": "#14b8a6",
-          "bg": "#f0fdfa"
+          "rows": [
+            {
+              "key": "Space + Drag",
+              "value": "Pan canvas"
+            },
+            {
+              "key": "Scroll",
+              "value": "Zoom in / out"
+            },
+            {
+              "key": "Ctrl + -",
+              "value": "Zoom out"
+            },
+            {
+              "key": "Ctrl + =",
+              "value": "Zoom in"
+            },
+            {
+              "key": "Ctrl + 0",
+              "value": "Reset zoom ke 100%"
+            }
+          ]
         },
         {
-          "num": 3,
           "title": "Node Operations",
-          "desc": "Klik — Pilih node; Shift + Klik — Multi-select; Klik + Drag — Pindahkan; Delete — Hapus; Klik kanan — Context menu",
-          "color": "#8b5cf6",
-          "bg": "#f5f3ff"
+          "rows": [
+            {
+              "key": "Klik",
+              "value": "Pilih node"
+            },
+            {
+              "key": "Shift + Klik",
+              "value": "Multi-select node"
+            },
+            {
+              "key": "Klik + Drag",
+              "value": "Pindahkan node / group"
+            },
+            {
+              "key": "Delete",
+              "value": "Hapus node / edge yang dipilih"
+            },
+            {
+              "key": "Klik kanan",
+              "value": "Buka context menu node"
+            }
+          ]
         },
         {
-          "num": 4,
           "title": "Undo / Redo",
-          "desc": "Ctrl + Z — Undo; Ctrl + Shift + Z — Redo; Ctrl + Y — Redo",
-          "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "rows": [
+            {
+              "key": "Ctrl + Z",
+              "value": "Undo (batalkan aksi terakhir)"
+            },
+            {
+              "key": "Ctrl + Shift + Z",
+              "value": "Redo (ulangi aksi yang dibatalkan)"
+            },
+            {
+              "key": "Ctrl + Y",
+              "value": "Redo (alternatif)"
+            }
+          ]
         },
         {
-          "num": 5,
           "title": "Clipboard",
-          "desc": "Ctrl + C — Copy; Ctrl + X — Cut; Ctrl + V — Paste",
-          "color": "#f43f5e",
-          "bg": "#fff1f2"
+          "rows": [
+            {
+              "key": "Ctrl + C",
+              "value": "Copy node(s) / group(s) yang dipilih"
+            },
+            {
+              "key": "Ctrl + X",
+              "value": "Cut node(s) / group(s) yang dipilih"
+            },
+            {
+              "key": "Ctrl + V",
+              "value": "Paste node(s) / group(s) dari clipboard"
+            }
+          ]
         }
       ]
     }

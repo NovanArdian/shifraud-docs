@@ -25,21 +25,21 @@
         {
           "num": 3,
           "title": "Isi Informasi Dasar",
-          "desc": "Lengkapi field berikut di modal:\n• Nama Scenario — nama unik yang mendeskripsikan aturan deteksi (contoh: \"Muleskinner Detection\")\n• Deskripsi — penjelasan tujuan dan logika deteksi\n• Group — pilih grup yang sesuai (opsional, bisa diubah nanti)\n• Severity — level prioritas (Low, Medium, High, Critical)",
+          "desc": "Lengkapi field berikut di modal:\n• **Nama Scenario** — nama unik yang mendeskripsikan aturan deteksi (contoh: \"Muleskinner Detection\")\n• **Deskripsi** — penjelasan tujuan dan logika deteksi\n• **Group** — pilih grup yang sesuai (opsional, bisa diubah nanti)\n• **Severity** — level prioritas (Low, Medium, High, Critical)",
           "color": "#f97316",
           "bg": "#fff7ed"
         },
         {
           "num": 4,
           "title": "Atur Additional Fields (Opsional)",
-          "desc": "Bergantung konfigurasi sistem, Anda mungkin perlu mengisi:\n• Tags/Labels — untuk kategorisasi dan pencarian\n• Assignee — penanggung jawab scenario\n• Schedule — jadwal aktif scenario (24/7 atau jam tertentu)",
+          "desc": "Bergantung konfigurasi sistem, Anda mungkin perlu mengisi:\n• **Tags/Labels** — untuk kategorisasi dan pencarian\n• **Assignee** — penanggung jawab scenario\n• **Schedule** — jadwal aktif scenario (24/7 atau jam tertentu)",
           "color": "#ec4899",
           "bg": "#fdf2f8"
         },
         {
           "num": 5,
           "title": "Simpan Scenario",
-          "desc": "Klik tombol \"Submit\" atau \"Save\". Scenario baru akan muncul di daftar dengan status Draft. Selanjutnya Anda bisa masuk ke kanvas untuk membangun detection flow-nya.",
+          "desc": "Klik tombol \"Submit\" atau \"Save\". Scenario baru akan muncul di daftar dengan status **Draft**. Selanjutnya Anda bisa masuk ke kanvas untuk membangun detection flow-nya.",
           "color": "#6366f1",
           "bg": "#eef2ff"
         }

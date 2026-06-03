@@ -3,45 +3,41 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "tutorial",
-      "heading": "Toolbar",
-      "id": "toolbar",
-      "intro": "Toolbar menyediakan akses cepat ke operasi canvas utama.",
-      "steps": [
+      "type": "text",
+      "content": "Toolbar menyediakan akses cepat ke operasi canvas utama."
+    },
+    {
+      "type": "overview",
+      "overviewItems": [
         {
-          "num": 1,
-          "title": "Add Condition",
+          "label": "Add Condition",
+          "color": "#6366f1",
           "desc": "Buka dialog untuk menambah node kondisi baru di canvas.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2"
+          "icon": "IconPlus"
         },
         {
-          "num": 2,
-          "title": "Auto-arrange",
+          "label": "Auto-arrange",
+          "color": "#3b82f6",
           "desc": "Rapikan posisi semua node menggunakan layout hierarki dagre.",
-          "color": "#0ea5e9",
-          "bg": "#f0f9ff"
+          "icon": "IconHierarchy2"
         },
         {
-          "num": 3,
-          "title": "Zoom Controls",
+          "label": "Zoom Controls",
+          "color": "#14b8a6",
           "desc": "Zoom in/out dan reset viewport ke posisi default.",
-          "color": "#22c55e",
-          "bg": "#f0fdf4"
+          "icon": "IconZoomIn"
         },
         {
-          "num": 4,
-          "title": "Undo / Redo",
+          "label": "Undo / Redo",
+          "color": "#8b5cf6",
           "desc": "Batalkan atau ulangi aksi terakhir (Ctrl+Z / Ctrl+Shift+Z).",
-          "color": "#f97316",
-          "bg": "#fff7ed"
+          "icon": "IconArrowBackUp"
         },
         {
-          "num": 5,
-          "title": "Back / Continue",
+          "label": "Back / Continue",
+          "color": "#f59e0b",
           "desc": "Navigasi antar step: Back ke step sebelumnya, Continue ke step berikutnya.",
-          "color": "#ec4899",
-          "bg": "#fdf2f8"
+          "icon": "IconArrowForwardUp"
         }
       ]
     }

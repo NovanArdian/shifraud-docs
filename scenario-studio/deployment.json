@@ -7,15 +7,7 @@
       "heading": "Deployment",
       "id": "deployment",
       "intro": "Deployment documentation coming soon.",
-      "steps": [
-        {
-          "num": 1,
-          "title": "Deployment",
-          "desc": "Deployment documentation coming soon.",
-          "color": "#ec4899",
-          "bg": "#fdf2f8"
-        }
-      ]
+      "steps": []
     }
   ]
 }

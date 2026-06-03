@@ -18,7 +18,7 @@
         {
           "num": 2,
           "title": "Pahami Jenis Reactions",
-          "desc": "Reactions menentukan aksi yang dilakukan sistem saat scenario terdeteksi. Jenis reactions yang umum:\n• Push Notification — kirim notifikasi ke mobile/desktop\n• Email Alert — kirim email ke tim terkait\n• Webhook — panggil API eksternal\n• SMS — kirim SMS ke nomor tertentu",
+          "desc": "Reactions menentukan aksi yang dilakukan sistem saat scenario terdeteksi. Jenis reactions yang umum:\n• **Push Notification** — kirim notifikasi ke mobile/desktop\n• **Email Alert** — kirim email ke tim terkait\n• **Webhook** — panggil API eksternal\n• **SMS** — kirim SMS ke nomor tertentu",
           "color": "#ec4899",
           "bg": "#fdf2f8"
         },
@@ -32,7 +32,7 @@
         {
           "num": 4,
           "title": "Atur Threshold & Filter",
-          "desc": "Setiap reaction bisa memiliki filter tambahan:\n• Minimum Score — reaction hanya dipicu jika skor melebihi threshold\n• Cooldown Period — jeda waktu sebelum reaction bisa dipicu lagi\n• Channel Filter — pilih channel transaksi tertentu",
+          "desc": "Setiap reaction bisa memiliki filter tambahan:\n• **Minimum Score** — reaction hanya dipicu jika skor melebihi threshold\n• **Cooldown Period** — jeda waktu sebelum reaction bisa dipicu lagi\n• **Channel Filter** — pilih channel transaksi tertentu",
           "color": "#3b82f6",
           "bg": "#eff6ff"
         },

@@ -3,73 +3,47 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "tutorial",
-      "heading": "FAQ",
-      "id": "faq",
-      "intro": "Pertanyaan umum seputar Scenario Studio Canvas.",
-      "steps": [
+      "type": "text",
+      "content": "Pertanyaan umum seputar Scenario Studio Canvas."
+    },
+    {
+      "type": "faq",
+      "faqItems": [
         {
-          "num": 1,
-          "title": "Apa perbedaan rule tipe GENERAL dan CONDITION?",
-          "desc": "GENERAL hanya memiliki 3 step (tanpa Use Condition). CONDITION memiliki 4 step lengkap dan membutuhkan konfigurasi Attribute Binding untuk menyimpan dan menggunakan data antar transaksi.",
-          "color": "#14b8a6",
-          "bg": "#f0fdfa"
+          "q": "Apa perbedaan rule tipe GENERAL dan CONDITION?",
+          "a": "GENERAL hanya memiliki 3 step (tanpa Use Condition). CONDITION memiliki 4 step lengkap dan membutuhkan konfigurasi Attribute Binding untuk menyimpan dan menggunakan data antar transaksi."
         },
         {
-          "num": 2,
-          "title": "Kenapa tombol \"Next\" tidak bisa diklik?",
-          "desc": "Tombol Next disabled jika ada field wajib yang belum diisi atau ada error validasi. Periksa semua section di Step 1.",
-          "color": "#8b5cf6",
-          "bg": "#f5f3ff"
+          "q": "Kenapa tombol \"Next\" tidak bisa diklik?",
+          "a": "Tombol Next disabled jika ada field wajib yang belum diisi atau ada error validasi. Periksa semua section di Step 1."
         },
         {
-          "num": 3,
-          "title": "Apa fungsi Cycle Indicator?",
-          "desc": "Cycle Indicator membatasi rule hanya aktif pada hari/jam tertentu. Tipe RANGE untuk blok waktu kontinu, tipe LIST untuk beberapa slot waktu.",
-          "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "q": "Apa fungsi Cycle Indicator?",
+          "a": "Cycle Indicator membatasi rule hanya aktif pada hari/jam tertentu. Tipe RANGE untuk blok waktu kontinu, tipe LIST untuk beberapa slot waktu."
         },
         {
-          "num": 4,
-          "title": "Bagaimana cara menambah kondisi di canvas?",
-          "desc": "Klik tombol \"Add Condition\" di toolbar, klik tipe kondisi di sidebar, atau double-click placeholder node (+).",
-          "color": "#f43f5e",
-          "bg": "#fff1f2"
+          "q": "Bagaimana cara menambah kondisi di canvas?",
+          "a": "Klik tombol \"Add Condition\" di toolbar, klik tipe kondisi di sidebar, atau double-click placeholder node (+)."
         },
         {
-          "num": 5,
-          "title": "Apakah data tersimpan otomatis?",
-          "desc": "Tidak. Data hanya tersimpan setelah klik \"Submit Scenario\" di step Review. Menutup canvas sebelum submit akan membatalkan perubahan.",
-          "color": "#0ea5e9",
-          "bg": "#f0f9ff"
+          "q": "Apakah data tersimpan otomatis?",
+          "a": "Tidak. Data hanya tersimpan setelah klik \"Submit Scenario\" di step Review. Menutup canvas sebelum submit akan membatalkan perubahan."
         },
         {
-          "num": 6,
-          "title": "Bagaimana cara undo/redo?",
-          "desc": "Ctrl+Z untuk undo, Ctrl+Shift+Z (atau Ctrl+Y) untuk redo. History maksimal 50 langkah.",
-          "color": "#22c55e",
-          "bg": "#f0fdf4"
+          "q": "Bagaimana cara undo/redo?",
+          "a": "Ctrl+Z untuk undo, Ctrl+Shift+Z (atau Ctrl+Y) untuk redo. History maksimal 50 langkah."
         },
         {
-          "num": 7,
-          "title": "Bisakah copy-paste node?",
-          "desc": "Ya. Pilih node, Ctrl+C (copy) atau Ctrl+X (cut), lalu Ctrl+V untuk paste. Paste ke dalam group via context menu.",
-          "color": "#f97316",
-          "bg": "#fff7ed"
+          "q": "Bisakah copy-paste node?",
+          "a": "Ya. Pilih node, Ctrl+C (copy) atau Ctrl+X (cut), lalu Ctrl+V untuk paste. Paste ke dalam group via context menu."
         },
         {
-          "num": 8,
-          "title": "Mengapa context menu tidak muncul saat klik kanan 2+ node?",
-          "desc": "Pastikan node berasal dari hierarki yang sama (level parent group yang sama). Node dari group berbeda akan menampilkan \"Not valid nodes\".",
-          "color": "#ec4899",
-          "bg": "#fdf2f8"
+          "q": "Mengapa context menu tidak muncul saat klik kanan 2+ node?",
+          "a": "Pastikan node berasal dari hierarki yang sama (level parent group yang sama). Node dari group berbeda akan menampilkan \"Not valid nodes\"."
         },
         {
-          "num": 9,
-          "title": "Kenapa canvas menampilkan \"Canvas is empty\"?",
-          "desc": "Empty state muncul jika Start node dihapus. Tambahkan Start node baru untuk mengembalikan canvas.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "q": "Kenapa canvas menampilkan \"Canvas is empty\"?",
+          "a": "Empty state muncul jika Start node dihapus. Tambahkan Start node baru untuk mengembalikan canvas."
         }
       ]
     }

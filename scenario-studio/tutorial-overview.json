@@ -3,31 +3,35 @@
   "category": "Tutorials",
   "sections": [
     {
-      "type": "tutorial",
-      "heading": "Ikhtisar Tutorial",
-      "id": "tutorial-overview",
-      "intro": "Mulai belajar menggunakan Scenario Studio Canvas dengan tutorial langkah demi langkah. Pelajari cara membuat rule, membangun flow deteksi, dan mengelola groups secara efektif.",
-      "steps": [
+      "type": "text",
+      "content": "{title}"
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Cara Menggunakan Tutorial",
+      "content": ""
+    },
+    {
+      "type": "overview",
+      "overviewItems": [
         {
-          "num": 1,
-          "title": "Membuat Rule Pertama",
-          "desc": "Tutorial 1: Membuat Rule Pertama — Panduan lengkap membuat rule deteksi dari awal hingga submit.\nCocok untuk pengguna baru yang ingin memahami alur kerja dasar Scenario Studio.",
-          "color": "#0ea5e9",
-          "bg": "#f0f9ff"
+          "label": "Membuat Rule Pertama",
+          "color": "#3b82f6",
+          "desc": "Walkthrough end-to-end: dari buka scenario studio sampai submit rule pertama Anda. Cocok untuk pengguna baru.",
+          "icon": "IconPlayerPlay"
         },
         {
-          "num": 2,
-          "title": "Membangun Detection Flow",
-          "desc": "Tutorial 2: Membangun Detection Flow — Pelajari cara menyusun logika deteksi yang kompleks menggunakan multiple node kondisi.\nMencakup branching, merging, dan validasi flow.",
-          "color": "#22c55e",
-          "bg": "#f0fdf4"
+          "label": "Membangun Detection Flow",
+          "color": "#8b5cf6",
+          "desc": "Panduan menyusun node kondisi, menghubungkan dengan operator logika, dan mengatur parameter deteksi.",
+          "icon": "IconHierarchy2"
         },
         {
-          "num": 3,
-          "title": "Mengorganisir dengan Groups",
-          "desc": "Tutorial 3: Groups — Atur node-node kondisi ke dalam grup untuk workflow yang lebih terorganisir.\nPelajari cara membuat group, memindahkan node antar group, dan tidy layout group.",
-          "color": "#f97316",
-          "bg": "#fff7ed"
+          "label": "Mengorganisir dengan Groups",
+          "color": "#14b8a6",
+          "desc": "Pelajari cara menggunakan group untuk mengelola node yang kompleks, termasuk grouping, ungroup, dan move to group.",
+          "icon": "IconStack3"
         }
       ]
     }

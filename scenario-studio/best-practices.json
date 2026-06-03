@@ -3,66 +3,59 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "tutorial",
-      "heading": "Best Practices",
-      "id": "best-practices",
-      "intro": "Panduan untuk membuat scenario yang efektif dan mudah di-maintain.",
-      "steps": [
+      "type": "text",
+      "content": "Panduan untuk membuat scenario yang efektif dan mudah di-maintain."
+    },
+    {
+      "type": "overview",
+      "overviewItems": [
         {
-          "num": 1,
-          "title": "Penamaan yang Jelas",
-          "desc": "Gunakan nama spesifik seperti \"Transaksi > 10 Juta di Luar Jam Kerja\" agar mudah diaudit dan dipahami tim.",
+          "label": "Penamaan yang Jelas",
           "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "desc": "Gunakan nama spesifik seperti \"Transaksi > 10 Juta di Luar Jam Kerja\" agar mudah diaudit dan dipahami tim.",
+          "icon": "IconBulb"
         },
         {
-          "num": 2,
-          "title": "Validasi Sebelum Submit",
-          "desc": "Pastikan semua kondisi sudah benar dan terhubung di canvas sebelum submit ke production.",
-          "color": "#14b8a6",
-          "bg": "#f0fdfa"
-        },
-        {
-          "num": 3,
-          "title": "Gunakan Cycle Indicator",
-          "desc": "Manfaatkan Cycle Indicator untuk membatasi rule hanya aktif pada jam/hari tertentu, mengurangi false positive.",
-          "color": "#8b5cf6",
-          "bg": "#f5f3ff"
-        },
-        {
-          "num": 4,
-          "title": "Isi Deskripsi",
-          "desc": "Selalu isi field deskripsi dengan penjelasan logika deteksi agar tim lain bisa memahami tujuan rule.",
-          "color": "#f59e0b",
-          "bg": "#fffbeb"
-        },
-        {
-          "num": 5,
-          "title": "Monitor Efektivitas",
-          "desc": "Pantau metrik efektivitas scenario secara berkala dan sesuaikan threshold berdasarkan data nyata.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2"
-        },
-        {
-          "num": 6,
-          "title": "Gunakan Group untuk Organisasi",
-          "desc": "Group node kondisi yang saling terkait secara logis untuk memudahkan pembacaan alur dan operasi batch.",
-          "color": "#0ea5e9",
-          "bg": "#f0f9ff"
-        },
-        {
-          "num": 7,
-          "title": "Manfaatkan Undo/Redo",
-          "desc": "Jangan ragu untuk bereksperimen — hampir semua aksi bisa di-undo dengan Ctrl+Z.",
+          "label": "Validasi Sebelum Submit",
           "color": "#22c55e",
-          "bg": "#f0fdf4"
+          "desc": "Pastikan semua kondisi sudah benar dan terhubung di canvas sebelum submit ke production.",
+          "icon": "IconCheck"
         },
         {
-          "num": 8,
-          "title": "Pelajari Keyboard Shortcuts",
-          "desc": "Shortcuts seperti Ctrl+C/X/V, Shift+Klik, dan Space+Drag akan mempercepat workflow.",
+          "label": "Gunakan Cycle Indicator",
+          "color": "#8b5cf6",
+          "desc": "Manfaatkan Cycle Indicator untuk membatasi rule hanya aktif pada jam/hari tertentu, mengurangi false positive.",
+          "icon": "IconClock"
+        },
+        {
+          "label": "Isi Deskripsi",
+          "color": "#f59e0b",
+          "desc": "Selalu isi field deskripsi dengan penjelasan logika deteksi agar tim lain bisa memahami tujuan rule.",
+          "icon": "IconUsers"
+        },
+        {
+          "label": "Monitor Efektivitas",
+          "color": "#f43f5e",
+          "desc": "Pantau metrik efektivitas scenario secara berkala dan sesuaikan threshold berdasarkan data nyata.",
+          "icon": "IconShield"
+        },
+        {
+          "label": "Gunakan Group untuk Organisasi",
+          "color": "#8b5cf6",
+          "desc": "Group node kondisi yang saling terkait secara logis untuk memudahkan pembacaan alur dan operasi batch.",
+          "icon": "IconHierarchy2"
+        },
+        {
+          "label": "Manfaatkan Undo/Redo",
+          "color": "#14b8a6",
+          "desc": "Jangan ragu untuk bereksperimen — hampir semua aksi bisa di-undo dengan Ctrl+Z.",
+          "icon": "IconRoute"
+        },
+        {
+          "label": "Pelajari Keyboard Shortcuts",
           "color": "#f97316",
-          "bg": "#fff7ed"
+          "desc": "Shortcuts seperti Ctrl+C/X/V, Shift+Klik, dan Space+Drag akan mempercepat workflow.",
+          "icon": "IconKeyboard"
         }
       ]
     }

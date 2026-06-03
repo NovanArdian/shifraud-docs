@@ -25,7 +25,7 @@
         {
           "num": 3,
           "title": "Ubah Informasi yang Diperlukan",
-          "desc": "Anda bisa mengubah:\n• Nama & Deskripsi — perbarui jika aturan berubah\n• Group — pindahkan ke grup yang lebih relevan\n• Severity — sesuaikan level prioritas berdasarkan dampak\n• Tags/Labels — tambah atau hapus kategorisasi",
+          "desc": "Anda bisa mengubah:\n• **Nama & Deskripsi** — perbarui jika aturan berubah\n• **Group** — pindahkan ke grup yang lebih relevan\n• **Severity** — sesuaikan level prioritas berdasarkan dampak\n• **Tags/Labels** — tambah atau hapus kategorisasi",
           "color": "#22c55e",
           "bg": "#f0fdf4"
         },

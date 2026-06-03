@@ -18,7 +18,7 @@
         {
           "num": 2,
           "title": "Pilih Format Export",
-          "desc": "Tergantung sistem, Anda mungkin bisa memilih format:\n• JSON — format universal, bisa di-import kembali\n• CSV — untuk analisis di spreadsheet (terbatas pada metadata)\nFile akan di-download ke browser Anda.",
+          "desc": "Tergantung sistem, Anda mungkin bisa memilih format:\n• **JSON** — format universal, bisa di-import kembali\n• **CSV** — untuk analisis di spreadsheet (terbatas pada metadata)\nFile akan di-download ke browser Anda.",
           "color": "#f43f5e",
           "bg": "#fff1f2"
         },
@@ -32,14 +32,14 @@
         {
           "num": 4,
           "title": "Atur Konflik dan Duplikasi",
-          "desc": "Jika scenario dengan nama yang sama sudah ada, sistem akan menawarkan:\n• Skip — lewati import untuk item duplikat\n• Overwrite — timpa scenario yang ada\n• Rename — buat sebagai scenario baru dengan nama berbeda",
+          "desc": "Jika scenario dengan nama yang sama sudah ada, sistem akan menawarkan:\n• **Skip** — lewati import untuk item duplikat\n• **Overwrite** — timpa scenario yang ada\n• **Rename** — buat sebagai scenario baru dengan nama berbeda",
           "color": "#22c55e",
           "bg": "#f0fdf4"
         },
         {
           "num": 5,
           "title": "Verifikasi Hasil Import",
-          "desc": "Scenario hasil import akan muncul di daftar dengan status Draft. Buka kanvas untuk memverifikasi node, edge, dan konfigurasi tersalin dengan benar sebelum di-submit.",
+          "desc": "Scenario hasil import akan muncul di daftar dengan status **Draft**. Buka kanvas untuk memverifikasi node, edge, dan konfigurasi tersalin dengan benar sebelum di-submit.",
           "color": "#f97316",
           "bg": "#fff7ed"
         }
