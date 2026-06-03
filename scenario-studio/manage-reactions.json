@@ -12,15 +12,15 @@
           "num": 1,
           "title": "Buka Detail Scenario",
           "desc": "Pilih scenario yang ingin dikelola reaksi-nya. Klik nama scenario untuk membuka detail. Di halaman detail, cari tab atau section \"Reactions\".",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f97316",
+          "bg": "#fff7ed"
         },
         {
           "num": 2,
           "title": "Pahami Jenis Reactions",
-          "desc": "Reactions menentukan aksi yang dilakukan sistem saat scenario terdeteksi. Jenis reactions yang umum:\n• **Push Notification** — kirim notifikasi ke mobile/desktop\n• **Email Alert** — kirim email ke tim terkait\n• **Webhook** — panggil API eksternal\n• **SMS** — kirim SMS ke nomor tertentu",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Reactions menentukan aksi yang dilakukan sistem saat scenario terdeteksi. Jenis reactions yang umum:\n• Push Notification — kirim notifikasi ke mobile/desktop\n• Email Alert — kirim email ke tim terkait\n• Webhook — panggil API eksternal\n• SMS — kirim SMS ke nomor tertentu",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         },
         {
           "num": 3,
@@ -32,16 +32,16 @@
         {
           "num": 4,
           "title": "Atur Threshold & Filter",
-          "desc": "Setiap reaction bisa memiliki filter tambahan:\n• **Minimum Score** — reaction hanya dipicu jika skor melebihi threshold\n• **Cooldown Period** — jeda waktu sebelum reaction bisa dipicu lagi\n• **Channel Filter** — pilih channel transaksi tertentu",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Setiap reaction bisa memiliki filter tambahan:\n• Minimum Score — reaction hanya dipicu jika skor melebihi threshold\n• Cooldown Period — jeda waktu sebelum reaction bisa dipicu lagi\n• Channel Filter — pilih channel transaksi tertentu",
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         },
         {
           "num": 5,
           "title": "Test & Simpan Reactions",
           "desc": "Gunakan tombol \"Test\" untuk mengirim reaction percobaan. Verifikasi bahwa notifikasi/webhook berfungsi. Klik \"Save\" untuk menyimpan konfigurasi reactions.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         }
       ]
     }

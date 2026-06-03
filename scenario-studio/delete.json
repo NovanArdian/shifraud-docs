@@ -12,8 +12,8 @@
           "num": 1,
           "title": "Hapus Node dengan Keyboard",
           "desc": "Pilih node yang ingin dihapus dengan mengkliknya.\nTekan tombol Delete atau Backspace pada keyboard.\nNode akan terhapus beserta semua edge yang terhubung dengannya.\nEdge yang terputus akan otomatis di-route ulang jika ada koneksi alternatif.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         },
         {
           "num": 2,
@@ -26,22 +26,22 @@
           "num": 3,
           "title": "Hapus Edge (Koneksi)",
           "desc": "Klik pada edge (garis) yang ingin dihapus. Edge akan terpilih (berubah warna).\nTekan Delete pada keyboard. Atau klik kanan edge dan pilih \"Delete\".\nEdge akan terhapus dan kedua node menjadi tidak terhubung.\nNode-node tetap ada di canvas dan bisa dihubungkan kembali.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         },
         {
           "num": 4,
           "title": "Yang Terjadi Jika Start Node Dihapus",
           "desc": "Jika node Start dihapus, canvas akan memasuki \"Empty State\".\nPanel \"Canvas is empty\" akan muncul dengan tombol \"Add Start Node\".\nKlik tombol tersebut untuk menambahkan Start node baru.\nCatatan: Node kondisi lain tetap ada di canvas meskipun Start node dihapus, namun alur deteksi tidak akan berfungsi tanpa Start node.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         },
         {
           "num": 5,
           "title": "Tips",
           "desc": "• Semua operasi hapus bisa di-undo dengan Ctrl+Z.\n• Jika Anda tidak sengaja menghapus node, segera tekan Ctrl+Z untuk mengembalikannya.\n• Hati-hati saat menghapus group: semua node di dalam group juga akan terhapus.\n• Gunakan Cut (Ctrl+X) jika ingin memindahkan node ke tempat lain, bukan menghapus.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
         }
       ]
     }

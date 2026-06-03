@@ -12,15 +12,15 @@
           "num": 1,
           "title": "Buka Scenario Studio",
           "desc": "Dari sidebar utama, klik menu \"Scenario Management\" lalu pilih \"Scenario Studio\". Klik tombol \"Add New\" untuk membuat scenario baru.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f97316",
+          "bg": "#fff7ed"
         },
         {
           "num": 2,
           "title": "Pilih Tipe Rule",
           "desc": "Di dialog pembuatan, pilih tipe rule. Untuk tutorial ini, pilih \"GENERAL\" (3 langkah, tanpa Use Condition). Beri nama rule: \"Tutorial - Rule Pertama Saya\".",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         },
         {
           "num": 3,
@@ -33,36 +33,36 @@
           "num": 4,
           "title": "Kenali Canvas (Step 2)",
           "desc": "Anda akan melihat canvas ReactFlow dengan:\n• Sisi kiri: Sidebar berisi 6 tipe kondisi\n• Tengah: Area canvas dengan node \"Start\" di kiri dan node \"?\" (placeholder) di kanan\n• Bawah: Toolbar dengan tombol Add Condition, Auto-arrange, Back, Continue\nCoba pan canvas: tahan Space + drag mouse. Zoom: gunakan scroll.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         },
         {
           "num": 5,
           "title": "Tambah Kondisi Pertama",
           "desc": "Klik tombol \"Add Condition\" di toolbar. Pilih tipe \"CONSTANT\" dari dialog. Di dialog konfigurasi:\n• Atur atribut yang akan diperiksa (pilih dari dropdown)\n• Pilih operator (=, ≠, >, dll.)\n• Masukkan nilai pembanding\nKlik \"Save\" untuk menambah node ke canvas.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         },
         {
           "num": 6,
           "title": "Hubungkan Node",
           "desc": "Node kondisi baru akan muncul di canvas. Hubungkan:\n• Dari node \"Start\" ke node kondisi baru Anda (drag dari handle kanan Start ke handle kiri node kondisi)\n• Dari node kondisi ke node placeholder \"?\" (drag dari handle kanan kondisi ke handle kiri placeholder)\nSetiap edge akan menampilkan operator AND/OR yang bisa diklik untuk toggle.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
         },
         {
           "num": 7,
           "title": "Review & Submit (Step 4)",
           "desc": "Klik \"Continue\" di toolbar sampai mencapai Step 4 (Review). Periksa ringkasan:\n• Nama rule dan deskripsi\n• Risk Score dan Priority\n• Jumlah kondisi yang dibuat\nKlik \"Submit Scenario\", isi komentar (misal: \"Tutorial selesai\"), dan submit.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 8,
           "title": "Selesai!",
           "desc": "Rule pertama Anda sudah tersimpan. Anda bisa melihatnya di halaman Scenario Group atau membuka kembali di Scenario Studio untuk diedit.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         }
       ]
     }

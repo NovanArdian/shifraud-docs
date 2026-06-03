@@ -12,57 +12,57 @@
           "num": 1,
           "title": "Penamaan yang Jelas",
           "desc": "Gunakan nama spesifik seperti \"Transaksi > 10 Juta di Luar Jam Kerja\" agar mudah diaudit dan dipahami tim.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         },
         {
           "num": 2,
           "title": "Validasi Sebelum Submit",
           "desc": "Pastikan semua kondisi sudah benar dan terhubung di canvas sebelum submit ke production.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         },
         {
           "num": 3,
           "title": "Gunakan Cycle Indicator",
           "desc": "Manfaatkan Cycle Indicator untuk membatasi rule hanya aktif pada jam/hari tertentu, mengurangi false positive.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
         },
         {
           "num": 4,
           "title": "Isi Deskripsi",
           "desc": "Selalu isi field deskripsi dengan penjelasan logika deteksi agar tim lain bisa memahami tujuan rule.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 5,
           "title": "Monitor Efektivitas",
           "desc": "Pantau metrik efektivitas scenario secara berkala dan sesuaikan threshold berdasarkan data nyata.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         },
         {
           "num": 6,
           "title": "Gunakan Group untuk Organisasi",
           "desc": "Group node kondisi yang saling terkait secara logis untuk memudahkan pembacaan alur dan operasi batch.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
         },
         {
           "num": 7,
           "title": "Manfaatkan Undo/Redo",
           "desc": "Jangan ragu untuk bereksperimen — hampir semua aksi bisa di-undo dengan Ctrl+Z.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#22c55e",
+          "bg": "#f0fdf4"
         },
         {
           "num": 8,
           "title": "Pelajari Keyboard Shortcuts",
           "desc": "Shortcuts seperti Ctrl+C/X/V, Shift+Klik, dan Space+Drag akan mempercepat workflow.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f97316",
+          "bg": "#fff7ed"
         }
       ]
     }

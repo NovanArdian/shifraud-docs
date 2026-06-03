@@ -12,36 +12,36 @@
           "num": 1,
           "title": "Export Scenario",
           "desc": "Pilih scenario yang ingin di-export. Klik tombol \"Export\" (icon download). Sistem akan menghasilkan file JSON yang berisi:\n• Metadata scenario (nama, deskripsi, severity)\n• Konfigurasi canvas (node, edge, conditions)\n• Threshold dan parameter deteksi",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 2,
           "title": "Pilih Format Export",
-          "desc": "Tergantung sistem, Anda mungkin bisa memilih format:\n• **JSON** — format universal, bisa di-import kembali\n• **CSV** — untuk analisis di spreadsheet (terbatas pada metadata)\nFile akan di-download ke browser Anda.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Tergantung sistem, Anda mungkin bisa memilih format:\n• JSON — format universal, bisa di-import kembali\n• CSV — untuk analisis di spreadsheet (terbatas pada metadata)\nFile akan di-download ke browser Anda.",
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         },
         {
           "num": 3,
           "title": "Import Scenario",
           "desc": "Klik tombol \"Import\" (icon upload). Pilih file JSON yang sebelumnya di-export. Sistem akan memvalidasi struktur file sebelum memproses.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
         },
         {
           "num": 4,
           "title": "Atur Konflik dan Duplikasi",
-          "desc": "Jika scenario dengan nama yang sama sudah ada, sistem akan menawarkan:\n• **Skip** — lewati import untuk item duplikat\n• **Overwrite** — timpa scenario yang ada\n• **Rename** — buat sebagai scenario baru dengan nama berbeda",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Jika scenario dengan nama yang sama sudah ada, sistem akan menawarkan:\n• Skip — lewati import untuk item duplikat\n• Overwrite — timpa scenario yang ada\n• Rename — buat sebagai scenario baru dengan nama berbeda",
+          "color": "#22c55e",
+          "bg": "#f0fdf4"
         },
         {
           "num": 5,
           "title": "Verifikasi Hasil Import",
-          "desc": "Scenario hasil import akan muncul di daftar dengan status **Draft**. Buka kanvas untuk memverifikasi node, edge, dan konfigurasi tersalin dengan benar sebelum di-submit.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Scenario hasil import akan muncul di daftar dengan status Draft. Buka kanvas untuk memverifikasi node, edge, dan konfigurasi tersalin dengan benar sebelum di-submit.",
+          "color": "#f97316",
+          "bg": "#fff7ed"
         }
       ]
     }

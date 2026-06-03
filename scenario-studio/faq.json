@@ -12,57 +12,57 @@
           "num": 1,
           "title": "Apa perbedaan rule tipe GENERAL dan CONDITION?",
           "desc": "GENERAL hanya memiliki 3 step (tanpa Use Condition). CONDITION memiliki 4 step lengkap dan membutuhkan konfigurasi Attribute Binding untuk menyimpan dan menggunakan data antar transaksi.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         },
         {
           "num": 2,
           "title": "Kenapa tombol \"Next\" tidak bisa diklik?",
           "desc": "Tombol Next disabled jika ada field wajib yang belum diisi atau ada error validasi. Periksa semua section di Step 1.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
         },
         {
           "num": 3,
           "title": "Apa fungsi Cycle Indicator?",
           "desc": "Cycle Indicator membatasi rule hanya aktif pada hari/jam tertentu. Tipe RANGE untuk blok waktu kontinu, tipe LIST untuk beberapa slot waktu.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 4,
           "title": "Bagaimana cara menambah kondisi di canvas?",
           "desc": "Klik tombol \"Add Condition\" di toolbar, klik tipe kondisi di sidebar, atau double-click placeholder node (+).",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         },
         {
           "num": 5,
           "title": "Apakah data tersimpan otomatis?",
           "desc": "Tidak. Data hanya tersimpan setelah klik \"Submit Scenario\" di step Review. Menutup canvas sebelum submit akan membatalkan perubahan.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
         },
         {
           "num": 6,
           "title": "Bagaimana cara undo/redo?",
           "desc": "Ctrl+Z untuk undo, Ctrl+Shift+Z (atau Ctrl+Y) untuk redo. History maksimal 50 langkah.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#22c55e",
+          "bg": "#f0fdf4"
         },
         {
           "num": 7,
           "title": "Bisakah copy-paste node?",
           "desc": "Ya. Pilih node, Ctrl+C (copy) atau Ctrl+X (cut), lalu Ctrl+V untuk paste. Paste ke dalam group via context menu.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f97316",
+          "bg": "#fff7ed"
         },
         {
           "num": 8,
           "title": "Mengapa context menu tidak muncul saat klik kanan 2+ node?",
           "desc": "Pastikan node berasal dari hierarki yang sama (level parent group yang sama). Node dari group berbeda akan menampilkan \"Not valid nodes\".",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         },
         {
           "num": 9,

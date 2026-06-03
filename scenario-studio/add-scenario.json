@@ -12,34 +12,34 @@
           "num": 1,
           "title": "Buka Halaman Scenario Studio",
           "desc": "Dari sidebar navigasi, klik menu \"Scenario Studio\". Halaman utama akan menampilkan daftar scenario yang sudah ada beserta status masing-masing (Active/Inactive/Draft).",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
         },
         {
           "num": 2,
           "title": "Klik Tombol Tambah Scenario",
           "desc": "Di pojok kanan atas tabel, klik tombol \"Tambah Scenario\" (icon +). Sebuah modal/dialog akan terbuka untuk mengisi detail scenario baru.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#22c55e",
+          "bg": "#f0fdf4"
         },
         {
           "num": 3,
           "title": "Isi Informasi Dasar",
-          "desc": "Lengkapi field berikut di modal:\n• **Nama Scenario** — nama unik yang mendeskripsikan aturan deteksi (contoh: \"Muleskinner Detection\")\n• **Deskripsi** — penjelasan tujuan dan logika deteksi\n• **Group** — pilih grup yang sesuai (opsional, bisa diubah nanti)\n• **Severity** — level prioritas (Low, Medium, High, Critical)",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Lengkapi field berikut di modal:\n• Nama Scenario — nama unik yang mendeskripsikan aturan deteksi (contoh: \"Muleskinner Detection\")\n• Deskripsi — penjelasan tujuan dan logika deteksi\n• Group — pilih grup yang sesuai (opsional, bisa diubah nanti)\n• Severity — level prioritas (Low, Medium, High, Critical)",
+          "color": "#f97316",
+          "bg": "#fff7ed"
         },
         {
           "num": 4,
           "title": "Atur Additional Fields (Opsional)",
-          "desc": "Bergantung konfigurasi sistem, Anda mungkin perlu mengisi:\n• **Tags/Labels** — untuk kategorisasi dan pencarian\n• **Assignee** — penanggung jawab scenario\n• **Schedule** — jadwal aktif scenario (24/7 atau jam tertentu)",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Bergantung konfigurasi sistem, Anda mungkin perlu mengisi:\n• Tags/Labels — untuk kategorisasi dan pencarian\n• Assignee — penanggung jawab scenario\n• Schedule — jadwal aktif scenario (24/7 atau jam tertentu)",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         },
         {
           "num": 5,
           "title": "Simpan Scenario",
-          "desc": "Klik tombol \"Submit\" atau \"Save\". Scenario baru akan muncul di daftar dengan status **Draft**. Selanjutnya Anda bisa masuk ke kanvas untuk membangun detection flow-nya.",
+          "desc": "Klik tombol \"Submit\" atau \"Save\". Scenario baru akan muncul di daftar dengan status Draft. Selanjutnya Anda bisa masuk ke kanvas untuk membangun detection flow-nya.",
           "color": "#6366f1",
           "bg": "#eef2ff"
         }

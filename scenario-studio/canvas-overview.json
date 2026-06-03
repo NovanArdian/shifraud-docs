@@ -11,30 +11,30 @@
         {
           "num": 1,
           "title": "Condition Sidebar",
-          "desc": "Panel kiri berisi 6 tipe kondisi yang bisa diklik atau di-drag untuk membuat node baru.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Condition Sidebar adalah panel vertikal di sisi kiri canvas. Berisi 6 tipe kondisi yang bisa langsung di-click atau di-drag ke canvas.\n• CONSTANT — Periksa nilai statis\n• CONTAINS — Periksa substring\n• LOGICAL — Operasi AND/OR\n• COMPARE — Perbandingan nilai\n• RANGE — Rentang nilai\n• OCCURS — Frekuensi kejadian",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 2,
           "title": "Canvas Area",
-          "desc": "Area utama untuk menyusun dan menghubungkan node kondisi. Mendukung pan (Space+Drag), zoom (Scroll), dan drag node.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Canvas Area adalah ruang kerja utama berbasis ReactFlow. Di sinilah Anda menyusun node-node kondisi menjadi alur deteksi.\n• Layout otomatis dengan tombol Tidy di toolbar\n• Zoom dengan scroll atau Ctrl+Scroll\n• Pan dengan Space+Drag\n• Multi-select dengan Shift+Klik atau drag selection box",
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         },
         {
           "num": 3,
           "title": "Bottom Toolbar",
-          "desc": "Floating bar berisi: info rule, tombol Add Condition, Auto-arrange, Back, dan Continue.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Bottom Toolbar menyediakan akses cepat ke operasi canvas:\n• Add Condition — Tambah node baru\n• Tidy — Rapikan layout otomatis\n• Undo/Redo — Batalkan/ulangi aksi\n• Zoom kontrol — Perbesar/perkecil tampilan\n• Copy/Paste/Cut — Operasi clipboard node",
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
         },
         {
           "num": 4,
           "title": "Multi-select Hint",
-          "desc": "Panel \"X nodes selected · Right-click for actions\" muncul saat 2+ node dipilih.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Canvas mendukung multi-select untuk operasi batch:\n• Pilih beberapa node dengan Shift+Klik\n• Drag box untuk seleksi area\n• Context menu untuk aksi grup (group, copy, delete)\n• Connected move — pindahkan node beserta koneksinya",
+          "color": "#22c55e",
+          "bg": "#f0fdf4"
         }
       ]
     }

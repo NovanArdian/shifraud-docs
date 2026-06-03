@@ -12,36 +12,36 @@
           "num": 1,
           "title": "Buka Halaman Scenario Group",
           "desc": "Dari sidebar, navigasi ke menu \"Scenario Group\". Halaman ini menampilkan daftar grup yang sudah ada beserta jumlah scenario di dalamnya.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         },
         {
           "num": 2,
           "title": "Klik Tambah Group",
           "desc": "Klik tombol \"Tambah Group\" atau \"Create Group\" di pojok kanan atas. Sebuah modal/dialog akan terbuka.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         },
         {
           "num": 3,
           "title": "Isi Informasi Group",
-          "desc": "Lengkapi field di modal:\n• **Nama Group** — nama kategori (contoh: \"E-commerce Fraud\", \"Wire Transfer\")\n• **Deskripsi** — penjelasan tujuan grup (opsional)\n• **Warna Label** — pilih warna untuk identifikasi visual di daftar",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Lengkapi field di modal:\n• Nama Group — nama kategori (contoh: \"E-commerce Fraud\", \"Wire Transfer\")\n• Deskripsi — penjelasan tujuan grup (opsional)\n• Warna Label — pilih warna untuk identifikasi visual di daftar",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
         },
         {
           "num": 4,
           "title": "Tambahkan Scenario (Opsional)",
           "desc": "Setelah group dibuat, Anda bisa langsung menambahkan scenario ke dalamnya. Pilih scenario yang sudah ada dari dropdown \"Add Scenario to Group\", atau buat scenario baru dengan group yang sudah ditentukan.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 5,
           "title": "Simpan Group",
           "desc": "Klik \"Save\" atau \"Create\". Group baru akan muncul di daftar. Anda bisa mengklik nama group untuk melihat semua scenario di dalamnya.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         }
       ]
     }

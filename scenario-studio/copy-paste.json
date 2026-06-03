@@ -12,36 +12,36 @@
           "num": 1,
           "title": "Copy Node atau Group",
           "desc": "Pilih node atau group yang ingin di-copy.\nTekan Ctrl+C (atau Cmd+C di Mac) pada keyboard.\nNode/group beserta semua descendants (anak-anaknya) akan tersalin ke clipboard internal.\nTidak ada indikasi visual bahwa node sudah di-copy — lanjutkan ke langkah paste.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         },
         {
           "num": 2,
           "title": "Cut Node atau Group",
           "desc": "Pilih node atau group yang ingin dipotong (cut).\nTekan Ctrl+X (atau Cmd+X di Mac).\nNode/group akan tersalin ke clipboard DAN dihapus dari canvas.\nEdge yang terhubung akan otomatis di-route ulang untuk menjaga koneksi yang masih ada.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         },
         {
           "num": 3,
           "title": "Paste ke Canvas",
           "desc": "Setelah copy atau cut, tempelkan dengan Ctrl+V (atau Cmd+V di Mac).\nNode akan ditempel di canvas pada posisi yang sedikit di-offset dari posisi asli (agar tidak tumpang tindih).\nJika yang di-copy adalah group, seluruh isi group juga ikut di-paste.\nNode hasil paste akan terpilih secara otomatis sehingga bisa langsung dipindahkan.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
         },
         {
           "num": 4,
           "title": "Paste ke Dalam Group",
           "desc": "Untuk menempel node langsung ke dalam group:\nKlik kanan pada group target.\nPilih \"Paste\" dari context menu group.\nNode akan ditempel di dalam group tersebut, bukan di canvas utama.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 5,
           "title": "Tips",
           "desc": "• Copy/Paste mempertahankan semua konfigurasi kondisi dan koneksi antar node.\n• Group yang di-copy akan mempertahankan warna, label, dan struktur internalnya.\n• Clipboard hanya menyimpan 1 item terakhir (copy/cut baru akan menimpa yang lama).\n• Jika paste tidak berhasil, pastikan Anda sudah melakukan copy terlebih dahulu.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         }
       ]
     }

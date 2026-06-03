@@ -12,29 +12,29 @@
           "num": 1,
           "title": "Pilih Scenario yang Akan Dihapus",
           "desc": "Di halaman daftar scenario, cari scenario yang ingin dihapus. Pastikan Anda memilih scenario yang benar — operasi ini tidak bisa dibatalkan.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         },
         {
           "num": 2,
           "title": "Klik Tombol Delete",
           "desc": "Klik icon tempat sampah (Delete) pada baris scenario. Sebuah konfirmasi dialog akan muncul meminta persetujuan Anda.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
         },
         {
           "num": 3,
           "title": "Konfirmasi Penghapusan",
           "desc": "Dialog akan menampilkan nama scenario dan peringatan bahwa data akan dihapus permanen. Ketik \"DELETE\" atau klik \"Confirm\" untuk melanjutkan. Scenario yang sudah Active biasanya tidak bisa langsung dihapus — harus di-deactivate terlebih dahulu.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 4,
           "title": "Verifikasi Penghapusan",
           "desc": "Setelah terhapus, scenario akan hilang dari daftar. Periksa juga grup terkait untuk memastikan tidak ada referensi yang tersisa.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         }
       ]
     }

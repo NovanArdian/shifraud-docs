@@ -12,29 +12,29 @@
           "num": 1,
           "title": "Pilih Group yang Akan Dihapus",
           "desc": "Di halaman Scenario Group, cari grup yang ingin dihapus. Perhatikan jumlah scenario di dalam grup.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         },
         {
           "num": 2,
           "title": "Klik Tombol Delete",
           "desc": "Klik icon tempat sampah (Delete) pada baris grup. Sebuah dialog konfirmasi akan muncul.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         },
         {
           "num": 3,
           "title": "Atur Scenario di Dalam Group",
-          "desc": "Jika grup masih memiliki scenario, sistem akan menanyakan tindakan untuk scenario tersebut:\n• **Pindahkan ke default group** — scenario tetap ada tanpa grup\n• **Pindahkan ke grup lain** — pilih grup tujuan dari dropdown\n• **Hapus semua** — hapus grup beserta semua scenario di dalamnya",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Jika grup masih memiliki scenario, sistem akan menanyakan tindakan untuk scenario tersebut:\n• Pindahkan ke default group — scenario tetap ada tanpa grup\n• Pindahkan ke grup lain — pilih grup tujuan dari dropdown\n• Hapus semua — hapus grup beserta semua scenario di dalamnya",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
         },
         {
           "num": 4,
           "title": "Konfirmasi Penghapusan",
           "desc": "Setelah memilih opsi untuk scenario, klik \"Confirm Delete\". Grup akan dihapus dan scenario akan diproses sesuai pilihan Anda.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         }
       ]
     }

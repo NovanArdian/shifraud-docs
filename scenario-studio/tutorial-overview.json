@@ -11,23 +11,23 @@
         {
           "num": 1,
           "title": "Membuat Rule Pertama",
-          "desc": "Walkthrough end-to-end: dari buka scenario studio sampai submit rule pertama Anda. Cocok untuk pengguna baru.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Tutorial 1: Membuat Rule Pertama — Panduan lengkap membuat rule deteksi dari awal hingga submit.\nCocok untuk pengguna baru yang ingin memahami alur kerja dasar Scenario Studio.",
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
         },
         {
           "num": 2,
           "title": "Membangun Detection Flow",
-          "desc": "Panduan menyusun node kondisi, menghubungkan dengan operator logika, dan mengatur parameter deteksi.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Tutorial 2: Membangun Detection Flow — Pelajari cara menyusun logika deteksi yang kompleks menggunakan multiple node kondisi.\nMencakup branching, merging, dan validasi flow.",
+          "color": "#22c55e",
+          "bg": "#f0fdf4"
         },
         {
           "num": 3,
           "title": "Mengorganisir dengan Groups",
-          "desc": "Pelajari cara menggunakan group untuk mengelola node yang kompleks, termasuk grouping, ungroup, dan move to group.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Tutorial 3: Groups — Atur node-node kondisi ke dalam grup untuk workflow yang lebih terorganisir.\nPelajari cara membuat group, memindahkan node antar group, dan tidy layout group.",
+          "color": "#f97316",
+          "bg": "#fff7ed"
         }
       ]
     }

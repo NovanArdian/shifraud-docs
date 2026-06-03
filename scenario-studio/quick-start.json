@@ -11,37 +11,37 @@
         {
           "num": 1,
           "title": "Buka Scenario Management",
-          "desc": "Navigasi ke menu Scenario Management dari sidebar utama.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Navigasi ke menu Scenario Management dari sidebar utama aplikasi. Halaman ini menampilkan daftar semua scenario yang sudah dibuat.\nKlik tombol \"Add New\" di pojok kanan atas untuk memulai. Anda akan diarahkan ke halaman wizard scenario studio.",
+          "color": "#f97316",
+          "bg": "#fff7ed"
         },
         {
           "num": 2,
           "title": "Buat Scenario Baru",
-          "desc": "Klik tombol \"Add New\" untuk memulai scenario baru. Pilih tipe rule: GENERAL atau CONDITION.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Pilih tipe rule yang akan dibuat: GENERAL (3 langkah) untuk rule sederhana tanpa kondisi lanjutan, atau CONDITION (4 langkap) untuk rule dengan attribute binding.\n_General_ cocok untuk aturan deteksi mandiri. _Condition_ untuk skenario yang membutuhkan data antar transaksi.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         },
         {
           "num": 3,
           "title": "Isi Parameter Dasar",
-          "desc": "Lengkapi semua field wajib di Step 1: Rule Name, Description, Risk Score, Priority, Active Period.",
+          "desc": "Isi semua field wajib di Step 1:\n• Rule Name — Nama unik untuk rule\n• Description — Penjelasan fungsi rule\n• Risk Score — Tingkat risiko (1-100)\n• Priority — Urutan eksekusi rule\n• Active Period — Periode aktif rule\nPastikan tidak ada field yang kosong sebelum lanjut ke step berikutnya.",
           "color": "#6366f1",
           "bg": "#eef2ff"
         },
         {
           "num": 4,
           "title": "Bangun Logika Deteksi",
-          "desc": "Lanjut ke Step 2 (Build Flow). Seret kondisi dari sidebar ke canvas, hubungkan node, dan atur parameter kondisi.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Lanjut ke Step 2 (Build Flow). Ini adalah canvas utama ReactFlow.\n• Seret kondisi dari sidebar kiri ke area canvas\n• Hubungkan node dengan menarik dari handle kanan ke kiri\n• Atur parameter setiap kondisi melalui dialog konfigurasi\nGunakan toolbar bawah untuk memanipulasi node (copy, paste, group, dll).",
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         },
         {
           "num": 5,
           "title": "Review & Submit",
-          "desc": "Periksa ringkasan di Step 4. Klik \"Submit Scenario\" dan isi komentar untuk menyimpan.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Periksa ringkasan konfigurasi di Step 4 (Review).\n• Pastikan semua parameter sudah benar\n• Klik \"Submit Scenario\" untuk menyimpan\n• Isi komentar wajib sebagai catatan perubahan\nSetelah submit, scenario akan masuk ke daftar dan siap untuk diverifikasi atau diaktivasi.",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         }
       ]
     }

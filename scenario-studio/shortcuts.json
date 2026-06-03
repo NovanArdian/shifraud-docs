@@ -12,36 +12,36 @@
           "num": 1,
           "title": "Navigasi Antar Step",
           "desc": "  • Enter — Lanjut ke step berikutnya (jika valid)\n  • Esc — Tutup canvas / batalkan\n  • Alt + ← — Kembali ke step sebelumnya",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         },
         {
           "num": 2,
           "title": "Canvas & Viewport",
           "desc": "  • Space + Drag — Pan canvas\n  • Scroll — Zoom in / out\n  • Ctrl + - — Zoom out\n  • Ctrl + = — Zoom in\n  • Ctrl + 0 — Reset zoom ke 100%",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         },
         {
           "num": 3,
           "title": "Node Operations",
           "desc": "  • Klik — Pilih node\n  • Shift + Klik — Multi-select node\n  • Klik + Drag — Pindahkan node / group\n  • Delete — Hapus node / edge yang dipilih\n  • Klik kanan — Buka context menu node",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
         },
         {
           "num": 4,
           "title": "Undo / Redo",
           "desc": "  • Ctrl + Z — Undo (batalkan aksi terakhir)\n  • Ctrl + Shift + Z — Redo (ulangi aksi yang dibatalkan)\n  • Ctrl + Y — Redo (alternatif)",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 5,
           "title": "Clipboard",
           "desc": "  • Ctrl + C — Copy node(s) / group(s) yang dipilih\n  • Ctrl + X — Cut node(s) / group(s) yang dipilih\n  • Ctrl + V — Paste node(s) / group(s) dari clipboard",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         }
       ]
     }

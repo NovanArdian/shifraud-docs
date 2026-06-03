@@ -12,36 +12,36 @@
           "num": 1,
           "title": "Cari Scenario yang Akan Diedit",
           "desc": "Gunakan kolom pencarian atau filter di halaman daftar scenario untuk menemukan scenario yang ingin diubah. Perhatikan status scenario — beberapa field mungkin tidak bisa diubah jika scenario sudah Active.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         },
         {
           "num": 2,
           "title": "Klik Tombol Edit",
           "desc": "Klik icon pensil (Edit) pada baris scenario yang dituju. Sebuah modal akan terbuka dengan data scenario yang sudah terisi.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
         },
         {
           "num": 3,
           "title": "Ubah Informasi yang Diperlukan",
-          "desc": "Anda bisa mengubah:\n• **Nama & Deskripsi** — perbarui jika aturan berubah\n• **Group** — pindahkan ke grup yang lebih relevan\n• **Severity** — sesuaikan level prioritas berdasarkan dampak\n• **Tags/Labels** — tambah atau hapus kategorisasi",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Anda bisa mengubah:\n• Nama & Deskripsi — perbarui jika aturan berubah\n• Group — pindahkan ke grup yang lebih relevan\n• Severity — sesuaikan level prioritas berdasarkan dampak\n• Tags/Labels — tambah atau hapus kategorisasi",
+          "color": "#22c55e",
+          "bg": "#f0fdf4"
         },
         {
           "num": 4,
           "title": "Update Konten Canvas (Jika Perlu)",
           "desc": "Untuk mengubah logika deteksi, klik pada nama scenario atau tombol \"Edit Flow\" untuk membuka kanvas. Lakukan perubahan pada node, edge, atau konfigurasi build di sana.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f97316",
+          "bg": "#fff7ed"
         },
         {
           "num": 5,
           "title": "Simpan Perubahan",
           "desc": "Klik \"Save\" atau \"Update\" untuk menyimpan perubahan. Jika scenario dalam status Active, perubahan mungkin memerlukan approval sebelum diterapkan.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         }
       ]
     }

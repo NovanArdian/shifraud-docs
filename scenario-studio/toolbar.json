@@ -12,36 +12,36 @@
           "num": 1,
           "title": "Add Condition",
           "desc": "Buka dialog untuk menambah node kondisi baru di canvas.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         },
         {
           "num": 2,
           "title": "Auto-arrange",
           "desc": "Rapikan posisi semua node menggunakan layout hierarki dagre.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
         },
         {
           "num": 3,
           "title": "Zoom Controls",
           "desc": "Zoom in/out dan reset viewport ke posisi default.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#22c55e",
+          "bg": "#f0fdf4"
         },
         {
           "num": 4,
           "title": "Undo / Redo",
           "desc": "Batalkan atau ulangi aksi terakhir (Ctrl+Z / Ctrl+Shift+Z).",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f97316",
+          "bg": "#fff7ed"
         },
         {
           "num": 5,
           "title": "Back / Continue",
           "desc": "Navigasi antar step: Back ke step sebelumnya, Continue ke step berikutnya.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         }
       ]
     }

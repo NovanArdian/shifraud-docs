@@ -12,29 +12,29 @@
           "num": 1,
           "title": "Memilih Satu Node",
           "desc": "Klik pada node yang ingin dipilih. Node akan terlihat terpilih (biasanya dengan border yang lebih tebal atau berbeda warna).\nUntuk membatalkan pilihan (deselect), klik di area kosong canvas.\nNode yang terpilih adalah node yang akan terkena aksi seperti delete, copy, atau edit.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
         },
         {
           "num": 2,
           "title": "Memilih Banyak Node (Multi-select)",
           "desc": "Tahan tombol Shift pada keyboard, lalu klik setiap node yang ingin dipilih secara bergantian.\nSetiap node yang diklik akan menambah ke seleksi. Panel \"X nodes selected\" akan muncul di bagian atas canvas.\nPanel ini menampilkan jumlah node yang dipilih dan petunjuk untuk klik kanan membuka context menu.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#22c55e",
+          "bg": "#f0fdf4"
         },
         {
           "num": 3,
           "title": "Memilih Area (Rubber Band)",
           "desc": "Klik dan drag mouse di area kosong canvas. Sebuah kotak seleksi (rubber band) akan muncul.\nSemua node yang berada di dalam kotak seleksi akan otomatis terpilih saat mouse dilepaskan.\nMetode ini berguna untuk memilih banyak node yang berdekatan secara cepat.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#f97316",
+          "bg": "#fff7ed"
         },
         {
           "num": 4,
           "title": "Memindahkan Node",
           "desc": "Klik dan tahan node yang ingin dipindahkan (atau group yang sudah terpilih).\nDrag node ke posisi yang diinginkan sambil menahan mouse.\nLepaskan mouse di posisi tujuan. Node akan berada di posisi baru.\nNode yang terhubung via edge juga akan ikut bergerak (connected move) untuk menjaga alur tetap rapi.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         },
         {
           "num": 5,
@@ -47,8 +47,8 @@
           "num": 6,
           "title": "Tips",
           "desc": "• Gunakan multi-select + \"Group\" untuk mengorganisir node yang saling terkait.\n• Panel \"X nodes selected\" akan hilang jika node berasal dari hierarki berbeda (mixed parent group).\n• Setelah memindahkan node, gunakan Auto-arrange jika posisi terasa berantakan.\n• Pergerakan node bisa di-undo dengan Ctrl+Z.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         }
       ]
     }

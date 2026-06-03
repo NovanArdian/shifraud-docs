@@ -11,51 +11,51 @@
         {
           "num": 1,
           "title": "Pendekatan Terstruktur",
-          "desc": "Buat aturan deteksi fraud yang kompleks melalui 4 langkah terstruktur. Setiap langkah memandu konfigurasi dari parameter dasar hingga logika deteksi dan review akhir.",
-          "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "desc": "Scenario Studio Canvas menyediakan 4 langkah terstruktur untuk membangun aturan deteksi fraud:\n• Configure Parameters — Atur identitas dan parameter dasar rule\n• Build Flow — Visual logic construction dengan ReactFlow canvas\n• Use Condition — Attribute binding untuk tipe CONDITION (opsional)\n• Review & Submit — Validasi akhir dan penyimpanan\nSetiap langkah memiliki validasi otomatis untuk memastikan konfigurasi lengkap sebelum lanjut.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         },
         {
           "num": 2,
           "title": "Langkah 01: Configure Parameters",
-          "desc": "Atur nama rule, grup, prioritas, risk score, periode aktif, dan cycle indicator (icon: IconSettings)",
-          "color": "#3b82f6",
-          "bg": "#f8fafc"
-        },
-        {
-          "num": 3,
-          "title": "Langkah 02: Build Flow",
-          "desc": "Buat logika deteksi menggunakan node kondisi pada canvas visual. Mendukung group, clipboard, undo/redo, dan tidy layout. (icon: IconGitBranch)",
-          "color": "#8b5cf6",
-          "bg": "#f8fafc"
-        },
-        {
-          "num": 4,
-          "title": "Langkah 03: Use Condition",
-          "desc": "Definisikan kondisi penggunaan rule (hanya untuk tipe CONDITION) (icon: IconFilter)",
-          "color": "#14b8a6",
-          "bg": "#f8fafc"
-        },
-        {
-          "num": 5,
-          "title": "Langkah 04: Review & Submit",
-          "desc": "Tinjau semua konfigurasi dan submit scenario untuk disimpan (icon: IconBolt)",
-          "color": "#f59e0b",
-          "bg": "#f8fafc"
-        },
-        {
-          "num": 6,
-          "title": "Canvas Features",
-          "desc": "  • Undo / Redo: Ctrl+Z / Ctrl+Shift+Z — history 50 langkah\n  • Clipboard: Ctrl+C/X/V — copy/cut/paste node & group\n  • Groups: Group, ungroup, move to group, tidy layout\n  • Color Picker: Warna node & group via context menu\n  • Auto-arrange: Tidy layout dengan dagre hierarki\n  • Connected Move: Node yang terhubung ikut dipindahkan",
+          "desc": "Langkah awal konfigurasi rule. Isi parameter dasar:\n• Rule Name — Nama unik untuk identifikasi rule\n• Group — Kategorisasi rule (jika ada)\n• Priority — Urutan prioritas eksekusi\n• Risk Score — 1-100, menentukan tingkat risiko\n• Active Period — Tanggal aktif rule\n• Cycle Indicator — Pembatasan hari/jam aktif (RANGE/LIST)\nSemua field wajib diisi sebelum lanjut ke step berikutnya.",
           "color": "#6366f1",
           "bg": "#eef2ff"
         },
         {
-          "num": 7,
-          "title": "Catatan Tipe Rule",
-          "desc": "Rule tipe GENERAL hanya memiliki 3 langkah (tanpa Step 3: Use Condition). Rule tipe CONDITION memiliki 4 langkah lengkap termasuk konfigurasi attribute binding dan use condition canvas.",
+          "num": 3,
+          "title": "Langkah 02: Build Flow",
+          "desc": "Visual logic construction menggunakan ReactFlow canvas:\n• Node kondisi — CONSTANT, CONTAINS, LOGICAL, COMPARE, RANGE, OCCURS\n• Edge — Hubungkan node untuk membentuk alur deteksi\n• Group — Organisir node dalam group\n• Clipboard — Copy/Cut/Paste node & group\n• Undo/Redo — History 50 langkah\n• Tidy — Auto-arrange layout dengan dagre\nCanvas mendukung drag & drop, multi-select, dan connected move.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
+        },
+        {
+          "num": 4,
+          "title": "Langkah 03: Use Condition",
+          "desc": "Khusus untuk rule tipe CONDITION (tidak tersedia untuk GENERAL):\n• Attribute Binding — Simpan output satu kondisi untuk digunakan kondisi lain\n• Use Condition Canvas — Canvas khusus untuk mendefinisikan hubungan antar kondisi\n• Cross-transaction logic — Deteksi fraud berbasis pola antar transaksi\nRule GENERAL akan melewati langkah ini dan langsung ke Review.",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
+        },
+        {
+          "num": 5,
+          "title": "Langkah 04: Review & Submit",
+          "desc": "Langkah terakhir sebelum rule disimpan:\n• Ringkasan Konfigurasi — Review semua parameter yang sudah diatur\n• Validation Check — Sistem memvalidasi kelengkapan semua step\n• Submit — Klik tombol submit untuk menyimpan rule\n• Komentar — Catat perubahan sebagai traceability\nSetelah submit, rule masuk ke status DRAFT dan siap untuk proses approval.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
+        },
+        {
+          "num": 6,
+          "title": "Canvas Features",
+          "desc": "Canvas Features yang mendukung produktivitas:\n• Undo/Redo — Ctrl+Z/Ctrl+Shift+Z, history 50 langkah\n• Clipboard — Ctrl+C/X/V untuk copy/cut/paste node & group\n• Groups — Group, ungroup, move to group, tidy layout group\n• Color Picker — Kustomisasi warna node & group via context menu\n• Auto-arrange — Tidy layout dengan algoritma dagre hierarki\n• Connected Move — Node terhubung otomatis ikut berpindah",
           "color": "#f59e0b",
           "bg": "#fffbeb"
+        },
+        {
+          "num": 7,
+          "title": "Catatan Tipe Rule",
+          "desc": "Penting untuk diketahui:\n• Rule GENERAL — Hanya 3 langkah (tanpa Use Condition). Cocok untuk aturan deteksi mandiri sederhana.\n• Rule CONDITION — 4 langkah lengkap dengan Attribute Binding. Untuk skenario kompleks yang membutuhkan data antar transaksi.\n• Attribute Binding memungkinkan satu kondisi menyimpan output yang bisa digunakan oleh kondisi lain dalam rule yang sama.",
+          "color": "#f43f5e",
+          "bg": "#fff1f2"
         }
       ]
     }
