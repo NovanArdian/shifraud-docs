@@ -9,7 +9,43 @@
     },
     {
       "type": "text",
-      "content": "Dokumentasi untuk Sidebar Panel pada Scenario Studio."
+      "content": "Sidebar kiri canvas menampilkan daftar tipe kondisi yang tersedia. Klik untuk menambah node atau drag langsung ke canvas."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "LOGICAL",
+      "content": "Kombinasi AND / OR antar kondisi lain"
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "CONTAINS",
+      "content": "Cek apakah nilai ada dalam daftar"
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "CONSTANT",
+      "content": "Perbandingan dengan nilai tetap"
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "DEVIATION",
+      "content": "Deteksi penyimpangan statistik"
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "AGGREGATE",
+      "content": "Count / Sum / Average dalam window"
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "GEO",
+      "content": "Filter berbasis lokasi geografis / IP"
     }
   ]
 }

@@ -11,21 +11,37 @@
       "type": "tutorial",
       "heading": "Cara Menjalankan Verifikasi",
       "id": "run-verification",
-      "intro": "Panduan untuk Cara Menjalankan Verifikasi.",
+      "intro": "Perkiraan waktu: 3-5 menit.",
       "steps": [
         {
           "num": 1,
           "title": "Buka Halaman Verification",
-          "desc": "Dari sidebar, navigasi ke menu \"Scenario Verification\" atau \"Verification\". Halaman ini menampilkan daftar hasil verifikasi sebelumnya dan tombol untuk menjalankan verifikasi baru.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Dari sidebar, navigasi ke menu \"Scenario Verification\" atau \"Verification\". Halaman ini menampilkan daftar hasil verifikasi sebelumnya dan tombol untuk menjalankan verifikasi baru."
+        },
+        {
+          "num": 2,
+          "title": "Pilih Scenario untuk Verifikasi",
+          "desc": "Klik \"Run Verification\" atau \"New Verification\". Pilih scenario yang akan diverifikasi. Anda bisa memilih:\n• **Single Scenario** — verifikasi satu scenario tertentu\n• **Multiple Scenarios** — pilih beberapa scenario sekaligus\n• **All Active Scenarios** — verifikasi semua scenario yang aktif"
+        },
+        {
+          "num": 3,
+          "title": "Atur Parameter Verifikasi",
+          "desc": "Tentukan parameter pengujian:\n• **Date Range** — periode data yang akan diuji\n• **Sample Size** — jumlah sample transaksi (jika berlaku)\n• **Threshold Override** — ubah threshold sementara untuk testing\n• **Test Mode** — pilih mode dry-run (tidak menghasilkan alert nyata)"
         },
         {
           "num": 4,
           "title": "Jalankan Verifikasi",
-          "desc": "Klik \"Run\" atau \"Start Verification\". Proses verifikasi akan berjalan — durasi tergantung pada jumlah data dan kompleksitas scenario. Anda bisa meninggalkan halaman dan kembali nanti.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Klik \"Run\" atau \"Start Verification\". Proses verifikasi akan berjalan — durasi tergantung pada jumlah data dan kompleksitas scenario. Anda bisa meninggalkan halaman dan kembali nanti."
+        },
+        {
+          "num": 5,
+          "title": "Review Hasil Verifikasi",
+          "desc": "Setelah selesai, hasil akan ditampilkan:\n• **Total Transactions Tested** — jumlah transaksi yang diuji\n• **Alerts Generated** — jumlah alert yang dihasilkan\n• **Effectiveness Score** — persentase deteksi yang akurat\n• **False Positives** — jumlah false positive yang terdeteksi\n• **Execution Time** — waktu eksekusi verifikasi"
+        },
+        {
+          "num": 6,
+          "title": "Export & Tindak Lanjut",
+          "desc": "Dari hasil verifikasi, Anda bisa:\n• **Export Report** — download hasil dalam format PDF/CSV\n• **Adjust Threshold** — langsung sesuaikan threshold berdasarkan hasil\n• **Create Ticket** — buat tugas untuk perbaikan jika diperlukan"
         }
       ]
     }

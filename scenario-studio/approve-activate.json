@@ -11,21 +11,32 @@
       "type": "tutorial",
       "heading": "Cara Approve & Aktivasi",
       "id": "approve-activate",
-      "intro": "Panduan untuk Cara Approve & Aktivasi.",
+      "intro": "Perkiraan waktu: 3-5 menit.",
       "steps": [
         {
           "num": 1,
           "title": "Review Scenario dalam Status Draft",
-          "desc": "Scenario yang siap di-deploy harus melalui review. Buka detail scenario untuk memeriksa konfigurasi canvas, threshold, dan metadata. Pastikan semua sudah benar.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Scenario yang siap di-deploy harus melalui review. Buka detail scenario untuk memeriksa konfigurasi canvas, threshold, dan metadata. Pastikan semua sudah benar."
         },
         {
           "num": 2,
           "title": "Submit untuk Approval",
-          "desc": "Klik tombol \"Submit\" atau \"Request Approval\". Status scenario akan berubah menjadi **Pending Review**. Sistem akan mengirim notifikasi ke approver yang ditentukan.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Klik tombol \"Submit\" atau \"Request Approval\". Status scenario akan berubah menjadi **Pending Review**. Sistem akan mengirim notifikasi ke approver yang ditentukan."
+        },
+        {
+          "num": 3,
+          "title": "Proses Approval",
+          "desc": "User dengan role Approver akan melihat notifikasi. Mereka bisa:\n• **Approve** — menyetujui scenario untuk melanjutkan ke aktivasi\n• **Reject** — menolak dengan catatan revisi\n• **Request Changes** — meminta perbaikan sebelum approve"
+        },
+        {
+          "num": 4,
+          "title": "Aktivasi Scenario",
+          "desc": "Setelah di-approve, klik tombol \"Activate\" untuk menyalakan scenario. Pilih schedule aktivasi:\n• **Activate Now** — langsung aktif\n• **Schedule Activation** — aktif di waktu yang ditentukan"
+        },
+        {
+          "num": 5,
+          "title": "Monitoring Pasca Aktivasi",
+          "desc": "Scenario Active akan mulai memproses data real-time. Pantau metrik di dashboard:\n• **Alert Volume** — jumlah alert yang dihasilkan\n• **Effectiveness Rate** — persentase alert yang valid\n• **False Positive Rate** — alert yang ternyata bukan fraud"
         }
       ]
     }

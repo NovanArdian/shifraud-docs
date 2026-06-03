@@ -9,7 +9,36 @@
     },
     {
       "type": "text",
-      "content": "Dokumentasi untuk Ikhtisar Tutorial pada Tutorials."
+      "content": "{title}"
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Cara Menggunakan Tutorial",
+      "content": "Setiap tutorial berisi langkah-langkah yang harus Anda ikuti langsung di Scenario Studio Canvas. Buka tab terpisah dengan Scenario Studio, lalu ikuti instruksi di setiap langkah. Tutorial dimulai dari yang paling dasar dan meningkat kompleksitasnya."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Daftar Tutorial"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Membuat Rule Pertama",
+      "content": "Walkthrough end-to-end: dari buka scenario studio sampai submit rule pertama Anda. Cocok untuk pengguna baru."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Membangun Detection Flow",
+      "content": "Panduan menyusun node kondisi, menghubungkan dengan operator logika, dan mengatur parameter deteksi."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Mengorganisir dengan Groups",
+      "content": "Pelajari cara menggunakan group untuk mengelola node yang kompleks, termasuk grouping, ungroup, dan move to group."
     }
   ]
 }

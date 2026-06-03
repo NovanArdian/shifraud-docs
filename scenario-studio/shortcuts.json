@@ -9,7 +9,153 @@
     },
     {
       "type": "text",
-      "content": "Dokumentasi untuk Keyboard Shortcuts pada Scenario Studio."
+      "content": "Keyboard shortcuts untuk mempercepat navigasi dan editing di Scenario Studio Canvas."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Navigasi Antar Step"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Key",
+        "Deskripsi"
+      ],
+      "rows": [
+        {
+          "key": "Enter",
+          "value": "Lanjut ke step berikutnya (jika valid)"
+        },
+        {
+          "key": "Esc",
+          "value": "Tutup canvas / batalkan"
+        },
+        {
+          "key": "Alt + ←",
+          "value": "Kembali ke step sebelumnya"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Canvas & Viewport"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Key",
+        "Deskripsi"
+      ],
+      "rows": [
+        {
+          "key": "Space + Drag",
+          "value": "Pan canvas"
+        },
+        {
+          "key": "Scroll",
+          "value": "Zoom in / out"
+        },
+        {
+          "key": "Ctrl + -",
+          "value": "Zoom out"
+        },
+        {
+          "key": "Ctrl + =",
+          "value": "Zoom in"
+        },
+        {
+          "key": "Ctrl + 0",
+          "value": "Reset zoom ke 100%"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Node Operations"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Key",
+        "Deskripsi"
+      ],
+      "rows": [
+        {
+          "key": "Klik",
+          "value": "Pilih node"
+        },
+        {
+          "key": "Shift + Klik",
+          "value": "Multi-select node"
+        },
+        {
+          "key": "Klik + Drag",
+          "value": "Pindahkan node / group"
+        },
+        {
+          "key": "Delete",
+          "value": "Hapus node / edge yang dipilih"
+        },
+        {
+          "key": "Klik kanan",
+          "value": "Buka context menu node"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Undo / Redo"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Key",
+        "Deskripsi"
+      ],
+      "rows": [
+        {
+          "key": "Ctrl + Z",
+          "value": "Undo (batalkan aksi terakhir)"
+        },
+        {
+          "key": "Ctrl + Shift + Z",
+          "value": "Redo (ulangi aksi yang dibatalkan)"
+        },
+        {
+          "key": "Ctrl + Y",
+          "value": "Redo (alternatif)"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Clipboard"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Key",
+        "Deskripsi"
+      ],
+      "rows": [
+        {
+          "key": "Ctrl + C",
+          "value": "Copy node(s) / group(s) yang dipilih"
+        },
+        {
+          "key": "Ctrl + X",
+          "value": "Cut node(s) / group(s) yang dipilih"
+        },
+        {
+          "key": "Ctrl + V",
+          "value": "Paste node(s) / group(s) dari clipboard"
+        }
+      ]
     }
   ]
 }

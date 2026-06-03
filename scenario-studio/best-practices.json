@@ -9,7 +9,55 @@
     },
     {
       "type": "text",
-      "content": "Dokumentasi untuk Best Practices pada Scenario Studio."
+      "content": "Panduan untuk membuat scenario yang efektif dan mudah di-maintain."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Penamaan yang Jelas",
+      "content": "Gunakan nama spesifik seperti \"Transaksi > 10 Juta di Luar Jam Kerja\" agar mudah diaudit dan dipahami tim."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Validasi Sebelum Submit",
+      "content": "Pastikan semua kondisi sudah benar dan terhubung di canvas sebelum submit ke production."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Gunakan Cycle Indicator",
+      "content": "Manfaatkan Cycle Indicator untuk membatasi rule hanya aktif pada jam/hari tertentu, mengurangi false positive."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Isi Deskripsi",
+      "content": "Selalu isi field deskripsi dengan penjelasan logika deteksi agar tim lain bisa memahami tujuan rule."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Monitor Efektivitas",
+      "content": "Pantau metrik efektivitas scenario secara berkala dan sesuaikan threshold berdasarkan data nyata."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Gunakan Group untuk Organisasi",
+      "content": "Group node kondisi yang saling terkait secara logis untuk memudahkan pembacaan alur dan operasi batch."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Manfaatkan Undo/Redo",
+      "content": "Jangan ragu untuk bereksperimen — hampir semua aksi bisa di-undo dengan Ctrl+Z."
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Pelajari Keyboard Shortcuts",
+      "content": "Shortcuts seperti Ctrl+C/X/V, Shift+Klik, dan Space+Drag akan mempercepat workflow."
     }
   ]
 }

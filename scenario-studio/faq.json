@@ -9,7 +9,61 @@
     },
     {
       "type": "text",
-      "content": "Dokumentasi untuk FAQ pada Scenario Studio."
+      "content": "Pertanyaan umum seputar Scenario Studio Canvas."
+    },
+    {
+      "type": "callout",
+      "variant": "question",
+      "title": "Apa perbedaan rule tipe GENERAL dan CONDITION?",
+      "content": "GENERAL hanya memiliki 3 step (tanpa Use Condition). CONDITION memiliki 4 step lengkap dan membutuhkan konfigurasi Attribute Binding untuk menyimpan dan menggunakan data antar transaksi."
+    },
+    {
+      "type": "callout",
+      "variant": "question",
+      "title": "Kenapa tombol \"Next\" tidak bisa diklik?",
+      "content": "Tombol Next disabled jika ada field wajib yang belum diisi atau ada error validasi. Periksa semua section di Step 1."
+    },
+    {
+      "type": "callout",
+      "variant": "question",
+      "title": "Apa fungsi Cycle Indicator?",
+      "content": "Cycle Indicator membatasi rule hanya aktif pada hari/jam tertentu. Tipe RANGE untuk blok waktu kontinu, tipe LIST untuk beberapa slot waktu."
+    },
+    {
+      "type": "callout",
+      "variant": "question",
+      "title": "Bagaimana cara menambah kondisi di canvas?",
+      "content": "Klik tombol \"Add Condition\" di toolbar, klik tipe kondisi di sidebar, atau double-click placeholder node (+)."
+    },
+    {
+      "type": "callout",
+      "variant": "question",
+      "title": "Apakah data tersimpan otomatis?",
+      "content": "Tidak. Data hanya tersimpan setelah klik \"Submit Scenario\" di step Review. Menutup canvas sebelum submit akan membatalkan perubahan."
+    },
+    {
+      "type": "callout",
+      "variant": "question",
+      "title": "Bagaimana cara undo/redo?",
+      "content": "Ctrl+Z untuk undo, Ctrl+Shift+Z (atau Ctrl+Y) untuk redo. History maksimal 50 langkah."
+    },
+    {
+      "type": "callout",
+      "variant": "question",
+      "title": "Bisakah copy-paste node?",
+      "content": "Ya. Pilih node, Ctrl+C (copy) atau Ctrl+X (cut), lalu Ctrl+V untuk paste. Paste ke dalam group via context menu."
+    },
+    {
+      "type": "callout",
+      "variant": "question",
+      "title": "Mengapa context menu tidak muncul saat klik kanan 2+ node?",
+      "content": "Pastikan node berasal dari hierarki yang sama (level parent group yang sama). Node dari group berbeda akan menampilkan \"Not valid nodes\"."
+    },
+    {
+      "type": "callout",
+      "variant": "question",
+      "title": "Kenapa canvas menampilkan \"Canvas is empty\"?",
+      "content": "Empty state muncul jika Start node dihapus. Tambahkan Start node baru untuk mengembalikan canvas."
     }
   ]
 }

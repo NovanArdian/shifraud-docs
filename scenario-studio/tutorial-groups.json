@@ -11,63 +11,52 @@
       "type": "tutorial",
       "heading": "Mengorganisir dengan Groups",
       "id": "tutorial-groups",
-      "intro": "Panduan untuk Mengorganisir dengan Groups.",
+      "intro": "Perkiraan waktu: 10-15 menit.",
       "steps": [
         {
           "num": 1,
           "title": "Buat Beberapa Kondisi",
-          "desc": "Buat rule baru (bisa GENERAL). Di Step 2, tambahkan 3-4 kondisi dengan tipe berbeda (CONSTANT, CONTAINS, DEVIATION). Jangan hubungkan dulu.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Buat rule baru (bisa GENERAL). Di Step 2, tambahkan 3-4 kondisi dengan tipe berbeda (CONSTANT, CONTAINS, DEVIATION). Jangan hubungkan dulu."
         },
         {
           "num": 2,
           "title": "Seleksi Multi Node",
-          "desc": "Tahan Shift + Klik pada 2 node kondisi untuk memilihnya. Atau drag selection box (rubber band) di sekitar node. Panel \"X nodes selected\" akan muncul di atas canvas.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Tahan Shift + Klik pada 2 node kondisi untuk memilihnya. Atau drag selection box (rubber band) di sekitar node. Panel \"X nodes selected\" akan muncul di atas canvas."
         },
         {
           "num": 3,
           "title": "Buat Group",
-          "desc": "Klik kanan pada area canvas (dengan node terpilih). Pilih \"Group X nodes\". Sebuah group container akan dibuat membungkus semua node terpilih.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Klik kanan pada area canvas (dengan node terpilih). Pilih \"Group X nodes\". Sebuah group container akan dibuat membungkus semua node terpilih.\nPerhatikan bahwa edge otomatis di-route ke boundary group. Group memiliki label default yang bisa di-rename."
         },
         {
           "num": 4,
           "title": "Rename Group",
-          "desc": "Klik kanan pada group. Pilih \"Rename Group\". Beri nama: \"Kelompok Kondisi Utama\". Klik \"Save\". Label group akan berubah.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Klik kanan pada group. Pilih \"Rename Group\". Beri nama: \"Kelompok Kondisi Utama\". Klik \"Save\". Label group akan berubah."
+        },
+        {
+          "num": 5,
+          "title": "Tambah Node ke Dalam Group",
+          "desc": "Buat node kondisi baru. Untuk memindahkannya ke dalam group:\n• Seleksi node baru\n• Klik kanan → \"Move to Group\"\n• Pilih group \"Kelompok Kondisi Utama\"\nNode akan masuk ke dalam group. Edge yang terhubung ke node tersebut akan ikut routing ke boundary group."
         },
         {
           "num": 6,
           "title": "Stack Vertically",
-          "desc": "Klik kanan group → \"Stack Vertically\". Semua node di dalam group akan dirapikan secara vertikal. Berguna setelah menambah banyak node ke dalam group.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Klik kanan group → \"Stack Vertically\". Semua node di dalam group akan dirapikan secara vertikal. Berguna setelah menambah banyak node ke dalam group."
         },
         {
           "num": 7,
           "title": "Ubah Warna Group",
-          "desc": "Klik kanan group → \"Change Color\". Pilih warna preset (merah, biru, hijau, dll.) atau klik \"Random\" untuk warna acak. Warna group membantu identifikasi visual kelompok logika yang berbeda.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Klik kanan group → \"Change Color\". Pilih warna preset (merah, biru, hijau, dll.) atau klik \"Random\" untuk warna acak. Warna group membantu identifikasi visual kelompok logika yang berbeda."
         },
         {
           "num": 8,
           "title": "Copy Group",
-          "desc": "Klik group untuk memilihnya. Tekan Ctrl+C (copy), lalu Ctrl+V (paste). Seluruh group beserta node di dalamnya akan di-duplikat. Group baru bisa dipindahkan dan diedit secara independen.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Klik group untuk memilihnya. Tekan Ctrl+C (copy), lalu Ctrl+V (paste). Seluruh group beserta node di dalamnya akan di-duplikat. Group baru bisa dipindahkan dan diedit secara independen."
         },
         {
           "num": 9,
           "title": "Ungroup",
-          "desc": "Klik kanan group → \"Ungroup\". Group akan dibubarkan dan node-node di dalamnya naik ke level parent (canvas utama). Posisi node akan tetap dipertahankan secara absolut.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Klik kanan group → \"Ungroup\". Group akan dibubarkan dan node-node di dalamnya naik ke level parent (canvas utama). Posisi node akan tetap dipertahankan secara absolut."
         }
       ]
     }

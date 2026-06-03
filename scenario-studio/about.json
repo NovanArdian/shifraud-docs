@@ -9,7 +9,48 @@
     },
     {
       "type": "text",
-      "content": "Dokumentasi untuk About Studio pada Scenario Studio."
+      "content": "Scenario Studio Canvas adalah visual editor untuk membuat dan mengelola aturan deteksi fraud melalui antarmuka berbasis langkah yang intuitif."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Canvas Features"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Undo / Redo",
+      "content": "Ctrl+Z / Ctrl+Shift+Z — history 50 langkah"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Clipboard",
+      "content": "Ctrl+C/X/V — copy/cut/paste node & group"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Groups",
+      "content": "Group, ungroup, move to group, tidy layout"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Color Picker",
+      "content": "Warna node & group via context menu"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Auto-arrange",
+      "content": "Tidy layout dengan dagre hierarki"
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Connected Move",
+      "content": "Node yang terhubung ikut dipindahkan"
     }
   ]
 }

@@ -11,28 +11,27 @@
       "type": "tutorial",
       "heading": "Cara Meng-Copy Scenario",
       "id": "copy-scenario",
-      "intro": "Panduan untuk Cara Meng-Copy Scenario.",
+      "intro": "Perkiraan waktu: 1-2 menit.",
       "steps": [
         {
           "num": 1,
           "title": "Pilih Scenario yang Akan Di-Copy",
-          "desc": "Cari scenario yang ingin di-duplikasi di halaman daftar. Fitur ini berguna untuk membuat variasi rule berdasarkan template yang sudah ada.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Cari scenario yang ingin di-duplikasi di halaman daftar. Fitur ini berguna untuk membuat variasi rule berdasarkan template yang sudah ada."
         },
         {
           "num": 2,
           "title": "Klik Tombol Copy",
-          "desc": "Klik icon Duplicate/Copy (biasanya icon dokumen ganda) pada baris scenario. Sebuah modal akan muncul untuk mengatur detail hasil duplikasi.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Klik icon Duplicate/Copy (biasanya icon dokumen ganda) pada baris scenario. Sebuah modal akan muncul untuk mengatur detail hasil duplikasi."
+        },
+        {
+          "num": 3,
+          "title": "Atur Detail Scenario Baru",
+          "desc": "Modal akan mengisi otomatis data dari scenario original. Ubah field yang diperlukan:\n• **Nama** — secara default akan diberi suffix \"(Copy)\"\n• **Deskripsi** — sesuaikan dengan tujuan baru\n• **Group** — pilih grup yang berbeda jika perlu"
         },
         {
           "num": 4,
           "title": "Hasil Duplikasi",
-          "desc": "Scenario baru akan muncul di daftar dengan status **Draft**. Seluruh konfigurasi canvas (node, edge, conditions) akan tersalin persis. Anda bisa langsung mengeditnya tanpa mempengaruhi scenario original.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Scenario baru akan muncul di daftar dengan status **Draft**. Seluruh konfigurasi canvas (node, edge, conditions) akan tersalin persis. Anda bisa langsung mengeditnya tanpa mempengaruhi scenario original."
         }
       ]
     }

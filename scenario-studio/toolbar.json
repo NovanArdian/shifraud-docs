@@ -9,7 +9,37 @@
     },
     {
       "type": "text",
-      "content": "Dokumentasi untuk Toolbar pada Scenario Studio."
+      "content": "Toolbar menyediakan akses cepat ke operasi canvas utama."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Add Condition",
+      "content": "Buka dialog untuk menambah node kondisi baru di canvas."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Auto-arrange",
+      "content": "Rapikan posisi semua node menggunakan layout hierarki dagre."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Zoom Controls",
+      "content": "Zoom in/out dan reset viewport ke posisi default."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Undo / Redo",
+      "content": "Batalkan atau ulangi aksi terakhir (Ctrl+Z / Ctrl+Shift+Z)."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Back / Continue",
+      "content": "Navigasi antar step: Back ke step sebelumnya, Continue ke step berikutnya."
     }
   ]
 }

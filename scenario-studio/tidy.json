@@ -11,35 +11,27 @@
       "type": "tutorial",
       "heading": "Cara Merapikan Layout",
       "id": "tidy",
-      "intro": "Panduan untuk Cara Merapikan Layout.",
+      "intro": "Auto-arrange merapikan semua node secara otomatis menggunakan layout hierarki.",
       "steps": [
         {
           "num": 1,
           "title": "Aktifkan Auto-arrange",
-          "desc": "Di toolbar bawah canvas, klik ikon sitemap (Auto-arrange).",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Di toolbar bawah canvas, klik ikon sitemap (Auto-arrange).\nSemua node di canvas akan otomatis dirapikan menggunakan layout hierarki dagre.\nProses ini membutuhkan waktu beberapa detik tergantung jumlah node."
         },
         {
           "num": 2,
           "title": "Bagaimana Layout Bekerja",
-          "desc": "Auto-arrange menggunakan algoritma dagre untuk mengatur posisi node:",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Auto-arrange menggunakan algoritma dagre untuk mengatur posisi node:\n• Node level atas (Start, kondisi utama, placeholder) di-layout secara hierarki dari kiri ke kanan.\n• Group di-layout secara hierarki: node di dalam group diatur sebagai sub-graph.\n• Node tanpa koneksi di dalam group akan di-stack (ditumpuk) secara vertikal.\nEdge otomatis di-route ulang mengikuti posisi node yang baru."
         },
         {
           "num": 3,
           "title": "Kapan Menggunakan Auto-arrange",
-          "desc": "• Setelah menambah banyak node baru yang posisinya belum rapi.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "• Setelah menambah banyak node baru yang posisinya belum rapi.\n• Setelah menghapus node, untuk merapikan kembali alur yang berubah.\n• Sebelum screenshot atau presentasi rule ke tim lain.\n• Saat alur terasa berantakan dan sulit dibaca."
         },
         {
           "num": 4,
           "title": "Tips",
-          "desc": "• Auto-arrange tidak bisa di-undo per langkah — tetapi bisa di-undo secara keseluruhan dengan Ctrl+Z.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "• Auto-arrange tidak bisa di-undo per langkah — tetapi bisa di-undo secara keseluruhan dengan Ctrl+Z.\n• Jika hasil layout tidak sesuai, gunakan Ctrl+Z untuk mengembalikan ke posisi sebelumnya.\n• Atur posisi node secara manual setelah auto-arrange untuk penyesuaian fine-tuning.\n• Auto-arrange mempertahankan struktur hierarki group yang sudah dibuat."
         }
       ]
     }

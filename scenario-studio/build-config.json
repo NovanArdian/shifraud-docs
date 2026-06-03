@@ -11,49 +11,37 @@
       "type": "tutorial",
       "heading": "Cara Konfigurasi Build",
       "id": "build-config",
-      "intro": "Panduan untuk Cara Konfigurasi Build.",
+      "intro": "Build Flow adalah inti dari Scenario Studio — tempat Anda merancang logika deteksi menggunakan canvas visual.",
       "steps": [
         {
           "num": 1,
           "title": "Masuk ke Step Build Flow",
-          "desc": "Setelah mengisi parameter dasar di Step 1, klik \"Next: Build Flow\" untuk masuk ke canvas.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Setelah mengisi parameter dasar di Step 1, klik \"Next: Build Flow\" untuk masuk ke canvas.\nCanvas Build Flow adalah area utama untuk merancang logika deteksi fraud.\nDi sini Anda akan menyusun node kondisi dan menghubungkannya dengan edge."
         },
         {
           "num": 2,
           "title": "Susun Node Kondisi",
-          "desc": "Gunakan sidebar kiri untuk menambah node kondisi. Setiap node mewakili satu kondisi yang harus diperiksa.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Gunakan sidebar kiri untuk menambah node kondisi. Setiap node mewakili satu kondisi yang harus diperiksa.\nTentukan alur deteksi:\n• Mulai dari node Start (wajib ada).\n• Tambahkan node kondisi yang diperlukan (CONSTANT, CONTAINS, DEVIATION, dll).\n• Akhiri dengan node placeholder (?)."
         },
         {
           "num": 3,
           "title": "Hubungkan dengan Edge",
-          "desc": "Hubungkan node secara berurutan dari Start → kondisi 1 → kondisi 2 → ... → placeholder.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Hubungkan node secara berurutan dari Start → kondisi 1 → kondisi 2 → ... → placeholder.\nSetiap edge antar kondisi memiliki operator AND/OR yang bisa di-toggle dengan mengklik labelnya.\n• AND: semua kondisi harus terpenuhi (logika ketat).\n• OR: cukup satu kondisi yang terpenuhi (logika longgar)."
         },
         {
           "num": 4,
           "title": "Gunakan Group untuk Organisasi",
-          "desc": "Jika alur deteksi mulai kompleks (banyak node), gunakan Group untuk mengelompokkan node yang saling terkait.",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Jika alur deteksi mulai kompleks (banyak node), gunakan Group untuk mengelompokkan node yang saling terkait.\nGroup memudahkan pembacaan alur dan memungkinkan operasi batch seperti move, copy, dan tidy layout.\nNode LOGICAL juga bisa digunakan sebagai container untuk menggabungkan beberapa kondisi."
         },
         {
           "num": 5,
           "title": "Validasi Alur",
-          "desc": "Sebelum lanjut ke step berikutnya, pastikan:",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Sebelum lanjut ke step berikutnya, pastikan:\n• Semua node terhubung dengan benar (tidak ada node yang terisolasi).\n• Operator logika sudah sesuai dengan logika deteksi yang diinginkan.\n• Tidak ada node yang masih dalam status draft (belum dikonfigurasi).\nGunakan Auto-arrange untuk memeriksa alur secara visual."
         },
         {
           "num": 6,
           "title": "Lanjut ke Step 3 atau 4",
-          "desc": "Jika rule bertipe GENERAL, klik \"Continue\" untuk langsung ke Step 4 (Review).",
-          "color": "#6366f1",
-          "bg": "#eef2ff"
+          "desc": "Jika rule bertipe GENERAL, klik \"Continue\" untuk langsung ke Step 4 (Review).\nJika rule bertipe CONDITION, klik \"Continue\" untuk ke Step 3 (Use Condition) terlebih dahulu.\nSetelah semua step selesai, lakukan Review dan Submit di Step terakhir."
         }
       ]
     }
