@@ -1,55 +1,32 @@
 {
-  "label": "Cara Menambah Group",
+  "label": "Menambah Group",
   "category": "Tutorials",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Cara Menambah Group",
+      "heading": "Menambah Group",
       "id": "add-group",
-      "intro": "Perkiraan waktu: 2-3 menit.",
+      "intro": "Group membantu mengorganisir node-node terkait dalam satu wadah. Panduan ini fokus pada cara menambah group baru.",
       "steps": [
         {
           "num": 1,
-          "title": "Buka Halaman Scenario Group",
-          "desc": "Dari sidebar, navigasi ke menu \"Scenario Group\". Halaman ini menampilkan daftar grup yang sudah ada beserta jumlah scenario di dalamnya.",
-          "color": "#3b82f6",
-          "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Navigasi Halaman</p><p class=\"text-xs text-blue-600\">Menu Scenario Group di sidebar</p></div></div>"
+          "title": "Buat Group Baru",
+          "desc": "Dua cara membuat group: {previewHtml:1}\n\n**Cara 1 — Group dari node yang sudah ada:**\n1. Pilih node yang ingin dikelompokkan (Shift+Klik untuk multi-pilih)\n2. Klik kanan → **Group**\n3. Node akan terbungkus dalam group dengan border dashed\n4. Group otomatis diberi nama default (bisa diedit)\n\n**Cara 2 — Group kosong:**\n1. Klik kanan di area kosong canvas\n2. Pilih **Add Group**\n3. Group kosong muncul — tinggal seret node ke dalamnya",
+          "color": "#ec4899",
+          "bg": "#fdf2f8",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fbcfe8;overflow:hidden\"><div style=\"margin:6px;border:1.5px dashed #ec4899;border-radius:5px;padding:6px\"><div style=\"font-size:7px;font-weight:700;color:#db2777;margin-bottom:3px\">📁 New Group</div><div style=\"display:flex;gap:3px\"><span style=\"padding:2px 4px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#f59e0b\">CONSTANT</span><span style=\"padding:2px 4px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#10b981\">CONTAINS</span></div></div></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Klik Tambah Group",
-          "desc": "Klik tombol \"Tambah Group\" atau \"Create Group\" di pojok kanan atas. Sebuah modal/dialog akan terbuka.",
-          "color": "#14b8a6",
-          "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v16m8-8H4\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Tambah Group Baru</p><p class=\"text-xs text-teal-600\">Tombol di pojok kanan atas</p></div></div>"
-        },
-        {
-          "num": 3,
-          "title": "Isi Informasi Group",
-          "desc": "Lengkapi field di modal:\n\u2022 **Nama Group** \u2014 nama kategori (contoh: \"E-commerce Fraud\", \"Wire Transfer\")\n\u2022 **Deskripsi** \u2014 penjelasan tujuan grup (opsional)\n\u2022 **Warna Label** \u2014 pilih warna untuk identifikasi visual di daftar",
-          "color": "#8b5cf6",
-          "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Lengkapi Field</p><p class=\"text-xs text-violet-600\">Nama, deskripsi, dan warna label</p></div></div>"
-        },
-        {
-          "num": 4,
-          "title": "Tambahkan Scenario (Opsional)",
-          "desc": "Setelah group dibuat, Anda bisa langsung menambahkan scenario ke dalamnya. Pilih scenario yang sudah ada dari dropdown \"Add Scenario to Group\", atau buat scenario baru dengan group yang sudah ditentukan.",
+          "title": "Konfigurasi Group",
+          "desc": "Setelah group dibuat, atur konfigurasinya: {previewHtml:1}\n\n✏️ **Nama** — Klik dua kali judul untuk mengganti nama\n🎨 **Warna** — Pilih warna dari palet (setiap group bisa beda warna)\n📐 **Ukuran** — Seret pojok kanan bawah untuk mengubah ukuran\n🌀 **Collapse/Expand** — Klik segitiga untuk menutup/membuka\n\nBeri nama yang deskriptif seperti \"Cek Amount\", \"Validasi Negara\", atau \"Logika Utama\".",
           "color": "#f59e0b",
           "bg": "#fffbeb",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Tambahkan Scenario</p><p class=\"text-xs text-amber-600\">Pilih dari dropdown yang tersedia</p></div></div>"
-        },
-        {
-          "num": 5,
-          "title": "Simpan Group",
-          "desc": "Klik \"Save\" atau \"Create\". Group baru akan muncul di daftar. Anda bisa mengklik nama group untuk melihat semua scenario di dalamnya.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Simpan Group</p><p class=\"text-xs text-rose-600\">Group akan muncul di daftar</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fde68a;padding:8px 10px;display:flex;flex-wrap:wrap;gap:4px\"><span style=\"padding:3px 6px;border-radius:4px;background:#fffbeb;border:1px solid #fde68a;font-size:7px;color:#92400e\">✏️ Nama: Cek Amount</span><span style=\"padding:3px 6px;border-radius:4px;background:#fdf2f8;border:1px solid #fbcfe8;font-size:7px;color:#9d174d\">🎨 Warna</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;border:1px solid #bfdbfe;font-size:7px;color:#1e40af\">📐 Ukuran</span></div>"
+          }
         }
       ]
     }

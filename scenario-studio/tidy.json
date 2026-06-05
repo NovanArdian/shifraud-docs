@@ -1,47 +1,32 @@
 {
-  "label": "Cara Merapikan Layout",
+  "label": "Merapikan Layout",
   "category": "Tutorials",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Cara Merapikan Layout",
+      "heading": "Merapikan Layout",
       "id": "tidy",
-      "intro": "Auto-arrange merapikan semua node secara otomatis menggunakan layout hierarki.",
+      "intro": "Saat flow mulai berantakan (node bertumpuk, garis korslet), gunakan fitur Auto-Arrange dan alat bantu lainnya untuk merapikan canvas.",
       "steps": [
         {
           "num": 1,
-          "title": "Aktifkan Auto-arrange",
-          "desc": "Di toolbar bawah canvas, klik ikon sitemap (Auto-arrange).\nSemua node di canvas akan otomatis dirapikan menggunakan layout hierarki dagre.\nProses ini membutuhkan waktu beberapa detik tergantung jumlah node.",
-          "color": "#14b8a6",
-          "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7v10l8 4V11L4 7zm16 0l-8 4v10l8-4V7zm0 0l-8-4-8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Auto-arrange</p><p class=\"text-xs text-teal-600\">Klik ikon sitemap di toolbar</p></div></div>"
+          "title": "Auto-Arrange",
+          "desc": "Fitur paling ampuh untuk merapikan layout: {previewHtml:1}\n\n1. Klik tombol **Auto-Arrange** di toolbar bawah\n2. Semua node akan tersusun ulang secara otomatis dari kiri ke kanan\n3. Start di kiri, kondisi di tengah, Alert di kanan\n\nYang dilakukan Auto-Arrange:\n• Menyusun posisi node secara hierarkis\n• Menghilangkan tumpukan node\n• Memberi jarak yang sama antar node\n• Mempertahankan koneksi yang sudah ada\n\nHasilnya: flow yang rapi dan mudah dibaca.",
+          "color": "#f59e0b",
+          "bg": "#fffbeb",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;text-align:center\"><span style=\"padding:4px 10px;border-radius:5px;background:#f59e0b;color:#fff;font-size:8px;font-weight:700\">✨ Auto-Arrange</span><div style=\"font-size:7px;color:#92400e;margin-top:4px\">Satu klik, layout langsung rapi!</div></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Bagaimana Layout Bekerja",
-          "desc": "Auto-arrange menggunakan algoritma dagre untuk mengatur posisi node:\n\u2022 Node level atas (Start, kondisi utama, placeholder) di-layout secara hierarki dari kiri ke kanan.\n\u2022 Group di-layout secara hierarki: node di dalam group diatur sebagai sub-graph.\n\u2022 Node tanpa koneksi di dalam group akan di-stack (ditumpuk) secara vertikal.\nEdge otomatis di-route ulang mengikuti posisi node yang baru.",
-          "color": "#8b5cf6",
-          "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Algoritma Dagre</p><p class=\"text-xs text-violet-600\">Layout hierarki otomatis</p></div></div>"
-        },
-        {
-          "num": 3,
-          "title": "Kapan Menggunakan Auto-arrange",
-          "desc": "\u2022 Setelah menambah banyak node baru yang posisinya belum rapi.\n\u2022 Setelah menghapus node, untuk merapikan kembali alur yang berubah.\n\u2022 Sebelum screenshot atau presentasi rule ke tim lain.\n\u2022 Saat alur terasa berantakan dan sulit dibaca.",
-          "color": "#f59e0b",
-          "bg": "#fffbeb",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4\"></path></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Kapan Digunakan</p><p class=\"text-xs text-amber-600\">Setelah tambah/hapus node</p></div></div>"
-        },
-        {
-          "num": 4,
-          "title": "Tips",
-          "desc": "\u2022 Auto-arrange tidak bisa di-undo per langkah \u2014 tetapi bisa di-undo secara keseluruhan dengan Ctrl+Z.\n\u2022 Jika hasil layout tidak sesuai, gunakan Ctrl+Z untuk mengembalikan ke posisi sebelumnya.\n\u2022 Atur posisi node secara manual setelah auto-arrange untuk penyesuaian fine-tuning.\n\u2022 Auto-arrange mempertahankan struktur hierarki group yang sudah dibuat.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Tips</p><p class=\"text-xs text-rose-600\">Undo dengan Ctrl+Z</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "title": "Alat Bantu Lainnya",
+          "desc": "Selain Auto-Arrange, ada alat bantu lain: {previewHtml:1}\n\n**Snap to Grid** — Saat diaktifkan, node akan \"menempel\" ke grid. Membantu menyusun node dengan presisi.\n\n**Connected Move** — Saat memindahkan node, node yang terhubung langsung ikut bergeser. Berguna untuk menggeser bagian flow tanpa merusak koneksi.\n\n**Zoom** — Gunakan scroll untuk zoom in/out. Zoom out untuk melihat keseluruhan flow, zoom in untuk kerja detail.\n\n**Pan** — Space + Drag untuk menggeser pandangan canvas.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;padding:8px 10px;display:flex;gap:4px;flex-wrap:wrap\"><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">🔲 Snap Grid</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">🔗 Connected Move</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">🔍 Zoom</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">✋ Pan (Space+Drag)</span></div>"
+          }
         }
       ]
     }

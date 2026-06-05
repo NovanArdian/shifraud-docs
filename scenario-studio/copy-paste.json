@@ -1,55 +1,32 @@
 {
-  "label": "Cara Copy & Paste",
+  "label": "Copy & Paste",
   "category": "Tutorials",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Cara Copy & Paste",
+      "heading": "Copy & Paste",
       "id": "copy-paste",
-      "intro": "Gunakan clipboard untuk menduplikasi node dan group dengan cepat.",
+      "intro": "Copy dan paste node atau grup di dalam canvas atau antar rule. Ini menghemat waktu saat membuat rule yang mirip.",
       "steps": [
         {
           "num": 1,
-          "title": "Copy Node atau Group",
-          "desc": "Pilih node atau group yang ingin di-copy.\nTekan Ctrl+C (atau Cmd+C di Mac) pada keyboard.\nNode/group beserta semua descendants (anak-anaknya) akan tersalin ke clipboard internal.\nTidak ada indikasi visual bahwa node sudah di-copy \u2014 lanjutkan ke langkah paste.",
+          "title": "Copy-Paste Node/Grup",
+          "desc": "Cara copy dan paste: {previewHtml:1}\n\n1. Pilih node atau group (klik)\n2. **Ctrl+C** (atau klik kanan → Copy)\n3. **Ctrl+V** (atau klik kanan → Paste)\n4. Node hasil paste akan muncul di dekat kursor mouse\n\n**Yang ikut tercopy:**\n✅ Semua konfigurasi node (field, operator, value)\n✅ Warna dan label node\n✅ Koneksi antar node (kalau copy beberapa node sekaligus)\n✅ Seluruh isi group (kalau copy group)\n\n**Tidak ikut:** Posisi node (ditempatkan ulang).",
           "color": "#3b82f6",
           "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Copy</p><p class=\"text-xs text-blue-600\">Tekan Ctrl+C / Cmd+C</p></div></div>"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;padding:8px 10px;text-align:center;display:flex;align-items:center;gap:8px;justify-content:center\"><kbd style=\"padding:4px 8px;border-radius:5px;font-size:8px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:700\">Ctrl+C</kbd><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><kbd style=\"padding:4px 8px;border-radius:5px;font-size:8px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:700\">Ctrl+V</kbd></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Cut Node atau Group",
-          "desc": "Pilih node atau group yang ingin dipotong (cut).\nTekan Ctrl+X (atau Cmd+X di Mac).\nNode/group akan tersalin ke clipboard DAN dihapus dari canvas.\nEdge yang terhubung akan otomatis di-route ulang untuk menjaga koneksi yang masih ada.",
+          "title": "Copy Antar Rule",
+          "desc": "Bisa copy node dari satu rule ke rule lain: {previewHtml:1}\n\n1. Buka Rule A, pilih node/group\n2. **Ctrl+C**\n3. Buka Rule B (bisa dari menu dropdown atau tab)\n4. **Ctrl+V** — node akan muncul di canvas Rule B\n\nIni berguna kalau:\n• Ada logika yang sama di beberapa rule (reusable logic)\n• Ingin menggabungkan dua flow\n• Ingin memindahkan konfigurasi yang kompleks\n\nSetelah paste, sesuaikan parameter jika diperlukan.",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Cut</p><p class=\"text-xs text-teal-600\">Tekan Ctrl+X / Cmd+X</p></div></div>"
-        },
-        {
-          "num": 3,
-          "title": "Paste ke Canvas",
-          "desc": "Setelah copy atau cut, tempelkan dengan Ctrl+V (atau Cmd+V di Mac).\nNode akan ditempel di canvas pada posisi yang sedikit di-offset dari posisi asli (agar tidak tumpang tindih).\nJika yang di-copy adalah group, seluruh isi group juga ikut di-paste.\nNode hasil paste akan terpilih secara otomatis sehingga bisa langsung dipindahkan.",
-          "color": "#8b5cf6",
-          "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Paste</p><p class=\"text-xs text-violet-600\">Tekan Ctrl+V / Cmd+V</p></div></div>"
-        },
-        {
-          "num": 4,
-          "title": "Paste ke Dalam Group",
-          "desc": "Untuk menempel node langsung ke dalam group:\nKlik kanan pada group target.\nPilih \"Paste\" dari context menu group.\nNode akan ditempel di dalam group tersebut, bukan di canvas utama.",
-          "color": "#f59e0b",
-          "bg": "#fffbeb",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M3 10v11m18-11v11\"></path></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Paste ke Group</p><p class=\"text-xs text-amber-600\">Klik kanan pada group target</p></div></div>"
-        },
-        {
-          "num": 5,
-          "title": "Tips",
-          "desc": "\u2022 Copy/Paste mempertahankan semua konfigurasi kondisi dan koneksi antar node.\n\u2022 Group yang di-copy akan mempertahankan warna, label, dan struktur internalnya.\n\u2022 Clipboard hanya menyimpan 1 item terakhir (copy/cut baru akan menimpa yang lama).\n\u2022 Jika paste tidak berhasil, pastikan Anda sudah melakukan copy terlebih dahulu.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Tips Copy Paste</p><p class=\"text-xs text-rose-600\">Konfigurasi dan koneksi tetap</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;display:flex;align-items:center;gap:6px;justify-content:center\"><span style=\"padding:3px 6px;border-radius:4px;background:#f0fdfa;border:1px solid #5eead4;font-size:7px;color:#0f172a\">Rule A</span><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:3px 6px;border-radius:4px;background:#f0fdfa;border:1px solid #5eead4;font-size:7px;color:#0f172a\">Rule B</span></div>"
+          }
         }
       ]
     }

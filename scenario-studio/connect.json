@@ -1,63 +1,32 @@
 {
-  "label": "Cara Menghubungkan Node",
+  "label": "Menghubungkan Node",
   "category": "Tutorials",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Cara Menghubungkan Node",
+      "heading": "Menghubungkan Node",
       "id": "connect",
-      "intro": "Pelajari cara menghubungkan node kondisi untuk membentuk alur deteksi yang logis.",
+      "intro": "Node-node di canvas harus dihubungkan agar membentuk alur deteksi yang utuh. Koneksi antar node menentukan urutan logika deteksi.",
       "steps": [
         {
           "num": 1,
-          "title": "Pahami Handle Node",
-          "desc": "Setiap node memiliki lingkaran kecil (handle) di sisi kiri (input) dan kanan (output).\n\u2022 Handle kiri (input): tempat menerima koneksi dari node sebelumnya.\n\u2022 Handle kanan (output): tempat mengirim koneksi ke node berikutnya.\nNode Start hanya memiliki handle output (kanan). Node placeholder hanya memiliki handle input (kiri).",
-          "color": "#6366f1",
-          "bg": "#eef2ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"/></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Pahami Handle</p><p class=\"text-xs text-indigo-600\">Input (kiri) dan Output (kanan)</p></div></div>"
+          "title": "Cara Membuat Koneksi",
+          "desc": "Hubungkan node dengan drag-and-drop: {previewHtml:1}\n\n1. Arahkan kursor ke **handle** (lingkaran kecil) di tepi kanan node sumber\n2. **Klik dan tahan** mouse\n3. **Seret** ke handle (lingkaran kecil) di tepi kiri node tujuan\n4. **Lepaskan** — koneksi akan terbentuk dengan garis panah\n\nWarna garis koneksi:\n• **Hijau** — Koneksi normal\n• **Merah** — Koneksi terputus atau error\n• **Biru** — Koneksi terpilih",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #99f6e4;padding:8px 10px;display:flex;align-items:center;gap:3px;justify-content:center\"><span style=\"padding:3px 6px;border-radius:4px;border:1.5px solid #22c55e;font-size:7px;font-weight:700;color:#16a34a\">▶ START</span><div style=\"width:20px;height:2px;background:#22c55e;position:relative\"><div style=\"position:absolute;right:-2px;top:-3px;width:0;height:0;border-left:5px solid #22c55e;border-top:4px solid transparent;border-bottom:4px solid transparent\"></div></div><span style=\"padding:3px 6px;border-radius:4px;border:1.5px solid #f59e0b;font-size:7px;font-weight:700;color:#f59e0b\">AMOUNT</span><div style=\"width:20px;height:2px;background:#22c55e;position:relative\"><div style=\"position:absolute;right:-2px;top:-3px;width:0;height:0;border-left:5px solid #22c55e;border-top:4px solid transparent;border-bottom:4px solid transparent\"></div></div><span style=\"padding:3px 6px;border-radius:4px;border:1.5px solid #ef4444;font-size:7px;font-weight:700;color:#dc2626\">🔔 ALERT</span></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Buat Koneksi Baru",
-          "desc": "Arahkan kursor ke handle kanan (output) node sumber.\nKlik dan tahan mouse, lalu drag (seret) garis ke handle kiri (input) node target.\nLepaskan mouse. Sebuah edge (garis penghubung) akan terbentuk antara kedua node.\nEdge akan menampilkan label \"AND\" atau \"OR\" yang bisa diklik untuk mengubah operator.",
-          "color": "#3b82f6",
-          "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 7v10c0 2 1 3 3 3h10c2 0 3-1 3-3V7c0-2-1-3-3-3H7C5 4 4 5 4 7z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 12h8\"/></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Buat Koneksi</p><p class=\"text-xs text-blue-600\">Drag dari output ke input node</p></div></div>"
-        },
-        {
-          "num": 3,
-          "title": "Atur Operator Logika",
-          "desc": "Klik pada label edge (AND/OR) di tengah garis penghubung.\nOperator akan toggle: AND \u2192 OR \u2192 AND \u2192 ...\n\u2022 AND: Semua kondisi harus terpenuhi (memperketat deteksi).\n\u2022 OR: Cukup satu kondisi yang terpenuhi (memperluas deteksi).\nPilih operator yang sesuai dengan logika deteksi yang ingin dibuat.",
-          "color": "#14b8a6",
-          "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\"/></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Atur Operator</p><p class=\"text-xs text-teal-600\">Toggle AND/OR pada edge</p></div></div>"
-        },
-        {
-          "num": 4,
-          "title": "Aturan Koneksi",
-          "desc": "\u2022 Setiap node hanya bisa memiliki maksimal 1 incoming edge (koneksi masuk).\n\u2022 Setiap node hanya bisa memiliki maksimal 1 outgoing edge (koneksi keluar).\n\u2022 Edge dari Start node ke kondisi pertama bersifat smoothstep (tanpa operator).\n\u2022 Edge ke node placeholder bersifat smoothstep (tanpa operator).\n\u2022 Edge antar node kondisi akan menampilkan operator AND/OR.",
-          "color": "#8b5cf6",
-          "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4\"/></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Aturan Koneksi</p><p class=\"text-xs text-violet-600\">Maksimal 1 incoming & outgoing</p></div></div>"
-        },
-        {
-          "num": 5,
-          "title": "Hapus Koneksi",
-          "desc": "Klik pada edge (garis) yang ingin dihapus. Edge akan terpilih (biasanya berubah warna atau menebal).\nTekan tombol Delete atau Backspace pada keyboard.\nAtau klik kanan pada edge dan pilih \"Delete\" dari context menu.\nEdge akan terhapus dan kedua node menjadi tidak terhubung.",
+          "title": "Mengelola Koneksi",
+          "desc": "Setelah koneksi terbentuk, Anda bisa: {previewHtml:1}\n\n**Hapus koneksi:**\n• Klik pada garis koneksi → garis akan terpilih (biru)\n• Tekan **Delete** atau **Backspace**\n\n**Lihat detail koneksi:**\n• Hover di atas garis → akan muncul tooltip informasi\n\n**Tips:**\n• Satu node bisa punya banyak koneksi keluar\n• Koneksi tidak bisa bercabang dari titik yang sama\n• Pastikan semua node terhubung ke ALERT — kalau ada yang tidak terhubung, rule tidak akan lengkap",
           "color": "#f59e0b",
           "bg": "#fffbeb",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18L18 6M6 6l12 12\"/></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Hapus Koneksi</p><p class=\"text-xs text-amber-600\">Pilih edge lalu tekan Delete</p></div></div>"
-        },
-        {
-          "num": 6,
-          "title": "Tips",
-          "desc": "\u2022 Untuk membuat alur bercabang, gunakan node LOGICAL sebagai container.\n\u2022 Node LOGICAL bisa menerima multiple input dan menghasilkan satu output.\n\u2022 Periksa alur dengan fitur Auto-arrange untuk memastikan semua edge terhubung dengan benar.\n\u2022 Gunakan Ctrl+Z jika salah menghubungkan node.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\"/></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Tips</p><p class=\"text-xs text-rose-600\">Gunakan LOGICAL untuk cabang</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#fef2f2;font-size:6px;color:#dc2626\">Klik + Delete = Hapus koneksi</span></div><div style=\"font-size:6px;color:#92400e\">Tips: Semua node harus terhubung ke ALERT</div></div>"
+          }
         }
       ]
     }

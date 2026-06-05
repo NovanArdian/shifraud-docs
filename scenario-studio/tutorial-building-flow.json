@@ -6,74 +6,37 @@
       "type": "tutorial",
       "heading": "Membangun Detection Flow",
       "id": "tutorial-building-flow",
-      "intro": "Perkiraan waktu: 15-20 menit.",
+      "intro": "Detection Flow adalah inti dari Scenario Studio. Di sini Anda merangkai node-node kondisi menjadi satu alur deteksi yang utuh. Flow yang baik menghasilkan deteksi yang akurat.",
       "steps": [
         {
           "num": 1,
-          "title": "Buat Rule Baru (Tipe CONDITION)",
-          "desc": "Buat rule baru dengan tipe \"CONDITION\". Beri nama: \"Tutorial - Detection Flow dengan Multiple Kondisi\". Isi parameter dasar seperti biasa di Step 1.",
-          "color": "#6366f1",
-          "bg": "#eef2ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"></path></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Buat Rule Baru</p><p class=\"text-xs text-indigo-600\">Tipe CONDITION</p></div></div>"
+          "title": "Memahami Node Canvas",
+          "desc": "Canvas adalah papan kerja utama Anda. Di sini node-node ditempatkan dan dihubungkan. {previewHtml:1}\n\n**Start Node** — Titik awal flow (berwarna hijau). Setiap flow punya satu Start.\n**Condition Node** — Node berisi kondisi/logika (CONSTANT, CONTAINS, REGEX, dll).\n**Logical Node** — AND/OR/NOT untuk menggabungkan kondisi.\n**Alert Node** — Titik akhir flow (berwarna merah). Menandakan rule menghasilkan alert.\n\nSemua node bisa dipindah, diedit, atau dihapus.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;overflow:hidden;padding:8px 10px;display:flex;gap:3px;align-items:center;justify-content:center\"><span style=\"padding:4px 8px;border-radius:4px;background:#f0fdf4;border:1px solid #86efac;font-size:7px;font-weight:700;color:#16a34a\">▶ START</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 8px;border-radius:4px;background:#fff7ed;border:1px solid #fed7aa;font-size:7px;font-weight:700;color:#f59e0b\">CONSTANT</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 8px;border-radius:4px;background:#f5f3ff;border:1px solid #ddd6fe;font-size:7px;font-weight:700;color:#7c3aed\">AND</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 8px;border-radius:4px;background:#fef2f2;border:1px solid #fecaca;font-size:7px;font-weight:700;color:#dc2626\">🔔 ALERT</span></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Tambah Kondisi LOGICAL",
-          "desc": "Di Step 2 (Build Flow), klik \"Add Condition\" dan pilih tipe \"LOGICAL\". Kondisi LOGICAL berfungsi sebagai container untuk menggabungkan kondisi lain dengan operator AND/OR. Simpan tanpa mengubah pengaturan default.",
-          "color": "#3b82f6",
-          "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">LOGICAL</p><p class=\"text-xs text-blue-600\">Container untuk multiple kondisi</p></div></div>"
+          "title": "Menambah & Menghubungkan Node",
+          "desc": "Cara menambah node ke canvas: {previewHtml:1}\n\n1. **Drag** dari sidebar kiri — seret jenis node ke canvas\n2. **Klik + Condition** di toolbar bawah\n3. **Klik kanan** di canvas → pilih jenis node\n4. **Double-click** di area kosong\n\nSetelah node ada, hubungkan:\n1. Arahkan kursor ke **handle** (titik kecil) di tepi kanan node\n2. **Klik-drag** ke handle node tujuan\n3. Lepaskan — koneksi terbentuk dengan garis panah\n\nKoneksi bisa dihapus dengan klik pada garis, lalu tekan Delete.",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #99f6e4;padding:8px 10px;display:flex;align-items:center;gap:6px;justify-content:center\"><span style=\"padding:4px 6px;border-radius:4px;background:#f0fdfa;border:1px solid #5eead4;font-size:7px;color:#0f172a\">📥 Drag dari sidebar</span><span style=\"font-size:7px;color:#94a3b8\">|</span><span style=\"padding:4px 6px;border-radius:4px;background:#f0fdfa;border:1px solid #5eead4;font-size:7px;color:#0f172a\">➕ + Condition</span><span style=\"font-size:7px;color:#94a3b8\">|</span><span style=\"padding:4px 6px;border-radius:4px;background:#f0fdfa;border:1px solid #5eead4;font-size:7px;color:#0f172a\">🖱️ Klik kanan</span></div>"
+          }
         },
         {
           "num": 3,
-          "title": "Tambah Kondisi CONSTANT",
-          "desc": "Tambah kondisi CONSTANT baru. Atur: atribut = \"amount\", operator = \">\", nilai = \"1000000\".\nHubungkan node CONSTANT ke node LOGICAL (drag dari kanan CONSTANT ke kiri LOGICAL).",
-          "color": "#14b8a6",
-          "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">CONSTANT</p><p class=\"text-xs text-teal-600\">amount > 1000000</p></div></div>"
-        },
-        {
-          "num": 4,
-          "title": "Tambah Kondisi CONTAINS",
-          "desc": "Tambah kondisi CONTAINS baru. Atur: atribut = \"merchant_category\", nilai = [\"ECOM\", \"DIGITAL\"].\nHubungkan node CONTAINS ke node LOGICAL juga.",
+          "title": "Tips Membangun Flow yang Baik",
+          "desc": "{previewHtml:1}\n\n✅ **Mulai dari kiri ke kanan** — Start di kiri, kondisi di tengah, Alert di kanan\n✅ **Pisahkan logika** — Satu node untuk satu kondisi spesifik\n✅ **Gunakan LOGICAL nodes** — AND/OR/NOT untuk menggabungkan beberapa kondisi\n✅ **Beri nama node yang jelas** — Biar mudah dibaca tim lain\n✅ **Auto-Arrange** — Klik tombol ini kalau node mulai berantakan\n✅ **Gunakan Connected Move** — Pindah node beserta koneksinya\n\nFlow yang rapi = mudah di-debug dan mudah diubah.",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7v10l8 4V11L4 7zm16 0l-8 4v10l8-4V7zm0 0l-8-4-8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">CONTAINS</p><p class=\"text-xs text-violet-600\">merchant_category \u2208 [ECOM, DIGITAL]</p></div></div>"
-        },
-        {
-          "num": 5,
-          "title": "Atur Operator LOGICAL",
-          "desc": "Klik edge dari CONSTANT ke LOGICAL. Ubah operator menjadi \"AND\".\nKlik edge dari CONTAINS ke LOGICAL. Ubah operator menjadi \"AND\" juga.\nSekarang rule akan mendeteksi: transaksi > 1 Juta AND kategori ECOM/DIGITAL.",
-          "color": "#f59e0b",
-          "bg": "#fffbeb",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\"></path></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Operator AND</p><p class=\"text-xs text-amber-600\">amount > 1J AND kategori ECOM/DIGITAL</p></div></div>"
-        },
-        {
-          "num": 6,
-          "title": "Hubungkan ke Flow Utama",
-          "desc": "Sekarang hubungkan:\n\u2022 Start node \u2192 node LOGICAL (source ke target)\n\u2022 node LOGICAL \u2192 placeholder \"?\"\nSekarang flow lengkap: Start \u2192 LOGICAL (AND) \u2192 End.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Flow Lengkap</p><p class=\"text-xs text-rose-600\">Start \u2192 LOGICAL (AND) \u2192 End</p></div></div>"
-        },
-        {
-          "num": 7,
-          "title": "Gunakan Auto-arrange",
-          "desc": "Klik ikon Auto-arrange (sitemap) di toolbar. Semua node akan dirapikan secara otomatis dengan layout hierarki. Perhatikan bagaimana node di dalam LOGICAL diatur sebagai sub-grup.",
-          "color": "#0ea5e9",
-          "bg": "#f0f9ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-sky-50 rounded-lg border border-sky-200\"><div class=\"w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-sky-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7v10l8 4V11L4 7zm16 0l-8 4v10l8-4V7zm0 0l-8-4-8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-sky-800\">Auto-arrange</p><p class=\"text-xs text-sky-600\">Layout hierarki otomatis</p></div></div>"
-        },
-        {
-          "num": 8,
-          "title": "Review Logika",
-          "desc": "Periksa alur deteksi:\n\u2022 Start \u2192 Apakah amount > 1 Juta? (AND)\n\u2022 Start \u2192 Apakah kategori termasuk ECOM/DIGITAL? (AND)\n\u2022 Jika keduanya TRUE \u2192 alert terpicu.\nIni adalah pola dasar detection flow. Anda bisa menambah lebih banyak kondisi dan membuat nested LOGICAL untuk logika yang lebih kompleks.",
-          "color": "#22c55e",
-          "bg": "#f0fdf4",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"w-10 h-10 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path><path d=\"M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z\"></path></svg></div><div><p class=\"text-sm font-semibold text-green-800\">Review Logika</p><p class=\"text-xs text-green-600\">amount > 1J AND kategori ECOM/DIGITAL</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f5f3ff,#fff);border:1px solid #ddd6fe;padding:8px 10px;display:flex;flex-wrap:wrap;gap:4px\"><span style=\"padding:3px 6px;border-radius:4px;background:#fff;border:1px solid #e2e8f0;font-size:6px;color:#475569\">✅ Kiri → Kanan</span><span style=\"padding:3px 6px;border-radius:4px;background:#fff;border:1px solid #e2e8f0;font-size:6px;color:#475569\">✅ Satu node satu kondisi</span><span style=\"padding:3px 6px;border-radius:4px;background:#fff;border:1px solid #e2e8f0;font-size:6px;color:#475569\">✅ Logical AND/OR</span></div>"
+          }
         }
       ]
     }

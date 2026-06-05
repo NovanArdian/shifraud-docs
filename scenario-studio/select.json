@@ -1,63 +1,32 @@
 {
-  "label": "Cara Memilih & Memindahkan",
+  "label": "Memilih & Memindahkan",
   "category": "Tutorials",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Cara Memilih & Memindahkan",
+      "heading": "Memilih & Memindahkan",
       "id": "select",
-      "intro": "Kuasai berbagai cara memilih dan memindahkan node di canvas untuk mengatur tata letak dengan efisien.",
+      "intro": "Pelajari cara memilih dan memindahkan node di canvas untuk mengatur layout flow deteksi Anda.",
       "steps": [
         {
           "num": 1,
-          "title": "Memilih Satu Node",
-          "desc": "Klik pada node yang ingin dipilih. Node akan terlihat terpilih (biasanya dengan border yang lebih tebal atau berbeda warna).\nUntuk membatalkan pilihan (deselect), klik di area kosong canvas.\nNode yang terpilih adalah node yang akan terkena aksi seperti delete, copy, atau edit.",
-          "color": "#0ea5e9",
-          "bg": "#f0f9ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-sky-50 rounded-lg border border-sky-200\"><div class=\"w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-sky-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z\"/></svg></div><div><p class=\"text-sm font-semibold text-sky-800\">Pilih Satu Node</p><p class=\"text-xs text-sky-600\">Klik node untuk memilih</p></div></div>"
+          "title": "Memilih Node",
+          "desc": "Beberapa cara memilih node: {previewHtml:1}\n\n**Klik satu node:**\n• Klik node → node terpilih (border biru)\n• Panel konfigurasi node akan terbuka di sebelah kanan\n\n**Multi-select:**\n• **Shift + Klik** pada beberapa node satu per satu\n• Atau **drag selection box** — klik di area kosong, seret, akan muncul kotak seleksi biru — node yang tersentuh akan terpilih\n\n**Select all:** Ctrl+A untuk memilih semua node",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;padding:8px 10px;display:flex;gap:4px\"><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">🖱️ Klik</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">⇧ Shift+Klik</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">📐 Drag box</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">⌨ Ctrl+A</span></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Memilih Banyak Node (Multi-select)",
-          "desc": "Tahan tombol Shift pada keyboard, lalu klik setiap node yang ingin dipilih secara bergantian.\nSetiap node yang diklik akan menambah ke seleksi. Panel \"X nodes selected\" akan muncul di bagian atas canvas.\nPanel ini menampilkan jumlah node yang dipilih dan petunjuk untuk klik kanan membuka context menu.",
-          "color": "#22c55e",
-          "bg": "#f0fdf4",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"w-10 h-10 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4\"/></svg></div><div><p class=\"text-sm font-semibold text-green-800\">Multi-select</p><p class=\"text-xs text-green-600\">Shift + Klik node bergantian</p></div></div>"
-        },
-        {
-          "num": 3,
-          "title": "Memilih Area (Rubber Band)",
-          "desc": "Klik dan drag mouse di area kosong canvas. Sebuah kotak seleksi (rubber band) akan muncul.\nSemua node yang berada di dalam kotak seleksi akan otomatis terpilih saat mouse dilepaskan.\nMetode ini berguna untuk memilih banyak node yang berdekatan secara cepat.",
-          "color": "#f97316",
-          "bg": "#fff7ed",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z\"/></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Rubber Band</p><p class=\"text-xs text-orange-600\">Drag area kosong untuk seleksi</p></div></div>"
-        },
-        {
-          "num": 4,
           "title": "Memindahkan Node",
-          "desc": "Klik dan tahan node yang ingin dipindahkan (atau group yang sudah terpilih).\nDrag node ke posisi yang diinginkan sambil menahan mouse.\nLepaskan mouse di posisi tujuan. Node akan berada di posisi baru.\nNode yang terhubung via edge juga akan ikut bergerak (connected move) untuk menjaga alur tetap rapi.",
-          "color": "#ec4899",
-          "bg": "#fdf2f8",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-pink-50 rounded-lg border border-pink-200\"><div class=\"w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-pink-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14 5l7 7m0 0l-7 7m7-7H3\"/></svg></div><div><p class=\"text-sm font-semibold text-pink-800\">Pindahkan Node</p><p class=\"text-xs text-pink-600\">Drag node ke posisi baru</p></div></div>"
-        },
-        {
-          "num": 5,
-          "title": "Memindahkan dengan Presisi",
-          "desc": "Untuk memindahkan node secara horizontal atau vertikal saja, tahan Shift saat drag.\nIni akan mengunci pergerakan pada sumbu horizontal atau vertikal (tergantung arah drag pertama).\nUntuk memindahkan node tanpa mempengaruhi node yang terhubung, tahan Alt saat drag.",
-          "color": "#6366f1",
-          "bg": "#eef2ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 4v16m8-8H4\"/></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Presisi</p><p class=\"text-xs text-indigo-600\">Shift untuk kunci sumbu</p></div></div>"
-        },
-        {
-          "num": 6,
-          "title": "Tips",
-          "desc": "\u2022 Gunakan multi-select + \"Group\" untuk mengorganisir node yang saling terkait.\n\u2022 Panel \"X nodes selected\" akan hilang jika node berasal dari hierarki berbeda (mixed parent group).\n\u2022 Setelah memindahkan node, gunakan Auto-arrange jika posisi terasa berantakan.\n\u2022 Pergerakan node bisa di-undo dengan Ctrl+Z.",
-          "color": "#3b82f6",
-          "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\"/></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Tips</p><p class=\"text-xs text-blue-600\">Group untuk organisasi lebih rapi</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "desc": "Cara memindahkan node: {previewHtml:1}\n\n**Satu node:**\n• Klik dan seret node ke posisi baru\n• Koneksi akan mengikuti secara otomatis (flexible)\n\n**Banyak node:**\n• Pilih beberapa node (Shift+Klik)\n• Seret salah satu node → semua node terpilih ikut bergerak\n\n**Connected Move:**\n• Aktifkan **Connected Move** di toolbar\n• Saat Anda memindahkan node, semua node yang terhubung langsung juga ikut bergeser\n\nGunakan Auto-Arrange untuk merapikan otomatis.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;flex-direction:column;gap:4px\"><div style=\"display:flex;align-items:center;gap:6px\"><span style=\"padding:3px 6px;border-radius:4px;border:1px solid #a78bfa;font-size:7px;font-weight:700;color:#7c3aed\">▶ START</span><span style=\"font-size:7px;color:#94a3b8\">→</span><span style=\"padding:3px 6px;border-radius:4px;border:1px solid #a78bfa;font-size:7px;font-weight:700;color:#7c3aed\">AMOUNT</span><span style=\"font-size:7px;color:#94a3b8\">→</span><span style=\"padding:3px 6px;border-radius:4px;border:1px solid #a78bfa;font-size:7px;font-weight:700;color:#7c3aed\">ALERT</span></div><div style=\"font-size:6px;color:#6d28d9\">Connected Move: pindah AMOUNT → ALERT ikut bergeser</div></div>"
+          }
         }
       ]
     }

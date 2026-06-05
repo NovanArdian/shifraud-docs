@@ -6,42 +6,47 @@
       "type": "tutorial",
       "heading": "Deployment",
       "id": "deployment",
-      "intro": "Panduan untuk mendeploy rule yang sudah dibuat di Scenario Studio ke environment production. Perkiraan waktu: 5-7 menit.",
+      "intro": "Setelah rule selesai dibuat, langkah selanjutnya adalah mendeploy ke environment production. Panduan ini menjelaskan proses dari submit hingga aktivasi.",
       "steps": [
         {
           "num": 1,
-          "title": "Review Rule Sebelum Deploy",
-          "desc": "Sebelum mendeploy, pastikan rule sudah melalui proses review yang memadai. Di Step 4 (Review) canvas, periksa ringkasan konfigurasi: parameter rule, jumlah kondisi, dan alur deteksi. Pastikan tidak ada node yang terputus atau konfigurasi yang tidak valid.",
+          "title": "Review Sebelum Submit",
+          "desc": "Sebelum submit, pastikan rule sudah benar: {previewHtml:1}\n\n✅ Rule name dan description sudah diisi\n✅ Risk score dan priority sudah sesuai\n✅ Semua node kondisi terhubung dengan benar\n✅ Tidak ada node yang terputus (unconnected)\n✅ Active period sudah diatur\n\nGunakan Step 4 (Review & Submit) untuk melihat ringkasan lengkap.",
           "color": "#3b82f6",
           "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex items-start gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Review Checklist</p><ul class=\"text-xs text-blue-600 mt-1 list-disc list-inside\"><li>Rule name & description</li><li>Risk score & priority</li><li>Kondisi terhubung semua</li><li>Active period sesuai</li></ul></div></div>"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:8px 12px;background:linear-gradient(90deg,#eff6ff,#fff);border-bottom:1px solid #bfdbfe;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Review Checklist</span></div><div style=\"padding:8px 10px;display:flex;flex-direction:column;gap:3px;\"><div style=\"display:flex;align-items:center;gap:4px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"><path d=\"M6 12l4 4 8-8\"/></svg><span style=\"font-size:7px;color:#475569;\">Rule name &amp; description</span></div><div style=\"display:flex;align-items:center;gap:4px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"><path d=\"M6 12l4 4 8-8\"/></svg><span style=\"font-size:7px;color:#475569;\">Risk score &amp; priority</span></div><div style=\"display:flex;align-items:center;gap:4px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"><path d=\"M6 12l4 4 8-8\"/></svg><span style=\"font-size:7px;color:#475569;\">Semua node terhubung</span></div></div></div>"
+          }
         },
         {
           "num": 2,
           "title": "Submit Scenario",
-          "desc": "Setelah review selesai, klik tombol \"Submit Scenario\" di toolbar. Akan muncul dialog konfirmasi. Isi komentar (contoh: \"Deploy ke production - v1.0\") dan klik Submit. Rule akan tersimpan dengan status default sesuai konfigurasi sistem (biasanya Draft atau Inactive).",
+          "desc": "Klik **Submit Scenario** di toolbar. Akan muncul dialog konfirmasi: {previewHtml:1}\n\n1. Isi **komentar submit** — contoh: \"Deploy v1.0 ke production\"\n2. Komentar ini akan tersimpan di audit trail\n3. Klik **Submit** untuk mengonfirmasi\n\nRule akan tersimpan dengan status **Draft**. Selanjutnya perlu diaktivasi.",
           "color": "#f97316",
           "bg": "#fff7ed",
-          "previewHtml": "<div class=\"p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"flex items-center gap-2 mb-3\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg><span class=\"text-sm font-semibold text-orange-800\">Submit Dialog</span></div><div class=\"flex gap-2\"><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-700\">Komentar</span><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-700\">Submit</span><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-orange-100 text-orange-700\">Batal</span></div></div>"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fed7aa;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:6px;\"><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Submit Dialog</span></div><div style=\"padding:6px 10px 8px;display:flex;gap:4px;\"><span style=\"padding:3px 6px;border-radius:4px;background:#fff7ed;font-size:7px;color:#c2410c;border:1px solid #fed7aa;\">✏️ Komentar: Deploy v1.0</span><span style=\"padding:3px 8px;border-radius:4px;background:#f97316;font-size:7px;color:#fff;font-weight:600;\">Submit</span></div></div>"
+          }
         },
         {
           "num": 3,
           "title": "Aktivasi Rule",
-          "desc": "Rule yang sudah disubmit perlu diaktivasi agar mulai berjalan. Buka halaman Scenario Group, cari rule yang sudah dibuat. Klik tombol \"Activate\" atau gunakan aksi batch untuk mengaktivasi multiple rule sekaligus. Pastikan rule sudah di-test sebelum diaktivasi di production.",
+          "desc": "Rule perlu diaktivasi agar mulai berjalan: {previewHtml:1}\n\n1. Buka halaman **Scenario Management**\n2. Cari rule yang sudah di-submit\n3. Klik tombol **Activate**\n4. Rule sekarang aktif dan siap mendeteksi fraud!\n\nAtau gunakan **Batch Activation** — pilih beberapa rule sekaligus, lalu klik Activate untuk mengaktifkan semuanya.",
           "color": "#22c55e",
           "bg": "#f0fdf4",
-          "previewHtml": "<div class=\"text-center p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"inline-flex items-center justify-center w-10 h-10 rounded-full bg-green-100 mb-2\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\"></path></svg></div><p class=\"text-sm font-semibold text-green-800\">Rule Active</p><p class=\"text-xs text-green-600 mt-1\">Rule sekarang aktif dan siap mendeteksi fraud</p></div>"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bbf7d0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Activation</span></div><div style=\"padding:8px 10px;font-size:7px;color:#475569;\"><div><span style=\"font-weight:600;color:#16a34a;\">High Value Transfer</span> — <span style=\"padding:1px 5px;border-radius:3px;background:#dcfce7;color:#16a34a;\">Active ✓</span></div></div></div>"
+          }
         },
         {
           "num": 4,
-          "title": "Monitoring & Deactivation",
-          "desc": "Setelah rule aktif, pantau efektivitasnya melalui metrik yang tersedia. Jika rule menghasilkan terlalu banyak false positive atau perlu penyesuaian, Anda bisa menonaktifkan sementara (Deactivate) tanpa menghapus rule. Gunakan fitur Approval Workflow jika tersedia untuk proses deploy yang terstruktur.",
+          "title": "Monitoring & Nonaktifkan",
+          "desc": "Setelah aktif, pantau rule Anda: {previewHtml:1}\n\n• **False positive terlalu tinggi?** — Nonaktifkan sementara dengan **Deactivate**\n• **Perlu penyesuaian?** — Edit rule yang sudah ada, lalu submit ulang\n• **Rule tidak dipakai lagi?** — Hapus permanen dari Scenario Management\n\nDeactivate tidak menghapus rule. Rule bisa diaktifkan kembali kapan saja.",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"flex items-center gap-2 mb-3\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z\"></path></svg><span class=\"text-sm font-semibold text-violet-800\">Monitoring</span></div><div class=\"flex gap-2\"><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-violet-100 text-violet-700\">Deactivate</span><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-violet-100 text-violet-700\">Metrics</span><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-violet-100 text-violet-700\">Approve</span></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;gap:6px;flex-wrap:wrap;\"><span style=\"padding:3px 8px;border-radius:4px;background:#fef2f2;font-size:7px;color:#dc2626;font-weight:600;\">Deactivate</span><span style=\"padding:3px 8px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;\">Edit Rule</span><span style=\"padding:3px 8px;border-radius:4px;background:#fef2f2;font-size:7px;color:#dc2626;\">Delete</span></div><div style=\"padding:4px 10px 8px;font-size:7px;color:#6b7280;\">Deactivate ≠ Delete. Rule bisa diaktifkan lagi kapan saja.</div></div>"
+          }
         }
       ]
     }

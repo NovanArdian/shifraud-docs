@@ -1,63 +1,62 @@
 {
-  "label": "Best Practices",
+  "label": "Tips & Tricks",
   "category": "Scenario Studio",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Best Practices",
+      "heading": "Tips & Tricks",
       "id": "best-practices",
-      "intro": "Panduan untuk membuat scenario yang efektif, mudah di-maintain, dan menghasilkan deteksi fraud yang akurat dengan false positive minimal.",
+      "intro": "Kumpulan tips dan trik untuk menggunakan Scenario Studio secara efektif. Dengan praktik terbaik ini, Anda bisa membuat rule deteksi yang lebih baik dan lebih cepat.",
       "steps": [
         {
           "num": 1,
-          "title": "Use Clear Naming Conventions",
-          "desc": "Gunakan nama rule yang spesifik dan deskriptif seperti \"Transaksi > 10 Juta di Luar Jam Kerja\" atau \"Login Gagal Beruntun > 5 Kali\". Hindari nama generik. Nama yang jelas memudahkan audit, debugging, dan kolaborasi tim ketika harus mereview ribuan rule.",
+          "title": "Gunakan Nama Rule yang Deskriptif",
+          "desc": "Beri nama rule yang jelas dan mudah dipahami oleh orang lain. {previewHtml:1}\n\n✅ **Baik:** \"Deteksi Transfer Besar Ke Luar Negeri\"\n❌ **Kurang:** \"Rule Baru 1\"\n\nNama yang baik membantu tim memahami tujuan rule tanpa perlu membuka konfigurasinya. Sertakan informasi seperti: jenis fraud, threshold, atau wilayah.",
           "color": "#3b82f6",
           "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex flex-col gap-2 p-4\"><div class=\"flex items-center gap-2 px-3 py-2 bg-white rounded-lg border border-blue-200\"><svg class=\"w-4 h-4 text-green-500 flex-shrink-0\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"/></svg><span class=\"text-sm text-blue-900\">Transaksi > 10 Juta di Luar Jam Kerja</span></div><div class=\"flex items-center gap-2 px-3 py-2 bg-white rounded-lg border border-blue-200\"><svg class=\"w-4 h-4 text-green-500 flex-shrink-0\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"/></svg><span class=\"text-sm text-blue-900\">Login Gagal Beruntun > 5 Kali</span></div><div class=\"flex items-center gap-2 px-3 py-2 bg-red-50 rounded-lg border border-red-200\"><svg class=\"w-4 h-4 text-red-500 flex-shrink-0\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 18L18 6M6 6l12 12\"/></svg><span class=\"text-sm text-red-700 line-through\">Rule Baru</span></div></div>"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:8px 10px;\"><div style=\"padding:4px 6px;border-radius:4px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;color:#16a34a;margin-bottom:3px;\">✅ Deteksi Transfer Besar Ke Luar Negeri</div><div style=\"padding:4px 6px;border-radius:4px;background:#fef2f2;border:1px solid #fecaca;font-size:7px;color:#dc2626;\">❌ Rule Baru 1</div></div></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Leverage Cycle Indicators",
-          "desc": "Manfaatkan Cycle Indicator untuk membatasi rule hanya aktif pada jam/hari tertentu. Misalnya, rule untuk mendeteksi transaksi malam hari cukup diaktifkan pukul 22:00\u201306:00. Ini mengurangi false positive secara signifikan karena rule tidak berjalan di luar konteks temporal yang relevan.",
+          "title": "Gunakan Multi-node untuk Logika Kompleks",
+          "desc": "Jangan menjejalkan semua logika dalam satu node. {previewHtml:1}\n\n**Pisahkan jadi beberapa node** yang lebih kecil dan spesifik:\n• 1 node CONSTANT untuk cek amount\n• 1 node CONTAINS untuk cek pola transaksi\n• 1 node LOGICAL AND untuk menggabungkan keduanya\n\nIni membuat flow lebih mudah dibaca, di-debug, dan diubah di kemudian hari.",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"p-4\"><div class=\"flex items-center gap-3 p-3 bg-white rounded-lg border border-violet-200\"><svg class=\"w-8 h-8 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><div><p class=\"font-medium text-violet-900\">Aktif: 22:00 \u2013 06:00</p><p class=\"text-xs text-violet-600\">Hanya mendeteksi transaksi malam hari</p></div></div></div>"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f8fafc,#f1f5f9);border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:3px;align-items:center;\"><div style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #f59e0b;font-size:6px;font-weight:700;color:#f59e0b;\">AMOUNT</div><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><div style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #10b981;font-size:6px;font-weight:700;color:#10b981;\">COUNTRY</div><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><div style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #6366f1;font-size:6px;font-weight:700;color:#6366f1;\">AND</div><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><div style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #ef4444;font-size:6px;font-weight:700;color:#ef4444;\">ALERT</div></div>"
+          }
         },
         {
           "num": 3,
-          "title": "Write Detailed Descriptions",
-          "desc": "Selalu isi field Description dengan penjelasan logika deteksi, tujuan rule, dan ekspektasi outcome. Contoh: \"Mendeteksi transaksi dengan nominal > 10jt yang terjadi di luar jam operasional (22:00-06:00) untuk akun yang tidak memiliki riwayat transaksi malam sebelumnya.\" Ini membantu tim lain memahami konteks dan tujuan rule.",
+          "title": "Manfaatkan Auto-Arrange Secara Rutin",
+          "desc": "Klik **Auto-Arrange** setiap kali flow mulai berantakan. {previewHtml:1}\n\nFitur ini akan:\n• Menyusun ulang posisi node dari kiri ke kanan\n• Membuat hierarki yang rapi\n• Menghindari node yang saling tumpuk\n\nGunakan juga **Connected Move** agar node yang terhubung ikut bergerak saat Anda memindahkan node utama.",
           "color": "#f59e0b",
           "bg": "#fffbeb",
-          "previewHtml": "<div class=\"p-4\"><div class=\"p-3 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"flex items-center gap-2 mb-1\"><svg class=\"w-4 h-4 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h16M4 18h7\"/></svg><span class=\"text-sm font-medium text-amber-900\">Description</span></div><p class=\"text-xs text-amber-700 leading-relaxed\">Mendeteksi transaksi > 10jt di luar jam operasional (22:00\u201306:00) untuk akun tanpa riwayat transaksi malam.</p></div></div>"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;display:flex;align-items:center;gap:6px;\"><span style=\"padding:4px 8px;border-radius:5px;background:#f59e0b;color:#fff;font-size:8px;font-weight:700;\">✨ Auto-Arrange</span><span style=\"font-size:7px;color:#92400e;\">Satu klik, layout rapi!</span></div>"
+          }
         },
         {
           "num": 4,
-          "title": "Validate Before Submitting",
-          "desc": "Pastikan semua node kondisi sudah terkonfigurasi dengan benar dan terhubung di canvas sebelum submit ke production. Periksa: tidak ada node yang terisolasi (unconnected), semua parameter kondisi sudah diisi, dan alur logika sesuai dengan yang diharapkan. Manfaatkan fitur preview untuk menguji rule dengan data sample.",
-          "color": "#22c55e",
-          "bg": "#f0fdf4",
-          "previewHtml": "<div class=\"flex flex-col gap-2 p-4\"><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span class=\"text-sm text-green-900\">Semua node terhubung</span></div><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span class=\"text-sm text-green-900\">Parameter kondisi terisi</span></div><div class=\"flex items-center gap-2\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span class=\"text-sm text-green-900\">Alur logika sudah sesuai</span></div></div>"
+          "title": "Gunakan Groups untuk Organisasi",
+          "desc": "Kalau rule Anda punya banyak node, kelompokkan dengan **Groups**: {previewHtml:1}\n\n• Pilih beberapa node → Klik kanan → **Group**\n• Beri nama grup yang mewakili fungsinya (contoh: \"Cek Amount\", \"Cek Velocity\")\n• Grup bisa di-**collapse** untuk menghemat ruang\n• **Ungroup** kapan saja tanpa kehilangan konfigurasi node\n\nGroups juga bisa di-copy dan di-paste antar rule!",
+          "color": "#ec4899",
+          "bg": "#fdf2f8",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fbcfe8;overflow:hidden;\"><div style=\"padding:7px 10px;border:1.5px dashed #ec4899;border-radius:6px;margin:6px;\"><div style=\"font-size:7px;font-weight:700;color:#db2777;margin-bottom:3px;\">📁 Cek Amount</div><div style=\"display:flex;gap:3px;\"><span style=\"padding:3px 5px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#f59e0b;\">CONSTANT</span><span style=\"padding:3px 5px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#10b981;\">CONTAINS</span></div></div></div>"
+          }
         },
         {
           "num": 5,
-          "title": "Monitor Effectiveness Metrics",
-          "desc": "Pantau metrik efektivitas scenario secara berkala \u2014 jumlah alert yang dihasilkan, false positive rate, true positive rate, dan average risk score. Sesuaikan threshold berdasarkan data nyata. Rule dengan false positive rate > 20% perlu dievaluasi ulang parameter atau cycle indicator-nya.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2",
-          "previewHtml": "<div class=\"grid grid-cols-2 gap-2 p-4\"><div class=\"p-3 bg-white rounded-lg border border-rose-200 text-center\"><p class=\"text-xs text-rose-600\">Alert</p><p class=\"text-lg font-bold text-rose-900\">1,247</p></div><div class=\"p-3 bg-white rounded-lg border border-rose-200 text-center\"><p class=\"text-xs text-rose-600\">FP Rate</p><p class=\"text-lg font-bold text-green-600\">8.3%</p></div><div class=\"p-3 bg-white rounded-lg border border-rose-200 text-center\"><p class=\"text-xs text-rose-600\">TP Rate</p><p class=\"text-lg font-bold text-rose-900\">91.7%</p></div><div class=\"p-3 bg-white rounded-lg border border-rose-200 text-center\"><p class=\"text-xs text-rose-600\">Avg Score</p><p class=\"text-lg font-bold text-amber-600\">76</p></div></div>"
-        },
-        {
-          "num": 6,
-          "title": "Use Groups for Organization",
-          "desc": "Group node kondisi yang saling terkait secara logis untuk memudahkan pembacaan alur. Misalnya, kumpulkan semua node validasi pengguna dalam satu group, node validasi transaksi di group lain. Group bisa di-rename, di-warnai, di-move bersama, dan di-copy/paste sebagai satu kesatuan.",
+          "title": "Test Sebelum Aktivasi",
+          "desc": "Sebelum mengaktifkan rule di production, lakukan verifikasi: {previewHtml:1}\n\n• Gunakan fitur **Run Verification** untuk mensimulasikan rule\n• Periksa apakah rule menghasilkan ALERT yang sesuai\n• Cek **false positive** — apakah rule terlalu sensitif?\n• Minta **review** dari anggota tim sebelum aktivasi\n\nRule yang baik adalah rule yang tepat sasaran — tidak terlalu sensitif (banyak false positive) dan tidak terlalu longgar (banyak false negative).",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex flex-col gap-2 p-4\"><div class=\"p-2 rounded-lg border-2 border-teal-300 bg-teal-50\"><div class=\"flex items-center gap-2 mb-1\"><svg class=\"w-4 h-4 text-teal-700\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6z\"/></svg><span class=\"text-xs font-semibold text-teal-800\">Validasi Pengguna</span></div><p class=\"text-xs text-teal-600 pl-6\">LOGICAL: AND \u2014 CONTAINS: email \u2014 GEO: Jakarta</p></div><div class=\"p-2 rounded-lg border-2 border-teal-300 bg-teal-50\"><div class=\"flex items-center gap-2 mb-1\"><svg class=\"w-4 h-4 text-teal-700\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6z\"/></svg><span class=\"text-xs font-semibold text-teal-800\">Validasi Transaksi</span></div><p class=\"text-xs text-teal-600 pl-6\">CONSTANT: nominal \u2014 DEVIATION: 20% \u2014 AGGREGATE: count</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;\"><div style=\"display:flex;gap:4px;flex-wrap:wrap;\"><span style=\"padding:3px 6px;border-radius:4px;background:#14b8a6;font-size:7px;color:#fff;font-weight:600;\">▶️ Run Verification</span><span style=\"padding:3px 6px;border-radius:4px;background:#f1f5f9;font-size:7px;color:#475569;\">Cek false positive</span><span style=\"padding:3px 6px;border-radius:4px;background:#f1f5f9;font-size:7px;color:#475569;\">Review tim</span></div></div>"
+          }
         }
       ]
     }

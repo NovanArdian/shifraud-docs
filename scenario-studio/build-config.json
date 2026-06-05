@@ -1,63 +1,42 @@
 {
-  "label": "Cara Konfigurasi Build",
+  "label": "Konfigurasi Build",
   "category": "Tutorials",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Cara Konfigurasi Build",
+      "heading": "Konfigurasi Build",
       "id": "build-config",
-      "intro": "Build Flow adalah inti dari Scenario Studio \u2014 tempat Anda merancang logika deteksi menggunakan canvas visual.",
+      "intro": "Konfigurasi Build memungkinkan Anda mengatur parameter build rule — mapping data, environment variables, dan dependency rule.",
       "steps": [
         {
           "num": 1,
-          "title": "Masuk ke Step Build Flow",
-          "desc": "Setelah mengisi parameter dasar di Step 1, klik \"Next: Build Flow\" untuk masuk ke canvas.\nCanvas Build Flow adalah area utama untuk merancang logika deteksi fraud.\nDi sini Anda akan menyusun node kondisi dan menghubungkannya dengan edge.",
-          "color": "#3b82f6",
-          "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 10V3L4 14h7v7l9-11h-7z\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Build Flow</p><p class=\"text-xs text-blue-600\">Canvas utama merancang logika</p></div></div>"
+          "title": "Apa Itu Build Config?",
+          "desc": "Build Config adalah pengaturan yang menentukan bagaimana rule dijalankan di sistem. {previewHtml:1}\n\n• **Data Mapping** — Petakan field data transaksi ke variabel yang digunakan di node\n• **Environment** — Pilih environment (Development / Staging / Production)\n• **Rule Dependencies** — Tentukan rule lain yang harus dijalankan sebelum rule ini\n• **Timeout** — Atur batas waktu eksekusi rule (default: 30 detik)\n• **Error Handling** — Atur perilaku saat terjadi error (skip rule / hentikan proses)",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #c7d2fe;overflow:hidden\"><div style=\"padding:7px 10px;display:grid;grid-template-columns:1fr 1fr;gap:3px\"><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">🗺️ Data Mapping</span><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">🌐 Environment</span><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">🔗 Rule Dependencies</span><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">⏱️ Timeout</span></div></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Susun Node Kondisi",
-          "desc": "Gunakan sidebar kiri untuk menambah node kondisi. Setiap node mewakili satu kondisi yang harus diperiksa.\nTentukan alur deteksi:\n\u2022 Mulai dari node Start (wajib ada).\n\u2022 Tambahkan node kondisi yang diperlukan (CONSTANT, CONTAINS, DEVIATION, dll).\n\u2022 Akhiri dengan node placeholder (?).",
-          "color": "#14b8a6",
-          "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm0 8a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zm12 0a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Susun Node</p><p class=\"text-xs text-teal-600\">Start \u2192 kondisi \u2192 placeholder</p></div></div>"
+          "title": "Cara Konfigurasi",
+          "desc": "Mengatur Build Config: {previewHtml:1}\n\n1. Saat mengedit rule, cari tab atau bagian **Build Configuration**\n2. Atur **Data Mapping** — biasanya otomatis, tapi bisa disesuaikan\n3. Pilih **Environment** — Development untuk testing, Production untuk live\n4. Atur **Dependencies** — tambahkan rule ID yang harus jalan duluan\n5. Atur **Timeout** — default 30 detik, naikkan kalau rule kompleks\n6. Pilih **Error Handling** — Stop on Error (berhenti) atau Skip on Error (lanjut)\n\nKlik **Save** untuk menyimpan konfigurasi.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;align-items:center;gap:4px;justify-content:center\"><span style=\"padding:3px 6px;border-radius:4px;background:#ede9fe;font-size:7px;color:#7c3aed\">🖥️ Development</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:3px 6px;border-radius:4px;background:#ede9fe;font-size:7px;color:#7c3aed\">🚀 Production</span></div>"
+          }
         },
         {
           "num": 3,
-          "title": "Hubungkan dengan Edge",
-          "desc": "Hubungkan node secara berurutan dari Start \u2192 kondisi 1 \u2192 kondisi 2 \u2192 ... \u2192 placeholder.\nSetiap edge antar kondisi memiliki operator AND/OR yang bisa di-toggle dengan mengklik labelnya.\n\u2022 AND: semua kondisi harus terpenuhi (logika ketat).\n\u2022 OR: cukup satu kondisi yang terpenuhi (logika longgar).",
-          "color": "#8b5cf6",
-          "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Hubungkan Edge</p><p class=\"text-xs text-violet-600\">AND/OR toggle</p></div></div>"
-        },
-        {
-          "num": 4,
-          "title": "Gunakan Group untuk Organisasi",
-          "desc": "Jika alur deteksi mulai kompleks (banyak node), gunakan Group untuk mengelompokkan node yang saling terkait.\nGroup memudahkan pembacaan alur dan memungkinkan operasi batch seperti move, copy, dan tidy layout.\nNode LOGICAL juga bisa digunakan sebagai container untuk menggabungkan beberapa kondisi.",
+          "title": "Tips Build Config",
+          "desc": "{previewHtml:1}\n\n• **Test di Development dulu** — Jangan langsung deploy ke Production tanpa testing\n• **Gunakan Dependencies** — Kalau ada rule yang bergantung pada hasil rule lain, atur dependencies\n• **Sesuaikan Timeout** — Rule dengan banyak node mungkin perlu timeout lebih lama\n• **Error Handling bijak** — Pilih Stop on Error untuk rule kritis, Skip on Error untuk rule yang tidak kritis\n• **Data Mapping** — Pastikan field data di node sesuai dengan nama field di data sumber",
           "color": "#f59e0b",
           "bg": "#fffbeb",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10\"></path></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Group</p><p class=\"text-xs text-amber-600\">Organisasi node kompleks</p></div></div>"
-        },
-        {
-          "num": 5,
-          "title": "Validasi Alur",
-          "desc": "Sebelum lanjut ke step berikutnya, pastikan:\n\u2022 Semua node terhubung dengan benar (tidak ada node yang terisolasi).\n\u2022 Operator logika sudah sesuai dengan logika deteksi yang diinginkan.\n\u2022 Tidak ada node yang masih dalam status draft (belum dikonfigurasi).\nGunakan Auto-arrange untuk memeriksa alur secara visual.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Validasi</p><p class=\"text-xs text-rose-600\">Cek koneksi dan operator</p></div></div>"
-        },
-        {
-          "num": 6,
-          "title": "Lanjut ke Step 3 atau 4",
-          "desc": "Jika rule bertipe GENERAL, klik \"Continue\" untuk langsung ke Step 4 (Review).\nJika rule bertipe CONDITION, klik \"Continue\" untuk ke Step 3 (Use Condition) terlebih dahulu.\nSetelah semua step selesai, lakukan Review dan Submit di Step terakhir.",
-          "color": "#0ea5e9",
-          "bg": "#f0f9ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-sky-50 rounded-lg border border-sky-200\"><div class=\"w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-sky-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 7l5 5m0 0l-5 5m5-5H6\"></path></svg></div><div><p class=\"text-sm font-semibold text-sky-800\">Lanjutkan</p><p class=\"text-xs text-sky-600\">General \u2192 Review, Condition \u2192 Step 3</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f0fdf4;font-size:6px;color:#16a34a\">🧪 Test Dev dulu</span><span style=\"padding:2px 5px;border-radius:3px;background:#eff6ff;font-size:6px;color:#2563eb\">🔗 Atur Dependencies</span></div><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#fff7ed;font-size:6px;color:#d97706\">⏱️ Sesuaikan Timeout</span><span style=\"padding:2px 5px;border-radius:3px;background:#fef2f2;font-size:6px;color:#dc2626\">🛑 Stop/Skip on Error</span></div></div>"
+          }
         }
       ]
     }

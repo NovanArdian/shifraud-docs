@@ -1,55 +1,32 @@
 {
-  "label": "Cara Mengedit Group",
+  "label": "Mengedit Group",
   "category": "Tutorials",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Cara Mengedit Group",
+      "heading": "Mengedit Group",
       "id": "edit-group",
-      "intro": "Perkiraan waktu: 2-3 menit.",
+      "intro": "Setelah group dibuat, Anda bisa mengedit berbagai aspeknya — dari nama, warna, ukuran, hingga isi node di dalamnya.",
       "steps": [
         {
           "num": 1,
-          "title": "Cari Group yang Akan Diedit",
-          "desc": "Di halaman Scenario Group, gunakan kolom pencarian atau scroll daftar untuk menemukan grup yang ingin diubah.",
-          "color": "#f97316",
-          "bg": "#fff7ed",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Cari Group</p><p class=\"text-xs text-orange-600\">Gunakan kolom pencarian</p></div></div>"
+          "title": "Edit Nama & Warna Group",
+          "desc": "Cara mengedit group: {previewHtml:1}\n\n**Edit nama:**\n• Klik dua kali pada judul group (di header group)\n• Ketik nama baru\n• Tekan Enter untuk menyimpan\n\n**Edit warna:**\n• Klik kanan group → **Change Color**\n• Pilih warna dari palet yang tersedia\n• Group akan berubah sesuai warna yang dipilih\n\nWarna membantu membedakan fungsi group secara visual.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fbcfe8;padding:8px 10px;display:flex;flex-direction:column;gap:4px\"><div style=\"display:flex;justify-content:space-between;align-items:center\"><span style=\"padding:4px 8px;border-radius:4px;border:2px dashed #ec4899;font-size:7px;font-weight:700;color:#db2777\">📁 Cek Amount</span><span style=\"font-size:7px;color:#94a3b8\">← Klik 2x untuk edit</span></div><div style=\"display:flex;gap:3px\"><span style=\"width:12px;height:12px;border-radius:3px;background:#ec4899\"></span><span style=\"width:12px;height:12px;border-radius:3px;background:#3b82f6\"></span><span style=\"width:12px;height:12px;border-radius:3px;background:#22c55e\"></span><span style=\"width:12px;height:12px;border-radius:3px;background:#f59e0b\"></span></div></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Klik Edit Group",
-          "desc": "Klik icon pensil (Edit) pada baris grup. Modal edit akan terbuka dengan data grup yang sudah terisi.",
-          "color": "#ec4899",
-          "bg": "#fdf2f8",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-pink-50 rounded-lg border border-pink-200\"><div class=\"w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-pink-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z\"></path></svg></div><div><p class=\"text-sm font-semibold text-pink-800\">Edit Group</p><p class=\"text-xs text-pink-600\">Klik ikon pensil pada baris grup</p></div></div>"
-        },
-        {
-          "num": 3,
-          "title": "Ubah Informasi Group",
-          "desc": "Anda bisa mengubah:\n\u2022 **Nama Group** \u2014 rename jika kategori berubah\n\u2022 **Deskripsi** \u2014 perbarui dokumentasi grup\n\u2022 **Warna Label** \u2014 ganti warna identifikasi",
-          "color": "#6366f1",
-          "bg": "#eef2ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\"></path><path d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Ubah Data Group</p><p class=\"text-xs text-indigo-600\">Nama, deskripsi, atau warna</p></div></div>"
-        },
-        {
-          "num": 4,
-          "title": "Kelola Anggota Group",
-          "desc": "Di tab \"Members\", Anda bisa:\n\u2022 **Tambah Scenario** \u2014 pilih scenario dari dropdown untuk dimasukkan ke grup\n\u2022 **Hapus Scenario** \u2014 klik icon X pada scenario yang ingin dikeluarkan dari grup\nPerubahan anggota grup tidak mempengaruhi konfigurasi scenario itu sendiri.",
+          "title": "Atur Isi Group",
+          "desc": "Mengelola node di dalam group: {previewHtml:1}\n\n**Tambah node ke group:**\n• Seret node dari luar ke dalam area group\n• Atau buat node baru di dalam group (klik kanan di dalam group)\n\n**Keluarkan node dari group:**\n• Seret node keluar dari border group\n• Node akan lepas dari group tapi tetap di canvas\n\n**Edit node di dalam group:**\n• Klik node di dalam group — sama seperti biasa\n• Panel konfigurasi tetap muncul di sebelah kanan\n\nNode di dalam group tetap bisa dihubungkan dengan node di luar group.",
           "color": "#3b82f6",
           "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Kelola Anggota</p><p class=\"text-xs text-blue-600\">Tambah atau hapus scenario</p></div></div>"
-        },
-        {
-          "num": 5,
-          "title": "Simpan Perubahan",
-          "desc": "Klik \"Save\" atau \"Update\" untuk menyimpan perubahan. Scenario di dalam grup akan langsung menyesuaikan dengan informasi grup yang baru.",
-          "color": "#14b8a6",
-          "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Simpan Perubahan</p><p class=\"text-xs text-teal-600\">Klik Save atau Update</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;padding:8px 10px;display:flex;flex-direction:column;gap:4px;align-items:center\"><div style=\"border:1.5px dashed #3b82f6;border-radius:5px;padding:6px 12px\"><div style=\"font-size:7px;font-weight:700;color:#2563eb;margin-bottom:3px;text-align:center\">📁 Group</div><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#f59e0b\">CONSTANT</span></div></div><div style=\"font-size:6px;color:#64748b\">↕ Seret node masuk/keluar group</div></div>"
+          }
         }
       ]
     }

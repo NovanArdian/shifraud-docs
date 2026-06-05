@@ -1,71 +1,32 @@
 {
-  "label": "Cara Menggunakan Group",
+  "label": "Menggunakan Group",
   "category": "Tutorials",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Cara Menggunakan Group",
+      "heading": "Menggunakan Group",
       "id": "group",
-      "intro": "Group membantu mengorganisir node kondisi yang saling terkait menjadi satu kesatuan yang rapi.",
+      "intro": "Fiturs Groups di Operasi Canvas membantu Anda mengelompokkan node-node terkait. Ini sudah dibahas di tutorial terpisah — di sini ringkasan operasionalnya.",
       "steps": [
         {
           "num": 1,
-          "title": "Membuat Group Baru",
-          "desc": "Pilih 2 node atau lebih di canvas (Shift+Klik atau rubber band).\nKlik kanan di area canvas. Context menu akan menampilkan \"Group X nodes\" (X = jumlah node terpilih).\nKlik opsi tersebut. Sebuah group container akan dibuat membungkus semua node terpilih.\nEdge yang terhubung ke node di dalam group akan otomatis di-route ke boundary group.",
-          "color": "#22c55e",
-          "bg": "#f0fdf4",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"w-10 h-10 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10\"></path></svg></div><div><p class=\"text-sm font-semibold text-green-800\">Buat Group Baru</p><p class=\"text-xs text-green-600\">Group X nodes dari context menu</p></div></div>"
+          "title": "Operasi Dasar Group",
+          "desc": "Ringkasan operasi group di canvas: {previewHtml:1}\n\n**Membuat:** Pilih node → Klik kanan → **Group**\n**Collapse/Expand:** Klik ikon segitiga di pojok kiri atas group\n**Edit nama:** Klik dua kali judul group\n**Pindahkan:** Seret judul group\n**Ubah ukuran:** Seret pojok kanan bawah\n**Hapus (Ungroup):** Klik kanan group → **Ungroup** (node tetap ada)\n\nLihat tutorial **Mengorganisir dengan Groups** untuk panduan lengkap.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fbcfe8;overflow:hidden\"><div style=\"margin:5px;border:1.5px dashed #ec4899;border-radius:5px;padding:5px\"><div style=\"display:flex;align-items:center;gap:4px;margin-bottom:3px\"><span style=\"font-size:6px\">▶</span><span style=\"font-size:7px;font-weight:700;color:#db2777\">📁 Cek Amount</span></div><div style=\"display:flex;gap:3px\"><span style=\"padding:2px 4px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#f59e0b\">CONSTANT</span><span style=\"padding:2px 4px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#10b981\">CONTAINS</span></div></div></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Memindahkan Node ke Group yang Sudah Ada",
-          "desc": "Pilih node yang ingin dipindahkan ke dalam group.\nKlik kanan \u2192 \"Move to Group\".\nDaftar group yang tersedia akan ditampilkan. Pilih group tujuan.\nNode akan berpindah ke dalam group. Node yang terhubung via edge juga ikut dipindahkan (connected move).",
-          "color": "#f97316",
-          "bg": "#fff7ed",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Pindahkan Node</p><p class=\"text-xs text-orange-600\">Move to Group</p></div></div>"
-        },
-        {
-          "num": 3,
-          "title": "Mengeluarkan Node dari Group",
-          "desc": "Pilih node yang ingin dikeluarkan dari group.\nKlik kanan \u2192 \"Remove from Group\".\nNode akan keluar dari group dan naik ke level parent (canvas utama atau group di atasnya).\nPosisi node akan dipertahankan secara absolut.",
-          "color": "#ec4899",
-          "bg": "#fdf2f8",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-pink-50 rounded-lg border border-pink-200\"><div class=\"w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-pink-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-pink-800\">Keluarkan Node</p><p class=\"text-xs text-pink-600\">Remove from Group</p></div></div>"
-        },
-        {
-          "num": 4,
-          "title": "Membubarkan Group (Ungroup)",
-          "desc": "Klik kanan pada group yang ingin dibubarkan.\nPilih \"Ungroup\" dari context menu.\nGroup akan dibubarkan. Semua node di dalamnya naik ke level parent.\nPosisi node dipertahankan. Edge akan di-route ulang secara otomatis.",
-          "color": "#6366f1",
-          "bg": "#eef2ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10\"></path></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Ungroup</p><p class=\"text-xs text-indigo-600\">Bubarkan group</p></div></div>"
-        },
-        {
-          "num": 5,
-          "title": "Merapikan Node di Dalam Group",
-          "desc": "Klik kanan pada group \u2192 pilih \"Stack Vertically\".\nSemua node di dalam group akan diatur secara vertikal berurutan.\nBerguna setelah menambah banyak node ke dalam group yang posisinya berantakan.",
-          "color": "#3b82f6",
-          "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7v10l8 4V11L4 7zm16 0l-8 4v10l8-4V7zm0 0l-8-4-8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Stack Vertically</p><p class=\"text-xs text-blue-600\">Rapikan node di dalam group</p></div></div>"
-        },
-        {
-          "num": 6,
-          "title": "Mengganti Warna Group",
-          "desc": "Klik kanan pada group \u2192 pilih \"Change Color\".\nPilih salah satu opsi warna:\n\u2022 Preset: pilih dari warna yang sudah tersedia\n\u2022 Random: dapatkan warna acak\n\u2022 Color Picker: pilih warna kustom dari color picker native",
+          "title": "Copy-Paste Group",
+          "desc": "Group bisa di-copy dan di-paste antar rule: {previewHtml:1}\n\n1. Pilih group (klik border group)\n2. **Ctrl+C** — copy group beserta semua isinya\n3. Buka rule lain\n4. **Ctrl+V** — paste group\n\nSemua node di dalam group, koneksi antar node, dan konfigurasi ikut tercopy. Posisi node relatif terhadap group juga dipertahankan.",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Ganti Warna</p><p class=\"text-xs text-teal-600\">Preset, random, atau kustom</p></div></div>"
-        },
-        {
-          "num": 7,
-          "title": "Tips",
-          "desc": "\u2022 Group bisa di-copy dan di-paste (Ctrl+C / Ctrl+V) bersama seluruh isinya.\n\u2022 Beri nama group yang deskriptif agar mudah dipahami tim lain.\n\u2022 Gunakan warna berbeda untuk setiap group agar mudah dibedakan secara visual.\n\u2022 Auto-arrange akan merapikan group secara hierarki (inner dagre).",
-          "color": "#8b5cf6",
-          "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Tips Group</p><p class=\"text-xs text-violet-600\">Copy, rename, warna, auto-arrange</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;text-align:center;display:flex;align-items:center;gap:6px;justify-content:center\"><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:600\">Ctrl+C</kbd><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:600\">Ctrl+V</kbd></div>"
+          }
         }
       ]
     }

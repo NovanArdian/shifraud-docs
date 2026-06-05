@@ -6,58 +6,67 @@
       "type": "tutorial",
       "heading": "FAQ",
       "id": "faq",
-      "intro": "Pertanyaan umum seputar Scenario Studio Canvas.",
+      "intro": "Pertanyaan yang sering ditanyakan tentang Scenario Studio. Kalau Anda ada pertanyaan lain, tanyakan ke tim support.",
       "steps": [
         {
           "num": 1,
-          "title": "Understanding Rule Types: GENERAL vs CONDITION",
-          "desc": "GENERAL hanya memiliki 3 step tanpa konfigurasi Use Condition. CONDITION memiliki 4 step lengkap dan membutuhkan Attribute Binding untuk menyimpan dan menggunakan data antar transaksi.",
+          "title": "Apa bedanya GENERAL dan CONDITION?",
+          "desc": "{previewHtml:1}\n\n**GENERAL** — 3 langkah: Configure Parameters → Build Flow → Review & Submit. Untuk aturan sederhana yang tidak butuh data antar transaksi.\n\n**CONDITION** — 4 langkah: ada tambahan **Use Condition** setelah Build Flow. Untuk aturan kompleks yang butuh attribute binding (menyimpan dan membandingkan data antar transaksi).\n\nPilih GENERAL dulu kalau baru belajar.",
           "color": "#f97316",
           "bg": "#fff7ed",
-          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex items-center gap-3\"><div class=\"flex h-10 w-10 items-center justify-center rounded-lg bg-orange-100\"><svg class=\"h-5 w-5 text-orange-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\"/></svg></div><div><span class=\"text-sm font-semibold text-orange-800\">GENERAL</span><div class=\"flex gap-1 mt-1\"><span class=\"rounded bg-orange-100 px-2 py-0.5 text-xs text-orange-700\">3 Steps</span><span class=\"rounded bg-gray-100 px-2 py-0.5 text-xs text-gray-600\">No Condition</span></div></div></div><div class=\"flex items-center gap-3\"><div class=\"flex h-10 w-10 items-center justify-center rounded-lg bg-purple-100\"><svg class=\"h-5 w-5 text-purple-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"/></svg></div><div><span class=\"text-sm font-semibold text-purple-800\">CONDITION</span><div class=\"flex gap-1 mt-1\"><span class=\"rounded bg-purple-100 px-2 py-0.5 text-xs text-purple-700\">4 Steps</span><span class=\"rounded bg-blue-100 px-2 py-0.5 text-xs text-blue-700\">Attr Binding</span></div></div></div></div>"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;display:flex;gap:6px;\"><div style=\"flex:1;border-radius:8px;border:1.5px solid #f59e0b;background:linear-gradient(180deg,#fffbeb,#fff);overflow:hidden;\"><div style=\"padding:5px 8px;background:linear-gradient(90deg,#f59e0b,#d97706);font-size:7px;font-weight:700;color:#fff;\">GENERAL</div><div style=\"padding:5px 8px;font-size:7px;color:#475569;\">3 langkah • Sederhana</div></div><div style=\"flex:1;border-radius:8px;border:1.5px solid #7c3aed;background:linear-gradient(180deg,#f5f3ff,#fff);overflow:hidden;\"><div style=\"padding:5px 8px;background:linear-gradient(90deg,#7c3aed,#6366f1);font-size:7px;font-weight:700;color:#fff;\">CONDITION</div><div style=\"padding:5px 8px;font-size:7px;color:#475569;\">4 langkah • Kompleks</div></div></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Troubleshooting: Next Button Disabled",
-          "desc": "Tombol Next disabled jika ada field wajib yang belum diisi atau ada error validasi. Periksa semua section di Step 1.",
+          "title": "Kenapa tombol Next tidak bisa diklik?",
+          "desc": "Tombol **Next** atau **Continue** tidak aktif kalau ada field yang belum diisi atau ada error validasi. {previewHtml:1}\n\nCoba cek:\n• Semua field wajib sudah diisi? (Ada centang hijau)\n• Rule Name tidak boleh kosong\n• Risk Score harus antara 0-100\n• Pastikan tidak ada notifikasi error merah\n\nKalau semua sudah benar, tombol akan aktif.",
           "color": "#ec4899",
           "bg": "#fdf2f8",
-          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex items-center gap-3 rounded-lg border border-red-200 bg-red-50 p-3\"><svg class=\"h-6 w-6 flex-shrink-0 text-red-500\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><div class=\"text-sm text-red-800\"><span class=\"font-semibold\">Validation Error</span><p class=\"mt-0.5 text-red-600\">Field \"Rule Name\" is required</p></div></div><div class=\"flex items-center gap-2 text-sm text-gray-500\"><svg class=\"h-4 w-4 text-pink-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span>Check all required fields in Step 1</span></div></div>"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fef2f2;border:1px solid #fecaca;padding:8px 10px;display:flex;align-items:center;gap:6px;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"><path d=\"M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:7px;color:#dc2626;\">Field \"Rule Name\" harus diisi</span></div>"
+          }
         },
         {
           "num": 3,
-          "title": "Using Cycle Indicator Effectively",
-          "desc": "Cycle Indicator membatasi rule hanya aktif pada hari/jam tertentu. Tipe RANGE untuk blok waktu kontinu, tipe LIST untuk beberapa slot waktu.",
+          "title": "Berapa lama history undo/redo?",
+          "desc": "History undo/redo menyimpan **50 langkah** terakhir. {previewHtml:1}\n\nIni cukup untuk:\n• Kembali jika salah nambah atau hapus node\n• Membatalkan perubahan parameter\n• Kembali ke layout sebelumnya\n\nSetiap aksi yang Anda lakukan (tambah/hapus/pindah/edit node) dihitung sebagai satu langkah.",
           "color": "#6366f1",
           "bg": "#eef2ff",
-          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"rounded-lg bg-gradient-to-r from-indigo-50 to-blue-50 p-3\"><div class=\"flex items-center gap-2 text-sm font-medium text-indigo-700\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg>Cycle Indicator</div></div><div class=\"flex gap-2\"><span class=\"rounded-full border border-indigo-200 bg-white px-3 py-1 text-xs font-medium text-indigo-600\">RANGE</span><span class=\"rounded-full border border-blue-200 bg-white px-3 py-1 text-xs font-medium text-blue-600\">LIST</span></div><div class=\"grid grid-cols-2 gap-2 text-xs text-gray-600\"><div class=\"rounded bg-white p-2 shadow-sm\">Mon-Fri<br><span class=\"text-indigo-500\">08:00-17:00</span></div><div class=\"rounded bg-white p-2 shadow-sm\">Sat<br><span class=\"text-blue-500\">08:00, 12:00, 16:00</span></div></div></div>"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;padding:8px 10px;display:flex;gap:4px;\"><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:600;\">Ctrl+Z</kbd><span style=\"font-size:7px;color:#64748b;\">× 50 langkah</span></div>"
+          }
         },
         {
           "num": 4,
-          "title": "Adding Conditions to Canvas",
-          "desc": "Klik tombol \"Add Condition\" di toolbar, klik tipe kondisi di sidebar, atau double-click placeholder node (+).",
-          "color": "#3b82f6",
-          "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex items-center gap-2 rounded-lg bg-blue-50 p-3\"><svg class=\"h-5 w-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v16m8-8H4\"/></svg><span class=\"text-sm font-medium text-blue-800\">Add Condition</span></div><div class=\"flex flex-col gap-2 text-sm text-gray-600\"><div class=\"flex items-center gap-2\"><span class=\"inline-flex h-5 w-5 items-center justify-center rounded bg-blue-100 text-xs font-bold text-blue-700\">1</span>Toolbar button</div><div class=\"flex items-center gap-2\"><span class=\"inline-flex h-5 w-5 items-center justify-center rounded bg-blue-100 text-xs font-bold text-blue-700\">2</span>Sidebar click</div><div class=\"flex items-center gap-2\"><span class=\"inline-flex h-5 w-5 items-center justify-center rounded bg-blue-100 text-xs font-bold text-blue-700\">3</span>Double-click placeholder</div></div></div>"
+          "title": "Bisakah copy node antar rule?",
+          "desc": "**Bisa!** {previewHtml:1}\n\n1. Buka Rule A, pilih node yang ingin di-copy\n2. Tekan **Ctrl+C** (atau klik kanan → Copy)\n3. Buka Rule B (bisa buka tab baru atau ganti rule)\n4. Tekan **Ctrl+V** untuk paste\n\nSemua konfigurasi node ikut tersalin, termasuk parameter kondisi, warna, dan posisi. Grup juga bisa di-copy dengan cara yang sama.",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;display:flex;align-items:center;gap:8px;justify-content:center;\"><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:600;\">Ctrl+C</kbd><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:600;\">Ctrl+V</kbd></div>"
+          }
         },
         {
           "num": 5,
-          "title": "Undo/Redo & Copy-Paste",
-          "desc": "Ctrl+Z untuk undo, Ctrl+Shift+Z (atau Ctrl+Y) untuk redo. History maksimal 50 langkah. Pilih node, Ctrl+C/X untuk copy/cut, Ctrl+V untuk paste.",
-          "color": "#14b8a6",
-          "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex flex-wrap gap-2\"><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>Z</span></kbd><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>Shift</span>+<span>Z</span></kbd><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>Y</span></kbd></div><div class=\"h-px bg-gray-200\"></div><div class=\"flex flex-wrap gap-2\"><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>C</span></kbd><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>X</span></kbd><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>V</span></kbd></div><div class=\"text-xs text-teal-600\"><span class=\"font-semibold\">History:</span> max 50 steps</div></div>"
+          "title": "Apa itu Cycle Indicator?",
+          "desc": "Cycle Indicator mengatur **kapan** rule boleh aktif. {previewHtml:1}\n\n• **RANGE** — Blok waktu kontinu, contoh: Senin-Jumat jam 08:00-17:00\n• **LIST** — Beberapa slot waktu spesifik, contoh: Setiap hari jam 08:00, 12:00, dan 16:00\n\nCocok untuk:\n• Rule yang hanya berlaku di jam kerja\n• Rule khusus hari tertentu (misal: akhir pekan)\n• Pembatasan deteksi di jam sibuk",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:6px;\"><span style=\"padding:3px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;font-weight:600;\">RANGE</span><span style=\"font-size:7px;color:#475569;\">Sen-Jum 08:00-17:00</span><span style=\"color:#e2e8f0;\">|</span><span style=\"padding:3px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;font-weight:600;\">LIST</span><span style=\"font-size:7px;color:#475569;\">08:00, 12:00, 16:00</span></div>"
+          }
         },
         {
           "num": 6,
-          "title": "Canvas Empty State & Context Menu",
-          "desc": "Empty state muncul jika Start node dihapus. Tambahkan Start node baru untuk mengembalikan canvas. Context menu untuk right-click pada node.",
-          "color": "#8b5cf6",
-          "bg": "#faf5ff",
-          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"rounded-lg border-2 border-dashed border-violet-200 bg-violet-50 p-4 text-center\"><svg class=\"mx-auto h-8 w-8 text-violet-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4\"/></svg><p class=\"mt-2 text-sm font-medium text-violet-700\">Canvas is empty</p><p class=\"text-xs text-violet-500\">Add a Start node to begin</p></div><div class=\"rounded-lg bg-white p-2 shadow-sm\"><div class=\"flex items-center gap-2 px-2 py-1 text-sm text-gray-700\"><svg class=\"h-4 w-4 text-gray-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 5l7 7-7 7M5 5l7 7-7 7\"/></svg>Edit</div><div class=\"flex items-center gap-2 px-2 py-1 text-sm text-gray-700\"><svg class=\"h-4 w-4 text-gray-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\"/></svg>Delete</div></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "title": "Canvas kosong, bagaimana?",
+          "desc": "Kalau canvas kosong (tidak ada node), tambahkan node baru: {previewHtml:1}\n\n1. Klik **+ Condition** di toolbar bawah\n2. Atau **drag** dari sidebar kiri\n3. Atau **double-click** di area kosong canvas\n4. Atau klik **kanan** di canvas → Add Condition\n\nNode pertama akan otomatis menjadi **Start** node. Setelah itu Anda bisa menambahkan node lain dan menghubungkannya.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;border:2px dashed #93c5fd;background:linear-gradient(135deg,#eff6ff,#fff);padding:10px;text-align:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M12 4v16m8-8H4\"/></svg><div style=\"font-size:8px;color:#2563eb;font-weight:600;margin-top:4px;\">Klik + Condition atau drag dari sidebar</div></div>"
+          }
         }
       ]
     }

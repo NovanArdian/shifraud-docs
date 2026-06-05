@@ -6,74 +6,57 @@
       "type": "tutorial",
       "heading": "Membuat Rule Pertama",
       "id": "tutorial-first-rule",
-      "intro": "Perkiraan waktu: 10-15 menit.",
+      "intro": "Buat rule deteksi fraud pertama Anda dengan mengikuti langkah-langkah di bawah ini. Kita akan membuat rule GENERAL sederhana: deteksi transfer di atas Rp50.000.000 ke luar negeri.",
       "steps": [
         {
           "num": 1,
-          "title": "Buka Scenario Studio",
-          "desc": "Dari sidebar utama, klik menu \"Scenario Management\" lalu pilih \"Scenario Studio\". Klik tombol \"Add New\" untuk membuat scenario baru.",
-          "color": "#f97316",
-          "bg": "#fff7ed",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"flex-shrink-0 w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Navigasi Cepat</p><p class=\"text-xs text-orange-600\">Gunakan shortcut <kbd class=\"px-1.5 py-0.5 bg-orange-200 rounded text-xs font-mono\">Ctrl+K</kbd> dan ketik \"Scenario Studio\"</p></div></div>"
+          "title": "Buka Halaman Scenario Studio",
+          "desc": "Klik menu **Scenario Studio** di sidebar kiri aplikasi. {previewHtml:1}\n\nAnda akan melihat halaman dengan daftar rule yang sudah ada. Karena ini pertama kali, daftarnya mungkin kosong.\n\nKlik tombol **+ Tambah Scenario** di pojok kanan atas untuk membuat rule baru.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:6px 10px;background:#eff6ff;border-bottom:1px solid #bfdbfe;font-size:8px;font-weight:700;color:#0f172a\">Scenario Studio</div><div style=\"padding:8px 10px;display:flex;justify-content:flex-end\"><span style=\"padding:4px 8px;border-radius:4px;background:#3b82f6;font-size:7px;color:#fff;font-weight:600\">+ Tambah Scenario</span></div></div>"
+          }
         },
         {
           "num": 2,
           "title": "Pilih Tipe Rule",
-          "desc": "Di dialog pembuatan, pilih tipe rule. Untuk tutorial ini, pilih \"GENERAL\" (3 langkah, tanpa Use Condition). Beri nama rule: \"Tutorial - Rule Pertama Saya\".",
-          "color": "#ec4899",
-          "bg": "#fdf2f8",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-pink-50 rounded-lg border border-pink-200\"><div class=\"w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-pink-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z\"></path></svg></div><div><p class=\"text-sm font-semibold text-pink-800\">Pilih Tipe Rule</p><p class=\"text-xs text-pink-600\">GENERAL (3 langkah) atau CONDITION</p></div></div>"
+          "desc": "Akan muncul dialog untuk memilih tipe rule: {previewHtml:1}\n\n**GENERAL** — Untuk rule sederhana. 3 langkah saja.\n**CONDITION** — Untuk rule kompleks dengan attribute binding.\n\nPilih **GENERAL** dulu untuk belajar. Nanti Anda bisa coba CONDITION setelah paham dasarnya.",
+          "color": "#f97316",
+          "bg": "#fff7ed",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;display:flex;gap:6px\"><div style=\"flex:1;border-radius:8px;border:1.5px solid #f59e0b;background:linear-gradient(180deg,#fffbeb,#fff);overflow:hidden\"><div style=\"padding:5px 8px;background:linear-gradient(90deg,#f59e0b,#d97706);font-size:7px;font-weight:700;color:#fff;text-align:center\">GENERAL</div><div style=\"padding:5px 8px;font-size:7px;color:#475569;text-align:center\">3 langkah<br/>Sederhana</div></div><div style=\"flex:1;border-radius:8px;border:1.5px solid #e2e8f0;background:#f8fafc;overflow:hidden;opacity:.6\"><div style=\"padding:5px 8px;background:#e2e8f0;font-size:7px;font-weight:700;color:#94a3b8;text-align:center\">CONDITION</div><div style=\"padding:5px 8px;font-size:7px;color:#94a3b8;text-align:center\">4 langkah<br/>Kompleks</div></div></div>"
+          }
         },
         {
           "num": 3,
-          "title": "Isi Parameter Dasar (Step 1)",
-          "desc": "Isi field berikut:\n\u2022 Rule Name: \"Tutorial - Rule Pertama Saya\"\n\u2022 Scenario Group: Pilih grup yang sesuai (atau biarkan default)\n\u2022 Description: \"Rule tutorial untuk mempelajari Scenario Studio\"\n\u2022 Risk Score: 50\n\u2022 Priority: 5\n\u2022 Active Period: Pilih \"7 hari\" dari quick preset\nKlik \"Next: Build Flow\" untuk lanjut.",
-          "color": "#6366f1",
-          "bg": "#eef2ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\"></path><path d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Parameter Dasar</p><p class=\"text-xs text-indigo-600\">Nama, grup, deskripsi, risk score</p></div></div>"
+          "title": "Isi Parameter Rule (Step 1)",
+          "desc": "Isi form parameter rule: {previewHtml:1}\n\n📝 **Rule Name** — \"Deteksi Transfer Besar ke Luar Negeri\"\n📝 **Description** — \"Mendeteksi transaksi transfer dengan nominal di atas Rp50.000.000 yang ditujukan ke rekening luar negeri\"\n📊 **Risk Score** — 75 (semakin tinggi, semakin berbahaya)\n🔢 **Priority** — HIGH\n📅 **Active Period** — Atur jadwal aktif (misal: selama 24/7)\n\nKalau semua sudah diisi, centang hijau akan muncul di tiap field.",
+          "color": "#22c55e",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bbf7d0;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;flex-direction:column;gap:4px\"><div style=\"display:flex;justify-content:space-between;align-items:center\"><span style=\"font-size:7px;font-weight:600;color:#0f172a\">Rule Name</span><span style=\"padding:1px 4px;border-radius:3px;background:#f0fdf4;font-size:6px;color:#16a34a;border:1px solid #bbf7d0\">✓</span></div><div style=\"background:#f8fafc;border:1px solid #e2e8f0;border-radius:4px;padding:4px 6px;font-size:7px;color:#0f172a\">Deteksi Transfer Besar ke Luar Negeri</div><div style=\"display:flex;gap:6px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f0fdf4;font-size:6px;color:#16a34a;border:1px solid #bbf7d0\">Risk: 75</span><span style=\"padding:2px 5px;border-radius:3px;background:#fef2f2;font-size:6px;color:#dc2626;border:1px solid #fecaca\">Priority: HIGH</span></div></div></div>"
+          }
         },
         {
           "num": 4,
-          "title": "Kenali Canvas (Step 2)",
-          "desc": "Anda akan melihat canvas ReactFlow dengan:\n\u2022 Sisi kiri: Sidebar berisi 6 tipe kondisi\n\u2022 Tengah: Area canvas dengan node \"Start\" di kiri dan node \"?\" (placeholder) di kanan\n\u2022 Bawah: Toolbar dengan tombol Add Condition, Auto-arrange, Back, Continue\nCoba pan canvas: tahan Space + drag mouse. Zoom: gunakan scroll.",
+          "title": "Bangun Detection Flow (Step 2)",
+          "desc": "Sekarang masuk ke canvas — tempat merangkai node. {previewHtml:1}\n\nUntuk rule deteksi transfer besar ke luar negeri, kita perlu:\n\n1. **CONSTANT Node** — Cek amount > 50,000,000\n   - Field: `transaction.amount`\n   - Operator: `>`\n   - Value: `50000000`\n\n2. **CONTAINS Node** — Cek tujuan transaksi\n   - Field: `transaction.destination`\n   - Operator: `EQUALS`\n   - Value: `FOREIGN`\n\n3. **LOGICAL AND** — Gabungkan kedua kondisi\n\n4. **ALERT Node** — Hasil akhir: kirim alert\n\nHubungkan start → CONSTANT → AND → ALERT dan start → CONTAINS → AND.",
           "color": "#3b82f6",
           "bg": "#eff6ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Canvas ReactFlow</p><p class=\"text-xs text-blue-600\">6 tipe kondisi, toolbar bawah</p></div></div>"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f8fafc,#f1f5f9);border:1px solid #bfdbfe;padding:8px 10px;display:flex;gap:3px;align-items:center;flex-wrap:wrap;justify-content:center\"><span style=\"padding:3px 6px;border-radius:4px;background:#fff;border:1.5px solid #f59e0b;font-size:6px;font-weight:700;color:#f59e0b\">AMOUNT > 50JT</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:3px 6px;border-radius:4px;background:#fff;border:1.5px solid #10b981;font-size:6px;font-weight:700;color:#10b981\">IS FOREIGN</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:3px 6px;border-radius:4px;background:#fff;border:1.5px solid #6366f1;font-size:6px;font-weight:700;color:#6366f1\">AND</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:3px 6px;border-radius:4px;background:#fff;border:1.5px solid #ef4444;font-size:6px;font-weight:700;color:#ef4444\">ALERT</span></div>"
+          }
         },
         {
           "num": 5,
-          "title": "Tambah Kondisi Pertama",
-          "desc": "Klik tombol \"Add Condition\" di toolbar. Pilih tipe \"CONSTANT\" dari dialog. Di dialog konfigurasi:\n\u2022 Atur atribut yang akan diperiksa (pilih dari dropdown)\n\u2022 Pilih operator (=, \u2260, >, dll.)\n\u2022 Masukkan nilai pembanding\nKlik \"Save\" untuk menambah node ke canvas.",
-          "color": "#14b8a6",
-          "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Tambah Kondisi</p><p class=\"text-xs text-teal-600\">CONSTANT \u2014 atribut, operator, nilai</p></div></div>"
-        },
-        {
-          "num": 6,
-          "title": "Hubungkan Node",
-          "desc": "Node kondisi baru akan muncul di canvas. Hubungkan:\n\u2022 Dari node \"Start\" ke node kondisi baru Anda (drag dari handle kanan Start ke handle kiri node kondisi)\n\u2022 Dari node kondisi ke node placeholder \"?\" (drag dari handle kanan kondisi ke handle kiri placeholder)\nSetiap edge akan menampilkan operator AND/OR yang bisa diklik untuk toggle.",
+          "title": "Review & Submit (Step 3)",
+          "desc": "Klik **Next** untuk masuk ke Review & Submit. {previewHtml:1}\n\nDi sini Anda bisa melihat ringkasan rule:\n\n• **Rule Name** dan **Description**\n• **Risk Score** dan **Priority**\n• **Flow diagram** — visualisasi node yang sudah dirangkai\n• **Group** (jika ada)\n\nKalau semua sudah sesuai, klik **Submit** untuk menyimpan rule sebagai Draft.",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Hubungkan Node</p><p class=\"text-xs text-violet-600\">Start \u2192 kondisi \u2192 placeholder</p></div></div>"
-        },
-        {
-          "num": 7,
-          "title": "Review & Submit (Step 4)",
-          "desc": "Klik \"Continue\" di toolbar sampai mencapai Step 4 (Review). Periksa ringkasan:\n\u2022 Nama rule dan deskripsi\n\u2022 Risk Score dan Priority\n\u2022 Jumlah kondisi yang dibuat\nKlik \"Submit Scenario\", isi komentar (misal: \"Tutorial selesai\"), dan submit.",
-          "color": "#f59e0b",
-          "bg": "#fffbeb",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Review & Submit</p><p class=\"text-xs text-amber-600\">Periksa ringkasan, klik Submit</p></div></div>"
-        },
-        {
-          "num": 8,
-          "title": "Selesai!",
-          "desc": "Rule pertama Anda sudah tersimpan. Anda bisa melihatnya di halaman Scenario Group atau membuka kembali di Scenario Studio untuk diedit.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2",
-          "previewHtml": "<div class=\"text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200\"><div class=\"inline-flex items-center justify-center w-12 h-12 rounded-full bg-green-100 mb-3\"><svg class=\"w-6 h-6 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"></path></svg></div><p class=\"text-sm font-bold text-green-800\">Rule Berhasil Dibuat!</p><p class=\"text-xs text-green-600 mt-1\">Selamat, kamu sudah menyelesaikan tutorial pertama.</p><div class=\"mt-3 flex justify-center gap-2\"><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-700\">\u2713 Tersimpan</span><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-700\">\u2713 Siap diuji</span></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;overflow:hidden\"><div style=\"padding:6px 10px;background:#f5f3ff;border-bottom:1px solid #ddd6fe;font-size:7px;font-weight:700;color:#0f172a\">📋 Review Summary</div><div style=\"padding:8px 10px;font-size:7px;color:#475569\"><div>Rule: Deteksi Transfer Besar ke Luar Negeri</div><div>Risk: 75 | Priority: HIGH</div><div>Nodes: 4 — 1 Start, 2 Conditions, 1 Alert</div></div></div>"
+          }
         }
       ]
     }

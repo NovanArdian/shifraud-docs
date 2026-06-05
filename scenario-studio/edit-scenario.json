@@ -4,52 +4,39 @@
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Cara Mengedit Scenario",
+      "heading": "Mengedit Scenario",
       "id": "edit-scenario",
-      "intro": "Perkiraan waktu: 2-5 menit.",
+      "intro": "Setelah rule dibuat, Anda mungkin perlu mengubah konfigurasinya. Panduan ini menjelaskan cara mengedit rule yang sudah ada.",
       "steps": [
         {
           "num": 1,
-          "title": "Cari Scenario yang Akan Diedit",
-          "desc": "Gunakan kolom pencarian atau filter di halaman daftar scenario untuk menemukan scenario yang ingin diubah. Perhatikan status scenario \u2014 beberapa field mungkin tidak bisa diubah jika scenario sudah Active.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z\"/></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Cari Scenario</p><p class=\"text-xs text-rose-600\">Gunakan kolom pencarian</p></div></div>"
+          "title": "Buka Rule yang Ingin Diedit",
+          "desc": "Cara membuka rule yang sudah ada: {previewHtml:1}\n\n1. Buka halaman **Scenario Management**\n2. Cari rule yang ingin diedit (gunakan search atau filter)\n3. Klik **nama rule** atau ikon **pencil (✏️ Edit)**\n4. Rule akan terbuka di editor\n\nHanya rule dengan status **Draft** yang bisa diedit langsung. Rule yang sudah **Active** harus di-deactivate dulu.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;justify-content:space-between;align-items:center\"><span style=\"font-size:8px;font-weight:600;color:#0f172a\">Deteksi Transfer Besar</span><span style=\"padding:2px 6px;border-radius:3px;background:#eff6ff;font-size:7px;color:#2563eb\">✏️ Edit</span></div><div style=\"font-size:7px;color:#64748b\">Status: <span style=\"padding:1px 5px;border-radius:3px;background:#fef2f2;color:#dc2626;font-size:6px\">Inactive</span></div></div></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Klik Tombol Edit",
-          "desc": "Klik icon pensil (Edit) pada baris scenario yang dituju. Sebuah modal akan terbuka dengan data scenario yang sudah terisi.",
-          "color": "#0ea5e9",
-          "bg": "#f0f9ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-sky-50 rounded-lg border border-sky-200\"><div class=\"w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-sky-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z\"/></svg></div><div><p class=\"text-sm font-semibold text-sky-800\">Klik Edit</p><p class=\"text-xs text-sky-600\">Buka modal edit scenario</p></div></div>"
+          "title": "Yang Bisa Diedit",
+          "desc": "Setelah masuk editor, Anda bisa mengubah: {previewHtml:1}\n\n• **Parameter rule** — Nama, deskripsi, risk score, priority, active period\n• **Flow canvas** — Tambah/hapus/edit node, ubah koneksi\n• **Group** — Tambah/hapus/edit group\n\nCaranya sama seperti membuat rule baru. Setelah selesai, klik **Save** atau **Submit** untuk update.",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px\"><div style=\"display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f0fdf4;font-size:6px;color:#16a34a\">📝 Parameter</span><span style=\"padding:2px 5px;border-radius:3px;background:#eff6ff;font-size:6px;color:#2563eb\">🎨 Flow</span><span style=\"padding:2px 5px;border-radius:3px;background:#fdf2f8;font-size:6px;color:#db2777\">📁 Group</span></div></div></div>"
+          }
         },
         {
           "num": 3,
-          "title": "Ubah Informasi yang Diperlukan",
-          "desc": "Anda bisa mengubah:\n\u2022 **Nama & Deskripsi** \u2014 perbarui jika aturan berubah\n\u2022 **Group** \u2014 pindahkan ke grup yang lebih relevan\n\u2022 **Severity** \u2014 sesuaikan level prioritas berdasarkan dampak\n\u2022 **Tags/Labels** \u2014 tambah atau hapus kategorisasi",
-          "color": "#22c55e",
-          "bg": "#f0fdf4",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"w-10 h-10 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15\"/></svg></div><div><p class=\"text-sm font-semibold text-green-800\">Ubah Informasi</p><p class=\"text-xs text-green-600\">Sesuaikan nama, group, severity</p></div></div>"
-        },
-        {
-          "num": 4,
-          "title": "Update Konten Canvas (Jika Perlu)",
-          "desc": "Untuk mengubah logika deteksi, klik pada nama scenario atau tombol \"Edit Flow\" untuk membuka kanvas. Lakukan perubahan pada node, edge, atau konfigurasi build di sana.",
-          "color": "#f97316",
-          "bg": "#fff7ed",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z\"/></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Update Canvas</p><p class=\"text-xs text-orange-600\">Edit logika deteksi di kanvas</p></div></div>"
-        },
-        {
-          "num": 5,
-          "title": "Simpan Perubahan",
-          "desc": "Klik \"Save\" atau \"Update\" untuk menyimpan perubahan. Jika scenario dalam status Active, perubahan mungkin memerlukan approval sebelum diterapkan.",
-          "color": "#ec4899",
-          "bg": "#fdf2f8",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-pink-50 rounded-lg border border-pink-200\"><div class=\"w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-pink-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5 13l4 4L19 7\"/></svg></div><div><p class=\"text-sm font-semibold text-pink-800\">Simpan Perubahan</p><p class=\"text-xs text-pink-600\">Klik Save untuk menyimpan</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "title": "Edit Kondisi Node",
+          "desc": "Cara mengedit node yang sudah ada di canvas: {previewHtml:1}\n\n1. **Klik node** — Panel konfigurasi akan terbuka di sebelah kanan\n2. Ubah field, operator, atau value sesuai kebutuhan\n3. Node akan otomatis ter-update\n\nAtau:\n• **Klik kanan node** → pilih menu yang tersedia\n• **Double-click node** — sama seperti klik\n\nPerubahan akan langsung terlihat di canvas.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:6px 10px;display:flex;align-items:center;gap:6px\"><span style=\"padding:4px 8px;border-radius:4px;border:1.5px solid #a78bfa;font-size:7px;font-weight:600;color:#7c3aed\">AMOUNT</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M9 5l7 7-7 7\"/></svg><span style=\"font-size:7px;color:#64748b\">Klik → panel konfigurasi</span></div>"
+          }
         }
       ]
     }

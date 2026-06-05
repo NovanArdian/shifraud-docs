@@ -1,47 +1,32 @@
 {
-  "label": "Cara Mengedit Node",
+  "label": "Mengedit Node",
   "category": "Tutorials",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Cara Mengedit Node",
+      "heading": "Mengedit Node",
       "id": "edit-node",
-      "intro": "Pelajari cara mengedit node kondisi dan group yang sudah ada di canvas.",
+      "intro": "Setiap node di canvas bisa diedit konfigurasinya. Panduan ini menjelaskan cara mengubah parameter, operator, dan nilai pada node.",
       "steps": [
         {
           "num": 1,
-          "title": "Edit Konfigurasi Kondisi",
-          "desc": "Klik kanan pada node kondisi yang ingin diedit.\nDari context menu yang muncul, pilih \"Edit Condition\".\nDialog konfigurasi akan terbuka menampilkan parameter kondisi yang sudah diisi sebelumnya.\nUbah parameter yang diinginkan (atribut, operator, nilai, dll) lalu klik \"Save\" untuk menyimpan perubahan.",
-          "color": "#f43f5e",
-          "bg": "#fff1f2",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"/></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Edit Kondisi</p><p class=\"text-xs text-rose-600\">Klik kanan \u2192 Edit Condition</p></div></div>"
+          "title": "Buka Panel Konfigurasi Node",
+          "desc": "Cara membuka panel konfigurasi: {previewHtml:1}\n\n1. **Klik node** di canvas — panel konfigurasi akan muncul di sisi kanan layar\n2. Atau **double-click** node — sama\n3. Atau **klik kanan node** → **Edit**\n\nPanel konfigurasi menampilkan:\n• **Field** — Nama field data yang diperiksa\n• **Operator** — Operator perbandingan (=, >, <, CONTAINS, dll)\n• **Value** — Nilai pembanding\n• **Label** — Nama tampilan node (opsional)\n\nSetiap perubahan langsung terlihat di node.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;gap:8px\"><div style=\"flex:1\"><div style=\"padding:4px 6px;border:1.5px solid #f59e0b;border-radius:4px;text-align:center;font-size:7px;font-weight:700;color:#f59e0b\">CONSTANT</div></div><div style=\"flex:1;border-left:1px solid #e2e8f0;padding-left:8px;font-size:6px\"><div style=\"color:#64748b\">Field: <span style=\"color:#0f172a\">amount</span></div><div style=\"color:#64748b\">Operator: <span style=\"color:#0f172a\">&gt;</span></div><div style=\"color:#64748b\">Value: <span style=\"color:#0f172a\">50000000</span></div></div></div></div>"
+          }
         },
         {
           "num": 2,
-          "title": "Ganti Warna Node",
-          "desc": "Klik kanan pada node kondisi atau group.\nPilih \"Color\" dari context menu (untuk node) atau \"Change Color\" (untuk group).\nNative color picker browser akan terbuka. Pilih warna yang diinginkan, lalu klik OK.\nWarna node akan berubah sesuai pilihan. Gunakan warna untuk mengkategorikan node secara visual (misal: merah untuk kondisi kritis, hijau untuk kondisi normal).",
-          "color": "#0ea5e9",
-          "bg": "#f0f9ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-sky-50 rounded-lg border border-sky-200\"><div class=\"w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-sky-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\"/></svg></div><div><p class=\"text-sm font-semibold text-sky-800\">Ganti Warna</p><p class=\"text-xs text-sky-600\">Klik kanan \u2192 Color</p></div></div>"
-        },
-        {
-          "num": 3,
-          "title": "Edit Label Group",
-          "desc": "Klik kanan pada group yang ingin di-rename.\nPilih \"Rename Group\" dari context menu.\nSebuah dialog akan terbuka dengan field input berisi nama group saat ini.\nKetik nama baru, lalu klik \"Save\". Label group akan berubah.",
-          "color": "#22c55e",
-          "bg": "#f0fdf4",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"w-10 h-10 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z\"/></svg></div><div><p class=\"text-sm font-semibold text-green-800\">Edit Label</p><p class=\"text-xs text-green-600\">Klik kanan \u2192 Rename Group</p></div></div>"
-        },
-        {
-          "num": 4,
-          "title": "Tips",
-          "desc": "\u2022 Perubahan konfigurasi kondisi bisa di-undo dengan Ctrl+Z.\n\u2022 Gunakan warna yang konsisten: misal warna biru untuk kondisi CONSTANT, hijau untuk CONTAINS.\n\u2022 Untuk group, beri nama yang deskriptif agar mudah dipahami tim lain.\n\u2022 Jika dialog edit tidak muncul, pastikan node dalam keadaan terpilih sebelum klik kanan.",
-          "color": "#f97316",
-          "bg": "#fff7ed",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\"/></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Tips</p><p class=\"text-xs text-orange-600\">Gunakan warna konsisten</p></div></div>",
-          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-          "videoType": "youtube",
-          "caption": "Video tutorial terkait"
+          "title": "Mengubah Parameter Node",
+          "desc": "Di panel konfigurasi, Anda bisa mengubah: {previewHtml:1}\n\n• **Field** — Pilih field dari data transaksi (amount, currency, country, dll)\n• **Operator** — Sesuai jenis node:\n  - CONSTANT: =, ≠, >, <, ≥, ≤, BETWEEN, IS_NULL, IS_NOT_NULL\n  - CONTAINS: EQUALS, CONTAINS, STARTS_WITH, ENDS_WITH\n  - IN_LIST: IN, NOT_IN\n  - REGEX: MATCHES, NOT_MATCHES\n• **Value** — Nilai yang dibandingkan\n• **Label** — Ganti nama node (biar lebih deskriptif)\n\nKlik **Save** atau cukup klik di luar panel untuk menyimpan.",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;display:grid;grid-template-columns:1fr 1fr;gap:3px\"><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">amount</span><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">&gt;</span><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">50000000</span><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">Label</span></div>"
+          }
         }
       ]
     }
