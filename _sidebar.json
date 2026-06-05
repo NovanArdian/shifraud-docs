@@ -4,7 +4,7 @@
       "label": "Getting Started",
       "iconName": "IconBook",
       "items": [
-        { "label": "About Scenario Studio", "iconName": "IconBook", "path": "/home/docs/scenario-studio/about" },
+        { "label": "About", "iconName": "IconBook", "path": "/home/docs/scenario-studio/about" },
         { "label": "Quick Start", "iconName": "IconBolt", "path": "/home/docs/scenario-studio/quick-start" },
         { "label": "Canvas Overview", "iconName": "IconEye", "path": "/home/docs/scenario-studio/canvas-overview" }
       ]
