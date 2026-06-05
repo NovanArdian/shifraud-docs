@@ -4,27 +4,27 @@
       "label": "Getting Started",
       "iconName": "IconBook",
       "items": [
-        { "label": "About Studio", "iconName": "IconBook", "path": "/home/scenario-management/scenario-studio/docs/about" },
-        { "label": "Quick Start", "iconName": "IconBolt", "path": "/home/scenario-management/scenario-studio/docs/quick-start", "isNew": true },
-        { "label": "Canvas Overview", "iconName": "IconEye", "path": "/home/scenario-management/scenario-studio/docs/canvas-overview" },
-        { "label": "Deployment", "iconName": "IconUpload", "path": "/home/scenario-management/scenario-studio/docs/deployment" }
+        { "label": "About Studio S", "iconName": "IconBook", "path": "/home/docs/scenario-studio/about" },
+        { "label": "Quick Start", "iconName": "IconBolt", "path": "/home/docs/scenario-studio/quick-start", "isNew": true },
+        { "label": "Canvas Overview", "iconName": "IconEye", "path": "/home/docs/scenario-studio/canvas-overview" },
+        { "label": "Deployment", "iconName": "IconUpload", "path": "/home/docs/scenario-studio/deployment" }
       ]
     },
     {
       "label": "Interface",
       "iconName": "IconSettings",
       "items": [
-        { "label": "Toolbar", "iconName": "IconSettings", "path": "/home/scenario-management/scenario-studio/docs/toolbar" },
-        { "label": "Sidebar Panel", "iconName": "IconListDetails", "path": "/home/scenario-management/scenario-studio/docs/sidebar" },
-        { "label": "Keyboard Shortcuts", "iconName": "IconKeyboard", "path": "/home/scenario-management/scenario-studio/docs/shortcuts" }
+        { "label": "Toolbar", "iconName": "IconSettings", "path": "/home/docs/scenario-studio/toolbar" },
+        { "label": "Sidebar Panel", "iconName": "IconListDetails", "path": "/home/docs/scenario-studio/sidebar" },
+        { "label": "Keyboard Shortcuts", "iconName": "IconKeyboard", "path": "/home/docs/scenario-studio/shortcuts" }
       ]
     },
     {
       "label": "Best Practices",
       "iconName": "IconBulb",
       "items": [
-        { "label": "Tips & Tricks", "iconName": "IconStar", "path": "/home/scenario-management/scenario-studio/docs/best-practices" },
-        { "label": "FAQ", "iconName": "IconChecklist", "path": "/home/scenario-management/scenario-studio/docs/faq" }
+        { "label": "Tips & Tricks", "iconName": "IconStar", "path": "/home/docs/scenario-studio/best-practices" },
+        { "label": "FAQ", "iconName": "IconChecklist", "path": "/home/docs/scenario-studio/faq" }
       ]
     }
   ],
@@ -37,55 +37,55 @@
           "label": "Panduan Awal",
           "iconName": "IconPlayerPlay",
           "items": [
-            { "label": "Ikhtisar", "iconName": "IconBook", "path": "/home/scenario-management/scenario-studio/docs/tutorial-overview" },
-            { "label": "Membuat Rule Pertama", "iconName": "IconPlus", "path": "/home/scenario-management/scenario-studio/docs/tutorial-first-rule" },
-            { "label": "Membangun Detection Flow", "iconName": "IconGitBranch", "path": "/home/scenario-management/scenario-studio/docs/tutorial-building-flow" },
-            { "label": "Mengorganisir dengan Groups", "iconName": "IconHierarchy2", "path": "/home/scenario-management/scenario-studio/docs/tutorial-groups" }
+            { "label": "Ikhtisar", "iconName": "IconBook", "path": "/home/docs/scenario-studio/tutorial-overview" },
+            { "label": "Membuat Rule Pertama", "iconName": "IconPlus", "path": "/home/docs/scenario-studio/tutorial-first-rule" },
+            { "label": "Membangun Detection Flow", "iconName": "IconGitBranch", "path": "/home/docs/scenario-studio/tutorial-building-flow" },
+            { "label": "Mengorganisir dengan Groups", "iconName": "IconHierarchy2", "path": "/home/docs/scenario-studio/tutorial-groups" }
           ]
         },
         {
           "label": "Manajemen Scenario",
           "iconName": "IconSettings",
           "items": [
-            { "label": "Menambah Scenario", "iconName": "IconFilePlus", "path": "/home/scenario-management/scenario-studio/docs/add-scenario" },
-            { "label": "Mengedit Scenario", "iconName": "IconEdit", "path": "/home/scenario-management/scenario-studio/docs/edit-scenario" },
-            { "label": "Menghapus Scenario", "iconName": "IconTrash", "path": "/home/scenario-management/scenario-studio/docs/delete-scenario" },
-            { "label": "Meng-Copy Scenario", "iconName": "IconCopy", "path": "/home/scenario-management/scenario-studio/docs/copy-scenario" },
-            { "label": "Approve & Aktivasi", "iconName": "IconCheck", "path": "/home/scenario-management/scenario-studio/docs/approve-activate" },
-            { "label": "Import & Export", "iconName": "IconDownload", "path": "/home/scenario-management/scenario-studio/docs/import-export" },
-            { "label": "Mengelola Reactions", "iconName": "IconUsers", "path": "/home/scenario-management/scenario-studio/docs/manage-reactions" }
+            { "label": "Menambah Scenario", "iconName": "IconFilePlus", "path": "/home/docs/scenario-studio/add-scenario" },
+            { "label": "Mengedit Scenario", "iconName": "IconEdit", "path": "/home/docs/scenario-studio/edit-scenario" },
+            { "label": "Menghapus Scenario", "iconName": "IconTrash", "path": "/home/docs/scenario-studio/delete-scenario" },
+            { "label": "Meng-Copy Scenario", "iconName": "IconCopy", "path": "/home/docs/scenario-studio/copy-scenario" },
+            { "label": "Approve & Aktivasi", "iconName": "IconCheck", "path": "/home/docs/scenario-studio/approve-activate" },
+            { "label": "Import & Export", "iconName": "IconDownload", "path": "/home/docs/scenario-studio/import-export" },
+            { "label": "Mengelola Reactions", "iconName": "IconUsers", "path": "/home/docs/scenario-studio/manage-reactions" }
           ]
         },
         {
           "label": "Operasi Canvas",
           "iconName": "IconHierarchy2",
           "items": [
-            { "label": "Menambah Node", "iconName": "IconPlus", "path": "/home/scenario-management/scenario-studio/docs/add-nodes" },
-            { "label": "Menghubungkan Node", "iconName": "IconGitBranch", "path": "/home/scenario-management/scenario-studio/docs/connect" },
-            { "label": "Memilih & Memindahkan", "iconName": "IconPointer", "path": "/home/scenario-management/scenario-studio/docs/select" },
-            { "label": "Mengedit Node", "iconName": "IconEdit", "path": "/home/scenario-management/scenario-studio/docs/edit-node" },
-            { "label": "Menghapus Node", "iconName": "IconTrash", "path": "/home/scenario-management/scenario-studio/docs/delete" },
-            { "label": "Menggunakan Group", "iconName": "IconFolderPlus", "path": "/home/scenario-management/scenario-studio/docs/group" },
-            { "label": "Merapikan Layout", "iconName": "IconColorPicker", "path": "/home/scenario-management/scenario-studio/docs/tidy" },
-            { "label": "Copy & Paste", "iconName": "IconCopy", "path": "/home/scenario-management/scenario-studio/docs/copy-paste" },
-            { "label": "Undo & Redo", "iconName": "IconArrowBackUp", "path": "/home/scenario-management/scenario-studio/docs/undo-redo" },
-            { "label": "Konfigurasi Build", "iconName": "IconSettings", "path": "/home/scenario-management/scenario-studio/docs/build-config" }
+            { "label": "Menambah Node", "iconName": "IconPlus", "path": "/home/docs/scenario-studio/add-nodes" },
+            { "label": "Menghubungkan Node", "iconName": "IconGitBranch", "path": "/home/docs/scenario-studio/connect" },
+            { "label": "Memilih & Memindahkan", "iconName": "IconPointer", "path": "/home/docs/scenario-studio/select" },
+            { "label": "Mengedit Node", "iconName": "IconEdit", "path": "/home/docs/scenario-studio/edit-node" },
+            { "label": "Menghapus Node", "iconName": "IconTrash", "path": "/home/docs/scenario-studio/delete" },
+            { "label": "Menggunakan Group", "iconName": "IconFolderPlus", "path": "/home/docs/scenario-studio/group" },
+            { "label": "Merapikan Layout", "iconName": "IconColorPicker", "path": "/home/docs/scenario-studio/tidy" },
+            { "label": "Copy & Paste", "iconName": "IconCopy", "path": "/home/docs/scenario-studio/copy-paste" },
+            { "label": "Undo & Redo", "iconName": "IconArrowBackUp", "path": "/home/docs/scenario-studio/undo-redo" },
+            { "label": "Konfigurasi Build", "iconName": "IconSettings", "path": "/home/docs/scenario-studio/build-config" }
           ]
         },
         {
           "label": "Manajemen Group",
           "iconName": "IconFolderPlus",
           "items": [
-            { "label": "Menambah Group", "iconName": "IconFolderPlus", "path": "/home/scenario-management/scenario-studio/docs/add-group" },
-            { "label": "Mengedit Group", "iconName": "IconEdit", "path": "/home/scenario-management/scenario-studio/docs/edit-group" },
-            { "label": "Menghapus Group", "iconName": "IconFolderX", "path": "/home/scenario-management/scenario-studio/docs/delete-group" }
+            { "label": "Menambah Group", "iconName": "IconFolderPlus", "path": "/home/docs/scenario-studio/add-group" },
+            { "label": "Mengedit Group", "iconName": "IconEdit", "path": "/home/docs/scenario-studio/edit-group" },
+            { "label": "Menghapus Group", "iconName": "IconFolderX", "path": "/home/docs/scenario-studio/delete-group" }
           ]
         },
         {
           "label": "Verifikasi",
           "iconName": "IconShield",
           "items": [
-            { "label": "Menjalankan Verifikasi", "iconName": "IconChecklist", "path": "/home/scenario-management/scenario-studio/docs/run-verification" }
+            { "label": "Menjalankan Verifikasi", "iconName": "IconChecklist", "path": "/home/docs/scenario-studio/run-verification" }
           ]
         }
       ]
