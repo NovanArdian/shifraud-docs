@@ -1,0 +1,61 @@
+{
+  "label": "Menambahkan Video ke Tutorial",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Menambahkan Video ke Tutorial",
+      "id": "tutorial-add-video",
+      "intro": "Pelajari cara menambahkan konten video ke halaman dokumentasi. Tutorial ini mencakup cara menyematkan video lokal (MP4/WebM) maupun video dari platform seperti YouTube atau Vimeo. Perkiraan waktu: 3-5 menit.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Pahami Tipe Video yang Didukung",
+          "desc": "Dokumentasi mendukung tiga tipe video:\n• **video** — untuk file lokal (MP4, WebM) yang di-host di server\n• **youtube** — untuk menyematkan video dari YouTube menggunakan URL embed\n• **vimeo** — untuk menyematkan video dari Vimeo menggunakan URL embed\n\nSetiap tipe menggunakan komponen player yang optimal sesuai platform.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex items-center gap-3 p-3 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-8 h-8 rounded-lg bg-blue-100 flex items-center justify-center\"><svg class=\"w-4 h-4 text-blue-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z\"/></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">video</p><p class=\"text-xs text-blue-600\">MP4 / WebM — video lokal</p></div></div><div class=\"flex items-center gap-3 p-3 bg-red-50 rounded-lg border border-red-200\"><div class=\"w-8 h-8 rounded-lg bg-red-100 flex items-center justify-center\"><svg class=\"w-4 h-4 text-red-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg></div><div><p class=\"text-sm font-semibold text-red-800\">youtube</p><p class=\"text-xs text-red-600\">YouTube embed URL</p></div></div><div class=\"flex items-center gap-3 p-3 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-8 h-8 rounded-lg bg-indigo-100 flex items-center justify-center\"><svg class=\"w-4 h-4 text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z\"/></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">vimeo</p><p class=\"text-xs text-indigo-600\">Vimeo embed URL</p></div></div></div>"
+        },
+        {
+          "num": 2,
+          "title": "Struktur JSON Section Video",
+          "desc": "Untuk menambahkan video, gunakan section dengan type \"video\" di dalam array sections. Berikut field yang tersedia:\n\n• **src** (wajib) — URL video atau embed link\n• **videoType** — \"video\" | \"youtube\" | \"vimeo\" (default: \"video\")\n• **poster** — URL gambar thumbnail (opsional, hanya untuk video lokal)\n• **caption** — teks keterangan di bawah player\n• **controls** — tampilkan kontrol player (default: true)\n• **autoplay** — putar otomatis (default: false)\n• **loop** — ulang terus (default: false)",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": "<div class=\"p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"flex items-center gap-2 mb-3\"><svg class=\"w-4 h-4 text-violet-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4\"/></svg><span class=\"text-sm font-semibold text-violet-800\">Contoh JSON</span></div><pre class=\"text-xs text-violet-700 bg-white p-3 rounded border border-violet-200 overflow-x-auto\"><code>{<br>  \"type\": \"video\",<br>  \"src\": \"https://...\",<br>  \"videoType\": \"youtube\",<br>  \"caption\": \"Video Tutorial\",<br>  \"controls\": true<br>}</code></pre></div>"
+        },
+        {
+          "num": 3,
+          "title": "Contoh: Menyematkan Video Lokal",
+          "desc": "Untuk video yang di-host sendiri (MP4/WebM), gunakan videoType \"video\" dan isi src dengan URL langsung ke file video. Tambahkan poster untuk thumbnail:\n\n```json\n{\n  \"type\": \"video\",\n  \"src\": \"/assets/videos/tutorial.mp4\",\n  \"poster\": \"/assets/images/thumbnail.jpg\",\n  \"caption\": \"Tutorial Menggunakan Scenario Studio\",\n  \"controls\": true\n}\n```\n\nPastikan file video sudah di-upload ke server dan path-nya benar.",
+          "color": "#f97316",
+          "bg": "#fff7ed",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z\"/></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Video Lokal</p><p class=\"text-xs text-orange-600\">Host file MP4/WebM di server</p></div></div>"
+        },
+        {
+          "num": 4,
+          "title": "Contoh: Menyematkan Video YouTube",
+          "desc": "Untuk video dari YouTube, gunakan videoType \"youtube\" dan isi src dengan URL embed YouTube:\n\n```json\n{\n  \"type\": \"video\",\n  \"src\": \"https://www.youtube.com/embed/VIDEO_ID\",\n  \"videoType\": \"youtube\",\n  \"caption\": \"Tutorial YouTube\"\n}\n```\n\nDapatkan URL embed dari YouTube dengan klik Share → Embed, ambil bagian src dari tag iframe.",
+          "color": "#ef4444",
+          "bg": "#fef2f2",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-red-50 rounded-lg border border-red-200\"><div class=\"w-10 h-10 rounded-full bg-red-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-red-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg></div><div><p class=\"text-sm font-semibold text-red-800\">YouTube</p><p class=\"text-xs text-red-600\">Gunakan embed URL: youtube.com/embed/VIDEO_ID</p></div></div>"
+        },
+        {
+          "num": 5,
+          "title": "Hasil Akhir: Video di Halaman Docs",
+          "desc": "Setelah menambahkan section video ke JSON, video player akan tampil di halaman dokumentasi dengan:\n\n• Player responsif dengan aspect ratio 16:9\n• Kontrol play/pause, volume, fullscreen\n• Caption di bawah player\n• Dark mode support\n\nLihat contoh di bawah — video yang disematkan akan muncul di halaman dokumentasi.",
+          "color": "#22c55e",
+          "bg": "#f0fdf4",
+          "previewHtml": "<div class=\"text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200\"><div class=\"inline-flex items-center justify-center w-12 h-12 rounded-full bg-green-100 mb-3\"><svg class=\"w-6 h-6 text-green-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg></div><p class=\"text-sm font-bold text-green-800\">Video Siap Ditampilkan!</p><p class=\"text-xs text-green-600 mt-1\">Player video akan muncul di halaman docs.</p><div class=\"mt-3 flex justify-center gap-2\"><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-700\">✓ Responsive</span><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-purple-100 text-purple-700\">✓ 16:9</span></div></div>"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "videoType": "youtube",
+      "caption": "Contoh video YouTube yang disematkan di halaman dokumentasi",
+      "controls": true
+    }
+  ]
+}
