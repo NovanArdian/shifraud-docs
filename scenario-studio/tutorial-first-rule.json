@@ -13,7 +13,8 @@
           "title": "Buka Scenario Studio",
           "desc": "Dari sidebar utama, klik menu \"Scenario Management\" lalu pilih \"Scenario Studio\". Klik tombol \"Add New\" untuk membuat scenario baru.",
           "color": "#f97316",
-          "bg": "#fff7ed"
+          "bg": "#fff7ed",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"flex-shrink-0 w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Navigasi Cepat</p><p class=\"text-xs text-orange-600\">Gunakan shortcut <kbd class=\"px-1.5 py-0.5 bg-orange-200 rounded text-xs font-mono\">Ctrl+K</kbd> dan ketik \"Scenario Studio\"</p></div></div>"
         },
         {
           "num": 2,
@@ -62,7 +63,8 @@
           "title": "Selesai!",
           "desc": "Rule pertama Anda sudah tersimpan. Anda bisa melihatnya di halaman Scenario Group atau membuka kembali di Scenario Studio untuk diedit.",
           "color": "#f43f5e",
-          "bg": "#fff1f2"
+          "bg": "#fff1f2",
+          "previewHtml": "<div class=\"text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg border border-green-200\"><div class=\"inline-flex items-center justify-center w-12 h-12 rounded-full bg-green-100 mb-3\"><svg class=\"w-6 h-6 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"></path></svg></div><p class=\"text-sm font-bold text-green-800\">Rule Berhasil Dibuat!</p><p class=\"text-xs text-green-600 mt-1\">Selamat, kamu sudah menyelesaikan tutorial pertama.</p><div class=\"mt-3 flex justify-center gap-2\"><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-700\">✓ Tersimpan</span><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-700\">✓ Siap diuji</span></div></div>"
         }
       ]
     }

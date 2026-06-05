@@ -15,7 +15,7 @@
       { "key": "Tipe", "value": "Deteksi" }
     ]},
     { "type": "tutorial", "heading": "Judul Tutorial", "intro": "Pengantar tutorial...", "steps": [
-      { "num": 1, "title": "Langkah 1", "desc": "Deskripsi", "color": "#6366f1", "bg": "#eef2ff" },
+      { "num": 1, "title": "Langkah 1", "desc": "Deskripsi", "color": "#6366f1", "bg": "#eef2ff", "previewHtml": "<div class=\"p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-indigo-100 text-indigo-700\">PREVIEW</span><p class=\"mt-2 text-sm text-gray-600\">Konten <strong>HTML</strong> dengan <span class=\"text-indigo-600\">Tailwind</span></p></div>" },
       { "num": 2, "title": "Langkah 2", "desc": "Deskripsi", "color": "#2563EB", "bg": "#eff6ff" }
     ]}
   ]

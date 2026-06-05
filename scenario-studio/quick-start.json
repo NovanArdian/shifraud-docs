@@ -7,7 +7,7 @@
       "content": "Mulai menggunakan Scenario Studio Canvas dalam beberapa langkah cepat."
     },
     {
-      "type": "stepper",
+      "type": "text",
       "steps": [
         {
           "num": 1,
