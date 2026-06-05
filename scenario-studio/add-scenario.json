@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Tombol Tambah Scenario",
-          "desc": "Cara paling umum: {previewHtml:1}\n\n1. Buka halaman **Scenario Management**\n2. Klik tombol **+ Tambah Scenario** di pojok kanan atas\n3. Pilih tipe rule: **GENERAL** (3 langkah) atau **CONDITION** (4 langkah)\n4. Anda akan dibawa ke halaman editor untuk mengisi rule\n\nSetelah masuk editor, ikuti langkah-langkah di form wizard.",
+          "desc": "{previewHtml:1}\n• Buka halaman **Scenario Management**\n• Klik **+ Tambah Scenario** di pojok kanan atas\n• Pilih tipe rule: GENERAL (3 langkah) atau CONDITION (4 langkah)\n• Anda akan dibawa ke halaman editor",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Mengisi Detail Rule",
-          "desc": "Setelah masuk editor: {previewHtml:1}\n\n**Step 1 — Configure Parameters:**\n• Isi Rule Name, Description, Risk Score, Priority\n• Atur Active Period (jadwal aktif rule)\n\n**Step 2 — Build Flow:**\n• Tambahkan node kondisi dari sidebar\n• Hubungkan node dengan drag handle\n• Atur parameter tiap node\n\n**Step 3 — Review & Submit:**\n• Periksa ringkasan rule\n• Klik Submit untuk simpan sebagai Draft",
+          "desc": "{previewHtml:1}\n• **Step 1** — Isi Rule Name, Risk Score, Priority, Active Period\n• **Step 2** — Bangun flow: tambah node, hubungkan, atur parameter\n• **Step 3** — Review ringkasan rule dan Submit sebagai Draft",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {

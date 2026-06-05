@@ -6,26 +6,26 @@
       "type": "tutorial",
       "heading": "Toolbar Reference",
       "id": "toolbar",
-      "intro": "Toolbar di Scenario Studio memberi akses cepat ke semua fitur penting. Ada toolbar bawah (floating) dan context menu (klik kanan). Halaman ini menjelaskan fungsi masing-masing tombol.",
+      "intro": "Toolbar memberi akses cepat ke fitur penting. Ada toolbar bawah (floating) dan context menu (klik kanan).",
       "steps": [
         {
           "num": 1,
-          "title": "Toolbar Bawah — Navigasi & Aksi",
-          "desc": "Toolbar bawah selalu terlihat di canvas. Isinya: {previewHtml:1}\n\n• **Info Rule** (⚡) — Ringkasan rule: nama, tipe, jumlah kondisi\n• **+ Condition** — Tambah node kondisi baru di tengah canvas\n• **Auto-Arrange** (✨) — Susun ulang semua node otomatis dengan algoritma dagre\n• **Back** (←) — Kembali ke langkah sebelumnya\n• **Continue** (→) — Lanjut ke langkah berikutnya\n\nTombol **Continue** akan aktif hanya jika semua field sudah diisi dengan benar.",
+          "title": "Toolbar Bawah",
+          "desc": "{previewHtml:1}\n• **Info Rule** — Ringkasan nama, tipe, jumlah kondisi\n• **+ Condition** — Tambah node baru di canvas\n• **Auto-Arrange** — Susun ulang node otomatis\n• **Back / Continue** — Pindah antar langkah workflow\n• Continue aktif hanya jika semua field sudah diisi",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;\"><div style=\"display:flex;align-items:center;gap:4px;padding:4px 8px;border-radius:5px;background:#f8fafc;border:1px solid #e2e8f0;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/></svg><span style=\"font-size:7px;color:#475569;\">Info Rule</span></div><div style=\"padding:4px 8px;border-radius:5px;background:#6366f1;color:#fff;font-size:7px;font-weight:600;\">+ Condition</div><div style=\"padding:4px 8px;border-radius:5px;background:#f1f5f9;color:#475569;font-size:7px;\">✨ Auto</div><div style=\"padding:4px 8px;border-radius:5px;background:#f1f5f9;color:#475569;font-size:7px;\">← Back</div><div style=\"padding:4px 8px;border-radius:5px;background:#3b82f6;color:#fff;font-size:7px;font-weight:600;\">Continue →</div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;\"><span style=\"padding:4px 8px;border-radius:5px;background:#6366f1;color:#fff;font-size:7px;font-weight:600;\">+ Condition</span><span style=\"padding:4px 8px;border-radius:5px;background:#f1f5f9;color:#475569;font-size:7px;\">✨ Auto</span><span style=\"padding:4px 8px;border-radius:5px;background:#f1f5f9;color:#475569;font-size:7px;\">← Back</span><span style=\"padding:4px 8px;border-radius:5px;background:#3b82f6;color:#fff;font-size:7px;font-weight:600;\">Continue →</span></div></div>"
           }
         },
         {
           "num": 2,
-          "title": "Context Menu — Klik Kanan",
-          "desc": "Klik kanan pada node atau canvas untuk menu konteks: {previewHtml:1}\n\n**Pada Node:**\n• **Edit** — Ubah konfigurasi node\n• **Delete** — Hapus node\n• **Color** — Ganti warna node\n• **Copy** — Salin node (sama dengan Ctrl+C)\n• **Disconnect** — Putuskan semua koneksi\n\n**Pada Canvas (background):**\n• **Add Condition** — Tambah node baru\n• **Auto-Arrange** — Rapikan layout\n• **Paste** — Tempel node yang sudah di-copy",
+          "title": "Context Menu (Klik Kanan)",
+          "desc": "{previewHtml:1}\n**Pada Node:** Edit, Delete, Color, Copy, Disconnect\n**Pada Canvas:** Add Condition, Auto-Arrange, Paste",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;overflow:hidden;width:140px;\"><div style=\"padding:5px 8px;display:flex;align-items:center;gap:4px;border-bottom:1px solid #e2e8f0;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#475569\" stroke-width=\"2\"><path d=\"M11 4H4v7l9 9 7-7-9-9z\"/></svg><span style=\"font-size:7px;color:#0f172a;font-weight:500;\">Edit Node</span></div><div style=\"padding:5px 8px;display:flex;align-items:center;gap:4px;border-bottom:1px solid #e2e8f0;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"><path d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\"/></svg><span style=\"font-size:7px;color:#dc2626;font-weight:500;\">Delete Node</span></div><div style=\"padding:5px 8px;display:flex;align-items:center;gap:4px;border-bottom:1px solid #e2e8f0;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8b5cf6\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2c5.5 0 10 4.5 10 10s-4.5 10-10 10\"/></svg><span style=\"font-size:7px;color:#8b5cf6;font-weight:500;\">Change Color</span></div><div style=\"padding:5px 8px;display:flex;align-items:center;gap:4px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#475569\" stroke-width=\"2\"><rect x=\"2\" y=\"2\" width=\"8\" height=\"8\"/><rect x=\"14\" y=\"2\" width=\"8\" height=\"8\"/><rect x=\"2\" y=\"14\" width=\"8\" height=\"8\"/><rect x=\"14\" y=\"14\" width=\"8\" height=\"8\"/></svg><span style=\"font-size:7px;color:#475569;font-weight:500;\">Copy</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;overflow:hidden;width:140px;\"><div style=\"padding:5px 8px;border-bottom:1px solid #e2e8f0;font-size:7px;color:#0f172a;\">✏️ Edit Node</div><div style=\"padding:5px 8px;border-bottom:1px solid #e2e8f0;font-size:7px;color:#dc2626;\">🗑️ Delete Node</div><div style=\"padding:5px 8px;font-size:7px;color:#8b5cf6;\">🎨 Change Color</div></div>"
           }
         }
       ]

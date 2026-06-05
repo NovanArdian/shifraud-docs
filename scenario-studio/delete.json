@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Cara Menghapus Node",
-          "desc": "Beberapa cara menghapus node: {previewHtml:1}\n\n1. **Pilih node** → tekan **Delete** atau **Backspace**\n2. **Klik kanan node** → **Delete**\n3. **Pilih banyak node** (Shift+Klik) → tekan **Delete** — hapus semua sekaligus\n\nNode yang dihapus beserta koneksinya akan hilang. Bisa di-undo dengan Ctrl+Z.",
+          "desc": "{previewHtml:1}\n• Pilih node → tekan **Delete** atau **Backspace**\n• Klik kanan node → **Delete**\n• Pilih banyak node (Shift+Klik) → Delete — hapus semua\n• Node dan koneksinya hilang, bisa di-undo dengan Ctrl+Z",
           "color": "#ef4444",
           "bg": "#fef2f2",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Yang Perlu Diperhatikan",
-          "desc": "{previewHtml:1}\n\n⚠️ **Koneksi terputus** — Saat node dihapus, semua koneksi yang terhubung ke node itu juga ikut terhapus\n⚠️ **Start node tidak bisa dihapus** — Kalau Start node terakhir dihapus, rule tidak punya titik awal\n⚠️ **Undo** — Segera tekan Ctrl+Z kalau salah hapus\n⚠️ **Node dalam group** — Hapus node di dalam group, node hilang tapi group tetap ada",
+          "desc": "{previewHtml:1}\n• ⚠️ Koneksi yang terhubung ke node juga ikut terhapus\n• ⚠️ Start node tidak bisa dihapus jika satu-satunya\n• ⚠️ Ctrl+Z untuk undo kalau salah hapus\n• ⚠️ Node dalam group: node hilang, group tetap ada",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {

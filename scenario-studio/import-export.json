@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Export Rule",
-          "desc": "Cara mengexport rule: {previewHtml:1}\n\n1. Buka halaman **Scenario Management**\n2. Pilih rule yang ingin di-export (centang checkbox)\n3. Klik tombol **Export**\n4. File JSON akan ter-download\n\nFile export berisi:\n• Semua parameter rule\n• Semua node dan konfigurasinya\n• Semua koneksi\n• Semua group dan posisinya\n\nFile ini bisa di-import ke environment lain.",
+          "desc": "{previewHtml:1}\n• Buka **Scenario Management**, centang rule yang ingin di-export\n• Klik tombol **Export**\n• File JSON ter-download berisi semua parameter, node, koneksi, group",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Import Rule",
-          "desc": "Cara mengimport rule dari file JSON: {previewHtml:1}\n\n1. Buka halaman **Scenario Management**\n2. Klik tombol **Import**\n3. Pilih file JSON yang sudah di-export sebelumnya\n4. Rule akan ditambahkan dengan nama sesuai file\n\n**Catatan:**\n• File harus format JSON yang valid\n• Kalau ada konflik nama, akan ditambahi \"(Imported)\"\n• Import menghasilkan rule dengan status **Draft** — perlu di-submit dan diaktivasi ulang",
+          "desc": "{previewHtml:1}\n• Buka **Scenario Management**, klik **Import**\n• Pilih file JSON hasil export\n• Rule ditambahkan dengan status **Draft**\n• Perlu di-submit dan diaktivasi ulang",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
@@ -31,7 +31,7 @@
         {
           "num": 3,
           "title": "Use Case Import/Export",
-          "desc": "Kapan fitur ini berguna: {previewHtml:1}\n\n🔄 **Migrasi environment** — Pindahkan rule dari Development → Staging → Production\n👥 **Kolaborasi tim** — Export rule, kirim ke rekan, import di environment mereka\n💾 **Backup** — Export semua rule sebagai backup sebelum perubahan besar\n📋 **Template** — Buat rule template, export, lalu import sebagai dasar rule baru\n\nFile export bersifat portabel — bisa dipindah antar instance Shifor.",
+          "desc": "{previewHtml:1}\n• 🔄 **Migrasi** — Pindahkan rule Dev → Staging → Production\n• 👥 **Kolaborasi** — Export, kirim ke rekan, import\n• 💾 **Backup** — Export semua rule sebelum perubahan besar\n• 📋 **Template** — Buat rule template sebagai dasar rule baru",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {

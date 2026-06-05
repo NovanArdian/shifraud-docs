@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Cara Menambah Node",
-          "desc": "Ada 4 cara menambah node ke canvas: {previewHtml:1}\n\n1️⃣ **Klik + Condition** — Tombol di toolbar bawah. Klik, pilih jenis node.\n2️⃣ **Drag dari Sidebar** — Seret jenis node dari sidebar kiri ke canvas.\n3️⃣ **Klik Kanan** — Klik kanan di area kosong canvas → Add Condition → pilih jenis.\n4️⃣ **Double-click** — Klik dua kali di area kosong canvas, node akan langsung nambah dengan tipe default.\n\nNode pertama otomatis menjadi **Start** node.",
+          "desc": "{previewHtml:1}\n• Klik **+ Condition** di toolbar bawah\n• **Drag** jenis node dari sidebar kiri ke canvas\n• Klik kanan di area kosong → **Add Condition**\n• **Double-click** di area kosong canvas",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Jenis-Jenis Node yang Tersedia",
-          "desc": "Pilih jenis node sesuai kebutuhan deteksi Anda: {previewHtml:1}\n\n• **CONSTANT** — Cek nilai tetap (amount > 10jt, status = APPROVED)\n• **IN_LIST** — Cek apakah nilai ada dalam daftar (negara: ID, SG, MY)\n• **CONTAINS** — Cek apakah string mengandung kata tertentu\n• **REGEX** — Cek dengan pola regular expression\n• **VARIABLE** — Cek nilai relatif (last amount > current amount * 2)\n• **FREQUENCY** — Cek frekuensi dalam periode waktu\n• **RATIO** — Cek perbandingan antar field\n• **DEVIATION** — Cek penyimpangan dari nilai normal\n• **LOGICAL** — AND/OR/NOT untuk menggabungkan kondisi\n• **MET** — Cek kecocokan dengan MET profile\n\nMulai dengan CONSTANT dulu kalau baru belajar.",
+          "desc": "{previewHtml:1}\n• **CONSTANT** — Cek nilai tetap (amount > 10jt)\n• **CONTAINS / IN_LIST / REGEX** — Cek string dan daftar\n• **VARIABLE / FREQUENCY / RATIO** — Cek nilai dinamis\n• **DEVIATION** — Cek penyimpangan dari normal\n• **LOGICAL** — AND/OR/NOT untuk menggabungkan kondisi",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {

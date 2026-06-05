@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Membuat Group",
-          "desc": "Ada dua cara membuat group: {previewHtml:1}\n\n**Cara 1 — Dari node yang sudah ada:**\n1. Pilih node yang ingin dikelompokkan (Shift+Klik untuk multi-pilih)\n2. Klik kanan → **Group**\n3. Node-node akan terbungkus dalam kotak group\n\n**Cara 2 — Group kosong:**\n1. Klik kanan di canvas → **Add Group**\n2. Group kosong akan muncul\n3. Seret node ke dalam group\n\nGroup bisa diberi nama sesuai fungsinya.",
+          "desc": "{previewHtml:1}\n• **Cara 1:** Pilih node (Shift+Klik) → Klik kanan → **Group**\n• **Cara 2:** Klik kanan canvas → **Add Group** → Seret node ke dalamnya\n• Group bisa diberi nama sesuai fungsinya",
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Mengelola Group",
-          "desc": "Setelah group dibuat, Anda bisa: {previewHtml:1}\n\n✏️ **Edit nama** — Klik dua kali judul group\n🎨 **Ubah warna** — Group bisa diberi warna pembeda\n📐 **Ubah ukuran** — Seret pojok kanan bawah group\n🌀 **Collapse/Expand** — Klik ikon segitiga untuk menutup/membuka group\n➡️ **Pindah** — Seret judul group untuk memindahkan semua isinya\n\nNode di dalam group tetap bisa diedit satu per satu.",
+          "desc": "{previewHtml:1}\n• ✏️ **Edit nama** — Klik dua kali judul group\n• 🎨 **Ubah warna** — Pilih warna dari palet\n• 📐 **Ubah ukuran** — Seret pojok kanan bawah\n• 🌀 **Collapse/Expand** — Klik segitiga untuk menutup/membuka\n• ➡️ **Pindah** — Seret judul group untuk memindahkan semua isinya",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
@@ -31,7 +31,7 @@
         {
           "num": 3,
           "title": "Menghapus Group",
-          "desc": "Menghapus group **tidak** menghapus node di dalamnya. {previewHtml:1}\n\n**Ungroup** — Klik kanan group → **Ungroup**:\n• Kotak group hilang\n• Semua node tetap di canvas dengan posisi dan koneksi yang sama\n\n**Delete Group + isinya** — Pilih group → tekan **Delete**:\n• Group dan seluruh isinya (node + koneksi) akan terhapus\n\nJadi kalau ragu, pilih **Ungroup** saja — lebih aman!",
+          "desc": "{previewHtml:1}\n• **Ungroup** (aman) — Klik kanan → Ungroup, node tetap ada di canvas\n• **Delete Group** — Hapus group beserta semua node di dalamnya\n• Kalau ragu, pilih **Ungroup** saja",
           "color": "#ef4444",
           "bg": "#fef2f2",
           "previewHtml": {
@@ -41,7 +41,7 @@
         {
           "num": 4,
           "title": "Tips Groups",
-          "desc": "{previewHtml:1}\n\n✅ **Beri nama deskriptif** — \"Cek Amount\", \"Verifikasi Negara\", bukan \"Group 1\"\n✅ **Gunakan warna** — Beda warna untuk beda fungsi (merah = alert, biru = validasi)\n✅ **Collapse yang jarang diedit** — Hemat ruang canvas\n✅ **Copy-Paste group** — Group bisa di-copy ke rule lain\n✅ **Jangan terlalu banyak** — Maksimal 5-7 group per rule biar tidak overload\n\nGroup yang tertata rapi membuat rule mudah dipahami tim lain.",
+          "desc": "{previewHtml:1}\n• ✅ Beri nama deskriptif (\"Cek Amount\", bukan \"Group 1\")\n• ✅ Gunakan warna berbeda untuk fungsi berbeda\n• ✅ Collapse group yang jarang diedit untuk hemat ruang\n• ✅ Maksimal 5-7 group per rule agar tidak overload",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {

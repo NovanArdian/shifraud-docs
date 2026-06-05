@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Buka Rule yang Ingin Diedit",
-          "desc": "Cara membuka rule yang sudah ada: {previewHtml:1}\n\n1. Buka halaman **Scenario Management**\n2. Cari rule yang ingin diedit (gunakan search atau filter)\n3. Klik **nama rule** atau ikon **pencil (✏️ Edit)**\n4. Rule akan terbuka di editor\n\nHanya rule dengan status **Draft** yang bisa diedit langsung. Rule yang sudah **Active** harus di-deactivate dulu.",
+          "desc": "{previewHtml:1}\n• Buka **Scenario Management**, cari rule yang ingin diedit\n• Klik nama rule atau ikon **✏️ Edit**\n• Hanya rule **Draft** yang bisa diedit langsung\n• Rule **Active** harus di-deactivate dulu",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Yang Bisa Diedit",
-          "desc": "Setelah masuk editor, Anda bisa mengubah: {previewHtml:1}\n\n• **Parameter rule** — Nama, deskripsi, risk score, priority, active period\n• **Flow canvas** — Tambah/hapus/edit node, ubah koneksi\n• **Group** — Tambah/hapus/edit group\n\nCaranya sama seperti membuat rule baru. Setelah selesai, klik **Save** atau **Submit** untuk update.",
+          "desc": "{previewHtml:1}\n• **Parameter** — Nama, deskripsi, risk score, priority\n• **Flow** — Tambah/hapus/edit node, ubah koneksi\n• **Group** — Tambah/hapus/edit group\n• Setelah selesai, klik **Save** atau **Submit**",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
@@ -31,7 +31,7 @@
         {
           "num": 3,
           "title": "Edit Kondisi Node",
-          "desc": "Cara mengedit node yang sudah ada di canvas: {previewHtml:1}\n\n1. **Klik node** — Panel konfigurasi akan terbuka di sebelah kanan\n2. Ubah field, operator, atau value sesuai kebutuhan\n3. Node akan otomatis ter-update\n\nAtau:\n• **Klik kanan node** → pilih menu yang tersedia\n• **Double-click node** — sama seperti klik\n\nPerubahan akan langsung terlihat di canvas.",
+          "desc": "{previewHtml:1}\n• **Klik node** — panel konfigurasi terbuka di kanan\n• Ubah field, operator, atau value\n• Node otomatis ter-update\n• Atau klik kanan → pilih menu yang tersedia",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {

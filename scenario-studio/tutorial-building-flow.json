@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Memahami Node Canvas",
-          "desc": "Canvas adalah papan kerja utama Anda. Di sini node-node ditempatkan dan dihubungkan. {previewHtml:1}\n\n**Start Node** — Titik awal flow (berwarna hijau). Setiap flow punya satu Start.\n**Condition Node** — Node berisi kondisi/logika (CONSTANT, CONTAINS, REGEX, dll).\n**Logical Node** — AND/OR/NOT untuk menggabungkan kondisi.\n**Alert Node** — Titik akhir flow (berwarna merah). Menandakan rule menghasilkan alert.\n\nSemua node bisa dipindah, diedit, atau dihapus.",
+          "desc": "{previewHtml:1}\n• **Start Node** — Titik awal flow (hijau), setiap flow punya satu\n• **Condition Node** — Berisi kondisi/logika (CONSTANT, CONTAINS, dll)\n• **Logical Node** — AND/OR/NOT untuk menggabungkan kondisi\n• **Alert Node** — Titik akhir flow (merah), menandakan alert",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Menambah & Menghubungkan Node",
-          "desc": "Cara menambah node ke canvas: {previewHtml:1}\n\n1. **Drag** dari sidebar kiri — seret jenis node ke canvas\n2. **Klik + Condition** di toolbar bawah\n3. **Klik kanan** di canvas → pilih jenis node\n4. **Double-click** di area kosong\n\nSetelah node ada, hubungkan:\n1. Arahkan kursor ke **handle** (titik kecil) di tepi kanan node\n2. **Klik-drag** ke handle node tujuan\n3. Lepaskan — koneksi terbentuk dengan garis panah\n\nKoneksi bisa dihapus dengan klik pada garis, lalu tekan Delete.",
+          "desc": "{previewHtml:1}\n• **Drag** dari sidebar kiri ke canvas\n• **Klik + Condition** di toolbar bawah\n• **Klik kanan** di canvas → pilih jenis node\n• Hubungkan: drag handle (lingkaran) dari node sumber ke node tujuan",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
@@ -31,7 +31,7 @@
         {
           "num": 3,
           "title": "Tips Membangun Flow yang Baik",
-          "desc": "{previewHtml:1}\n\n✅ **Mulai dari kiri ke kanan** — Start di kiri, kondisi di tengah, Alert di kanan\n✅ **Pisahkan logika** — Satu node untuk satu kondisi spesifik\n✅ **Gunakan LOGICAL nodes** — AND/OR/NOT untuk menggabungkan beberapa kondisi\n✅ **Beri nama node yang jelas** — Biar mudah dibaca tim lain\n✅ **Auto-Arrange** — Klik tombol ini kalau node mulai berantakan\n✅ **Gunakan Connected Move** — Pindah node beserta koneksinya\n\nFlow yang rapi = mudah di-debug dan mudah diubah.",
+          "desc": "{previewHtml:1}\n• ✅ Mulai dari kiri ke kanan (Start → kondisi → Alert)\n• ✅ Satu node untuk satu kondisi spesifik\n• ✅ Gunakan LOGICAL nodes (AND/OR/NOT)\n• ✅ Beri nama node yang jelas\n• ✅ Gunakan Auto-Arrange kalau node berantakan",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {

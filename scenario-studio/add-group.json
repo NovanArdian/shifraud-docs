@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Buat Group Baru",
-          "desc": "Dua cara membuat group: {previewHtml:1}\n\n**Cara 1 — Group dari node yang sudah ada:**\n1. Pilih node yang ingin dikelompokkan (Shift+Klik untuk multi-pilih)\n2. Klik kanan → **Group**\n3. Node akan terbungkus dalam group dengan border dashed\n4. Group otomatis diberi nama default (bisa diedit)\n\n**Cara 2 — Group kosong:**\n1. Klik kanan di area kosong canvas\n2. Pilih **Add Group**\n3. Group kosong muncul — tinggal seret node ke dalamnya",
+          "desc": "{previewHtml:1}\n• **Cara 1:** Pilih node (Shift+Klik) → Klik kanan → **Group**\n• **Cara 2:** Klik kanan area kosong canvas → **Add Group**\n• Node akan terbungkus dalam border dashed\n• Group otomatis diberi nama default (bisa diedit)",
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Konfigurasi Group",
-          "desc": "Setelah group dibuat, atur konfigurasinya: {previewHtml:1}\n\n✏️ **Nama** — Klik dua kali judul untuk mengganti nama\n🎨 **Warna** — Pilih warna dari palet (setiap group bisa beda warna)\n📐 **Ukuran** — Seret pojok kanan bawah untuk mengubah ukuran\n🌀 **Collapse/Expand** — Klik segitiga untuk menutup/membuka\n\nBeri nama yang deskriptif seperti \"Cek Amount\", \"Validasi Negara\", atau \"Logika Utama\".",
+          "desc": "{previewHtml:1}\n• ✏️ **Nama** — Klik dua kali judul untuk mengganti nama\n• 🎨 **Warna** — Pilih warna dari palet\n• 📐 **Ukuran** — Seret pojok kanan bawah\n• 🌀 **Collapse/Expand** — Klik segitiga untuk menutup/membuka",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {

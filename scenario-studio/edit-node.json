@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Buka Panel Konfigurasi Node",
-          "desc": "Cara membuka panel konfigurasi: {previewHtml:1}\n\n1. **Klik node** di canvas — panel konfigurasi akan muncul di sisi kanan layar\n2. Atau **double-click** node — sama\n3. Atau **klik kanan node** → **Edit**\n\nPanel konfigurasi menampilkan:\n• **Field** — Nama field data yang diperiksa\n• **Operator** — Operator perbandingan (=, >, <, CONTAINS, dll)\n• **Value** — Nilai pembanding\n• **Label** — Nama tampilan node (opsional)\n\nSetiap perubahan langsung terlihat di node.",
+          "desc": "{previewHtml:1}\n• **Klik node** — panel konfigurasi muncul di sisi kanan\n• Atau **double-click** atau klik kanan → **Edit**\n• Panel menampilkan: Field, Operator, Value, Label\n• Setiap perubahan langsung terlihat di node",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Mengubah Parameter Node",
-          "desc": "Di panel konfigurasi, Anda bisa mengubah: {previewHtml:1}\n\n• **Field** — Pilih field dari data transaksi (amount, currency, country, dll)\n• **Operator** — Sesuai jenis node:\n  - CONSTANT: =, ≠, >, <, ≥, ≤, BETWEEN, IS_NULL, IS_NOT_NULL\n  - CONTAINS: EQUALS, CONTAINS, STARTS_WITH, ENDS_WITH\n  - IN_LIST: IN, NOT_IN\n  - REGEX: MATCHES, NOT_MATCHES\n• **Value** — Nilai yang dibandingkan\n• **Label** — Ganti nama node (biar lebih deskriptif)\n\nKlik **Save** atau cukup klik di luar panel untuk menyimpan.",
+          "desc": "{previewHtml:1}\n• **Field** — Pilih field data transaksi (amount, currency, dll)\n• **Operator** — =, ≠, >, <, CONTAINS, IN, MATCHES, dll\n• **Value** — Nilai yang dibandingkan\n• **Label** — Nama tampilan node (opsional, biar deskriptif)",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {

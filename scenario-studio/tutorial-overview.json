@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Apa yang Akan Anda Pelajari",
-          "desc": "Ikuti tutorial ini secara berurutan: {previewHtml:1}\n\n📘 **1. Ikhtisar** — (Halaman ini) Gambaran besar\n🛠️ **2. Membuat Rule Pertama** — Buat rule deteksi sederhana langkah demi langkah\n🔀 **3. Membangun Detection Flow** — Hubungkan node kondisi jadi flow deteksi\n📁 **4. Mengorganisir dengan Groups** — Kelompokkan node biar rapi\n\nSetelah selesai, Anda akan paham cara membuat rule deteksi fraud sendiri.",
+          "desc": "{previewHtml:1}\n• 📘 **Ikhtisar** — Gambaran besar tutorial\n• 🛠️ **Membuat Rule Pertama** — Rule deteksi sederhana\n• 🔀 **Membangun Detection Flow** — Rangkai node jadi flow\n• 📁 **Mengorganisir dengan Groups** — Kelompokkan node biar rapi",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Konsep Dasar",
-          "desc": "Beberapa istilah yang perlu Anda tahu: {previewHtml:1}\n\n• **Rule/Scenario** — Aturan deteksi fraud. Terdiri dari beberapa kondisi yang dirangkai.\n• **Node** — Satu blok kondisi (misal: cek amount > 10 juta). Bisa CONSTANT, CONTAINS, LOGICAL, dan lainnya.\n• **Flow/Canvas** — Tempat merangkai node-node jadi satu alur deteksi.\n• **Alert** — Hasil akhir kalau kondisi terpenuhi. Rule akan menghasilkan alert.\n• **Group** — Kumpulan node yang dikelompokkan biar rapi.",
+          "desc": "{previewHtml:1}\n• **Rule/Scenario** — Aturan deteksi fraud yang terdiri dari beberapa kondisi\n• **Node** — Satu blok kondisi (CONSTANT, CONTAINS, LOGICAL, dll)\n• **Flow/Canvas** — Tempat merangkai node jadi satu alur deteksi\n• **Alert** — Hasil akhir jika kondisi terpenuhi\n• **Group** — Kumpulan node yang dikelompokkan biar rapi",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
@@ -31,7 +31,7 @@
         {
           "num": 3,
           "title": "Persiapan",
-          "desc": "Sebelum memulai, pastikan: {previewHtml:1}\n\n✅ Anda sudah login ke aplikasi Shifor Fraud Detection\n✅ Punya akses ke menu **Scenario Studio**\n✅ Siapkan skenario deteksi yang ingin dibuat (misal: deteksi transfer besar ke luar negeri)\n✅ Pilih tipe rule: **GENERAL** (sederhana) atau **CONDITION** (kompleks)\n\nKalau semua sudah siap, lanjut ke tutorial berikutnya!",
+          "desc": "{previewHtml:1}\n• ✅ Login ke aplikasi Shifor Fraud Detection\n• ✅ Punya akses ke menu **Scenario Studio**\n• ✅ Siapkan skenario deteksi (contoh: transfer besar ke luar negeri)\n• ✅ Pilih tipe rule: GENERAL (sederhana) atau CONDITION (kompleks)",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {

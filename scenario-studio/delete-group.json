@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Ungroup vs Delete",
-          "desc": "Ada dua cara \"menghapus\" group, dengan efek berbeda: {previewHtml:1}\n\n**Ungroup** (yang paling aman):\n• Klik kanan group → **Ungroup**\n• Border/kotak group hilang\n• Semua node tetap di canvas dengan posisi dan koneksi utuh\n• Node tidak terpengaruh sama sekali\n\n**Delete Group + isinya:**\n• Pilih group → tekan **Delete**\n• Group dan semua isinya (node + koneksi) terhapus\n• Tidak bisa di-undo! (Sebenernya bisa — Ctrl+Z)\n\nRekomendasi: Pakai **Ungroup** kalau masih butuh node-nya.",
+          "desc": "{previewHtml:1}\n• **Ungroup** (aman) — Klik kanan → Ungroup, border group hilang, node tetap utuh\n• **Delete Group** — Pilih group → Delete, group dan semua isinya terhapus\n• Rekomendasi: pakai **Ungroup** kalau masih butuh node-nya",
           "color": "#ef4444",
           "bg": "#fef2f2",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Yang Perlu Diperhatikan",
-          "desc": "{previewHtml:1}\n\n• **Group kosong** — Kalau group tidak berisi node, hapus saja\n• **Node dari group yang di-ungroup** — Posisi node mungkin perlu diatur ulang\n• **Copy group** — Kalau ingin menyimpan konfigurasi group, copy dulu sebelum delete\n• **Undo** — Ctrl+Z bisa mengembalikan group yang terhapus\n\nKalau ragu-ragu, lebih baik **Ungroup** daripada Delete. Node tidak akan hilang.",
+          "desc": "{previewHtml:1}\n• Group kosong — hapus saja\n• Ctrl+Z bisa mengembalikan group yang terhapus\n• Kalau ragu, Ungroup lebih aman daripada Delete",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {

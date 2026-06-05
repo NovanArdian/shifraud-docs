@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Hapus Rule",
-          "desc": "Langkah-langkah menghapus rule: {previewHtml:1}\n\n1. Buka halaman **Scenario Management**\n2. Cari rule yang ingin dihapus\n3. Klik ikon **sampah (🗑️ Delete)** di samping rule\n4. Konfirmasi dengan mengetik **DELETE** di dialog\n\n⚠️ **Peringatan:** Rule yang dihapus tidak bisa dikembalikan! Pastikan Anda benar-benar ingin menghapusnya.",
+          "desc": "{previewHtml:1}\n• Buka **Scenario Management**, cari rule yang ingin dihapus\n• Klik ikon **sampah (🗑️ Delete)**\n• Konfirmasi dengan mengetik **DELETE**\n• ⚠️ Rule yang dihapus tidak bisa dikembalikan!",
           "color": "#ef4444",
           "bg": "#fef2f2",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Yang Perlu Diperhatikan",
-          "desc": "{previewHtml:1}\n\n• **Draft rule** — Bisa langsung dihapus\n• **Active rule** — Harus di-deactivate dulu sebelum bisa dihapus\n• **Rule yang sudah diproses** — Data historisnya mungkin masih tersimpan di sistem (audit trail)\n• **Batch delete** — Bisa pilih beberapa rule sekaligus, lalu klik Delete All\n\nKalau ragu, lebih baik **Deactivate** dulu daripada menghapus permanen.",
+          "desc": "{previewHtml:1}\n• Draft rule — bisa langsung dihapus\n• Active rule — harus di-deactivate dulu\n• Batch delete — pilih beberapa rule, hapus sekaligus\n• Kalau ragu, **Deactivate** dulu daripada hapus permanen",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {

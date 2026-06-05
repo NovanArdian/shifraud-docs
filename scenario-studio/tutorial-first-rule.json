@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Buka Halaman Scenario Studio",
-          "desc": "Klik menu **Scenario Studio** di sidebar kiri aplikasi. {previewHtml:1}\n\nAnda akan melihat halaman dengan daftar rule yang sudah ada. Karena ini pertama kali, daftarnya mungkin kosong.\n\nKlik tombol **+ Tambah Scenario** di pojok kanan atas untuk membuat rule baru.",
+          "desc": "{previewHtml:1}\n• Klik menu **Scenario Studio** di sidebar kiri\n• Lihat daftar rule yang sudah ada (mungkin kosong)\n• Klik **+ Tambah Scenario** di pojok kanan atas",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Pilih Tipe Rule",
-          "desc": "Akan muncul dialog untuk memilih tipe rule: {previewHtml:1}\n\n**GENERAL** — Untuk rule sederhana. 3 langkah saja.\n**CONDITION** — Untuk rule kompleks dengan attribute binding.\n\nPilih **GENERAL** dulu untuk belajar. Nanti Anda bisa coba CONDITION setelah paham dasarnya.",
+          "desc": "{previewHtml:1}\n• **GENERAL** — 3 langkah, untuk rule sederhana\n• **CONDITION** — 4 langkah, untuk rule kompleks\n• Pilih GENERAL dulu untuk belajar",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {
@@ -31,7 +31,7 @@
         {
           "num": 3,
           "title": "Isi Parameter Rule (Step 1)",
-          "desc": "Isi form parameter rule: {previewHtml:1}\n\n📝 **Rule Name** — \"Deteksi Transfer Besar ke Luar Negeri\"\n📝 **Description** — \"Mendeteksi transaksi transfer dengan nominal di atas Rp50.000.000 yang ditujukan ke rekening luar negeri\"\n📊 **Risk Score** — 75 (semakin tinggi, semakin berbahaya)\n🔢 **Priority** — HIGH\n📅 **Active Period** — Atur jadwal aktif (misal: selama 24/7)\n\nKalau semua sudah diisi, centang hijau akan muncul di tiap field.",
+          "desc": "{previewHtml:1}\n• **Rule Name** — Nama rule (contoh: Deteksi Transfer Besar ke Luar Negeri)\n• **Risk Score** — Nilai 0-100, makin tinggi makin berbahaya\n• **Priority** — HIGH / MEDIUM / LOW\n• **Active Period** — Jadwal aktif rule (misal: 24/7)",
           "color": "#22c55e",
           "bg": "#f0fdf4",
           "previewHtml": {
@@ -41,7 +41,7 @@
         {
           "num": 4,
           "title": "Bangun Detection Flow (Step 2)",
-          "desc": "Sekarang masuk ke canvas — tempat merangkai node. {previewHtml:1}\n\nUntuk rule deteksi transfer besar ke luar negeri, kita perlu:\n\n1. **CONSTANT Node** — Cek amount > 50,000,000\n   - Field: `transaction.amount`\n   - Operator: `>`\n   - Value: `50000000`\n\n2. **CONTAINS Node** — Cek tujuan transaksi\n   - Field: `transaction.destination`\n   - Operator: `EQUALS`\n   - Value: `FOREIGN`\n\n3. **LOGICAL AND** — Gabungkan kedua kondisi\n\n4. **ALERT Node** — Hasil akhir: kirim alert\n\nHubungkan start → CONSTANT → AND → ALERT dan start → CONTAINS → AND.",
+          "desc": "{previewHtml:1}\n• **CONSTANT** — Field: amount, Operator: >, Value: 50000000\n• **CONTAINS** — Field: destination, Operator: EQUALS, Value: FOREIGN\n• **LOGICAL AND** — Gabungkan kedua kondisi\n• **ALERT** — Hasil akhir kirim alert\n• Hubungkan: Start → CONSTANT → AND → ALERT dan Start → CONTAINS → AND",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
@@ -51,7 +51,7 @@
         {
           "num": 5,
           "title": "Review & Submit (Step 3)",
-          "desc": "Klik **Next** untuk masuk ke Review & Submit. {previewHtml:1}\n\nDi sini Anda bisa melihat ringkasan rule:\n\n• **Rule Name** dan **Description**\n• **Risk Score** dan **Priority**\n• **Flow diagram** — visualisasi node yang sudah dirangkai\n• **Group** (jika ada)\n\nKalau semua sudah sesuai, klik **Submit** untuk menyimpan rule sebagai Draft.",
+          "desc": "{previewHtml:1}\n• Lihat ringkasan rule (nama, risk score, priority, flow diagram)\n• Periksa node dan konfigurasi yang sudah dibuat\n• Klik **Submit** untuk menyimpan rule sebagai Draft",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {

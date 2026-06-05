@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Apa Itu Build Config?",
-          "desc": "Build Config adalah pengaturan yang menentukan bagaimana rule dijalankan di sistem. {previewHtml:1}\n\n• **Data Mapping** — Petakan field data transaksi ke variabel yang digunakan di node\n• **Environment** — Pilih environment (Development / Staging / Production)\n• **Rule Dependencies** — Tentukan rule lain yang harus dijalankan sebelum rule ini\n• **Timeout** — Atur batas waktu eksekusi rule (default: 30 detik)\n• **Error Handling** — Atur perilaku saat terjadi error (skip rule / hentikan proses)",
+          "desc": "{previewHtml:1}\n• **Data Mapping** — Petakan field data ke variabel node\n• **Environment** — Pilih Dev / Staging / Production\n• **Rule Dependencies** — Rule lain yang harus jalan dulu\n• **Timeout** — Batas waktu eksekusi (default: 30 detik)",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Cara Konfigurasi",
-          "desc": "Mengatur Build Config: {previewHtml:1}\n\n1. Saat mengedit rule, cari tab atau bagian **Build Configuration**\n2. Atur **Data Mapping** — biasanya otomatis, tapi bisa disesuaikan\n3. Pilih **Environment** — Development untuk testing, Production untuk live\n4. Atur **Dependencies** — tambahkan rule ID yang harus jalan duluan\n5. Atur **Timeout** — default 30 detik, naikkan kalau rule kompleks\n6. Pilih **Error Handling** — Stop on Error (berhenti) atau Skip on Error (lanjut)\n\nKlik **Save** untuk menyimpan konfigurasi.",
+          "desc": "{previewHtml:1}\n• Buka tab **Build Configuration** saat mengedit rule\n• Atur Data Mapping (biasanya otomatis)\n• Pilih Environment dan atur Dependencies\n• Atur Timeout dan Error Handling\n• Klik **Save** untuk menyimpan",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
@@ -31,7 +31,7 @@
         {
           "num": 3,
           "title": "Tips Build Config",
-          "desc": "{previewHtml:1}\n\n• **Test di Development dulu** — Jangan langsung deploy ke Production tanpa testing\n• **Gunakan Dependencies** — Kalau ada rule yang bergantung pada hasil rule lain, atur dependencies\n• **Sesuaikan Timeout** — Rule dengan banyak node mungkin perlu timeout lebih lama\n• **Error Handling bijak** — Pilih Stop on Error untuk rule kritis, Skip on Error untuk rule yang tidak kritis\n• **Data Mapping** — Pastikan field data di node sesuai dengan nama field di data sumber",
+          "desc": "{previewHtml:1}\n• 🧪 Test di Development dulu sebelum Production\n• 🔗 Atur Dependencies untuk rule yang berurutan\n• ⏱️ Naikkan Timeout untuk rule kompleks\n• 🛑 Pilih Stop on Error untuk rule kritis",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {

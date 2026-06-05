@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Auto-Arrange",
-          "desc": "Fitur paling ampuh untuk merapikan layout: {previewHtml:1}\n\n1. Klik tombol **Auto-Arrange** di toolbar bawah\n2. Semua node akan tersusun ulang secara otomatis dari kiri ke kanan\n3. Start di kiri, kondisi di tengah, Alert di kanan\n\nYang dilakukan Auto-Arrange:\n• Menyusun posisi node secara hierarkis\n• Menghilangkan tumpukan node\n• Memberi jarak yang sama antar node\n• Mempertahankan koneksi yang sudah ada\n\nHasilnya: flow yang rapi dan mudah dibaca.",
+          "desc": "{previewHtml:1}\n• Klik **Auto-Arrange** di toolbar bawah\n• Semua node tersusun otomatis dari kiri ke kanan\n• Menghilangkan tumpukan, memberi jarak sama\n• Koneksi tetap dipertahankan",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Alat Bantu Lainnya",
-          "desc": "Selain Auto-Arrange, ada alat bantu lain: {previewHtml:1}\n\n**Snap to Grid** — Saat diaktifkan, node akan \"menempel\" ke grid. Membantu menyusun node dengan presisi.\n\n**Connected Move** — Saat memindahkan node, node yang terhubung langsung ikut bergeser. Berguna untuk menggeser bagian flow tanpa merusak koneksi.\n\n**Zoom** — Gunakan scroll untuk zoom in/out. Zoom out untuk melihat keseluruhan flow, zoom in untuk kerja detail.\n\n**Pan** — Space + Drag untuk menggeser pandangan canvas.",
+          "desc": "{previewHtml:1}\n• **Snap to Grid** — Node menempel ke grid, presisi\n• **Connected Move** — Pindah node, node terhubung ikut bergeser\n• **Zoom** — Scroll untuk zoom in/out\n• **Pan** — Space + Drag untuk geser pandangan",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {

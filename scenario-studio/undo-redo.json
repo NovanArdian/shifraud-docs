@@ -6,12 +6,12 @@
       "type": "tutorial",
       "heading": "Undo & Redo",
       "id": "undo-redo",
-      "intro": "Fitur Undo/Redo membantu Anda bekerja tanpa takut salah. Setiap perubahan tercatat dan bisa dibatalkan kapan saja.",
+      "intro": "Undo/Redo membantu Anda bekerja tanpa takut salah. Setiap perubahan tercatat.",
       "steps": [
         {
           "num": 1,
           "title": "Cara Menggunakan",
-          "desc": "Shortcut keyboard: {previewHtml:1}\n\n• **Undo** — Ctrl+Z (batalkan perubahan terakhir)\n• **Redo** — Ctrl+Shift+Z atau Ctrl+Y (ulangi perubahan yang sudah di-undo)\n\nTidak ada tombol di toolbar — semuanya melalui keyboard. Ini sengaja agar Anda tidak perlu merubah posisi tangan dari keyboard.",
+          "desc": "{previewHtml:1}\n• **Undo** — Ctrl+Z (batalkan perubahan)\n• **Redo** — Ctrl+Shift+Z (ulangi perubahan)\n• Tidak ada tombol di toolbar — semua via keyboard",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
@@ -20,8 +20,8 @@
         },
         {
           "num": 2,
-          "title": "Apa Saja yang Tercatat?",
-          "desc": "Semua aksi di canvas dicatat dalam history: {previewHtml:1}\n\n• ✅ Menambah node\n• ✅ Menghapus node\n• ✅ Memindahkan node\n• ✅ Mengedit konfigurasi node\n• ✅ Menambah/menghapus koneksi antar node\n• ✅ Manipulasi grup\n• ✅ Perubahan warna\n\nHistory menyimpan **50 langkah** terakhir. Setelah 50 langkah, langkah paling lama akan dihapus.",
+          "title": "Yang Tercatat di History",
+          "desc": "{previewHtml:1}\n• ✅ Tambah/hapus/pindah node\n• ✅ Edit konfigurasi node\n• ✅ Tambah/hapus koneksi\n• ✅ Manipulasi grup dan warna\n• History: **50 langkah** terakhir",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {

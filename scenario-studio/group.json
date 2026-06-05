@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Operasi Dasar Group",
-          "desc": "Ringkasan operasi group di canvas: {previewHtml:1}\n\n**Membuat:** Pilih node → Klik kanan → **Group**\n**Collapse/Expand:** Klik ikon segitiga di pojok kiri atas group\n**Edit nama:** Klik dua kali judul group\n**Pindahkan:** Seret judul group\n**Ubah ukuran:** Seret pojok kanan bawah\n**Hapus (Ungroup):** Klik kanan group → **Ungroup** (node tetap ada)\n\nLihat tutorial **Mengorganisir dengan Groups** untuk panduan lengkap.",
+          "desc": "{previewHtml:1}\n• **Membuat:** Pilih node → Klik kanan → **Group**\n• **Collapse/Expand:** Klik segitiga di pojok kiri atas\n• **Edit nama:** Klik dua kali judul\n• **Pindah:** Seret judul group\n• **Ungroup:** Klik kanan → Ungroup (node tetap ada)",
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Copy-Paste Group",
-          "desc": "Group bisa di-copy dan di-paste antar rule: {previewHtml:1}\n\n1. Pilih group (klik border group)\n2. **Ctrl+C** — copy group beserta semua isinya\n3. Buka rule lain\n4. **Ctrl+V** — paste group\n\nSemua node di dalam group, koneksi antar node, dan konfigurasi ikut tercopy. Posisi node relatif terhadap group juga dipertahankan.",
+          "desc": "{previewHtml:1}\n• Pilih group → **Ctrl+C**, buka rule lain → **Ctrl+V**\n• Semua isi group + konfigurasi ikut tercopy\n• Posisi node relatif terhadap group dipertahankan",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {

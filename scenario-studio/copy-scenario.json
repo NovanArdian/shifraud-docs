@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Copy Rule dari Management",
-          "desc": "Cara copy rule dari halaman Scenario Management: {previewHtml:1}\n\n1. Buka **Scenario Management**\n2. Cari rule yang ingin di-copy\n3. Klik ikon **copy (📋 Duplicate)**\n4. Rule baru akan muncul dengan nama \"Copy of [nama rule]\"\n\nSemua konfigurasi ikut tercopy: parameter, flow, node, group, dan koneksi.",
+          "desc": "{previewHtml:1}\n• Buka **Scenario Management**, cari rule yang ingin di-copy\n• Klik ikon **copy (📋 Duplicate)**\n• Rule baru muncul dengan nama \"Copy of [nama rule]\"\n• Semua konfigurasi ikut tercopy",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Yang Ikut Tercopy",
-          "desc": "Saat meng-copy rule, semua ini ikut tersalin: {previewHtml:1}\n\n✅ Semua parameter rule (kecuali nama, ditambahi \"Copy of\")\n✅ Semua node beserta konfigurasinya\n✅ Semua koneksi antar node\n✅ Semua group\n✅ Posisi node di canvas\n\n**Tidak ikut dicopy:**\n❌ History aktivitas\n❌ Status aktivasi (rule baru otomatis Draft)\n❌ Audit trail",
+          "desc": "{previewHtml:1}\n• ✅ Parameter, node, koneksi, group, posisi — semua ikut\n• ❌ History aktivitas, status aktivasi, audit trail — tidak ikut\n• Rule baru otomatis berstatus **Draft**",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {

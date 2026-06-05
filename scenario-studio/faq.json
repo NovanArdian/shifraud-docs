@@ -6,22 +6,22 @@
       "type": "tutorial",
       "heading": "FAQ",
       "id": "faq",
-      "intro": "Pertanyaan yang sering ditanyakan tentang Scenario Studio. Kalau Anda ada pertanyaan lain, tanyakan ke tim support.",
+      "intro": "Pertanyaan yang sering ditanyakan tentang Scenario Studio.",
       "steps": [
         {
           "num": 1,
-          "title": "Apa bedanya GENERAL dan CONDITION?",
-          "desc": "{previewHtml:1}\n\n**GENERAL** — 3 langkah: Configure Parameters → Build Flow → Review & Submit. Untuk aturan sederhana yang tidak butuh data antar transaksi.\n\n**CONDITION** — 4 langkah: ada tambahan **Use Condition** setelah Build Flow. Untuk aturan kompleks yang butuh attribute binding (menyimpan dan membandingkan data antar transaksi).\n\nPilih GENERAL dulu kalau baru belajar.",
+          "title": "Bedanya GENERAL dan CONDITION?",
+          "desc": "{previewHtml:1}\n• **GENERAL** — 3 langkah, untuk aturan sederhana\n• **CONDITION** — 4 langkah (+ Use Condition), untuk aturan kompleks\n• Pilih GENERAL dulu kalau baru belajar",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;display:flex;gap:6px;\"><div style=\"flex:1;border-radius:8px;border:1.5px solid #f59e0b;background:linear-gradient(180deg,#fffbeb,#fff);overflow:hidden;\"><div style=\"padding:5px 8px;background:linear-gradient(90deg,#f59e0b,#d97706);font-size:7px;font-weight:700;color:#fff;\">GENERAL</div><div style=\"padding:5px 8px;font-size:7px;color:#475569;\">3 langkah • Sederhana</div></div><div style=\"flex:1;border-radius:8px;border:1.5px solid #7c3aed;background:linear-gradient(180deg,#f5f3ff,#fff);overflow:hidden;\"><div style=\"padding:5px 8px;background:linear-gradient(90deg,#7c3aed,#6366f1);font-size:7px;font-weight:700;color:#fff;\">CONDITION</div><div style=\"padding:5px 8px;font-size:7px;color:#475569;\">4 langkah • Kompleks</div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;display:flex;gap:6px;\"><div style=\"flex:1;border-radius:8px;border:1.5px solid #f59e0b;background:linear-gradient(180deg,#fffbeb,#fff);overflow:hidden;\"><div style=\"padding:5px 8px;background:linear-gradient(90deg,#f59e0b,#d97706);font-size:7px;font-weight:700;color:#fff;\">GENERAL</div></div><div style=\"flex:1;border-radius:8px;border:1.5px solid #7c3aed;background:linear-gradient(180deg,#f5f3ff,#fff);overflow:hidden;\"><div style=\"padding:5px 8px;background:linear-gradient(90deg,#7c3aed,#6366f1);font-size:7px;font-weight:700;color:#fff;\">CONDITION</div></div></div>"
           }
         },
         {
           "num": 2,
-          "title": "Kenapa tombol Next tidak bisa diklik?",
-          "desc": "Tombol **Next** atau **Continue** tidak aktif kalau ada field yang belum diisi atau ada error validasi. {previewHtml:1}\n\nCoba cek:\n• Semua field wajib sudah diisi? (Ada centang hijau)\n• Rule Name tidak boleh kosong\n• Risk Score harus antara 0-100\n• Pastikan tidak ada notifikasi error merah\n\nKalau semua sudah benar, tombol akan aktif.",
+          "title": "Kenapa tombol Next tidak aktif?",
+          "desc": "{previewHtml:1}\n• Ada field wajib yang belum diisi\n• Cek: Rule Name, Risk Score, dan validasi error merah\n• Kalau semua sudah benar, tombol akan aktif",
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
@@ -30,8 +30,8 @@
         },
         {
           "num": 3,
-          "title": "Berapa lama history undo/redo?",
-          "desc": "History undo/redo menyimpan **50 langkah** terakhir. {previewHtml:1}\n\nIni cukup untuk:\n• Kembali jika salah nambah atau hapus node\n• Membatalkan perubahan parameter\n• Kembali ke layout sebelumnya\n\nSetiap aksi yang Anda lakukan (tambah/hapus/pindah/edit node) dihitung sebagai satu langkah.",
+          "title": "History undo/redo berapa lama?",
+          "desc": "{previewHtml:1}\n• Menyimpan **50 langkah** terakhir\n• Setiap aksi (tambah/hapus/pindah/edit) = 1 langkah",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
@@ -40,8 +40,8 @@
         },
         {
           "num": 4,
-          "title": "Bisakah copy node antar rule?",
-          "desc": "**Bisa!** {previewHtml:1}\n\n1. Buka Rule A, pilih node yang ingin di-copy\n2. Tekan **Ctrl+C** (atau klik kanan → Copy)\n3. Buka Rule B (bisa buka tab baru atau ganti rule)\n4. Tekan **Ctrl+V** untuk paste\n\nSemua konfigurasi node ikut tersalin, termasuk parameter kondisi, warna, dan posisi. Grup juga bisa di-copy dengan cara yang sama.",
+          "title": "Copy node antar rule?",
+          "desc": "{previewHtml:1}\n• **Bisa!** Ctrl+C di Rule A, Ctrl+V di Rule B\n• Semua konfigurasi ikut tersalin",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
@@ -51,21 +51,21 @@
         {
           "num": 5,
           "title": "Apa itu Cycle Indicator?",
-          "desc": "Cycle Indicator mengatur **kapan** rule boleh aktif. {previewHtml:1}\n\n• **RANGE** — Blok waktu kontinu, contoh: Senin-Jumat jam 08:00-17:00\n• **LIST** — Beberapa slot waktu spesifik, contoh: Setiap hari jam 08:00, 12:00, dan 16:00\n\nCocok untuk:\n• Rule yang hanya berlaku di jam kerja\n• Rule khusus hari tertentu (misal: akhir pekan)\n• Pembatasan deteksi di jam sibuk",
+          "desc": "{previewHtml:1}\n• Mengatur **kapan** rule boleh aktif\n• **RANGE** — Blok waktu kontinu (Sen-Jum 08:00-17:00)\n• **LIST** — Slot waktu spesifik (08:00, 12:00, 16:00)",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:6px;\"><span style=\"padding:3px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;font-weight:600;\">RANGE</span><span style=\"font-size:7px;color:#475569;\">Sen-Jum 08:00-17:00</span><span style=\"color:#e2e8f0;\">|</span><span style=\"padding:3px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;font-weight:600;\">LIST</span><span style=\"font-size:7px;color:#475569;\">08:00, 12:00, 16:00</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:6px;\"><span style=\"padding:3px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;font-weight:600;\">RANGE</span><span style=\"font-size:7px;color:#475569;\">Sen-Jum 08:00-17:00</span><span style=\"color:#e2e8f0;\">|</span><span style=\"padding:3px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;font-weight:600;\">LIST</span></div>"
           }
         },
         {
           "num": 6,
           "title": "Canvas kosong, bagaimana?",
-          "desc": "Kalau canvas kosong (tidak ada node), tambahkan node baru: {previewHtml:1}\n\n1. Klik **+ Condition** di toolbar bawah\n2. Atau **drag** dari sidebar kiri\n3. Atau **double-click** di area kosong canvas\n4. Atau klik **kanan** di canvas → Add Condition\n\nNode pertama akan otomatis menjadi **Start** node. Setelah itu Anda bisa menambahkan node lain dan menghubungkannya.",
+          "desc": "{previewHtml:1}\n• Klik **+ Condition** di toolbar\n• Drag dari sidebar kiri\n• Double-click di area kosong canvas\n• Node pertama otomatis jadi Start node",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;border:2px dashed #93c5fd;background:linear-gradient(135deg,#eff6ff,#fff);padding:10px;text-align:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M12 4v16m8-8H4\"/></svg><div style=\"font-size:8px;color:#2563eb;font-weight:600;margin-top:4px;\">Klik + Condition atau drag dari sidebar</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;border:2px dashed #93c5fd;background:linear-gradient(135deg,#eff6ff,#fff);padding:10px;text-align:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M12 4v16m8-8H4\"/></svg><div style=\"font-size:8px;color:#2563eb;font-weight:600;margin-top:4px;\">Klik + Condition</div></div>"
           }
         }
       ]

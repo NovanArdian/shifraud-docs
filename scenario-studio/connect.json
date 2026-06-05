@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Cara Membuat Koneksi",
-          "desc": "Hubungkan node dengan drag-and-drop: {previewHtml:1}\n\n1. Arahkan kursor ke **handle** (lingkaran kecil) di tepi kanan node sumber\n2. **Klik dan tahan** mouse\n3. **Seret** ke handle (lingkaran kecil) di tepi kiri node tujuan\n4. **Lepaskan** — koneksi akan terbentuk dengan garis panah\n\nWarna garis koneksi:\n• **Hijau** — Koneksi normal\n• **Merah** — Koneksi terputus atau error\n• **Biru** — Koneksi terpilih",
+          "desc": "{previewHtml:1}\n• Arahkan ke **handle** (lingkaran) di tepi kanan node sumber\n• Klik-tahan dan **seret** ke handle di tepi kiri node tujuan\n• Lepaskan — koneksi terbentuk dengan garis panah\n• Warna: Hijau (normal), Merah (error), Biru (terpilih)",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Mengelola Koneksi",
-          "desc": "Setelah koneksi terbentuk, Anda bisa: {previewHtml:1}\n\n**Hapus koneksi:**\n• Klik pada garis koneksi → garis akan terpilih (biru)\n• Tekan **Delete** atau **Backspace**\n\n**Lihat detail koneksi:**\n• Hover di atas garis → akan muncul tooltip informasi\n\n**Tips:**\n• Satu node bisa punya banyak koneksi keluar\n• Koneksi tidak bisa bercabang dari titik yang sama\n• Pastikan semua node terhubung ke ALERT — kalau ada yang tidak terhubung, rule tidak akan lengkap",
+          "desc": "{previewHtml:1}\n• **Hapus:** Klik garis koneksi (biru) → tekan Delete/Backspace\n• **Detail:** Hover di atas garis → tooltip informasi\n• Satu node bisa punya banyak koneksi keluar\n• Semua node harus terhubung ke ALERT",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {

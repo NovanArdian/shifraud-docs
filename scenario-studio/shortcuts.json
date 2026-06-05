@@ -6,26 +6,26 @@
       "type": "tutorial",
       "heading": "Keyboard Shortcuts",
       "id": "shortcuts",
-      "intro": "Percepat pekerjaan Anda dengan shortcut keyboard di Scenario Studio. Berikut daftar shortcut yang tersedia.",
+      "intro": "Percepat pekerjaan dengan shortcut keyboard di Scenario Studio.",
       "steps": [
         {
           "num": 1,
-          "title": "Navigasi & Manipulasi Node",
-          "desc": "{previewHtml:1}\n\n**Shortcut Dasar:**\n• **Ctrl+Z** — Undo (batalkan perubahan terakhir)\n• **Ctrl+Shift+Z** — Redo (ulangi perubahan)\n• **Ctrl+C** — Copy node/grup yang dipilih\n• **Ctrl+X** — Cut node/grup\n• **Ctrl+V** — Paste node/grup\n• **Delete** — Hapus node/grup yang dipilih\n\n**Canvas:**\n• **Space + Drag** — Pan (geser pandangan kanvas)\n• **Scroll** — Zoom in/out\n• **Shift + Klik** — Pilih beberapa node sekaligus\n• **Klik kanan** — Context menu",
+          "title": "Shortcut Dasar",
+          "desc": "{previewHtml:1}\n• **Ctrl+Z** — Undo • **Ctrl+Shift+Z** — Redo\n• **Ctrl+C** — Copy • **Ctrl+V** — Paste\n• **Delete** — Hapus node/grup\n• **Space + Drag** — Pan canvas\n• **Scroll** — Zoom • **Shift + Klik** — Multi-select",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;flex-wrap:wrap;gap:4px;\"><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Ctrl+Z</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Ctrl+Shift+Z</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Ctrl+C</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Ctrl+V</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Del</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Space+Drag</kbd></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;flex-wrap:wrap;gap:4px;\"><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Ctrl+Z</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Ctrl+C</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Del</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Space+Drag</kbd></div></div>"
           }
         },
         {
           "num": 2,
-          "title": "Tips Penggunaan Shortcut",
-          "desc": "Beberapa tips biar makin mahir: {previewHtml:1}\n\n• **Undo history** — Bisa undo sampai 50 langkah ke belakang. Tenang kalau salah!\n• **Copy-Paste antar rule** — Buka rule A, copy node, buka rule B, paste. Node beserta konfigurasinya ikut tersalin.\n• **Multi-select dulu, baru aksi** — Pilih beberapa node dengan Shift+Klik, baru delete/copy/pindah bersama-sama.\n• **Space + Drag lebih cepat** — Daripada scroll satu-satu, pakai Space+Drag untuk geser canvas dengan bebas.",
+          "title": "Tips",
+          "desc": "{previewHtml:1}\n• Undo sampai 50 langkah ke belakang\n• Copy-paste node antar rule\n• Multi-select dulu, baru aksi (delete/copy/pindah)\n• Space+Drag lebih cepat dari scroll",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 12px;\"><div style=\"display:flex;align-items:center;gap:6px;margin-bottom:4px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M9 12l2 2 4-4\"/></svg><span style=\"font-size:8px;font-weight:700;color:#0f172a;\">Pro Tips</span></div><div style=\"font-size:7px;color:#475569;\">Undo 50 langkah • Copy antar rule • Multi-select • Space+Drag</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 12px;\"><div style=\"font-size:7px;color:#475569;\">Undo 50 langkah • Copy antar rule • Multi-select • Space+Drag</div></div>"
           }
         }
       ]

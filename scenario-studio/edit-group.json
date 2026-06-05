@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Edit Nama & Warna Group",
-          "desc": "Cara mengedit group: {previewHtml:1}\n\n**Edit nama:**\n• Klik dua kali pada judul group (di header group)\n• Ketik nama baru\n• Tekan Enter untuk menyimpan\n\n**Edit warna:**\n• Klik kanan group → **Change Color**\n• Pilih warna dari palet yang tersedia\n• Group akan berubah sesuai warna yang dipilih\n\nWarna membantu membedakan fungsi group secara visual.",
+          "desc": "{previewHtml:1}\n• **Nama:** Klik dua kali judul → ketik nama baru → Enter\n• **Warna:** Klik kanan → **Change Color** → pilih warna\n• Warna membantu membedakan fungsi group secara visual",
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Atur Isi Group",
-          "desc": "Mengelola node di dalam group: {previewHtml:1}\n\n**Tambah node ke group:**\n• Seret node dari luar ke dalam area group\n• Atau buat node baru di dalam group (klik kanan di dalam group)\n\n**Keluarkan node dari group:**\n• Seret node keluar dari border group\n• Node akan lepas dari group tapi tetap di canvas\n\n**Edit node di dalam group:**\n• Klik node di dalam group — sama seperti biasa\n• Panel konfigurasi tetap muncul di sebelah kanan\n\nNode di dalam group tetap bisa dihubungkan dengan node di luar group.",
+          "desc": "{previewHtml:1}\n• **Tambah:** Seret node dari luar ke dalam area group\n• **Keluarkan:** Seret node keluar dari border group\n• **Edit node di group:** Klik node — panel konfigurasi muncul\n• Node di dalam group tetap bisa dihubungkan ke node luar",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {

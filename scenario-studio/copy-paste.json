@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Copy-Paste Node/Grup",
-          "desc": "Cara copy dan paste: {previewHtml:1}\n\n1. Pilih node atau group (klik)\n2. **Ctrl+C** (atau klik kanan → Copy)\n3. **Ctrl+V** (atau klik kanan → Paste)\n4. Node hasil paste akan muncul di dekat kursor mouse\n\n**Yang ikut tercopy:**\n✅ Semua konfigurasi node (field, operator, value)\n✅ Warna dan label node\n✅ Koneksi antar node (kalau copy beberapa node sekaligus)\n✅ Seluruh isi group (kalau copy group)\n\n**Tidak ikut:** Posisi node (ditempatkan ulang).",
+          "desc": "{previewHtml:1}\n• Pilih node/group → **Ctrl+C** (atau klik kanan → Copy)\n• **Ctrl+V** — node hasil paste muncul di dekat kursor\n• Yang ikut: konfigurasi, warna, label, koneksi antar node\n• Tidak ikut: posisi node (ditempatkan ulang)",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Copy Antar Rule",
-          "desc": "Bisa copy node dari satu rule ke rule lain: {previewHtml:1}\n\n1. Buka Rule A, pilih node/group\n2. **Ctrl+C**\n3. Buka Rule B (bisa dari menu dropdown atau tab)\n4. **Ctrl+V** — node akan muncul di canvas Rule B\n\nIni berguna kalau:\n• Ada logika yang sama di beberapa rule (reusable logic)\n• Ingin menggabungkan dua flow\n• Ingin memindahkan konfigurasi yang kompleks\n\nSetelah paste, sesuaikan parameter jika diperlukan.",
+          "desc": "{previewHtml:1}\n• **Ctrl+C** di Rule A, buka Rule B, **Ctrl+V**\n• Berguna untuk reusable logic antar rule\n• Setelah paste, sesuaikan parameter jika diperlukan",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {

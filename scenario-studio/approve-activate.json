@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Submit Rule",
-          "desc": "Langkah pertama: submit rule Anda. {previewHtml:1}\n\n1. Setelah selesai mengedit, klik **Submit Scenario** di toolbar\n2. Isi komentar submit (misal: \"Siap di-review untuk production\")\n3. Rule akan tersimpan dengan status **Draft (Submitted)**\n\nStatus ini menandakan rule siap untuk di-review oleh atasan atau tim terkait.",
+          "desc": "{previewHtml:1}\n• Klik **Submit Scenario** di toolbar setelah selesai mengedit\n• Isi komentar submit (opsional)\n• Status berubah jadi **Draft (Submitted)** — siap di-review",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Approve oleh Reviewer",
-          "desc": "Setelah di-submit, rule masuk ke antrian review: {previewHtml:1}\n\n1. **Reviewer** akan melihat rule yang perlu di-approve\n2. Reviewer bisa melihat detail rule: parameter, flow, konfigurasi\n3. **Approve** — setuju, rule siap diaktivasi\n4. **Reject** — tolak, beri alasan, rule dikembalikan ke pembuat\n\nDi beberapa sistem, approval mungkin butuh lebih dari satu orang (multi-level approval).",
+          "desc": "{previewHtml:1}\n• **Reviewer** melihat rule yang perlu di-approve\n• Bisa melihat detail rule: parameter, flow, konfigurasi\n• **Approve** — setuju, rule siap diaktivasi\n• **Reject** — tolak dengan alasan, rule dikembalikan ke pembuat",
           "color": "#22c55e",
           "bg": "#f0fdf4",
           "previewHtml": {
@@ -31,7 +31,7 @@
         {
           "num": 3,
           "title": "Aktivasi Rule",
-          "desc": "Setelah di-approve, rule bisa diaktifkan: {previewHtml:1}\n\n1. Buka halaman **Scenario Management**\n2. Cari rule dengan status **Approved**\n3. Klik **Activate**\n4. Rule sekarang aktif dan mulai mendeteksi!\n\n**Batch Activation:** Pilih beberapa rule sekaligus, klik Activate — mengaktifkan semua rule terpilih dalam satu klik.\n\n**Deactivate:** Klik Deactivate untuk menonaktifkan rule sementara tanpa menghapus konfigurasinya.",
+          "desc": "{previewHtml:1}\n• Cari rule dengan status **Approved** di Scenario Management\n• Klik **Activate** — rule mulai mendeteksi fraud\n• **Batch Activation** — pilih beberapa rule, aktifkan sekaligus\n• **Deactivate** — nonaktifkan sementara tanpa hapus konfigurasi",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {

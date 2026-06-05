@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Apa Itu Reactions?",
-          "desc": "Reactions adalah \"aksi lanjutan\" setelah rule menghasilkan alert. {previewHtml:1}\n\nContoh reactions:\n• **Email** — Kirim notifikasi ke tim fraud\n• **Block Transaction** — Blokir transaksi secara otomatis\n• **API Call** — Panggil webhook/API eksternal\n• **SMS** — Kirim SMS ke petugas\n• **Log** — Catat ke dalam sistem log\n\nReactions bisa diatur per rule — tidak ada reactions yang sama untuk semua rule.",
+          "desc": "{previewHtml:1}\n• **Email** — Kirim notifikasi ke tim fraud\n• **Block Transaction** — Blokir transaksi otomatis\n• **API Call** — Panggil webhook/API eksternal\n• **SMS** — Kirim SMS ke petugas\n• Reactions diatur per rule, tidak global",
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Menambah Reactions",
-          "desc": "Cara menambah reaction ke rule: {previewHtml:1}\n\n1. Saat mengedit rule, cari bagian **Reactions** (biasanya di Step 2 atau sidebar)\n2. Klik **+ Tambah Reaction**\n3. Pilih jenis reaction:\n   • **Email** — Masukkan alamat email tujuan\n   • **Block Transaction** — Atur durasi block\n   • **API Call** — Masukkan URL dan method\n   • **SMS** — Masukkan nomor telepon\n4. Atur parameter reaction\n5. Klik **Save**\n\nSatu rule bisa punya beberapa reactions sekaligus.",
+          "desc": "{previewHtml:1}\n• Saat mengedit rule, cari bagian **Reactions**\n• Klik **+ Tambah Reaction**, pilih jenis\n• Atur parameter (email tujuan, URL API, nomor SMS, dll)\n• Satu rule bisa punya beberapa reactions",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
@@ -31,7 +31,7 @@
         {
           "num": 3,
           "title": "Mengelola Reactions yang Ada",
-          "desc": "Setelah reaction ditambahkan, Anda bisa: {previewHtml:1}\n\n✏️ **Edit** — Ubah parameter reaction (misal: ganti alamat email)\n❌ **Hapus** — Hapus reaction dari rule\n⚡ **Test** — Kirim reaction uji coba (misal: kirim email test)\n⏸️ **Nonaktifkan sementara** — Matikan reaction tanpa menghapusnya\n\n**Tips:**\n• Gunakan **Test** sebelum aktivasi untuk memastikan konfigurasi benar\n• Tambahkan lebih dari satu reaction untuk redundancy (misal: Email + SMS)",
+          "desc": "{previewHtml:1}\n• ✏️ **Edit** — Ubah parameter reaction\n• ❌ **Hapus** — Hapus reaction dari rule\n• ⚡ **Test** — Kirim reaction uji coba\n• ⏸️ **Nonaktifkan sementara** — tanpa hapus konfigurasi",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {

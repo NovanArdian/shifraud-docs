@@ -6,56 +6,56 @@
       "type": "tutorial",
       "heading": "Tips & Tricks",
       "id": "best-practices",
-      "intro": "Kumpulan tips dan trik untuk menggunakan Scenario Studio secara efektif. Dengan praktik terbaik ini, Anda bisa membuat rule deteksi yang lebih baik dan lebih cepat.",
+      "intro": "Tips menggunakan Scenario Studio secara efektif.",
       "steps": [
         {
           "num": 1,
-          "title": "Gunakan Nama Rule yang Deskriptif",
-          "desc": "Beri nama rule yang jelas dan mudah dipahami oleh orang lain. {previewHtml:1}\n\n✅ **Baik:** \"Deteksi Transfer Besar Ke Luar Negeri\"\n❌ **Kurang:** \"Rule Baru 1\"\n\nNama yang baik membantu tim memahami tujuan rule tanpa perlu membuka konfigurasinya. Sertakan informasi seperti: jenis fraud, threshold, atau wilayah.",
+          "title": "Nama Rule Deskriptif",
+          "desc": "{previewHtml:1}\n• ✅ \"Deteksi Transfer Besar ke Luar Negeri\"\n• ❌ \"Rule Baru 1\"\n• Sertakan jenis fraud, threshold, atau wilayah",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:8px 10px;\"><div style=\"padding:4px 6px;border-radius:4px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;color:#16a34a;margin-bottom:3px;\">✅ Deteksi Transfer Besar Ke Luar Negeri</div><div style=\"padding:4px 6px;border-radius:4px;background:#fef2f2;border:1px solid #fecaca;font-size:7px;color:#dc2626;\">❌ Rule Baru 1</div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:8px 10px;\"><div style=\"padding:4px 6px;border-radius:4px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;color:#16a34a;\">✅ Deteksi Transfer Besar Ke Luar Negeri</div></div></div>"
           }
         },
         {
           "num": 2,
-          "title": "Gunakan Multi-node untuk Logika Kompleks",
-          "desc": "Jangan menjejalkan semua logika dalam satu node. {previewHtml:1}\n\n**Pisahkan jadi beberapa node** yang lebih kecil dan spesifik:\n• 1 node CONSTANT untuk cek amount\n• 1 node CONTAINS untuk cek pola transaksi\n• 1 node LOGICAL AND untuk menggabungkan keduanya\n\nIni membuat flow lebih mudah dibaca, di-debug, dan diubah di kemudian hari.",
+          "title": "Multi-node untuk Logika Kompleks",
+          "desc": "{previewHtml:1}\n• Jangan gabung semua logika dalam satu node\n• Pisahkan jadi beberapa node spesifik\n• Contoh: CONSTANT (amount) → AND → ALERT",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f8fafc,#f1f5f9);border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:3px;align-items:center;\"><div style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #f59e0b;font-size:6px;font-weight:700;color:#f59e0b;\">AMOUNT</div><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><div style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #10b981;font-size:6px;font-weight:700;color:#10b981;\">COUNTRY</div><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><div style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #6366f1;font-size:6px;font-weight:700;color:#6366f1;\">AND</div><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><div style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #ef4444;font-size:6px;font-weight:700;color:#ef4444;\">ALERT</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:3px;align-items:center;\"><span style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #f59e0b;font-size:6px;font-weight:700;color:#f59e0b;\">AMOUNT</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #6366f1;font-size:6px;font-weight:700;color:#6366f1;\">AND</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #ef4444;font-size:6px;font-weight:700;color:#ef4444;\">ALERT</span></div>"
           }
         },
         {
           "num": 3,
-          "title": "Manfaatkan Auto-Arrange Secara Rutin",
-          "desc": "Klik **Auto-Arrange** setiap kali flow mulai berantakan. {previewHtml:1}\n\nFitur ini akan:\n• Menyusun ulang posisi node dari kiri ke kanan\n• Membuat hierarki yang rapi\n• Menghindari node yang saling tumpuk\n\nGunakan juga **Connected Move** agar node yang terhubung ikut bergerak saat Anda memindahkan node utama.",
+          "title": "Auto-Arrange Rutin",
+          "desc": "{previewHtml:1}\n• Klik **Auto-Arrange** kalau flow berantakan\n• Susun ulang node dari kiri ke kanan\n• Gunakan Connected Move agar node tetangga ikut bergerak",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;display:flex;align-items:center;gap:6px;\"><span style=\"padding:4px 8px;border-radius:5px;background:#f59e0b;color:#fff;font-size:8px;font-weight:700;\">✨ Auto-Arrange</span><span style=\"font-size:7px;color:#92400e;\">Satu klik, layout rapi!</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;display:flex;align-items:center;gap:6px;\"><span style=\"padding:4px 8px;border-radius:5px;background:#f59e0b;color:#fff;font-size:8px;font-weight:700;\">✨ Auto-Arrange</span></div>"
           }
         },
         {
           "num": 4,
-          "title": "Gunakan Groups untuk Organisasi",
-          "desc": "Kalau rule Anda punya banyak node, kelompokkan dengan **Groups**: {previewHtml:1}\n\n• Pilih beberapa node → Klik kanan → **Group**\n• Beri nama grup yang mewakili fungsinya (contoh: \"Cek Amount\", \"Cek Velocity\")\n• Grup bisa di-**collapse** untuk menghemat ruang\n• **Ungroup** kapan saja tanpa kehilangan konfigurasi node\n\nGroups juga bisa di-copy dan di-paste antar rule!",
+          "title": "Gunakan Groups",
+          "desc": "{previewHtml:1}\n• Kelompokkan node terkait dengan **Group**\n• Beri nama deskriptif (\"Cek Amount\", \"Cek Velocity\")\n• Group bisa di-collapse, di-copy antar rule",
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fbcfe8;overflow:hidden;\"><div style=\"padding:7px 10px;border:1.5px dashed #ec4899;border-radius:6px;margin:6px;\"><div style=\"font-size:7px;font-weight:700;color:#db2777;margin-bottom:3px;\">📁 Cek Amount</div><div style=\"display:flex;gap:3px;\"><span style=\"padding:3px 5px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#f59e0b;\">CONSTANT</span><span style=\"padding:3px 5px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#10b981;\">CONTAINS</span></div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fbcfe8;overflow:hidden;\"><div style=\"padding:7px 10px;border:1.5px dashed #ec4899;border-radius:6px;margin:6px;\"><div style=\"font-size:7px;font-weight:700;color:#db2777;\">📁 Cek Amount</div></div></div>"
           }
         },
         {
           "num": 5,
           "title": "Test Sebelum Aktivasi",
-          "desc": "Sebelum mengaktifkan rule di production, lakukan verifikasi: {previewHtml:1}\n\n• Gunakan fitur **Run Verification** untuk mensimulasikan rule\n• Periksa apakah rule menghasilkan ALERT yang sesuai\n• Cek **false positive** — apakah rule terlalu sensitif?\n• Minta **review** dari anggota tim sebelum aktivasi\n\nRule yang baik adalah rule yang tepat sasaran — tidak terlalu sensitif (banyak false positive) dan tidak terlalu longgar (banyak false negative).",
+          "desc": "{previewHtml:1}\n• Gunakan **Run Verification** untuk simulasi\n• Cek false positive dan false negative\n• Minta review tim sebelum aktivasi",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;\"><div style=\"display:flex;gap:4px;flex-wrap:wrap;\"><span style=\"padding:3px 6px;border-radius:4px;background:#14b8a6;font-size:7px;color:#fff;font-weight:600;\">▶️ Run Verification</span><span style=\"padding:3px 6px;border-radius:4px;background:#f1f5f9;font-size:7px;color:#475569;\">Cek false positive</span><span style=\"padding:3px 6px;border-radius:4px;background:#f1f5f9;font-size:7px;color:#475569;\">Review tim</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;\"><span style=\"padding:3px 6px;border-radius:4px;background:#14b8a6;font-size:7px;color:#fff;font-weight:600;\">▶️ Run Verification</span></div>"
           }
         }
       ]

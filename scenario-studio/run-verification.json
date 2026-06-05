@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Jalankan Verifikasi",
-          "desc": "Cara menjalankan verifikasi: {previewHtml:1}\n\n1. Di editor rule, klik tombol **Run Verification** di toolbar\n2. Pilih **data sample** — bisa pilih dari data yang sudah ada atau input manual\n3. Klik **Run**\n\nSistem akan mensimulasikan eksekusi rule dengan data yang diberikan.\n\nHasilnya:\n• ✅ **ALERT** — Rule mendeteksi fraud (sesuai kondisi)\n• ❌ **No Alert** — Rule tidak mendeteksi fraud\n• ⚠️ **Error** — Ada yang salah dengan konfigurasi rule",
+          "desc": "{previewHtml:1}\n• Klik **Run Verification** di toolbar editor\n• Pilih data sample (dari data yang ada atau input manual)\n• Klik **Run** — sistem mensimulasikan eksekusi rule\n• Hasil: ✅ ALERT, ❌ No Alert, ⚠️ Error",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
@@ -21,7 +21,7 @@
         {
           "num": 2,
           "title": "Membaca Hasil Verifikasi",
-          "desc": "Setelah verifikasi selesai, Anda akan melihat: {previewHtml:1}\n\n**Flow highlight:**\n• Node yang terpenuhi (kondisi true) akan diberi warna **hijau**\n• Node yang tidak terpenuhi (kondisi false) akan diberi warna **merah**\n• Node yang tidak dieksekusi tetap **abu-abu**\n• Ini membantu melihat jalur mana yang \"aktif\" untuk data sample\n\n**Log details:**\n• Setiap langkah eksekusi dicatat\n• Lihat nilai field, operator, dan hasil perbandingan\n\n**Result:**\n• Apakah rule menghasilkan ALERT atau tidak\n• Kalau iya, reaction apa yang akan dijalankan",
+          "desc": "{previewHtml:1}\n• **Hijau** — Node terpenuhi (true)\n• **Merah** — Node tidak terpenuhi (false)\n• **Abu-abu** — Node tidak dieksekusi\n• Lihat log detail tiap langkah eksekusi",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
@@ -31,7 +31,7 @@
         {
           "num": 3,
           "title": "Tips Verifikasi",
-          "desc": "{previewHtml:1}\n\n✅ **Uji data positif** — Data yang harusnya menghasilkan ALERT\n✅ **Uji data negatif** — Data yang harusnya tidak menghasilkan ALERT\n✅ **Uji edge case** — Data di batas threshold (amount = 50.000.000 tepat)\n✅ **Uji banyak sample** — Jalankan beberapa kali dengan data berbeda\n✅ **Perbaiki error** — Kalau dapat error, cek konfigurasi node yang bermasalah\n\nKalau semua hasil sesuai harapan, rule siap di-submit dan diaktivasi!",
+          "desc": "{previewHtml:1}\n• ✅ Uji data positif (harus menghasilkan ALERT)\n• ✅ Uji data negatif (tidak menghasilkan ALERT)\n• ✅ Uji edge case (data di batas threshold)\n• ✅ Uji banyak sample dengan data berbeda",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
