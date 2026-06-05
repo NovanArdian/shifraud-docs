@@ -46,16 +46,12 @@
           "desc": "Klik \"Save\" atau \"Create\". Group baru akan muncul di daftar. Anda bisa mengklik nama group untuk melihat semua scenario di dalamnya.",
           "color": "#f43f5e",
           "bg": "#fff1f2",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Simpan Group</p><p class=\"text-xs text-rose-600\">Group akan muncul di daftar</p></div></div>"
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Simpan Group</p><p class=\"text-xs text-rose-600\">Group akan muncul di daftar</p></div></div>",
+          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoType": "youtube",
+          "caption": "Video tutorial terkait"
         }
       ]
-    },
-    {
-      "type": "video",
-      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "videoType": "youtube",
-      "caption": "Video tutorial terkait",
-      "controls": true
     }
   ]
 }

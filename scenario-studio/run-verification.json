@@ -54,16 +54,12 @@
           "desc": "Dari hasil verifikasi, Anda bisa:\n\u2022 **Export Report** \u2014 download hasil dalam format PDF/CSV\n\u2022 **Adjust Threshold** \u2014 langsung sesuaikan threshold berdasarkan hasil\n\u2022 **Create Ticket** \u2014 buat tugas untuk perbaikan jika diperlukan",
           "color": "#f97316",
           "bg": "#fff7ed",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z\"/></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Export & Tindak</p><p class=\"text-xs text-orange-600\">Download report atau adjust threshold</p></div></div>"
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z\"/></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Export & Tindak</p><p class=\"text-xs text-orange-600\">Download report atau adjust threshold</p></div></div>",
+          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoType": "youtube",
+          "caption": "Video tutorial terkait"
         }
       ]
-    },
-    {
-      "type": "video",
-      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "videoType": "youtube",
-      "caption": "Video tutorial terkait",
-      "controls": true
     }
   ]
 }

@@ -54,16 +54,12 @@
           "desc": "Jika rule bertipe GENERAL, klik \"Continue\" untuk langsung ke Step 4 (Review).\nJika rule bertipe CONDITION, klik \"Continue\" untuk ke Step 3 (Use Condition) terlebih dahulu.\nSetelah semua step selesai, lakukan Review dan Submit di Step terakhir.",
           "color": "#0ea5e9",
           "bg": "#f0f9ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-sky-50 rounded-lg border border-sky-200\"><div class=\"w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-sky-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 7l5 5m0 0l-5 5m5-5H6\"></path></svg></div><div><p class=\"text-sm font-semibold text-sky-800\">Lanjutkan</p><p class=\"text-xs text-sky-600\">General \u2192 Review, Condition \u2192 Step 3</p></div></div>"
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-sky-50 rounded-lg border border-sky-200\"><div class=\"w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-sky-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 7l5 5m0 0l-5 5m5-5H6\"></path></svg></div><div><p class=\"text-sm font-semibold text-sky-800\">Lanjutkan</p><p class=\"text-xs text-sky-600\">General \u2192 Review, Condition \u2192 Step 3</p></div></div>",
+          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoType": "youtube",
+          "caption": "Video tutorial terkait"
         }
       ]
-    },
-    {
-      "type": "video",
-      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "videoType": "youtube",
-      "caption": "Video tutorial terkait",
-      "controls": true
     }
   ]
 }

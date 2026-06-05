@@ -46,16 +46,12 @@
           "desc": "Kuasi operasi canvas untuk produktivitas maksimal: clipboard (Ctrl+C/X/V untuk copy/cut/paste node & group), undo/redo (Ctrl+Z / Ctrl+Shift+Z dengan 50 langkah history), tidy layout (auto-arrange dengan dagre), dan connected move (node terhubung ikut dipindahkan). Shortcut ini mempercepat workflow secara drastis.",
           "color": "#ec4899",
           "bg": "#fdf2f8",
-          "previewHtml": "<div class=\"grid grid-cols-2 gap-2 p-4\"><div class=\"flex items-center gap-2 p-2 bg-pink-50 rounded-lg border border-pink-200\"><kbd class=\"px-1.5 py-0.5 bg-white border border-pink-300 rounded text-xs font-mono text-pink-800\">Ctrl+Z</kbd><span class=\"text-xs text-pink-800\">Undo</span></div><div class=\"flex items-center gap-2 p-2 bg-pink-50 rounded-lg border border-pink-200\"><kbd class=\"px-1.5 py-0.5 bg-white border border-pink-300 rounded text-xs font-mono text-pink-800\">Ctrl+Shift+Z</kbd><span class=\"text-xs text-pink-800\">Redo</span></div><div class=\"flex items-center gap-2 p-2 bg-pink-50 rounded-lg border border-pink-200\"><kbd class=\"px-1.5 py-0.5 bg-white border border-pink-300 rounded text-xs font-mono text-pink-800\">Ctrl+C</kbd><span class=\"text-xs text-pink-800\">Copy</span></div><div class=\"flex items-center gap-2 p-2 bg-pink-50 rounded-lg border border-pink-200\"><kbd class=\"px-1.5 py-0.5 bg-white border border-pink-300 rounded text-xs font-mono text-pink-800\">Ctrl+V</kbd><span class=\"text-xs text-pink-800\">Paste</span></div></div>"
+          "previewHtml": "<div class=\"grid grid-cols-2 gap-2 p-4\"><div class=\"flex items-center gap-2 p-2 bg-pink-50 rounded-lg border border-pink-200\"><kbd class=\"px-1.5 py-0.5 bg-white border border-pink-300 rounded text-xs font-mono text-pink-800\">Ctrl+Z</kbd><span class=\"text-xs text-pink-800\">Undo</span></div><div class=\"flex items-center gap-2 p-2 bg-pink-50 rounded-lg border border-pink-200\"><kbd class=\"px-1.5 py-0.5 bg-white border border-pink-300 rounded text-xs font-mono text-pink-800\">Ctrl+Shift+Z</kbd><span class=\"text-xs text-pink-800\">Redo</span></div><div class=\"flex items-center gap-2 p-2 bg-pink-50 rounded-lg border border-pink-200\"><kbd class=\"px-1.5 py-0.5 bg-white border border-pink-300 rounded text-xs font-mono text-pink-800\">Ctrl+C</kbd><span class=\"text-xs text-pink-800\">Copy</span></div><div class=\"flex items-center gap-2 p-2 bg-pink-50 rounded-lg border border-pink-200\"><kbd class=\"px-1.5 py-0.5 bg-white border border-pink-300 rounded text-xs font-mono text-pink-800\">Ctrl+V</kbd><span class=\"text-xs text-pink-800\">Paste</span></div></div>",
+          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoType": "youtube",
+          "caption": "Video tutorial terkait"
         }
       ]
-    },
-    {
-      "type": "video",
-      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "videoType": "youtube",
-      "caption": "Video tutorial terkait",
-      "controls": true
     }
   ]
 }

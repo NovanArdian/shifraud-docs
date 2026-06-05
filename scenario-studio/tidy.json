@@ -38,16 +38,12 @@
           "desc": "\u2022 Auto-arrange tidak bisa di-undo per langkah \u2014 tetapi bisa di-undo secara keseluruhan dengan Ctrl+Z.\n\u2022 Jika hasil layout tidak sesuai, gunakan Ctrl+Z untuk mengembalikan ke posisi sebelumnya.\n\u2022 Atur posisi node secara manual setelah auto-arrange untuk penyesuaian fine-tuning.\n\u2022 Auto-arrange mempertahankan struktur hierarki group yang sudah dibuat.",
           "color": "#f43f5e",
           "bg": "#fff1f2",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Tips</p><p class=\"text-xs text-rose-600\">Undo dengan Ctrl+Z</p></div></div>"
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Tips</p><p class=\"text-xs text-rose-600\">Undo dengan Ctrl+Z</p></div></div>",
+          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoType": "youtube",
+          "caption": "Video tutorial terkait"
         }
       ]
-    },
-    {
-      "type": "video",
-      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "videoType": "youtube",
-      "caption": "Video tutorial terkait",
-      "controls": true
     }
   ]
 }

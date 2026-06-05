@@ -46,16 +46,12 @@
           "desc": "Klik \"Save\" atau \"Update\" untuk menyimpan perubahan. Scenario di dalam grup akan langsung menyesuaikan dengan informasi grup yang baru.",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Simpan Perubahan</p><p class=\"text-xs text-teal-600\">Klik Save atau Update</p></div></div>"
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Simpan Perubahan</p><p class=\"text-xs text-teal-600\">Klik Save atau Update</p></div></div>",
+          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoType": "youtube",
+          "caption": "Video tutorial terkait"
         }
       ]
-    },
-    {
-      "type": "video",
-      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "videoType": "youtube",
-      "caption": "Video tutorial terkait",
-      "controls": true
     }
   ]
 }

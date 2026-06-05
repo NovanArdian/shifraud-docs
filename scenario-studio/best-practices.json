@@ -19,10 +19,10 @@
         {
           "num": 2,
           "title": "Leverage Cycle Indicators",
-          "desc": "Manfaatkan Cycle Indicator untuk membatasi rule hanya aktif pada jam/hari tertentu. Misalnya, rule untuk mendeteksi transaksi malam hari cukup diaktifkan pukul 22:00–06:00. Ini mengurangi false positive secara signifikan karena rule tidak berjalan di luar konteks temporal yang relevan.",
+          "desc": "Manfaatkan Cycle Indicator untuk membatasi rule hanya aktif pada jam/hari tertentu. Misalnya, rule untuk mendeteksi transaksi malam hari cukup diaktifkan pukul 22:00\u201306:00. Ini mengurangi false positive secara signifikan karena rule tidak berjalan di luar konteks temporal yang relevan.",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"p-4\"><div class=\"flex items-center gap-3 p-3 bg-white rounded-lg border border-violet-200\"><svg class=\"w-8 h-8 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><div><p class=\"font-medium text-violet-900\">Aktif: 22:00 – 06:00</p><p class=\"text-xs text-violet-600\">Hanya mendeteksi transaksi malam hari</p></div></div></div>"
+          "previewHtml": "<div class=\"p-4\"><div class=\"flex items-center gap-3 p-3 bg-white rounded-lg border border-violet-200\"><svg class=\"w-8 h-8 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><div><p class=\"font-medium text-violet-900\">Aktif: 22:00 \u2013 06:00</p><p class=\"text-xs text-violet-600\">Hanya mendeteksi transaksi malam hari</p></div></div></div>"
         },
         {
           "num": 3,
@@ -30,7 +30,7 @@
           "desc": "Selalu isi field Description dengan penjelasan logika deteksi, tujuan rule, dan ekspektasi outcome. Contoh: \"Mendeteksi transaksi dengan nominal > 10jt yang terjadi di luar jam operasional (22:00-06:00) untuk akun yang tidak memiliki riwayat transaksi malam sebelumnya.\" Ini membantu tim lain memahami konteks dan tujuan rule.",
           "color": "#f59e0b",
           "bg": "#fffbeb",
-          "previewHtml": "<div class=\"p-4\"><div class=\"p-3 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"flex items-center gap-2 mb-1\"><svg class=\"w-4 h-4 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h16M4 18h7\"/></svg><span class=\"text-sm font-medium text-amber-900\">Description</span></div><p class=\"text-xs text-amber-700 leading-relaxed\">Mendeteksi transaksi > 10jt di luar jam operasional (22:00–06:00) untuk akun tanpa riwayat transaksi malam.</p></div></div>"
+          "previewHtml": "<div class=\"p-4\"><div class=\"p-3 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"flex items-center gap-2 mb-1\"><svg class=\"w-4 h-4 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h16M4 18h7\"/></svg><span class=\"text-sm font-medium text-amber-900\">Description</span></div><p class=\"text-xs text-amber-700 leading-relaxed\">Mendeteksi transaksi > 10jt di luar jam operasional (22:00\u201306:00) untuk akun tanpa riwayat transaksi malam.</p></div></div>"
         },
         {
           "num": 4,
@@ -43,7 +43,7 @@
         {
           "num": 5,
           "title": "Monitor Effectiveness Metrics",
-          "desc": "Pantau metrik efektivitas scenario secara berkala — jumlah alert yang dihasilkan, false positive rate, true positive rate, dan average risk score. Sesuaikan threshold berdasarkan data nyata. Rule dengan false positive rate > 20% perlu dievaluasi ulang parameter atau cycle indicator-nya.",
+          "desc": "Pantau metrik efektivitas scenario secara berkala \u2014 jumlah alert yang dihasilkan, false positive rate, true positive rate, dan average risk score. Sesuaikan threshold berdasarkan data nyata. Rule dengan false positive rate > 20% perlu dievaluasi ulang parameter atau cycle indicator-nya.",
           "color": "#f43f5e",
           "bg": "#fff1f2",
           "previewHtml": "<div class=\"grid grid-cols-2 gap-2 p-4\"><div class=\"p-3 bg-white rounded-lg border border-rose-200 text-center\"><p class=\"text-xs text-rose-600\">Alert</p><p class=\"text-lg font-bold text-rose-900\">1,247</p></div><div class=\"p-3 bg-white rounded-lg border border-rose-200 text-center\"><p class=\"text-xs text-rose-600\">FP Rate</p><p class=\"text-lg font-bold text-green-600\">8.3%</p></div><div class=\"p-3 bg-white rounded-lg border border-rose-200 text-center\"><p class=\"text-xs text-rose-600\">TP Rate</p><p class=\"text-lg font-bold text-rose-900\">91.7%</p></div><div class=\"p-3 bg-white rounded-lg border border-rose-200 text-center\"><p class=\"text-xs text-rose-600\">Avg Score</p><p class=\"text-lg font-bold text-amber-600\">76</p></div></div>"
@@ -54,7 +54,10 @@
           "desc": "Group node kondisi yang saling terkait secara logis untuk memudahkan pembacaan alur. Misalnya, kumpulkan semua node validasi pengguna dalam satu group, node validasi transaksi di group lain. Group bisa di-rename, di-warnai, di-move bersama, dan di-copy/paste sebagai satu kesatuan.",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex flex-col gap-2 p-4\"><div class=\"p-2 rounded-lg border-2 border-teal-300 bg-teal-50\"><div class=\"flex items-center gap-2 mb-1\"><svg class=\"w-4 h-4 text-teal-700\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6z\"/></svg><span class=\"text-xs font-semibold text-teal-800\">Validasi Pengguna</span></div><p class=\"text-xs text-teal-600 pl-6\">LOGICAL: AND — CONTAINS: email — GEO: Jakarta</p></div><div class=\"p-2 rounded-lg border-2 border-teal-300 bg-teal-50\"><div class=\"flex items-center gap-2 mb-1\"><svg class=\"w-4 h-4 text-teal-700\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6z\"/></svg><span class=\"text-xs font-semibold text-teal-800\">Validasi Transaksi</span></div><p class=\"text-xs text-teal-600 pl-6\">CONSTANT: nominal — DEVIATION: 20% — AGGREGATE: count</p></div></div>"
+          "previewHtml": "<div class=\"flex flex-col gap-2 p-4\"><div class=\"p-2 rounded-lg border-2 border-teal-300 bg-teal-50\"><div class=\"flex items-center gap-2 mb-1\"><svg class=\"w-4 h-4 text-teal-700\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6z\"/></svg><span class=\"text-xs font-semibold text-teal-800\">Validasi Pengguna</span></div><p class=\"text-xs text-teal-600 pl-6\">LOGICAL: AND \u2014 CONTAINS: email \u2014 GEO: Jakarta</p></div><div class=\"p-2 rounded-lg border-2 border-teal-300 bg-teal-50\"><div class=\"flex items-center gap-2 mb-1\"><svg class=\"w-4 h-4 text-teal-700\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6z\"/></svg><span class=\"text-xs font-semibold text-teal-800\">Validasi Transaksi</span></div><p class=\"text-xs text-teal-600 pl-6\">CONSTANT: nominal \u2014 DEVIATION: 20% \u2014 AGGREGATE: count</p></div></div>",
+          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoType": "youtube",
+          "caption": "Video tutorial terkait"
         }
       ]
     }

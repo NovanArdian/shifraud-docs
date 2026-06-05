@@ -46,16 +46,12 @@
           "desc": "Lanjut ke Step 4 (Review & Submit). Periksa ringkasan konfigurasi rule \u2014 nama, tipe, parameter, dan diagram canvas. Klik \"Submit Scenario\", isi komentar untuk audit trail, dan konfirmasi. Rule akan tersimpan dan muncul di daftar Scenario Management dengan status aktif.",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex flex-col items-center gap-3 p-4\"><div class=\"w-14 h-14 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-7 h-7 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"/></svg></div><p class=\"font-semibold text-teal-900\">Review &amp; Submit Berhasil</p><div class=\"flex gap-2\"><span class=\"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-teal-100 text-teal-800\">Tipe: GENERAL</span><span class=\"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800\">Status: Active</span></div></div>"
+          "previewHtml": "<div class=\"flex flex-col items-center gap-3 p-4\"><div class=\"w-14 h-14 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-7 h-7 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"/></svg></div><p class=\"font-semibold text-teal-900\">Review &amp; Submit Berhasil</p><div class=\"flex gap-2\"><span class=\"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-teal-100 text-teal-800\">Tipe: GENERAL</span><span class=\"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800\">Status: Active</span></div></div>",
+          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoType": "youtube",
+          "caption": "Video tutorial terkait"
         }
       ]
-    },
-    {
-      "type": "video",
-      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "videoType": "youtube",
-      "caption": "Video tutorial terkait",
-      "controls": true
     }
   ]
 }

@@ -70,16 +70,12 @@
           "desc": "Periksa alur deteksi:\n\u2022 Start \u2192 Apakah amount > 1 Juta? (AND)\n\u2022 Start \u2192 Apakah kategori termasuk ECOM/DIGITAL? (AND)\n\u2022 Jika keduanya TRUE \u2192 alert terpicu.\nIni adalah pola dasar detection flow. Anda bisa menambah lebih banyak kondisi dan membuat nested LOGICAL untuk logika yang lebih kompleks.",
           "color": "#22c55e",
           "bg": "#f0fdf4",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"w-10 h-10 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path><path d=\"M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z\"></path></svg></div><div><p class=\"text-sm font-semibold text-green-800\">Review Logika</p><p class=\"text-xs text-green-600\">amount > 1J AND kategori ECOM/DIGITAL</p></div></div>"
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"w-10 h-10 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path><path d=\"M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z\"></path></svg></div><div><p class=\"text-sm font-semibold text-green-800\">Review Logika</p><p class=\"text-xs text-green-600\">amount > 1J AND kategori ECOM/DIGITAL</p></div></div>",
+          "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "videoType": "youtube",
+          "caption": "Video tutorial terkait"
         }
       ]
-    },
-    {
-      "type": "video",
-      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "videoType": "youtube",
-      "caption": "Video tutorial terkait",
-      "controls": true
     }
   ]
 }
