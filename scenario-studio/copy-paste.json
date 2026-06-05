@@ -13,35 +13,40 @@
           "title": "Copy Node atau Group",
           "desc": "Pilih node atau group yang ingin di-copy.\nTekan Ctrl+C (atau Cmd+C di Mac) pada keyboard.\nNode/group beserta semua descendants (anak-anaknya) akan tersalin ke clipboard internal.\nTidak ada indikasi visual bahwa node sudah di-copy — lanjutkan ke langkah paste.",
           "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "bg": "#eff6ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Copy</p><p class=\"text-xs text-blue-600\">Tekan Ctrl+C / Cmd+C</p></div></div>"
         },
         {
           "num": 2,
           "title": "Cut Node atau Group",
           "desc": "Pilih node atau group yang ingin dipotong (cut).\nTekan Ctrl+X (atau Cmd+X di Mac).\nNode/group akan tersalin ke clipboard DAN dihapus dari canvas.\nEdge yang terhubung akan otomatis di-route ulang untuk menjaga koneksi yang masih ada.",
           "color": "#14b8a6",
-          "bg": "#f0fdfa"
+          "bg": "#f0fdfa",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243zm0-5.758a3 3 0 10-4.243-4.243 3 3 0 004.243 4.243z\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Cut</p><p class=\"text-xs text-teal-600\">Tekan Ctrl+X / Cmd+X</p></div></div>"
         },
         {
           "num": 3,
           "title": "Paste ke Canvas",
           "desc": "Setelah copy atau cut, tempelkan dengan Ctrl+V (atau Cmd+V di Mac).\nNode akan ditempel di canvas pada posisi yang sedikit di-offset dari posisi asli (agar tidak tumpang tindih).\nJika yang di-copy adalah group, seluruh isi group juga ikut di-paste.\nNode hasil paste akan terpilih secara otomatis sehingga bisa langsung dipindahkan.",
           "color": "#8b5cf6",
-          "bg": "#f5f3ff"
+          "bg": "#f5f3ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Paste</p><p class=\"text-xs text-violet-600\">Tekan Ctrl+V / Cmd+V</p></div></div>"
         },
         {
           "num": 4,
           "title": "Paste ke Dalam Group",
           "desc": "Untuk menempel node langsung ke dalam group:\nKlik kanan pada group target.\nPilih \"Paste\" dari context menu group.\nNode akan ditempel di dalam group tersebut, bukan di canvas utama.",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "bg": "#fffbeb",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M3 10v11m18-11v11\"></path></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Paste ke Group</p><p class=\"text-xs text-amber-600\">Klik kanan pada group target</p></div></div>"
         },
         {
           "num": 5,
           "title": "Tips",
           "desc": "• Copy/Paste mempertahankan semua konfigurasi kondisi dan koneksi antar node.\n• Group yang di-copy akan mempertahankan warna, label, dan struktur internalnya.\n• Clipboard hanya menyimpan 1 item terakhir (copy/cut baru akan menimpa yang lama).\n• Jika paste tidak berhasil, pastikan Anda sudah melakukan copy terlebih dahulu.",
           "color": "#f43f5e",
-          "bg": "#fff1f2"
+          "bg": "#fff1f2",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Tips Copy Paste</p><p class=\"text-xs text-rose-600\">Konfigurasi dan koneksi tetap</p></div></div>"
         }
       ]
     }

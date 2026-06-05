@@ -13,35 +13,40 @@
           "title": "Cari Group yang Akan Diedit",
           "desc": "Di halaman Scenario Group, gunakan kolom pencarian atau scroll daftar untuk menemukan grup yang ingin diubah.",
           "color": "#f97316",
-          "bg": "#fff7ed"
+          "bg": "#fff7ed",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Cari Group</p><p class=\"text-xs text-orange-600\">Gunakan kolom pencarian</p></div></div>"
         },
         {
           "num": 2,
           "title": "Klik Edit Group",
           "desc": "Klik icon pensil (Edit) pada baris grup. Modal edit akan terbuka dengan data grup yang sudah terisi.",
           "color": "#ec4899",
-          "bg": "#fdf2f8"
+          "bg": "#fdf2f8",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-pink-50 rounded-lg border border-pink-200\"><div class=\"w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-pink-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z\"></path></svg></div><div><p class=\"text-sm font-semibold text-pink-800\">Edit Group</p><p class=\"text-xs text-pink-600\">Klik ikon pensil pada baris grup</p></div></div>"
         },
         {
           "num": 3,
           "title": "Ubah Informasi Group",
           "desc": "Anda bisa mengubah:\n• **Nama Group** — rename jika kategori berubah\n• **Deskripsi** — perbarui dokumentasi grup\n• **Warna Label** — ganti warna identifikasi",
           "color": "#6366f1",
-          "bg": "#eef2ff"
+          "bg": "#eef2ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\"></path><path d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Ubah Data Group</p><p class=\"text-xs text-indigo-600\">Nama, deskripsi, atau warna</p></div></div>"
         },
         {
           "num": 4,
           "title": "Kelola Anggota Group",
           "desc": "Di tab \"Members\", Anda bisa:\n• **Tambah Scenario** — pilih scenario dari dropdown untuk dimasukkan ke grup\n• **Hapus Scenario** — klik icon X pada scenario yang ingin dikeluarkan dari grup\nPerubahan anggota grup tidak mempengaruhi konfigurasi scenario itu sendiri.",
           "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "bg": "#eff6ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Kelola Anggota</p><p class=\"text-xs text-blue-600\">Tambah atau hapus scenario</p></div></div>"
         },
         {
           "num": 5,
           "title": "Simpan Perubahan",
           "desc": "Klik \"Save\" atau \"Update\" untuk menyimpan perubahan. Scenario di dalam grup akan langsung menyesuaikan dengan informasi grup yang baru.",
           "color": "#14b8a6",
-          "bg": "#f0fdfa"
+          "bg": "#f0fdfa",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Simpan Perubahan</p><p class=\"text-xs text-teal-600\">Klik Save atau Update</p></div></div>"
         }
       ]
     }

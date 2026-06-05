@@ -3,41 +3,50 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "text",
-      "content": "Toolbar menyediakan akses cepat ke operasi canvas utama."
-    },
-    {
-      "type": "overview",
-      "overviewItems": [
+      "type": "tutorial",
+      "heading": "Toolbar",
+      "id": "toolbar",
+      "intro": "Toolbar menyediakan akses cepat ke operasi canvas utama.",
+      "steps": [
         {
-          "label": "Add Condition",
+          "num": 1,
+          "title": "Add Condition Button & Dialog",
+          "desc": "Klik tombol Add Condition di toolbar untuk membuka dialog pemilihan tipe kondisi yang akan ditambahkan ke canvas.",
           "color": "#6366f1",
-          "desc": "Buka dialog untuk menambah node kondisi baru di canvas.",
-          "icon": "IconPlus"
+          "bg": "#eef2ff",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-lg\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v16m8-8H4\"/></svg>Add Condition</div><div class=\"rounded-lg border border-indigo-100 bg-white p-3 shadow-sm\"><div class=\"grid grid-cols-2 gap-2\"><div class=\"rounded bg-indigo-50 p-2 text-center text-xs font-medium text-indigo-700\">LOGICAL</div><div class=\"rounded bg-blue-50 p-2 text-center text-xs font-medium text-blue-700\">CONTAINS</div><div class=\"rounded bg-green-50 p-2 text-center text-xs font-medium text-green-700\">CONSTANT</div><div class=\"rounded bg-yellow-50 p-2 text-center text-xs font-medium text-yellow-700\">DEVIATION</div></div></div></div>"
         },
         {
-          "label": "Auto-arrange",
+          "num": 2,
+          "title": "Auto-arrange with Dagre Layout",
+          "desc": "Rapikan semua node secara otomatis menggunakan algoritma layout hierarki dagre. Posisi node akan diatur ulang secara terstruktur.",
           "color": "#3b82f6",
-          "desc": "Rapikan posisi semua node menggunakan layout hierarki dagre.",
-          "icon": "IconHierarchy2"
+          "bg": "#eff6ff",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow-lg\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z\"/></svg>Auto-arrange</div><div class=\"flex items-center gap-1 rounded-lg bg-blue-50 p-2 text-xs text-blue-700\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg>Uses dagre hierarchical layout</div></div>"
         },
         {
-          "label": "Zoom Controls",
+          "num": 3,
+          "title": "Zoom Controls",
+          "desc": "Gunakan Zoom In, Zoom Out, dan Reset untuk menyesuaikan viewport canvas. Reset akan mengembalikan ke zoom 100% dan posisi default.",
           "color": "#14b8a6",
-          "desc": "Zoom in/out dan reset viewport ke posisi default.",
-          "icon": "IconZoomIn"
+          "bg": "#f0fdfa",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"inline-flex items-center gap-1 rounded-lg bg-white p-1 shadow-md\"><button class=\"rounded-md bg-teal-50 p-2 text-teal-700 hover:bg-teal-100\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v16m8-8H4\"/></svg></button><button class=\"rounded-md p-2 text-gray-500 hover:bg-gray-100\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 12H4\"/></svg></button><button class=\"rounded-md bg-teal-50 px-3 py-1.5 text-xs font-medium text-teal-700 hover:bg-teal-100\">100%</button></div><div class=\"flex gap-1 text-[10px] text-teal-600\"><span class=\"rounded bg-teal-100 px-1.5 py-0.5\">Ctrl++</span><span class=\"rounded bg-teal-100 px-1.5 py-0.5\">Ctrl+-</span><span class=\"rounded bg-teal-100 px-1.5 py-0.5\">Ctrl+0</span></div></div>"
         },
         {
-          "label": "Undo / Redo",
+          "num": 4,
+          "title": "Undo/Redo Toolbar Buttons",
+          "desc": "Tombol Undo untuk membatalkan aksi terakhir dan Redo untuk mengulanginya. Juga tersedia shortcut keyboard Ctrl+Z dan Ctrl+Shift+Z.",
           "color": "#8b5cf6",
-          "desc": "Batalkan atau ulangi aksi terakhir (Ctrl+Z / Ctrl+Shift+Z).",
-          "icon": "IconArrowBackUp"
+          "bg": "#faf5ff",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"inline-flex items-center gap-1 rounded-lg bg-white p-1 shadow-md\"><button class=\"rounded-md bg-violet-50 p-2 text-violet-700 hover:bg-violet-100\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6\"/></svg></button><button class=\"rounded-md bg-violet-50 p-2 text-violet-700 hover:bg-violet-100\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M21 10H11a8 8 0 00-8 8v2m18-10l-6 6m6-6l-6-6\"/></svg></button></div><div class=\"flex gap-2 text-xs text-violet-600\"><kbd class=\"inline-flex items-center gap-1 rounded border border-violet-300 bg-white px-1.5 py-0.5 font-mono text-violet-700\"><span class=\"text-[9px] font-bold\">Ctrl</span>+<span>Z</span></kbd><kbd class=\"inline-flex items-center gap-1 rounded border border-violet-300 bg-white px-1.5 py-0.5 font-mono text-violet-700\"><span class=\"text-[9px] font-bold\">Ctrl</span>+<span>Shift</span>+<span>Z</span></kbd></div></div>"
         },
         {
-          "label": "Back / Continue",
-          "color": "#f59e0b",
-          "desc": "Navigasi antar step: Back ke step sebelumnya, Continue ke step berikutnya.",
-          "icon": "IconArrowForwardUp"
+          "num": 5,
+          "title": "Step Navigation: Back & Continue",
+          "desc": "Gunakan tombol Back untuk kembali ke step sebelumnya dan Continue untuk melanjutkan ke step berikutnya. Juga tersedia shortcut Enter dan Alt+Arrow.",
+          "color": "#f97316",
+          "bg": "#fff7ed",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex items-center gap-2\"><button class=\"inline-flex items-center gap-1 rounded-lg border border-orange-300 bg-white px-3 py-1.5 text-sm font-medium text-orange-700 shadow-sm\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 19l-7-7 7-7\"/></svg>Back</button><button class=\"inline-flex items-center gap-1 rounded-lg bg-orange-600 px-4 py-1.5 text-sm font-medium text-white shadow-sm\">Continue<svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5l7 7-7 7\"/></svg></button></div><div class=\"flex gap-2 text-xs text-orange-600\"><kbd class=\"inline-flex items-center gap-1 rounded border border-orange-300 bg-white px-1.5 py-0.5 font-mono text-orange-700\">Enter</kbd><span class=\"text-orange-400\">|</span><kbd class=\"inline-flex items-center gap-1 rounded border border-orange-300 bg-white px-1.5 py-0.5 font-mono text-orange-700\"><span class=\"text-[9px] font-bold\">Alt</span>+<span>←</span></kbd></div></div>"
         }
       ]
     }

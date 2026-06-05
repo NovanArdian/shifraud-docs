@@ -13,28 +13,32 @@
           "title": "Aktifkan Auto-arrange",
           "desc": "Di toolbar bawah canvas, klik ikon sitemap (Auto-arrange).\nSemua node di canvas akan otomatis dirapikan menggunakan layout hierarki dagre.\nProses ini membutuhkan waktu beberapa detik tergantung jumlah node.",
           "color": "#14b8a6",
-          "bg": "#f0fdfa"
+          "bg": "#f0fdfa",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7v10l8 4V11L4 7zm16 0l-8 4v10l8-4V7zm0 0l-8-4-8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Auto-arrange</p><p class=\"text-xs text-teal-600\">Klik ikon sitemap di toolbar</p></div></div>"
         },
         {
           "num": 2,
           "title": "Bagaimana Layout Bekerja",
           "desc": "Auto-arrange menggunakan algoritma dagre untuk mengatur posisi node:\n• Node level atas (Start, kondisi utama, placeholder) di-layout secara hierarki dari kiri ke kanan.\n• Group di-layout secara hierarki: node di dalam group diatur sebagai sub-graph.\n• Node tanpa koneksi di dalam group akan di-stack (ditumpuk) secara vertikal.\nEdge otomatis di-route ulang mengikuti posisi node yang baru.",
           "color": "#8b5cf6",
-          "bg": "#f5f3ff"
+          "bg": "#f5f3ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Algoritma Dagre</p><p class=\"text-xs text-violet-600\">Layout hierarki otomatis</p></div></div>"
         },
         {
           "num": 3,
           "title": "Kapan Menggunakan Auto-arrange",
           "desc": "• Setelah menambah banyak node baru yang posisinya belum rapi.\n• Setelah menghapus node, untuk merapikan kembali alur yang berubah.\n• Sebelum screenshot atau presentasi rule ke tim lain.\n• Saat alur terasa berantakan dan sulit dibaca.",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "bg": "#fffbeb",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4\"></path></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Kapan Digunakan</p><p class=\"text-xs text-amber-600\">Setelah tambah/hapus node</p></div></div>"
         },
         {
           "num": 4,
           "title": "Tips",
           "desc": "• Auto-arrange tidak bisa di-undo per langkah — tetapi bisa di-undo secara keseluruhan dengan Ctrl+Z.\n• Jika hasil layout tidak sesuai, gunakan Ctrl+Z untuk mengembalikan ke posisi sebelumnya.\n• Atur posisi node secara manual setelah auto-arrange untuk penyesuaian fine-tuning.\n• Auto-arrange mempertahankan struktur hierarki group yang sudah dibuat.",
           "color": "#f43f5e",
-          "bg": "#fff1f2"
+          "bg": "#fff1f2",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Tips</p><p class=\"text-xs text-rose-600\">Undo dengan Ctrl+Z</p></div></div>"
         }
       ]
     }

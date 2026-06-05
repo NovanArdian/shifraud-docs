@@ -13,35 +13,40 @@
           "title": "Export Scenario",
           "desc": "Pilih scenario yang ingin di-export. Klik tombol \"Export\" (icon download). Sistem akan menghasilkan file JSON yang berisi:\n• Metadata scenario (nama, deskripsi, severity)\n• Konfigurasi canvas (node, edge, conditions)\n• Threshold dan parameter deteksi",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "bg": "#fffbeb",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4\"/></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Export Scenario</p><p class=\"text-xs text-amber-600\">Download file JSON scenario</p></div></div>"
         },
         {
           "num": 2,
           "title": "Pilih Format Export",
           "desc": "Tergantung sistem, Anda mungkin bisa memilih format:\n• **JSON** — format universal, bisa di-import kembali\n• **CSV** — untuk analisis di spreadsheet (terbatas pada metadata)\nFile akan di-download ke browser Anda.",
           "color": "#f43f5e",
-          "bg": "#fff1f2"
+          "bg": "#fff1f2",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z\"/></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Pilih Format</p><p class=\"text-xs text-rose-600\">JSON atau CSV</p></div></div>"
         },
         {
           "num": 3,
           "title": "Import Scenario",
           "desc": "Klik tombol \"Import\" (icon upload). Pilih file JSON yang sebelumnya di-export. Sistem akan memvalidasi struktur file sebelum memproses.",
           "color": "#0ea5e9",
-          "bg": "#f0f9ff"
+          "bg": "#f0f9ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-sky-50 rounded-lg border border-sky-200\"><div class=\"w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-sky-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12\"/></svg></div><div><p class=\"text-sm font-semibold text-sky-800\">Import Scenario</p><p class=\"text-xs text-sky-600\">Upload file JSON yang sudah di-export</p></div></div>"
         },
         {
           "num": 4,
           "title": "Atur Konflik dan Duplikasi",
           "desc": "Jika scenario dengan nama yang sama sudah ada, sistem akan menawarkan:\n• **Skip** — lewati import untuk item duplikat\n• **Overwrite** — timpa scenario yang ada\n• **Rename** — buat sebagai scenario baru dengan nama berbeda",
           "color": "#22c55e",
-          "bg": "#f0fdf4"
+          "bg": "#f0fdf4",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"w-10 h-10 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4\"/></svg></div><div><p class=\"text-sm font-semibold text-green-800\">Atur Konflik</p><p class=\"text-xs text-green-600\">Skip, Overwrite, atau Rename</p></div></div>"
         },
         {
           "num": 5,
           "title": "Verifikasi Hasil Import",
           "desc": "Scenario hasil import akan muncul di daftar dengan status **Draft**. Buka kanvas untuk memverifikasi node, edge, dan konfigurasi tersalin dengan benar sebelum di-submit.",
           "color": "#f97316",
-          "bg": "#fff7ed"
+          "bg": "#fff7ed",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-orange-50 rounded-lg border border-orange-200\"><div class=\"w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-orange-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2\"/></svg></div><div><p class=\"text-sm font-semibold text-orange-800\">Verifikasi Import</p><p class=\"text-xs text-orange-600\">Cek hasil import di kanvas</p></div></div>"
         }
       ]
     }

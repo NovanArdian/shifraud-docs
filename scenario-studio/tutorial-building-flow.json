@@ -13,56 +13,64 @@
           "title": "Buat Rule Baru (Tipe CONDITION)",
           "desc": "Buat rule baru dengan tipe \"CONDITION\". Beri nama: \"Tutorial - Detection Flow dengan Multiple Kondisi\". Isi parameter dasar seperti biasa di Step 1.",
           "color": "#6366f1",
-          "bg": "#eef2ff"
+          "bg": "#eef2ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6v6m0 0v6m0-6h6m-6 0H6\"></path></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Buat Rule Baru</p><p class=\"text-xs text-indigo-600\">Tipe CONDITION</p></div></div>"
         },
         {
           "num": 2,
           "title": "Tambah Kondisi LOGICAL",
           "desc": "Di Step 2 (Build Flow), klik \"Add Condition\" dan pilih tipe \"LOGICAL\". Kondisi LOGICAL berfungsi sebagai container untuk menggabungkan kondisi lain dengan operator AND/OR. Simpan tanpa mengubah pengaturan default.",
           "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "bg": "#eff6ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">LOGICAL</p><p class=\"text-xs text-blue-600\">Container untuk multiple kondisi</p></div></div>"
         },
         {
           "num": 3,
           "title": "Tambah Kondisi CONSTANT",
           "desc": "Tambah kondisi CONSTANT baru. Atur: atribut = \"amount\", operator = \">\", nilai = \"1000000\".\nHubungkan node CONSTANT ke node LOGICAL (drag dari kanan CONSTANT ke kiri LOGICAL).",
           "color": "#14b8a6",
-          "bg": "#f0fdfa"
+          "bg": "#f0fdfa",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">CONSTANT</p><p class=\"text-xs text-teal-600\">amount > 1000000</p></div></div>"
         },
         {
           "num": 4,
           "title": "Tambah Kondisi CONTAINS",
           "desc": "Tambah kondisi CONTAINS baru. Atur: atribut = \"merchant_category\", nilai = [\"ECOM\", \"DIGITAL\"].\nHubungkan node CONTAINS ke node LOGICAL juga.",
           "color": "#8b5cf6",
-          "bg": "#f5f3ff"
+          "bg": "#f5f3ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7v10l8 4V11L4 7zm16 0l-8 4v10l8-4V7zm0 0l-8-4-8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">CONTAINS</p><p class=\"text-xs text-violet-600\">merchant_category ∈ [ECOM, DIGITAL]</p></div></div>"
         },
         {
           "num": 5,
           "title": "Atur Operator LOGICAL",
           "desc": "Klik edge dari CONSTANT ke LOGICAL. Ubah operator menjadi \"AND\".\nKlik edge dari CONTAINS ke LOGICAL. Ubah operator menjadi \"AND\" juga.\nSekarang rule akan mendeteksi: transaksi > 1 Juta AND kategori ECOM/DIGITAL.",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "bg": "#fffbeb",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\"></path></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Operator AND</p><p class=\"text-xs text-amber-600\">amount > 1J AND kategori ECOM/DIGITAL</p></div></div>"
         },
         {
           "num": 6,
           "title": "Hubungkan ke Flow Utama",
           "desc": "Sekarang hubungkan:\n• Start node → node LOGICAL (source ke target)\n• node LOGICAL → placeholder \"?\"\nSekarang flow lengkap: Start → LOGICAL (AND) → End.",
           "color": "#f43f5e",
-          "bg": "#fff1f2"
+          "bg": "#fff1f2",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Flow Lengkap</p><p class=\"text-xs text-rose-600\">Start → LOGICAL (AND) → End</p></div></div>"
         },
         {
           "num": 7,
           "title": "Gunakan Auto-arrange",
           "desc": "Klik ikon Auto-arrange (sitemap) di toolbar. Semua node akan dirapikan secara otomatis dengan layout hierarki. Perhatikan bagaimana node di dalam LOGICAL diatur sebagai sub-grup.",
           "color": "#0ea5e9",
-          "bg": "#f0f9ff"
+          "bg": "#f0f9ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-sky-50 rounded-lg border border-sky-200\"><div class=\"w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-sky-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7v10l8 4V11L4 7zm16 0l-8 4v10l8-4V7zm0 0l-8-4-8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-sky-800\">Auto-arrange</p><p class=\"text-xs text-sky-600\">Layout hierarki otomatis</p></div></div>"
         },
         {
           "num": 8,
           "title": "Review Logika",
           "desc": "Periksa alur deteksi:\n• Start → Apakah amount > 1 Juta? (AND)\n• Start → Apakah kategori termasuk ECOM/DIGITAL? (AND)\n• Jika keduanya TRUE → alert terpicu.\nIni adalah pola dasar detection flow. Anda bisa menambah lebih banyak kondisi dan membuat nested LOGICAL untuk logika yang lebih kompleks.",
           "color": "#22c55e",
-          "bg": "#f0fdf4"
+          "bg": "#f0fdf4",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"w-10 h-10 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path><path d=\"M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z\"></path></svg></div><div><p class=\"text-sm font-semibold text-green-800\">Review Logika</p><p class=\"text-xs text-green-600\">amount > 1J AND kategori ECOM/DIGITAL</p></div></div>"
         }
       ]
     }

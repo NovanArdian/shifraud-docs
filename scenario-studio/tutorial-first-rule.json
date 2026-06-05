@@ -21,42 +21,48 @@
           "title": "Pilih Tipe Rule",
           "desc": "Di dialog pembuatan, pilih tipe rule. Untuk tutorial ini, pilih \"GENERAL\" (3 langkah, tanpa Use Condition). Beri nama rule: \"Tutorial - Rule Pertama Saya\".",
           "color": "#ec4899",
-          "bg": "#fdf2f8"
+          "bg": "#fdf2f8",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-pink-50 rounded-lg border border-pink-200\"><div class=\"w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-pink-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z\"></path></svg></div><div><p class=\"text-sm font-semibold text-pink-800\">Pilih Tipe Rule</p><p class=\"text-xs text-pink-600\">GENERAL (3 langkah) atau CONDITION</p></div></div>"
         },
         {
           "num": 3,
           "title": "Isi Parameter Dasar (Step 1)",
           "desc": "Isi field berikut:\n• Rule Name: \"Tutorial - Rule Pertama Saya\"\n• Scenario Group: Pilih grup yang sesuai (atau biarkan default)\n• Description: \"Rule tutorial untuk mempelajari Scenario Studio\"\n• Risk Score: 50\n• Priority: 5\n• Active Period: Pilih \"7 hari\" dari quick preset\nKlik \"Next: Build Flow\" untuk lanjut.",
           "color": "#6366f1",
-          "bg": "#eef2ff"
+          "bg": "#eef2ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\"></path><path d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Parameter Dasar</p><p class=\"text-xs text-indigo-600\">Nama, grup, deskripsi, risk score</p></div></div>"
         },
         {
           "num": 4,
           "title": "Kenali Canvas (Step 2)",
           "desc": "Anda akan melihat canvas ReactFlow dengan:\n• Sisi kiri: Sidebar berisi 6 tipe kondisi\n• Tengah: Area canvas dengan node \"Start\" di kiri dan node \"?\" (placeholder) di kanan\n• Bawah: Toolbar dengan tombol Add Condition, Auto-arrange, Back, Continue\nCoba pan canvas: tahan Space + drag mouse. Zoom: gunakan scroll.",
           "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "bg": "#eff6ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Canvas ReactFlow</p><p class=\"text-xs text-blue-600\">6 tipe kondisi, toolbar bawah</p></div></div>"
         },
         {
           "num": 5,
           "title": "Tambah Kondisi Pertama",
           "desc": "Klik tombol \"Add Condition\" di toolbar. Pilih tipe \"CONSTANT\" dari dialog. Di dialog konfigurasi:\n• Atur atribut yang akan diperiksa (pilih dari dropdown)\n• Pilih operator (=, ≠, >, dll.)\n• Masukkan nilai pembanding\nKlik \"Save\" untuk menambah node ke canvas.",
           "color": "#14b8a6",
-          "bg": "#f0fdfa"
+          "bg": "#f0fdfa",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Tambah Kondisi</p><p class=\"text-xs text-teal-600\">CONSTANT — atribut, operator, nilai</p></div></div>"
         },
         {
           "num": 6,
           "title": "Hubungkan Node",
           "desc": "Node kondisi baru akan muncul di canvas. Hubungkan:\n• Dari node \"Start\" ke node kondisi baru Anda (drag dari handle kanan Start ke handle kiri node kondisi)\n• Dari node kondisi ke node placeholder \"?\" (drag dari handle kanan kondisi ke handle kiri placeholder)\nSetiap edge akan menampilkan operator AND/OR yang bisa diklik untuk toggle.",
           "color": "#8b5cf6",
-          "bg": "#f5f3ff"
+          "bg": "#f5f3ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Hubungkan Node</p><p class=\"text-xs text-violet-600\">Start → kondisi → placeholder</p></div></div>"
         },
         {
           "num": 7,
           "title": "Review & Submit (Step 4)",
           "desc": "Klik \"Continue\" di toolbar sampai mencapai Step 4 (Review). Periksa ringkasan:\n• Nama rule dan deskripsi\n• Risk Score dan Priority\n• Jumlah kondisi yang dibuat\nKlik \"Submit Scenario\", isi komentar (misal: \"Tutorial selesai\"), dan submit.",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "bg": "#fffbeb",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Review & Submit</p><p class=\"text-xs text-amber-600\">Periksa ringkasan, klik Submit</p></div></div>"
         },
         {
           "num": 8,

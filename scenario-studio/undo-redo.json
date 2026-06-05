@@ -13,35 +13,40 @@
           "title": "Apa yang Bisa Di-undo",
           "desc": "Hampir semua aksi di canvas masuk ke riwayat undo/redo:\n• Menambah, menghapus, atau memindahkan node\n• Membuat, mengubah, atau menghapus edge/koneksi\n• Operasi group: create, ungroup, move to group, remove from group\n• Operasi clipboard: paste, cut\n• Auto-arrange (tidy layout)\n• Perubahan warna node/group\n• Drag dan drop node",
           "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "bg": "#eff6ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Cakupan Undo</p><p class=\"text-xs text-blue-600\">Hampir semua aksi di canvas</p></div></div>"
         },
         {
           "num": 2,
           "title": "Undo (Batalkan Aksi)",
           "desc": "Tekan Ctrl+Z (atau Cmd+Z di Mac) untuk membatalkan aksi terakhir.\nSetiap tekanan akan mundur satu langkah ke belakang dalam riwayat.\nAnda bisa undo hingga 50 langkah ke belakang.\nCanvas akan kembali ke keadaan sebelum aksi dilakukan.",
           "color": "#14b8a6",
-          "bg": "#f0fdfa"
+          "bg": "#f0fdfa",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Undo</p><p class=\"text-xs text-teal-600\">Ctrl+Z / Cmd+Z</p></div></div>"
         },
         {
           "num": 3,
           "title": "Redo (Ulangi Aksi)",
           "desc": "Setelah melakukan undo, Anda bisa mengulangi aksi yang dibatalkan:\n• Ctrl+Shift+Z (Windows/Linux)\n• Ctrl+Y (alternatif, Windows/Linux)\nSetiap tekanan akan maju satu langkah ke depan dalam riwayat.\nRedo hanya tersedia jika Anda belum melakukan aksi baru setelah undo.",
           "color": "#8b5cf6",
-          "bg": "#f5f3ff"
+          "bg": "#f5f3ff",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M21 10H11a8 8 0 00-8 8v2m18-10l-6 6m6-6l-6-6\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Redo</p><p class=\"text-xs text-violet-600\">Ctrl+Shift+Z / Ctrl+Y</p></div></div>"
         },
         {
           "num": 4,
           "title": "Batas Riwayat",
           "desc": "Canvas menyimpan maksimal 50 langkah undo/redo.\nJika sudah mencapai 50 langkah, aksi paling lama akan dihapus dari riwayat.\nRiwayat akan di-reset jika canvas ditutup atau rule di-submit.\nTidak ada cara untuk melihat daftar riwayat — hanya bisa maju/mundur.",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "bg": "#fffbeb",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-amber-50 rounded-lg border border-amber-200\"><div class=\"w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-amber-800\">Batas Riwayat</p><p class=\"text-xs text-amber-600\">Maksimal 50 langkah</p></div></div>"
         },
         {
           "num": 5,
           "title": "Tips",
           "desc": "• Biasakan Ctrl+Z setelah melakukan kesalahan — ini adalah safety net terbaik Anda.\n• Jika undo tidak berjalan, pastikan canvas dalam keadaan fokus (klik canvas terlebih dahulu).\n• Jangan takut bereksperimen — hampir semua aksi bisa di-undo.\n• Jika Anda melakukan redo dan kemudian melakukan aksi baru, riwayat redo akan terhapus.",
           "color": "#f43f5e",
-          "bg": "#fff1f2"
+          "bg": "#fff1f2",
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Tips Undo/Redo</p><p class=\"text-xs text-rose-600\">Safety net terbaik Anda</p></div></div>"
         }
       ]
     }

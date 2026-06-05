@@ -3,99 +3,60 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "text",
-      "content": "Scenario Studio Canvas adalah visual editor untuk membuat dan mengelola aturan deteksi fraud melalui antarmuka berbasis langkah yang intuitif."
-    },
-    {
-      "type": "callout",
-      "variant": "info",
-      "title": "Pendekatan Terstruktur",
-      "content": "Buat aturan deteksi fraud yang kompleks melalui 4 langkah terstruktur. Setiap langkah memandu konfigurasi dari parameter dasar hingga logika deteksi dan review akhir."
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Alur Kerja (4 Langkah)"
-    },
-    {
-      "type": "workflow-steps",
+      "type": "tutorial",
+      "heading": "About Studio",
+      "id": "about",
+      "intro": "Scenario Studio Canvas adalah visual editor untuk membuat dan mengelola aturan deteksi fraud melalui antarmuka berbasis langkah yang intuitif. Dengan pendekatan 4-langkah terstruktur, Anda dapat membangun rule kompleks tanpa menulis kode.",
       "steps": [
         {
-          "displayNum": "01",
-          "title": "Configure Parameters",
-          "desc": "Atur nama rule, grup, prioritas, risk score, periode aktif, dan cycle indicator",
-          "iconName": "IconSettings",
-          "iconColor": "blue"
-        },
-        {
-          "displayNum": "02",
-          "title": "Build Flow",
-          "desc": "Buat logika deteksi menggunakan node kondisi pada canvas visual. Mendukung group, clipboard, undo/redo, dan tidy layout.",
-          "iconName": "IconGitBranch",
-          "iconColor": "violet"
-        },
-        {
-          "displayNum": "03",
-          "title": "Use Condition",
-          "desc": "Definisikan kondisi penggunaan rule (hanya untuk tipe CONDITION)",
-          "iconName": "IconFilter",
-          "iconColor": "teal"
-        },
-        {
-          "displayNum": "04",
-          "title": "Review & Submit",
-          "desc": "Tinjau semua konfigurasi dan submit scenario untuk disimpan",
-          "iconName": "IconBolt",
-          "iconColor": "orange"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "level": 2,
-      "text": "Canvas Features"
-    },
-    {
-      "type": "card-grid",
-      "columns": 2,
-      "items": [
-        {
-          "label": "Undo / Redo",
+          "num": 1,
+          "title": "What is Scenario Studio",
+          "desc": "Scenario Studio adalah visual editor drag-and-drop untuk mendefinisikan aturan deteksi fraud. Rule direpresentasikan sebagai node kondisi yang saling terhubung di atas kanvas ReactFlow. Tersedia dua tipe rule: GENERAL (3 langkah) dan CONDITION (4 langkah dengan attribute binding).",
           "color": "#6366f1",
-          "desc": "Ctrl+Z / Ctrl+Shift+Z — history 50 langkah"
+          "bg": "#eef2ff",
+          "previewHtml": "<div class=\"flex items-start gap-4 p-4\"><div class=\"flex-shrink-0 w-10 h-10 rounded-lg bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z\"/></svg></div><div><p class=\"font-semibold text-indigo-900\">Dua Tipe Rule</p><div class=\"flex gap-2 mt-2\"><span class=\"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800\">GENERAL — 3 steps</span><span class=\"inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-violet-100 text-violet-800\">CONDITION — 4 steps</span></div></div></div>"
         },
         {
-          "label": "Clipboard",
+          "num": 2,
+          "title": "The 4-Step Workflow",
+          "desc": "Setiap rule melalui alur kerja berurutan: (1) Configure Parameters — atur nama, grup, prioritas, risk score, active period, dan cycle indicator. (2) Build Flow — bangun logika deteksi pada canvas visual. (3) Use Condition — definisikan kondisi penggunaan (khusus CONDITION). (4) Review & Submit — tinjau konfigurasi dan submit.",
+          "color": "#f97316",
+          "bg": "#fff7ed",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex items-center gap-2\"><span class=\"flex-shrink-0 w-7 h-7 rounded-full bg-orange-500 text-white flex items-center justify-center text-xs font-bold\">01</span><span class=\"font-medium text-orange-900\">Configure Parameters</span></div><div class=\"flex items-center gap-2\"><span class=\"flex-shrink-0 w-7 h-7 rounded-full bg-violet-500 text-white flex items-center justify-center text-xs font-bold\">02</span><span class=\"font-medium text-violet-900\">Build Flow</span></div><div class=\"flex items-center gap-2\"><span class=\"flex-shrink-0 w-7 h-7 rounded-full bg-teal-500 text-white flex items-center justify-center text-xs font-bold\">03</span><span class=\"font-medium text-teal-900\">Use Condition</span></div><div class=\"flex items-center gap-2\"><span class=\"flex-shrink-0 w-7 h-7 rounded-full bg-orange-400 text-white flex items-center justify-center text-xs font-bold\">04</span><span class=\"font-medium text-amber-900\">Review &amp; Submit</span></div></div>"
+        },
+        {
+          "num": 3,
+          "title": "Understanding Canvas Area",
+          "desc": "Canvas adalah area ReactFlow utama di tengah layout. Panel kiri berisi 6 tipe kondisi yang bisa di-drag. Toolbar bawah floating berisi info rule, Add Condition, Auto-arrange, Back, dan Continue. Navigasi dengan Space+Drag untuk pan, Scroll untuk zoom, dan drag node untuk memindahkannya.",
           "color": "#3b82f6",
-          "desc": "Ctrl+C/X/V — copy/cut/paste node & group"
+          "bg": "#eff6ff",
+          "previewHtml": "<div class=\"flex items-start gap-3 p-4 border border-blue-200 rounded-lg bg-blue-50\"><svg class=\"w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4\"/></svg><div><p class=\"font-semibold text-blue-900\">Canvas Layout</p><p class=\"text-sm text-blue-700 mt-1\">Sidebar <kbd class=\"px-1.5 py-0.5 bg-blue-100 border border-blue-300 rounded text-xs\">←</kbd> + Canvas <kbd class=\"px-1.5 py-0.5 bg-blue-100 border border-blue-300 rounded text-xs\">⇱</kbd> + Toolbar <kbd class=\"px-1.5 py-0.5 bg-blue-100 border border-blue-300 rounded text-xs\">↓</kbd></p></div></div>"
         },
         {
-          "label": "Groups",
+          "num": 4,
+          "title": "Building Logic with Conditions",
+          "desc": "Gunakan 6 tipe kondisi dari sidebar: LOGICAL (AND/OR/NOT/XOR), CONTAINS (string matching), CONSTANT (nilai tetap), DEVIATION (threshold persentase), AGGREGATE (count/sum/rate), GEO (jangkauan geografis). Hubungkan node output ke node input untuk membentuk alur deteksi.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": "<div class=\"grid grid-cols-3 gap-2 p-4\"><span class=\"inline-flex items-center justify-center px-3 py-2 rounded-lg bg-violet-100 text-violet-800 text-xs font-medium border border-violet-200\">LOGICAL</span><span class=\"inline-flex items-center justify-center px-3 py-2 rounded-lg bg-blue-100 text-blue-800 text-xs font-medium border border-blue-200\">CONTAINS</span><span class=\"inline-flex items-center justify-center px-3 py-2 rounded-lg bg-teal-100 text-teal-800 text-xs font-medium border border-teal-200\">CONSTANT</span><span class=\"inline-flex items-center justify-center px-3 py-2 rounded-lg bg-orange-100 text-orange-800 text-xs font-medium border border-orange-200\">DEVIATION</span><span class=\"inline-flex items-center justify-center px-3 py-2 rounded-lg bg-pink-100 text-pink-800 text-xs font-medium border border-pink-200\">AGGREGATE</span><span class=\"inline-flex items-center justify-center px-3 py-2 rounded-lg bg-green-100 text-green-800 text-xs font-medium border border-green-200\">GEO</span></div>"
+        },
+        {
+          "num": 5,
+          "title": "Using Advanced Features",
+          "desc": "Canvas mendukung fitur produktivitas: Undo/Redo (Ctrl+Z / Ctrl+Shift+Z, 50 langkah history), Clipboard (Ctrl+C/X/V untuk node & group), Groups (group/ungroup/move-to-group dengan tidy layout), Color Picker (warna node & group via context menu), Auto-arrange (tidy layout dagre hierarki), Connected Move (node terhubung ikut dipindahkan).",
           "color": "#ec4899",
-          "desc": "Group, ungroup, move to group, tidy layout"
+          "bg": "#fdf2f8",
+          "previewHtml": "<div class=\"grid grid-cols-2 gap-2 p-4\"><div class=\"flex items-center gap-2 px-3 py-2 bg-pink-50 rounded-lg border border-pink-200\"><svg class=\"w-4 h-4 text-pink-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15\"/></svg><span class=\"text-xs font-medium text-pink-800\">Undo/Redo</span></div><div class=\"flex items-center gap-2 px-3 py-2 bg-blue-50 rounded-lg border border-blue-200\"><svg class=\"w-4 h-4 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3\"/></svg><span class=\"text-xs font-medium text-blue-800\">Clipboard</span></div><div class=\"flex items-center gap-2 px-3 py-2 bg-green-50 rounded-lg border border-green-200\"><svg class=\"w-4 h-4 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10\"/></svg><span class=\"text-xs font-medium text-green-800\">Groups</span></div><div class=\"flex items-center gap-2 px-3 py-2 bg-amber-50 rounded-lg border border-amber-200\"><svg class=\"w-4 h-4 text-amber-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\"/></svg><span class=\"text-xs font-medium text-amber-800\">Color Picker</span></div></div>"
         },
         {
-          "label": "Color Picker",
-          "color": "#f59e0b",
-          "desc": "Warna node & group via context menu"
-        },
-        {
-          "label": "Auto-arrange",
+          "num": 6,
+          "title": "Submitting & Managing Rules",
+          "desc": "Setelah selesai membangun logika di canvas, lanjut ke tahap Review & Submit. Periksa ringkasan konfigurasi, isi komentar submit, dan simpan scenario. Rule yang sudah disubmit akan muncul di daftar Scenario Management dan dapat diedit, diaktifkan/nonaktifkan, atau dihapus.",
           "color": "#22c55e",
-          "desc": "Tidy layout dengan dagre hierarki"
-        },
-        {
-          "label": "Connected Move",
-          "color": "#14b8a6",
-          "desc": "Node yang terhubung ikut dipindahkan"
+          "bg": "#f0fdf4",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex items-center gap-3\"><div class=\"w-8 h-8 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-4 h-4 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13l4 4L19 7\"/></svg></div><div><p class=\"font-medium text-green-900\">Review Konfigurasi</p><p class=\"text-xs text-green-700\">Periksa semua parameter sebelum submit</p></div></div><div class=\"flex items-center gap-3\"><div class=\"w-8 h-8 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-4 h-4 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z\"/></svg></div><div><p class=\"font-medium text-green-900\">Submit dengan Komentar</p><p class=\"text-xs text-green-700\">Catat perubahan untuk audit trail</p></div></div></div>"
         }
       ]
-    },
-    {
-      "type": "callout",
-      "variant": "prerequisite",
-      "title": "Catatan Tipe Rule",
-      "content": "Rule tipe GENERAL hanya memiliki 3 langkah (tanpa Step 3: Use Condition). Rule tipe CONDITION memiliki 4 langkah lengkap termasuk konfigurasi attribute binding dan use condition canvas."
     }
   ]
 }

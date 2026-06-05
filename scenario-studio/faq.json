@@ -3,47 +3,58 @@
   "category": "Scenario Studio",
   "sections": [
     {
-      "type": "text",
-      "content": "Pertanyaan umum seputar Scenario Studio Canvas."
-    },
-    {
-      "type": "faq",
-      "faqItems": [
+      "type": "tutorial",
+      "heading": "FAQ",
+      "id": "faq",
+      "intro": "Pertanyaan umum seputar Scenario Studio Canvas.",
+      "steps": [
         {
-          "q": "Apa perbedaan rule tipe GENERAL dan CONDITION?",
-          "a": "GENERAL hanya memiliki 3 step (tanpa Use Condition). CONDITION memiliki 4 step lengkap dan membutuhkan konfigurasi Attribute Binding untuk menyimpan dan menggunakan data antar transaksi."
+          "num": 1,
+          "title": "Understanding Rule Types: GENERAL vs CONDITION",
+          "desc": "GENERAL hanya memiliki 3 step tanpa konfigurasi Use Condition. CONDITION memiliki 4 step lengkap dan membutuhkan Attribute Binding untuk menyimpan dan menggunakan data antar transaksi.",
+          "color": "#f97316",
+          "bg": "#fff7ed",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex items-center gap-3\"><div class=\"flex h-10 w-10 items-center justify-center rounded-lg bg-orange-100\"><svg class=\"h-5 w-5 text-orange-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\"/></svg></div><div><span class=\"text-sm font-semibold text-orange-800\">GENERAL</span><div class=\"flex gap-1 mt-1\"><span class=\"rounded bg-orange-100 px-2 py-0.5 text-xs text-orange-700\">3 Steps</span><span class=\"rounded bg-gray-100 px-2 py-0.5 text-xs text-gray-600\">No Condition</span></div></div></div><div class=\"flex items-center gap-3\"><div class=\"flex h-10 w-10 items-center justify-center rounded-lg bg-purple-100\"><svg class=\"h-5 w-5 text-purple-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"/></svg></div><div><span class=\"text-sm font-semibold text-purple-800\">CONDITION</span><div class=\"flex gap-1 mt-1\"><span class=\"rounded bg-purple-100 px-2 py-0.5 text-xs text-purple-700\">4 Steps</span><span class=\"rounded bg-blue-100 px-2 py-0.5 text-xs text-blue-700\">Attr Binding</span></div></div></div></div>"
         },
         {
-          "q": "Kenapa tombol \"Next\" tidak bisa diklik?",
-          "a": "Tombol Next disabled jika ada field wajib yang belum diisi atau ada error validasi. Periksa semua section di Step 1."
+          "num": 2,
+          "title": "Troubleshooting: Next Button Disabled",
+          "desc": "Tombol Next disabled jika ada field wajib yang belum diisi atau ada error validasi. Periksa semua section di Step 1.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex items-center gap-3 rounded-lg border border-red-200 bg-red-50 p-3\"><svg class=\"h-6 w-6 flex-shrink-0 text-red-500\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><div class=\"text-sm text-red-800\"><span class=\"font-semibold\">Validation Error</span><p class=\"mt-0.5 text-red-600\">Field \"Rule Name\" is required</p></div></div><div class=\"flex items-center gap-2 text-sm text-gray-500\"><svg class=\"h-4 w-4 text-pink-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span>Check all required fields in Step 1</span></div></div>"
         },
         {
-          "q": "Apa fungsi Cycle Indicator?",
-          "a": "Cycle Indicator membatasi rule hanya aktif pada hari/jam tertentu. Tipe RANGE untuk blok waktu kontinu, tipe LIST untuk beberapa slot waktu."
+          "num": 3,
+          "title": "Using Cycle Indicator Effectively",
+          "desc": "Cycle Indicator membatasi rule hanya aktif pada hari/jam tertentu. Tipe RANGE untuk blok waktu kontinu, tipe LIST untuk beberapa slot waktu.",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"rounded-lg bg-gradient-to-r from-indigo-50 to-blue-50 p-3\"><div class=\"flex items-center gap-2 text-sm font-medium text-indigo-700\"><svg class=\"h-4 w-4\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg>Cycle Indicator</div></div><div class=\"flex gap-2\"><span class=\"rounded-full border border-indigo-200 bg-white px-3 py-1 text-xs font-medium text-indigo-600\">RANGE</span><span class=\"rounded-full border border-blue-200 bg-white px-3 py-1 text-xs font-medium text-blue-600\">LIST</span></div><div class=\"grid grid-cols-2 gap-2 text-xs text-gray-600\"><div class=\"rounded bg-white p-2 shadow-sm\">Mon-Fri<br><span class=\"text-indigo-500\">08:00-17:00</span></div><div class=\"rounded bg-white p-2 shadow-sm\">Sat<br><span class=\"text-blue-500\">08:00, 12:00, 16:00</span></div></div></div>"
         },
         {
-          "q": "Bagaimana cara menambah kondisi di canvas?",
-          "a": "Klik tombol \"Add Condition\" di toolbar, klik tipe kondisi di sidebar, atau double-click placeholder node (+)."
+          "num": 4,
+          "title": "Adding Conditions to Canvas",
+          "desc": "Klik tombol \"Add Condition\" di toolbar, klik tipe kondisi di sidebar, atau double-click placeholder node (+).",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex items-center gap-2 rounded-lg bg-blue-50 p-3\"><svg class=\"h-5 w-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v16m8-8H4\"/></svg><span class=\"text-sm font-medium text-blue-800\">Add Condition</span></div><div class=\"flex flex-col gap-2 text-sm text-gray-600\"><div class=\"flex items-center gap-2\"><span class=\"inline-flex h-5 w-5 items-center justify-center rounded bg-blue-100 text-xs font-bold text-blue-700\">1</span>Toolbar button</div><div class=\"flex items-center gap-2\"><span class=\"inline-flex h-5 w-5 items-center justify-center rounded bg-blue-100 text-xs font-bold text-blue-700\">2</span>Sidebar click</div><div class=\"flex items-center gap-2\"><span class=\"inline-flex h-5 w-5 items-center justify-center rounded bg-blue-100 text-xs font-bold text-blue-700\">3</span>Double-click placeholder</div></div></div>"
         },
         {
-          "q": "Apakah data tersimpan otomatis?",
-          "a": "Tidak. Data hanya tersimpan setelah klik \"Submit Scenario\" di step Review. Menutup canvas sebelum submit akan membatalkan perubahan."
+          "num": 5,
+          "title": "Undo/Redo & Copy-Paste",
+          "desc": "Ctrl+Z untuk undo, Ctrl+Shift+Z (atau Ctrl+Y) untuk redo. History maksimal 50 langkah. Pilih node, Ctrl+C/X untuk copy/cut, Ctrl+V untuk paste.",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"flex flex-wrap gap-2\"><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>Z</span></kbd><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>Shift</span>+<span>Z</span></kbd><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>Y</span></kbd></div><div class=\"h-px bg-gray-200\"></div><div class=\"flex flex-wrap gap-2\"><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>C</span></kbd><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>X</span></kbd><kbd class=\"inline-flex items-center gap-1 rounded border border-gray-300 bg-gray-50 px-2 py-1 text-xs font-mono text-gray-700 shadow-sm\"><span class=\"text-[10px] font-bold\">Ctrl</span>+<span>V</span></kbd></div><div class=\"text-xs text-teal-600\"><span class=\"font-semibold\">History:</span> max 50 steps</div></div>"
         },
         {
-          "q": "Bagaimana cara undo/redo?",
-          "a": "Ctrl+Z untuk undo, Ctrl+Shift+Z (atau Ctrl+Y) untuk redo. History maksimal 50 langkah."
-        },
-        {
-          "q": "Bisakah copy-paste node?",
-          "a": "Ya. Pilih node, Ctrl+C (copy) atau Ctrl+X (cut), lalu Ctrl+V untuk paste. Paste ke dalam group via context menu."
-        },
-        {
-          "q": "Mengapa context menu tidak muncul saat klik kanan 2+ node?",
-          "a": "Pastikan node berasal dari hierarki yang sama (level parent group yang sama). Node dari group berbeda akan menampilkan \"Not valid nodes\"."
-        },
-        {
-          "q": "Kenapa canvas menampilkan \"Canvas is empty\"?",
-          "a": "Empty state muncul jika Start node dihapus. Tambahkan Start node baru untuk mengembalikan canvas."
+          "num": 6,
+          "title": "Canvas Empty State & Context Menu",
+          "desc": "Empty state muncul jika Start node dihapus. Tambahkan Start node baru untuk mengembalikan canvas. Context menu untuk right-click pada node.",
+          "color": "#8b5cf6",
+          "bg": "#faf5ff",
+          "previewHtml": "<div class=\"flex flex-col gap-3 p-4\"><div class=\"rounded-lg border-2 border-dashed border-violet-200 bg-violet-50 p-4 text-center\"><svg class=\"mx-auto h-8 w-8 text-violet-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4\"/></svg><p class=\"mt-2 text-sm font-medium text-violet-700\">Canvas is empty</p><p class=\"text-xs text-violet-500\">Add a Start node to begin</p></div><div class=\"rounded-lg bg-white p-2 shadow-sm\"><div class=\"flex items-center gap-2 px-2 py-1 text-sm text-gray-700\"><svg class=\"h-4 w-4 text-gray-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 5l7 7-7 7M5 5l7 7-7 7\"/></svg>Edit</div><div class=\"flex items-center gap-2 px-2 py-1 text-sm text-gray-700\"><svg class=\"h-4 w-4 text-gray-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\"/></svg>Delete</div></div></div>"
         }
       ]
     }
