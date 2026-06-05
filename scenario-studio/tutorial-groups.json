@@ -38,12 +38,12 @@
           "desc": "Klik kanan pada group. Pilih \"Rename Group\". Beri nama: \"Kelompok Kondisi Utama\". Klik \"Save\". Label group akan berubah.",
           "color": "#6366f1",
           "bg": "#eef2ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z\"></path></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Rename Group</p><p class=\"text-xs text-indigo-600\">Klik kanan → Rename Group</p></div></div>"
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z\"></path></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Rename Group</p><p class=\"text-xs text-indigo-600\">Klik kanan \u2192 Rename Group</p></div></div>"
         },
         {
           "num": 5,
           "title": "Tambah Node ke Dalam Group",
-          "desc": "Buat node kondisi baru. Untuk memindahkannya ke dalam group:\n• Seleksi node baru\n• Klik kanan → \"Move to Group\"\n• Pilih group \"Kelompok Kondisi Utama\"\nNode akan masuk ke dalam group. Edge yang terhubung ke node tersebut akan ikut routing ke boundary group.",
+          "desc": "Buat node kondisi baru. Untuk memindahkannya ke dalam group:\n\u2022 Seleksi node baru\n\u2022 Klik kanan \u2192 \"Move to Group\"\n\u2022 Pilih group \"Kelompok Kondisi Utama\"\nNode akan masuk ke dalam group. Edge yang terhubung ke node tersebut akan ikut routing ke boundary group.",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4\"></path></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Move to Group</p><p class=\"text-xs text-blue-600\">Pindahkan node ke dalam group</p></div></div>"
@@ -51,7 +51,7 @@
         {
           "num": 6,
           "title": "Stack Vertically",
-          "desc": "Klik kanan group → \"Stack Vertically\". Semua node di dalam group akan dirapikan secara vertikal. Berguna setelah menambah banyak node ke dalam group.",
+          "desc": "Klik kanan group \u2192 \"Stack Vertically\". Semua node di dalam group akan dirapikan secara vertikal. Berguna setelah menambah banyak node ke dalam group.",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7v10l8 4V11L4 7zm16 0l-8 4v10l8-4V7zm0 0l-8-4-8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Stack Vertically</p><p class=\"text-xs text-teal-600\">Rapikan node vertikal</p></div></div>"
@@ -59,7 +59,7 @@
         {
           "num": 7,
           "title": "Ubah Warna Group",
-          "desc": "Klik kanan group → \"Change Color\". Pilih warna preset (merah, biru, hijau, dll.) atau klik \"Random\" untuk warna acak. Warna group membantu identifikasi visual kelompok logika yang berbeda.",
+          "desc": "Klik kanan group \u2192 \"Change Color\". Pilih warna preset (merah, biru, hijau, dll.) atau klik \"Random\" untuk warna acak. Warna group membantu identifikasi visual kelompok logika yang berbeda.",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Ubah Warna</p><p class=\"text-xs text-violet-600\">Preset atau random</p></div></div>"
@@ -75,12 +75,19 @@
         {
           "num": 9,
           "title": "Ungroup",
-          "desc": "Klik kanan group → \"Ungroup\". Group akan dibubarkan dan node-node di dalamnya naik ke level parent (canvas utama). Posisi node akan tetap dipertahankan secara absolut.",
+          "desc": "Klik kanan group \u2192 \"Ungroup\". Group akan dibubarkan dan node-node di dalamnya naik ke level parent (canvas utama). Posisi node akan tetap dipertahankan secara absolut.",
           "color": "#f43f5e",
           "bg": "#fff1f2",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Ungroup</p><p class=\"text-xs text-rose-600\">Bubarkan group</p></div></div>"
         }
       ]
+    },
+    {
+      "type": "video",
+      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "videoType": "youtube",
+      "caption": "Video tutorial terkait",
+      "controls": true
     }
   ]
 }

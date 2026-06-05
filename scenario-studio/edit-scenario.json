@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Cari Scenario yang Akan Diedit",
-          "desc": "Gunakan kolom pencarian atau filter di halaman daftar scenario untuk menemukan scenario yang ingin diubah. Perhatikan status scenario — beberapa field mungkin tidak bisa diubah jika scenario sudah Active.",
+          "desc": "Gunakan kolom pencarian atau filter di halaman daftar scenario untuk menemukan scenario yang ingin diubah. Perhatikan status scenario \u2014 beberapa field mungkin tidak bisa diubah jika scenario sudah Active.",
           "color": "#f43f5e",
           "bg": "#fff1f2",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z\"/></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Cari Scenario</p><p class=\"text-xs text-rose-600\">Gunakan kolom pencarian</p></div></div>"
@@ -27,7 +27,7 @@
         {
           "num": 3,
           "title": "Ubah Informasi yang Diperlukan",
-          "desc": "Anda bisa mengubah:\n• **Nama & Deskripsi** — perbarui jika aturan berubah\n• **Group** — pindahkan ke grup yang lebih relevan\n• **Severity** — sesuaikan level prioritas berdasarkan dampak\n• **Tags/Labels** — tambah atau hapus kategorisasi",
+          "desc": "Anda bisa mengubah:\n\u2022 **Nama & Deskripsi** \u2014 perbarui jika aturan berubah\n\u2022 **Group** \u2014 pindahkan ke grup yang lebih relevan\n\u2022 **Severity** \u2014 sesuaikan level prioritas berdasarkan dampak\n\u2022 **Tags/Labels** \u2014 tambah atau hapus kategorisasi",
           "color": "#22c55e",
           "bg": "#f0fdf4",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"w-10 h-10 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15\"/></svg></div><div><p class=\"text-sm font-semibold text-green-800\">Ubah Informasi</p><p class=\"text-xs text-green-600\">Sesuaikan nama, group, severity</p></div></div>"
@@ -49,6 +49,13 @@
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-pink-50 rounded-lg border border-pink-200\"><div class=\"w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-pink-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5 13l4 4L19 7\"/></svg></div><div><p class=\"text-sm font-semibold text-pink-800\">Simpan Perubahan</p><p class=\"text-xs text-pink-600\">Klik Save untuk menyimpan</p></div></div>"
         }
       ]
+    },
+    {
+      "type": "video",
+      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "videoType": "youtube",
+      "caption": "Video tutorial terkait",
+      "controls": true
     }
   ]
 }

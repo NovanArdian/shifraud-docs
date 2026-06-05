@@ -11,7 +11,7 @@
         {
           "num": 1,
           "title": "Pahami Handle Node",
-          "desc": "Setiap node memiliki lingkaran kecil (handle) di sisi kiri (input) dan kanan (output).\n• Handle kiri (input): tempat menerima koneksi dari node sebelumnya.\n• Handle kanan (output): tempat mengirim koneksi ke node berikutnya.\nNode Start hanya memiliki handle output (kanan). Node placeholder hanya memiliki handle input (kiri).",
+          "desc": "Setiap node memiliki lingkaran kecil (handle) di sisi kiri (input) dan kanan (output).\n\u2022 Handle kiri (input): tempat menerima koneksi dari node sebelumnya.\n\u2022 Handle kanan (output): tempat mengirim koneksi ke node berikutnya.\nNode Start hanya memiliki handle output (kanan). Node placeholder hanya memiliki handle input (kiri).",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><div class=\"w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"/></svg></div><div><p class=\"text-sm font-semibold text-indigo-800\">Pahami Handle</p><p class=\"text-xs text-indigo-600\">Input (kiri) dan Output (kanan)</p></div></div>"
@@ -27,7 +27,7 @@
         {
           "num": 3,
           "title": "Atur Operator Logika",
-          "desc": "Klik pada label edge (AND/OR) di tengah garis penghubung.\nOperator akan toggle: AND → OR → AND → ...\n• AND: Semua kondisi harus terpenuhi (memperketat deteksi).\n• OR: Cukup satu kondisi yang terpenuhi (memperluas deteksi).\nPilih operator yang sesuai dengan logika deteksi yang ingin dibuat.",
+          "desc": "Klik pada label edge (AND/OR) di tengah garis penghubung.\nOperator akan toggle: AND \u2192 OR \u2192 AND \u2192 ...\n\u2022 AND: Semua kondisi harus terpenuhi (memperketat deteksi).\n\u2022 OR: Cukup satu kondisi yang terpenuhi (memperluas deteksi).\nPilih operator yang sesuai dengan logika deteksi yang ingin dibuat.",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\"/></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Atur Operator</p><p class=\"text-xs text-teal-600\">Toggle AND/OR pada edge</p></div></div>"
@@ -35,7 +35,7 @@
         {
           "num": 4,
           "title": "Aturan Koneksi",
-          "desc": "• Setiap node hanya bisa memiliki maksimal 1 incoming edge (koneksi masuk).\n• Setiap node hanya bisa memiliki maksimal 1 outgoing edge (koneksi keluar).\n• Edge dari Start node ke kondisi pertama bersifat smoothstep (tanpa operator).\n• Edge ke node placeholder bersifat smoothstep (tanpa operator).\n• Edge antar node kondisi akan menampilkan operator AND/OR.",
+          "desc": "\u2022 Setiap node hanya bisa memiliki maksimal 1 incoming edge (koneksi masuk).\n\u2022 Setiap node hanya bisa memiliki maksimal 1 outgoing edge (koneksi keluar).\n\u2022 Edge dari Start node ke kondisi pertama bersifat smoothstep (tanpa operator).\n\u2022 Edge ke node placeholder bersifat smoothstep (tanpa operator).\n\u2022 Edge antar node kondisi akan menampilkan operator AND/OR.",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4\"/></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Aturan Koneksi</p><p class=\"text-xs text-violet-600\">Maksimal 1 incoming & outgoing</p></div></div>"
@@ -51,12 +51,19 @@
         {
           "num": 6,
           "title": "Tips",
-          "desc": "• Untuk membuat alur bercabang, gunakan node LOGICAL sebagai container.\n• Node LOGICAL bisa menerima multiple input dan menghasilkan satu output.\n• Periksa alur dengan fitur Auto-arrange untuk memastikan semua edge terhubung dengan benar.\n• Gunakan Ctrl+Z jika salah menghubungkan node.",
+          "desc": "\u2022 Untuk membuat alur bercabang, gunakan node LOGICAL sebagai container.\n\u2022 Node LOGICAL bisa menerima multiple input dan menghasilkan satu output.\n\u2022 Periksa alur dengan fitur Auto-arrange untuk memastikan semua edge terhubung dengan benar.\n\u2022 Gunakan Ctrl+Z jika salah menghubungkan node.",
           "color": "#f43f5e",
           "bg": "#fff1f2",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\"/></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Tips</p><p class=\"text-xs text-rose-600\">Gunakan LOGICAL untuk cabang</p></div></div>"
         }
       ]
+    },
+    {
+      "type": "video",
+      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "videoType": "youtube",
+      "caption": "Video tutorial terkait",
+      "controls": true
     }
   ]
 }

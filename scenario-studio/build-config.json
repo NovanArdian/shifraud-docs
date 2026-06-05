@@ -6,7 +6,7 @@
       "type": "tutorial",
       "heading": "Cara Konfigurasi Build",
       "id": "build-config",
-      "intro": "Build Flow adalah inti dari Scenario Studio — tempat Anda merancang logika deteksi menggunakan canvas visual.",
+      "intro": "Build Flow adalah inti dari Scenario Studio \u2014 tempat Anda merancang logika deteksi menggunakan canvas visual.",
       "steps": [
         {
           "num": 1,
@@ -19,15 +19,15 @@
         {
           "num": 2,
           "title": "Susun Node Kondisi",
-          "desc": "Gunakan sidebar kiri untuk menambah node kondisi. Setiap node mewakili satu kondisi yang harus diperiksa.\nTentukan alur deteksi:\n• Mulai dari node Start (wajib ada).\n• Tambahkan node kondisi yang diperlukan (CONSTANT, CONTAINS, DEVIATION, dll).\n• Akhiri dengan node placeholder (?).",
+          "desc": "Gunakan sidebar kiri untuk menambah node kondisi. Setiap node mewakili satu kondisi yang harus diperiksa.\nTentukan alur deteksi:\n\u2022 Mulai dari node Start (wajib ada).\n\u2022 Tambahkan node kondisi yang diperlukan (CONSTANT, CONTAINS, DEVIATION, dll).\n\u2022 Akhiri dengan node placeholder (?).",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm0 8a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zm12 0a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Susun Node</p><p class=\"text-xs text-teal-600\">Start → kondisi → placeholder</p></div></div>"
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zm0 8a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zm12 0a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z\"></path></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Susun Node</p><p class=\"text-xs text-teal-600\">Start \u2192 kondisi \u2192 placeholder</p></div></div>"
         },
         {
           "num": 3,
           "title": "Hubungkan dengan Edge",
-          "desc": "Hubungkan node secara berurutan dari Start → kondisi 1 → kondisi 2 → ... → placeholder.\nSetiap edge antar kondisi memiliki operator AND/OR yang bisa di-toggle dengan mengklik labelnya.\n• AND: semua kondisi harus terpenuhi (logika ketat).\n• OR: cukup satu kondisi yang terpenuhi (logika longgar).",
+          "desc": "Hubungkan node secara berurutan dari Start \u2192 kondisi 1 \u2192 kondisi 2 \u2192 ... \u2192 placeholder.\nSetiap edge antar kondisi memiliki operator AND/OR yang bisa di-toggle dengan mengklik labelnya.\n\u2022 AND: semua kondisi harus terpenuhi (logika ketat).\n\u2022 OR: cukup satu kondisi yang terpenuhi (logika longgar).",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Hubungkan Edge</p><p class=\"text-xs text-violet-600\">AND/OR toggle</p></div></div>"
@@ -43,7 +43,7 @@
         {
           "num": 5,
           "title": "Validasi Alur",
-          "desc": "Sebelum lanjut ke step berikutnya, pastikan:\n• Semua node terhubung dengan benar (tidak ada node yang terisolasi).\n• Operator logika sudah sesuai dengan logika deteksi yang diinginkan.\n• Tidak ada node yang masih dalam status draft (belum dikonfigurasi).\nGunakan Auto-arrange untuk memeriksa alur secara visual.",
+          "desc": "Sebelum lanjut ke step berikutnya, pastikan:\n\u2022 Semua node terhubung dengan benar (tidak ada node yang terisolasi).\n\u2022 Operator logika sudah sesuai dengan logika deteksi yang diinginkan.\n\u2022 Tidak ada node yang masih dalam status draft (belum dikonfigurasi).\nGunakan Auto-arrange untuk memeriksa alur secara visual.",
           "color": "#f43f5e",
           "bg": "#fff1f2",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Validasi</p><p class=\"text-xs text-rose-600\">Cek koneksi dan operator</p></div></div>"
@@ -54,9 +54,16 @@
           "desc": "Jika rule bertipe GENERAL, klik \"Continue\" untuk langsung ke Step 4 (Review).\nJika rule bertipe CONDITION, klik \"Continue\" untuk ke Step 3 (Use Condition) terlebih dahulu.\nSetelah semua step selesai, lakukan Review dan Submit di Step terakhir.",
           "color": "#0ea5e9",
           "bg": "#f0f9ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-sky-50 rounded-lg border border-sky-200\"><div class=\"w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-sky-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 7l5 5m0 0l-5 5m5-5H6\"></path></svg></div><div><p class=\"text-sm font-semibold text-sky-800\">Lanjutkan</p><p class=\"text-xs text-sky-600\">General → Review, Condition → Step 3</p></div></div>"
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-sky-50 rounded-lg border border-sky-200\"><div class=\"w-10 h-10 rounded-full bg-sky-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-sky-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 7l5 5m0 0l-5 5m5-5H6\"></path></svg></div><div><p class=\"text-sm font-semibold text-sky-800\">Lanjutkan</p><p class=\"text-xs text-sky-600\">General \u2192 Review, Condition \u2192 Step 3</p></div></div>"
         }
       ]
+    },
+    {
+      "type": "video",
+      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "videoType": "youtube",
+      "caption": "Video tutorial terkait",
+      "controls": true
     }
   ]
 }

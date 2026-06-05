@@ -38,7 +38,7 @@
           "desc": "Tambah kondisi CONTAINS baru. Atur: atribut = \"merchant_category\", nilai = [\"ECOM\", \"DIGITAL\"].\nHubungkan node CONTAINS ke node LOGICAL juga.",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7v10l8 4V11L4 7zm16 0l-8 4v10l8-4V7zm0 0l-8-4-8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">CONTAINS</p><p class=\"text-xs text-violet-600\">merchant_category ∈ [ECOM, DIGITAL]</p></div></div>"
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7v10l8 4V11L4 7zm16 0l-8 4v10l8-4V7zm0 0l-8-4-8 4\"></path></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">CONTAINS</p><p class=\"text-xs text-violet-600\">merchant_category \u2208 [ECOM, DIGITAL]</p></div></div>"
         },
         {
           "num": 5,
@@ -51,10 +51,10 @@
         {
           "num": 6,
           "title": "Hubungkan ke Flow Utama",
-          "desc": "Sekarang hubungkan:\n• Start node → node LOGICAL (source ke target)\n• node LOGICAL → placeholder \"?\"\nSekarang flow lengkap: Start → LOGICAL (AND) → End.",
+          "desc": "Sekarang hubungkan:\n\u2022 Start node \u2192 node LOGICAL (source ke target)\n\u2022 node LOGICAL \u2192 placeholder \"?\"\nSekarang flow lengkap: Start \u2192 LOGICAL (AND) \u2192 End.",
           "color": "#f43f5e",
           "bg": "#fff1f2",
-          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Flow Lengkap</p><p class=\"text-xs text-rose-600\">Start → LOGICAL (AND) → End</p></div></div>"
+          "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-rose-50 rounded-lg border border-rose-200\"><div class=\"w-10 h-10 rounded-full bg-rose-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-rose-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path></svg></div><div><p class=\"text-sm font-semibold text-rose-800\">Flow Lengkap</p><p class=\"text-xs text-rose-600\">Start \u2192 LOGICAL (AND) \u2192 End</p></div></div>"
         },
         {
           "num": 7,
@@ -67,12 +67,19 @@
         {
           "num": 8,
           "title": "Review Logika",
-          "desc": "Periksa alur deteksi:\n• Start → Apakah amount > 1 Juta? (AND)\n• Start → Apakah kategori termasuk ECOM/DIGITAL? (AND)\n• Jika keduanya TRUE → alert terpicu.\nIni adalah pola dasar detection flow. Anda bisa menambah lebih banyak kondisi dan membuat nested LOGICAL untuk logika yang lebih kompleks.",
+          "desc": "Periksa alur deteksi:\n\u2022 Start \u2192 Apakah amount > 1 Juta? (AND)\n\u2022 Start \u2192 Apakah kategori termasuk ECOM/DIGITAL? (AND)\n\u2022 Jika keduanya TRUE \u2192 alert terpicu.\nIni adalah pola dasar detection flow. Anda bisa menambah lebih banyak kondisi dan membuat nested LOGICAL untuk logika yang lebih kompleks.",
           "color": "#22c55e",
           "bg": "#f0fdf4",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-200\"><div class=\"w-10 h-10 rounded-full bg-green-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-green-600\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\"></path><path d=\"M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z\"></path></svg></div><div><p class=\"text-sm font-semibold text-green-800\">Review Logika</p><p class=\"text-xs text-green-600\">amount > 1J AND kategori ECOM/DIGITAL</p></div></div>"
         }
       ]
+    },
+    {
+      "type": "video",
+      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "videoType": "youtube",
+      "caption": "Video tutorial terkait",
+      "controls": true
     }
   ]
 }

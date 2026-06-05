@@ -27,7 +27,7 @@
         {
           "num": 3,
           "title": "Proses Approval",
-          "desc": "User dengan role Approver akan melihat notifikasi. Mereka bisa:\n• **Approve** — menyetujui scenario untuk melanjutkan ke aktivasi\n• **Reject** — menolak dengan catatan revisi\n• **Request Changes** — meminta perbaikan sebelum approve",
+          "desc": "User dengan role Approver akan melihat notifikasi. Mereka bisa:\n\u2022 **Approve** \u2014 menyetujui scenario untuk melanjutkan ke aktivasi\n\u2022 **Reject** \u2014 menolak dengan catatan revisi\n\u2022 **Request Changes** \u2014 meminta perbaikan sebelum approve",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-blue-50 rounded-lg border border-blue-200\"><div class=\"w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-blue-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\"/></svg></div><div><p class=\"text-sm font-semibold text-blue-800\">Proses Approval</p><p class=\"text-xs text-blue-600\">Approve atau Reject scenario</p></div></div>"
@@ -35,7 +35,7 @@
         {
           "num": 4,
           "title": "Aktivasi Scenario",
-          "desc": "Setelah di-approve, klik tombol \"Activate\" untuk menyalakan scenario. Pilih schedule aktivasi:\n• **Activate Now** — langsung aktif\n• **Schedule Activation** — aktif di waktu yang ditentukan",
+          "desc": "Setelah di-approve, klik tombol \"Activate\" untuk menyalakan scenario. Pilih schedule aktivasi:\n\u2022 **Activate Now** \u2014 langsung aktif\n\u2022 **Schedule Activation** \u2014 aktif di waktu yang ditentukan",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-teal-50 rounded-lg border border-teal-200\"><div class=\"w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-teal-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg></div><div><p class=\"text-sm font-semibold text-teal-800\">Aktivasi</p><p class=\"text-xs text-teal-600\">Pilih jadwal aktivasi</p></div></div>"
@@ -43,12 +43,19 @@
         {
           "num": 5,
           "title": "Monitoring Pasca Aktivasi",
-          "desc": "Scenario Active akan mulai memproses data real-time. Pantau metrik di dashboard:\n• **Alert Volume** — jumlah alert yang dihasilkan\n• **Effectiveness Rate** — persentase alert yang valid\n• **False Positive Rate** — alert yang ternyata bukan fraud",
+          "desc": "Scenario Active akan mulai memproses data real-time. Pantau metrik di dashboard:\n\u2022 **Alert Volume** \u2014 jumlah alert yang dihasilkan\n\u2022 **Effectiveness Rate** \u2014 persentase alert yang valid\n\u2022 **False Positive Rate** \u2014 alert yang ternyata bukan fraud",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": "<div class=\"flex items-center gap-3 p-4 bg-violet-50 rounded-lg border border-violet-200\"><div class=\"w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center\"><svg class=\"w-5 h-5 text-violet-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z\"/></svg></div><div><p class=\"text-sm font-semibold text-violet-800\">Monitoring</p><p class=\"text-xs text-violet-600\">Pantau metrik real-time</p></div></div>"
         }
       ]
+    },
+    {
+      "type": "video",
+      "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "videoType": "youtube",
+      "caption": "Video tutorial terkait",
+      "controls": true
     }
   ]
 }

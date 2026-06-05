@@ -40,8 +40,7 @@
             { "label": "Ikhtisar", "iconName": "IconBook", "path": "/home/docs/scenario-studio/tutorial-overview" },
             { "label": "Membuat Rule Pertama", "iconName": "IconPlus", "path": "/home/docs/scenario-studio/tutorial-first-rule" },
             { "label": "Membangun Detection Flow", "iconName": "IconGitBranch", "path": "/home/docs/scenario-studio/tutorial-building-flow" },
-            { "label": "Mengorganisir dengan Groups", "iconName": "IconHierarchy2", "path": "/home/docs/scenario-studio/tutorial-groups" },
-            { "label": "Menambahkan Video ke Tutorial", "iconName": "IconPlayerPlay", "path": "/home/docs/scenario-studio/tutorial-add-video", "isNew": true }
+            { "label": "Mengorganisir dengan Groups", "iconName": "IconHierarchy2", "path": "/home/docs/scenario-studio/tutorial-groups" }
           ]
         },
         {
