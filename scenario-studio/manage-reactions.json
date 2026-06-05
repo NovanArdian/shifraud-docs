@@ -11,31 +11,31 @@
         {
           "num": 1,
           "title": "Apa Itu Reactions?",
-          "desc": "{previewHtml:1}\n• **Email** — Kirim notifikasi ke tim fraud\n• **Block Transaction** — Blokir transaksi otomatis\n• **API Call** — Panggil webhook/API eksternal\n• **SMS** — Kirim SMS ke petugas\n• Reactions diatur per rule, tidak global",
+          "desc": "{previewHtml:1}\n\u2022 **Email** \u2014 Kirim notifikasi ke tim fraud\n\u2022 **Block Transaction** \u2014 Blokir transaksi otomatis\n\u2022 **API Call** \u2014 Panggil webhook/API eksternal\n\u2022 **SMS** \u2014 Kirim SMS ke petugas\n\u2022 Reactions diatur per rule, tidak global",
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fbcfe8;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;gap:4px;flex-wrap:wrap\"><span style=\"padding:3px 6px;border-radius:4px;background:#fdf2f8;border:1px solid #f9a8d4;font-size:7px;color:#be185d\">📧 Email</span><span style=\"padding:3px 6px;border-radius:4px;background:#fef2f2;border:1px solid #fecaca;font-size:7px;color:#dc2626\">🚫 Block</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;border:1px solid #bfdbfe;font-size:7px;color:#2563eb\">🔗 API</span><span style=\"padding:3px 6px;border-radius:4px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;color:#16a34a\">📱 SMS</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fbcfe8;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;gap:4px;flex-wrap:wrap\"><span style=\"padding:3px 6px;border-radius:4px;background:#fdf2f8;border:1px solid #f9a8d4;font-size:7px;color:#be185d\">\ud83d\udce7 Email</span><span style=\"padding:3px 6px;border-radius:4px;background:#fef2f2;border:1px solid #fecaca;font-size:7px;color:#dc2626\">\ud83d\udeab Block</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;border:1px solid #bfdbfe;font-size:7px;color:#2563eb\">\ud83d\udd17 API</span><span style=\"padding:3px 6px;border-radius:4px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;color:#16a34a\">\ud83d\udcf1 SMS</span></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Menambah Reactions",
-          "desc": "{previewHtml:1}\n• Saat mengedit rule, cari bagian **Reactions**\n• Klik **+ Tambah Reaction**, pilih jenis\n• Atur parameter (email tujuan, URL API, nomor SMS, dll)\n• Satu rule bisa punya beberapa reactions",
+          "desc": "{previewHtml:1}\n\u2022 Saat mengedit rule, cari bagian **Reactions**\n\u2022 Klik **+ Tambah Reaction**, pilih jenis\n\u2022 Atur parameter (email tujuan, URL API, nomor SMS, dll)\n\u2022 Satu rule bisa punya beberapa reactions",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fde68a;padding:8px 10px\"><div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:4px\"><span style=\"font-size:8px;font-weight:600;color:#0f172a\">Reactions</span><span style=\"padding:3px 8px;border-radius:4px;background:#f59e0b;font-size:7px;color:#fff;font-weight:600\">+ Tambah</span></div><div style=\"font-size:7px;color:#64748b\">📧 fraud-team@company.com</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fde68a;padding:8px 10px\"><div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:4px\"><span style=\"font-size:8px;font-weight:600;color:#0f172a\">Reactions</span><span style=\"padding:3px 8px;border-radius:4px;background:#f59e0b;font-size:7px;color:#fff;font-weight:600;color:#64748b\">\ud83d\udce7 fraud-team@company.com</div></div>"
           }
         },
         {
           "num": 3,
           "title": "Mengelola Reactions yang Ada",
-          "desc": "{previewHtml:1}\n• ✏️ **Edit** — Ubah parameter reaction\n• ❌ **Hapus** — Hapus reaction dari rule\n• ⚡ **Test** — Kirim reaction uji coba\n• ⏸️ **Nonaktifkan sementara** — tanpa hapus konfigurasi",
+          "desc": "{previewHtml:1}\n\u2022 \u270f\ufe0f **Edit** \u2014 Ubah parameter reaction\n\u2022 \u274c **Hapus** \u2014 Hapus reaction dari rule\n\u2022 \u26a1 **Test** \u2014 Kirim reaction uji coba\n\u2022 \u23f8\ufe0f **Nonaktifkan sementara** \u2014 tanpa hapus konfigurasi",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #c7d2fe;padding:8px 10px;display:flex;gap:4px;flex-wrap:wrap\"><span style=\"padding:3px 6px;border-radius:4px;background:#eef2ff;font-size:7px;color:#4338ca\">✏️ Edit</span><span style=\"padding:3px 6px;border-radius:4px;background:#fef2f2;font-size:7px;color:#dc2626\">❌ Hapus</span><span style=\"padding:3px 6px;border-radius:4px;background:#f0fdf4;font-size:7px;color:#16a34a\">⚡ Test</span><span style=\"padding:3px 6px;border-radius:4px;background:#fff7ed;font-size:7px;color:#d97706\">⏸️ Nonaktifkan</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #c7d2fe;padding:8px 10px;display:flex;gap:4px;flex-wrap:wrap\"><span style=\"padding:3px 6px;border-radius:4px;background:#eef2ff;font-size:7px;color:#4338ca\">\u270f\ufe0f Edit</span><span style=\"padding:3px 6px;border-radius:4px;background:#fef2f2;font-size:7px;color:#dc2626\">\u274c Hapus</span><span style=\"padding:3px 6px;border-radius:4px;background:#f0fdf4;font-size:7px;color:#16a34a\">\u26a1 Test</span><span style=\"padding:3px 6px;border-radius:4px;background:#fff7ed;font-size:7px;color:#d97706\">\u23f8\ufe0f Nonaktifkan</span></div>"
           }
         }
       ]

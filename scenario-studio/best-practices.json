@@ -11,51 +11,51 @@
         {
           "num": 1,
           "title": "Nama Rule Deskriptif",
-          "desc": "{previewHtml:1}\n• ✅ \"Deteksi Transfer Besar ke Luar Negeri\"\n• ❌ \"Rule Baru 1\"\n• Sertakan jenis fraud, threshold, atau wilayah",
+          "desc": "{previewHtml:1}\n\u2022 \u2705 \"Deteksi Transfer Besar ke Luar Negeri\"\n\u2022 \u274c \"Rule Baru 1\"\n\u2022 Sertakan jenis fraud, threshold, atau wilayah",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:8px 10px;\"><div style=\"padding:4px 6px;border-radius:4px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;color:#16a34a;\">✅ Deteksi Transfer Besar Ke Luar Negeri</div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:8px 10px;\"><div style=\"padding:4px 6px;border-radius:4px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;color:#16a34a;\">\u2705 Deteksi Transfer Besar Ke Luar Negeri</div></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Multi-node untuk Logika Kompleks",
-          "desc": "{previewHtml:1}\n• Jangan gabung semua logika dalam satu node\n• Pisahkan jadi beberapa node spesifik\n• Contoh: CONSTANT (amount) → AND → ALERT",
+          "desc": "{previewHtml:1}\n\u2022 Jangan gabung semua logika dalam satu node\n\u2022 Pisahkan jadi beberapa node spesifik\n\u2022 Contoh: CONSTANT (amount) \u2192 AND \u2192 ALERT",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:3px;align-items:center;\"><span style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #f59e0b;font-size:6px;font-weight:700;color:#f59e0b;\">AMOUNT</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #6366f1;font-size:6px;font-weight:700;color:#6366f1;\">AND</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #ef4444;font-size:6px;font-weight:700;color:#ef4444;\">ALERT</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:3px;align-items:center;\"><span style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #f59e0b;font-size:6px;font-weight:700;color:#f59e0b;\">AMOUNT</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #6366f1;font-size:6px;font-weight:700;color:#6366f1;\">AND</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 6px;border-radius:4px;background:#fff;border:1.5px solid #ef4444;font-size:6px;font-weight:700;color:#ef4444;\">ALERT</span></div>"
           }
         },
         {
           "num": 3,
           "title": "Auto-Arrange Rutin",
-          "desc": "{previewHtml:1}\n• Klik **Auto-Arrange** kalau flow berantakan\n• Susun ulang node dari kiri ke kanan\n• Gunakan Connected Move agar node tetangga ikut bergerak",
+          "desc": "{previewHtml:1}\n\u2022 Klik **Auto-Arrange** kalau flow berantakan\n\u2022 Susun ulang node dari kiri ke kanan\n\u2022 Gunakan Connected Move agar node tetangga ikut bergerak",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;display:flex;align-items:center;gap:6px;\"><span style=\"padding:4px 8px;border-radius:5px;background:#f59e0b;color:#fff;font-size:8px;font-weight:700;\">✨ Auto-Arrange</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;display:flex;align-items:center;gap:6px;\"><span style=\"padding:4px 8px;border-radius:5px;background:#f59e0b;color:#fff;font-size:8px;font-weight:700;\">\u2728 Auto-Arrange</span></div>"
           }
         },
         {
           "num": 4,
           "title": "Gunakan Groups",
-          "desc": "{previewHtml:1}\n• Kelompokkan node terkait dengan **Group**\n• Beri nama deskriptif (\"Cek Amount\", \"Cek Velocity\")\n• Group bisa di-collapse, di-copy antar rule",
+          "desc": "{previewHtml:1}\n\u2022 Kelompokkan node terkait dengan **Group**\n\u2022 Beri nama deskriptif (\"Cek Amount\", \"Cek Velocity\")\n\u2022 Group bisa di-collapse, di-copy antar rule",
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fbcfe8;overflow:hidden;\"><div style=\"padding:7px 10px;border:1.5px dashed #ec4899;border-radius:6px;margin:6px;\"><div style=\"font-size:7px;font-weight:700;color:#db2777;\">📁 Cek Amount</div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fbcfe8;overflow:hidden;\"><div style=\"padding:7px 10px;border:1.5px dashed #ec4899;border-radius:6px;margin:6px;\"><div style=\"font-size:7px;font-weight:700;color:#db2777;\">\ud83d\udcc1 Cek Amount</div></div></div>"
           }
         },
         {
           "num": 5,
           "title": "Test Sebelum Aktivasi",
-          "desc": "{previewHtml:1}\n• Gunakan **Run Verification** untuk simulasi\n• Cek false positive dan false negative\n• Minta review tim sebelum aktivasi",
+          "desc": "{previewHtml:1}\n\u2022 Gunakan **Run Verification** untuk simulasi\n\u2022 Cek false positive dan false negative\n\u2022 Minta review tim sebelum aktivasi",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;\"><span style=\"padding:3px 6px;border-radius:4px;background:#14b8a6;font-size:7px;color:#fff;font-weight:600;\">▶️ Run Verification</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;\"><span style=\"padding:3px 6px;border-radius:4px;background:#14b8a6;font-size:7px;color:#fff;font-weight:600;\">\u25b6\ufe0f Run Verification</span></div>"
           }
         }
       ]

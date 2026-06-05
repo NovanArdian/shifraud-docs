@@ -6,26 +6,26 @@
       "type": "tutorial",
       "heading": "Menghapus Scenario",
       "id": "delete-scenario",
-      "intro": "Ketika rule sudah tidak dipakai lagi, Anda bisa menghapusnya. Hati-hati — penghapusan bersifat permanen.",
+      "intro": "Ketika rule sudah tidak dipakai lagi, Anda bisa menghapusnya. Hati-hati \u2014 penghapusan bersifat permanen.",
       "steps": [
         {
           "num": 1,
           "title": "Hapus Rule",
-          "desc": "{previewHtml:1}\n• Buka **Scenario Management**, cari rule yang ingin dihapus\n• Klik ikon **sampah (🗑️ Delete)**\n• Konfirmasi dengan mengetik **DELETE**\n• ⚠️ Rule yang dihapus tidak bisa dikembalikan!",
+          "desc": "{previewHtml:1}\n\u2022 Buka **Scenario Management**, cari rule yang ingin dihapus\n\u2022 Klik ikon **sampah (\ud83d\uddd1\ufe0f Delete)**\n\u2022 Konfirmasi dengan mengetik **DELETE**\n\u2022 \u26a0\ufe0f Rule yang dihapus tidak bisa dikembalikan!",
           "color": "#ef4444",
           "bg": "#fef2f2",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fef2f2;border:1px solid #fecaca;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;align-items:center;gap:6px\"><span style=\"padding:4px 8px;border-radius:4px;background:#dc2626;font-size:7px;color:#fff;font-weight:600\">🗑️ Delete</span><span style=\"font-size:7px;color:#dc2626;\">Ketik DELETE untuk konfirmasi</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fef2f2;border:1px solid #fecaca;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;align-items:center;gap:6px\"><span style=\"padding:4px 8px;border-radius:4px;background:#dc2626;font-size:7px;color:#fff;font-weight:600;color:#dc2626;\">Ketik DELETE untuk konfirmasi</span></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Yang Perlu Diperhatikan",
-          "desc": "{previewHtml:1}\n• Draft rule — bisa langsung dihapus\n• Active rule — harus di-deactivate dulu\n• Batch delete — pilih beberapa rule, hapus sekaligus\n• Kalau ragu, **Deactivate** dulu daripada hapus permanen",
+          "desc": "{previewHtml:1}\n\u2022 Draft rule \u2014 bisa langsung dihapus\n\u2022 Active rule \u2014 harus di-deactivate dulu\n\u2022 Batch delete \u2014 pilih beberapa rule, hapus sekaligus\n\u2022 Kalau ragu, **Deactivate** dulu daripada hapus permanen",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fed7aa;padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"font-size:7px;color:#475569\"><span style=\"color:#16a34a;font-weight:600\">Draft:</span> Hapus langsung</div><div style=\"font-size:7px;color:#475569\"><span style=\"color:#dc2626;font-weight:600\">Active:</span> Deactivate dulu</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fed7aa;padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"font-size:7px;color:#475569\"><span style=\"color:#16a34a;font-weight:600\">Draft:</span> Hapus langsung</div><div style=\"font-size:7px;color:#475569\"><span style=\"color:#dc2626;font-weight:600\">Active:</span> Deactivate dulu</div></div>"
           }
         }
       ]

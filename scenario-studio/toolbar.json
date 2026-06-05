@@ -11,11 +11,11 @@
         {
           "num": 1,
           "title": "Toolbar Bawah",
-          "desc": "{previewHtml:1}\n• **Info Rule** — Ringkasan nama, tipe, jumlah kondisi\n• **+ Condition** — Tambah node baru di canvas\n• **Auto-Arrange** — Susun ulang node otomatis\n• **Back / Continue** — Pindah antar langkah workflow\n• Continue aktif hanya jika semua field sudah diisi",
+          "desc": "{previewHtml:1}\n\u2022 **Info Rule** \u2014 Ringkasan nama, tipe, jumlah kondisi\n\u2022 **+ Condition** \u2014 Tambah node baru di canvas\n\u2022 **Auto-Arrange** \u2014 Susun ulang node otomatis\n\u2022 **Back / Continue** \u2014 Pindah antar langkah workflow\n\u2022 Continue aktif hanya jika semua field sudah diisi",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;\"><span style=\"padding:4px 8px;border-radius:5px;background:#6366f1;color:#fff;font-size:7px;font-weight:600;\">+ Condition</span><span style=\"padding:4px 8px;border-radius:5px;background:#f1f5f9;color:#475569;font-size:7px;\">✨ Auto</span><span style=\"padding:4px 8px;border-radius:5px;background:#f1f5f9;color:#475569;font-size:7px;\">← Back</span><span style=\"padding:4px 8px;border-radius:5px;background:#3b82f6;color:#fff;font-size:7px;font-weight:600;\">Continue →</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #e2e8f0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;\"><span style=\"padding:4px 8px;border-radius:5px;background:#6366f1;color:#fff;font-size:7px;font-weight:600;\">+ Condition</span><span style=\"padding:4px 8px;border-radius:5px;background:#f1f5f9;color:#475569;font-size:7px;\">\u2728 Auto</span><span style=\"padding:4px 8px;border-radius:5px;background:#f1f5f9;color:#475569;font-size:7px;\">\u2190 Back</span><span style=\"padding:4px 8px;border-radius:5px;background:#3b82f6;color:#fff;font-size:7px;font-weight:600;\">Continue \u2192</span></div></div>"
           }
         },
         {
@@ -25,7 +25,7 @@
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;overflow:hidden;width:140px;\"><div style=\"padding:5px 8px;border-bottom:1px solid #e2e8f0;font-size:7px;color:#0f172a;\">✏️ Edit Node</div><div style=\"padding:5px 8px;border-bottom:1px solid #e2e8f0;font-size:7px;color:#dc2626;\">🗑️ Delete Node</div><div style=\"padding:5px 8px;font-size:7px;color:#8b5cf6;\">🎨 Change Color</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #e2e8f0;overflow:hidden;width:140px;\"><div style=\"padding:5px 8px;border-bottom:1px solid #e2e8f0;font-size:7px;color:#0f172a;\">\u270f\ufe0f Edit Node</div><div style=\"padding:5px 8px;border-bottom:1px solid #e2e8f0;font-size:7px;color:#dc2626;\">\ud83d\uddd1\ufe0f Delete Node</div><div style=\"padding:5px 8px;font-size:7px;color:#8b5cf6;\">\ud83c\udfa8 Change Color</div></div>"
           }
         }
       ]

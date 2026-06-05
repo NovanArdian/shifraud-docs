@@ -11,31 +11,31 @@
         {
           "num": 1,
           "title": "Jalankan Verifikasi",
-          "desc": "{previewHtml:1}\n• Klik **Run Verification** di toolbar editor\n• Pilih data sample (dari data yang ada atau input manual)\n• Klik **Run** — sistem mensimulasikan eksekusi rule\n• Hasil: ✅ ALERT, ❌ No Alert, ⚠️ Error",
+          "desc": "{previewHtml:1}\n\u2022 Klik **Run Verification** di toolbar editor\n\u2022 Pilih data sample (dari data yang ada atau input manual)\n\u2022 Klik **Run** \u2014 sistem mensimulasikan eksekusi rule\n\u2022 Hasil: \u2705 ALERT, \u274c No Alert, \u26a0\ufe0f Error",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:8px 10px;text-align:center\"><span style=\"padding:4px 10px;border-radius:5px;background:#3b82f6;color:#fff;font-size:8px;font-weight:700\">▶️ Run Verification</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:8px 10px;text-align:center\"><span style=\"padding:4px 10px;border-radius:5px;background:#3b82f6;color:#fff;font-size:8px;font-weight:700\">\u25b6\ufe0f Run Verification</span></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Membaca Hasil Verifikasi",
-          "desc": "{previewHtml:1}\n• **Hijau** — Node terpenuhi (true)\n• **Merah** — Node tidak terpenuhi (false)\n• **Abu-abu** — Node tidak dieksekusi\n• Lihat log detail tiap langkah eksekusi",
+          "desc": "{previewHtml:1}\n\u2022 **Hijau** \u2014 Node terpenuhi (true)\n\u2022 **Merah** \u2014 Node tidak terpenuhi (false)\n\u2022 **Abu-abu** \u2014 Node tidak dieksekusi\n\u2022 Lihat log detail tiap langkah eksekusi",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #99f6e4;overflow:hidden\"><div style=\"padding:7px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;gap:6px;align-items:center\"><span style=\"width:14px;height:14px;border-radius:3px;background:#22c55e\"></span><span style=\"font-size:7px;color:#16a34a;font-weight:600\">True</span><span style=\"width:14px;height:14px;border-radius:3px;background:#ef4444\"></span><span style=\"font-size:7px;color:#dc2626;font-weight:600\">False</span><span style=\"width:14px;height:14px;border-radius:3px;background:#e2e8f0\"></span><span style=\"font-size:7px;color:#64748b;font-weight:600\">Not Executed</span></div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #99f6e4;overflow:hidden\"><div style=\"padding:7px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;gap:6px;align-items:center\"><span style=\"width:14px;height:14px;border-radius:3px;background:#22c55e\"></span><span style=\"font-size:7px;color:#16a34a;font-weight:600\">True</span><span style=\"width:14px;height:14px;border-radius:3px;background:#ef4444\"></span><span style=\"font-size:7px;color:#dc2626;font-weight:600\">False</span><span style=\"width:14px;height:14px;border-radius:3px;background:#e2e8f0\"></span><span style=\"font-size:7px;color:#64748b;font-weight:600\">Not Executed</span></div></div></div>"
           }
         },
         {
           "num": 3,
           "title": "Tips Verifikasi",
-          "desc": "{previewHtml:1}\n• ✅ Uji data positif (harus menghasilkan ALERT)\n• ✅ Uji data negatif (tidak menghasilkan ALERT)\n• ✅ Uji edge case (data di batas threshold)\n• ✅ Uji banyak sample dengan data berbeda",
+          "desc": "{previewHtml:1}\n\u2022 \u2705 Uji data positif (harus menghasilkan ALERT)\n\u2022 \u2705 Uji data negatif (tidak menghasilkan ALERT)\n\u2022 \u2705 Uji edge case (data di batas threshold)\n\u2022 \u2705 Uji banyak sample dengan data berbeda",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f5f3ff,#fff);border:1px solid #ddd6fe;padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f0fdf4;font-size:6px;color:#16a34a\">✅ Data positif</span><span style=\"padding:2px 5px;border-radius:3px;background:#fef2f2;font-size:6px;color:#dc2626\">✅ Data negatif</span></div><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#fffbeb;font-size:6px;color:#d97706\">✅ Edge cases</span><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">✅ Multiple sample</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#f5f3ff,#fff);border:1px solid #ddd6fe;padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f0fdf4;font-size:6px;color:#16a34a\">\u2705 Data positif</span><span style=\"padding:2px 5px;border-radius:3px;background:#fef2f2;font-size:6px;color:#dc2626\">\u2705 Data negatif</span></div><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#fffbeb;font-size:6px;color:#d97706\">\u2705 Edge cases</span><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">\u2705 Multiple sample</span></div></div>"
           }
         }
       ]

@@ -11,21 +11,21 @@
         {
           "num": 1,
           "title": "Tombol Tambah Scenario",
-          "desc": "{previewHtml:1}\n• Buka halaman **Scenario Management**\n• Klik **+ Tambah Scenario** di pojok kanan atas\n• Pilih tipe rule: GENERAL (3 langkah) atau CONDITION (4 langkah)\n• Anda akan dibawa ke halaman editor",
+          "desc": "{previewHtml:1}\n\u2022 Buka halaman **Scenario Management**\n\u2022 Klik **+ Tambah Scenario** di pojok kanan atas\n\u2022 Pilih tipe rule: GENERAL (3 langkah) atau CONDITION (4 langkah)\n\u2022 Anda akan dibawa ke halaman editor",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:6px 10px;background:#eff6ff;border-bottom:1px solid #bfdbfe;display:flex;justify-content:space-between;align-items:center;font-size:8px;font-weight:700;color:#0f172a\"><span>Scenario Management</span><span style=\"padding:3px 8px;border-radius:4px;background:#3b82f6;font-size:7px;color:#fff\">+ Tambah Scenario</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:6px 10px;background:#eff6ff;border-bottom:1px solid #bfdbfe;display:flex;justify-content:space-between;align-items:center;font-size:8px;font-weight:700;color:#0f172a\"><span>Scenario Management</span><span style=\"padding:3px 8px;border-radius:4px;background:#3b82f6;font-size:7px;color:#fff\">+ Tambah Scenario</span></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Mengisi Detail Rule",
-          "desc": "{previewHtml:1}\n• **Step 1** — Isi Rule Name, Risk Score, Priority, Active Period\n• **Step 2** — Bangun flow: tambah node, hubungkan, atur parameter\n• **Step 3** — Review ringkasan rule dan Submit sebagai Draft",
+          "desc": "{previewHtml:1}\n\u2022 **Step 1** \u2014 Isi Rule Name, Risk Score, Priority, Active Period\n\u2022 **Step 2** \u2014 Bangun flow: tambah node, hubungkan, atur parameter\n\u2022 **Step 3** \u2014 Review ringkasan rule dan Submit sebagai Draft",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fed7aa;overflow:hidden\"><div style=\"padding:6px 10px;display:flex;gap:6px\"><span style=\"padding:3px 6px;border-radius:4px;background:#22c55e;font-size:6px;color:#fff;font-weight:600\">1: Parameters</span><span style=\"padding:3px 6px;border-radius:4px;background:#3b82f6;font-size:6px;color:#fff;font-weight:600\">2: Flow</span><span style=\"padding:3px 6px;border-radius:4px;background:#e2e8f0;font-size:6px;color:#94a3b8\">3: Review</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fed7aa;overflow:hidden\"><div style=\"padding:6px 10px;display:flex;gap:6px\"><span style=\"padding:3px 6px;border-radius:4px;background:#22c55e;font-size:6px;color:#fff;font-weight:600;border-radius:4px;background:#3b82f6;font-size:6px;color:#fff;font-weight:600;border-radius:4px;background:#e2e8f0;font-size:6px;color:#94a3b8\">3: Review</span></div></div>"
           }
         }
       ]

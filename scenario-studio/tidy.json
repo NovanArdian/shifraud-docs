@@ -11,21 +11,21 @@
         {
           "num": 1,
           "title": "Auto-Arrange",
-          "desc": "{previewHtml:1}\n• Klik **Auto-Arrange** di toolbar bawah\n• Semua node tersusun otomatis dari kiri ke kanan\n• Menghilangkan tumpukan, memberi jarak sama\n• Koneksi tetap dipertahankan",
+          "desc": "{previewHtml:1}\n\u2022 Klik **Auto-Arrange** di toolbar bawah\n\u2022 Semua node tersusun otomatis dari kiri ke kanan\n\u2022 Menghilangkan tumpukan, memberi jarak sama\n\u2022 Koneksi tetap dipertahankan",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;text-align:center\"><span style=\"padding:4px 10px;border-radius:5px;background:#f59e0b;color:#fff;font-size:8px;font-weight:700\">✨ Auto-Arrange</span><div style=\"font-size:7px;color:#92400e;margin-top:4px\">Satu klik, layout langsung rapi!</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;text-align:center\"><span style=\"padding:4px 10px;border-radius:5px;background:#f59e0b;color:#fff;font-size:8px;font-weight:700\">\u2728 Auto-Arrange</span><div style=\"font-size:7px;color:#92400e;margin-top:4px\">Satu klik, layout langsung rapi!</div></div>"
           }
         },
         {
           "num": 2,
           "title": "Alat Bantu Lainnya",
-          "desc": "{previewHtml:1}\n• **Snap to Grid** — Node menempel ke grid, presisi\n• **Connected Move** — Pindah node, node terhubung ikut bergeser\n• **Zoom** — Scroll untuk zoom in/out\n• **Pan** — Space + Drag untuk geser pandangan",
+          "desc": "{previewHtml:1}\n\u2022 **Snap to Grid** \u2014 Node menempel ke grid, presisi\n\u2022 **Connected Move** \u2014 Pindah node, node terhubung ikut bergeser\n\u2022 **Zoom** \u2014 Scroll untuk zoom in/out\n\u2022 **Pan** \u2014 Space + Drag untuk geser pandangan",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;padding:8px 10px;display:flex;gap:4px;flex-wrap:wrap\"><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">🔲 Snap Grid</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">🔗 Connected Move</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">🔍 Zoom</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">✋ Pan (Space+Drag)</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;padding:8px 10px;display:flex;gap:4px;flex-wrap:wrap\"><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;0 1px 2px rgba(0,0,0,.04)\">\u270b Pan (Space+Drag)</span></div>"
           }
         }
       ]

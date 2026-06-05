@@ -11,61 +11,61 @@
         {
           "num": 1,
           "title": "Bedanya GENERAL dan CONDITION?",
-          "desc": "{previewHtml:1}\n• **GENERAL** — 3 langkah, untuk aturan sederhana\n• **CONDITION** — 4 langkah (+ Use Condition), untuk aturan kompleks\n• Pilih GENERAL dulu kalau baru belajar",
+          "desc": "{previewHtml:1}\n\u2022 **GENERAL** \u2014 3 langkah, untuk aturan sederhana\n\u2022 **CONDITION** \u2014 4 langkah (+ Use Condition), untuk aturan kompleks\n\u2022 Pilih GENERAL dulu kalau baru belajar",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;display:flex;gap:6px;\"><div style=\"flex:1;border-radius:8px;border:1.5px solid #f59e0b;background:linear-gradient(180deg,#fffbeb,#fff);overflow:hidden;\"><div style=\"padding:5px 8px;background:linear-gradient(90deg,#f59e0b,#d97706);font-size:7px;font-weight:700;color:#fff;\">GENERAL</div></div><div style=\"flex:1;border-radius:8px;border:1.5px solid #7c3aed;background:linear-gradient(180deg,#f5f3ff,#fff);overflow:hidden;\"><div style=\"padding:5px 8px;background:linear-gradient(90deg,#7c3aed,#6366f1);font-size:7px;font-weight:700;color:#fff;\">CONDITION</div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #e2e8f0;display:flex;gap:6px;\"><div style=\"flex:1;border-radius:8px;border:1.5px solid #f59e0b;background:linear-gradient(180deg,#fffbeb,#fff);overflow:hidden;\"><div style=\"padding:5px 8px;background:linear-gradient(90deg,#f59e0b,#d97706);font-size:7px;font-weight:700;color:#fff;\">GENERAL</div></div><div style=\"flex:1;border-radius:8px;border:1.5px solid #7c3aed;background:linear-gradient(180deg,#f5f3ff,#fff);overflow:hidden;\"><div style=\"padding:5px 8px;background:linear-gradient(90deg,#7c3aed,#6366f1);font-size:7px;font-weight:700;color:#fff;\">CONDITION</div></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Kenapa tombol Next tidak aktif?",
-          "desc": "{previewHtml:1}\n• Ada field wajib yang belum diisi\n• Cek: Rule Name, Risk Score, dan validasi error merah\n• Kalau semua sudah benar, tombol akan aktif",
+          "desc": "{previewHtml:1}\n\u2022 Ada field wajib yang belum diisi\n\u2022 Cek: Rule Name, Risk Score, dan validasi error merah\n\u2022 Kalau semua sudah benar, tombol akan aktif",
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fef2f2;border:1px solid #fecaca;padding:8px 10px;display:flex;align-items:center;gap:6px;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"><path d=\"M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:7px;color:#dc2626;\">Field \"Rule Name\" harus diisi</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fef2f2;border:1px solid #fecaca;padding:8px 10px;display:flex;align-items:center;gap:6px;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"><path d=\"M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:7px;color:#dc2626;\">Field \"Rule Name\" harus diisi</span></div>"
           }
         },
         {
           "num": 3,
           "title": "History undo/redo berapa lama?",
-          "desc": "{previewHtml:1}\n• Menyimpan **50 langkah** terakhir\n• Setiap aksi (tambah/hapus/pindah/edit) = 1 langkah",
+          "desc": "{previewHtml:1}\n\u2022 Menyimpan **50 langkah** terakhir\n\u2022 Setiap aksi (tambah/hapus/pindah/edit) = 1 langkah",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;padding:8px 10px;display:flex;gap:4px;\"><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:600;\">Ctrl+Z</kbd><span style=\"font-size:7px;color:#64748b;\">× 50 langkah</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #e2e8f0;padding:8px 10px;display:flex;gap:4px;\"><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:600;\">Ctrl+Z</kbd><span style=\"font-size:7px;color:#64748b;\">\u00d7 50 langkah</span></div>"
           }
         },
         {
           "num": 4,
           "title": "Copy node antar rule?",
-          "desc": "{previewHtml:1}\n• **Bisa!** Ctrl+C di Rule A, Ctrl+V di Rule B\n• Semua konfigurasi ikut tersalin",
+          "desc": "{previewHtml:1}\n\u2022 **Bisa!** Ctrl+C di Rule A, Ctrl+V di Rule B\n\u2022 Semua konfigurasi ikut tersalin",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;display:flex;align-items:center;gap:8px;justify-content:center;\"><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:600;\">Ctrl+C</kbd><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:600;\">Ctrl+V</kbd></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;display:flex;align-items:center;gap:8px;justify-content:center;\"><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:600;\">Ctrl+C</kbd><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:600;\">Ctrl+V</kbd></div>"
           }
         },
         {
           "num": 5,
           "title": "Apa itu Cycle Indicator?",
-          "desc": "{previewHtml:1}\n• Mengatur **kapan** rule boleh aktif\n• **RANGE** — Blok waktu kontinu (Sen-Jum 08:00-17:00)\n• **LIST** — Slot waktu spesifik (08:00, 12:00, 16:00)",
+          "desc": "{previewHtml:1}\n\u2022 Mengatur **kapan** rule boleh aktif\n\u2022 **RANGE** \u2014 Blok waktu kontinu (Sen-Jum 08:00-17:00)\n\u2022 **LIST** \u2014 Slot waktu spesifik (08:00, 12:00, 16:00)",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:6px;\"><span style=\"padding:3px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;font-weight:600;\">RANGE</span><span style=\"font-size:7px;color:#475569;\">Sen-Jum 08:00-17:00</span><span style=\"color:#e2e8f0;\">|</span><span style=\"padding:3px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;font-weight:600;\">LIST</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:6px;\"><span style=\"padding:3px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;font-weight:600;\">RANGE</span><span style=\"font-size:7px;color:#475569;\">Sen-Jum 08:00-17:00</span><span style=\"color:#e2e8f0;\">|</span><span style=\"padding:3px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;font-weight:600;\">LIST</span></div>"
           }
         },
         {
           "num": 6,
           "title": "Canvas kosong, bagaimana?",
-          "desc": "{previewHtml:1}\n• Klik **+ Condition** di toolbar\n• Drag dari sidebar kiri\n• Double-click di area kosong canvas\n• Node pertama otomatis jadi Start node",
+          "desc": "{previewHtml:1}\n\u2022 Klik **+ Condition** di toolbar\n\u2022 Drag dari sidebar kiri\n\u2022 Double-click di area kosong canvas\n\u2022 Node pertama otomatis jadi Start node",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;border:2px dashed #93c5fd;background:linear-gradient(135deg,#eff6ff,#fff);padding:10px;text-align:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M12 4v16m8-8H4\"/></svg><div style=\"font-size:8px;color:#2563eb;font-weight:600;margin-top:4px;\">Klik + Condition</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);border:2px dashed #93c5fd;background:linear-gradient(135deg,#eff6ff,#fff);padding:10px;text-align:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M12 4v16m8-8H4\"/></svg><div style=\"font-size:8px;color:#2563eb;font-weight:600;margin-top:4px;\">Klik + Condition</div></div>"
           }
         }
       ]

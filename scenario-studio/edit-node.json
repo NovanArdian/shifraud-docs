@@ -11,21 +11,21 @@
         {
           "num": 1,
           "title": "Buka Panel Konfigurasi Node",
-          "desc": "{previewHtml:1}\n• **Klik node** — panel konfigurasi muncul di sisi kanan\n• Atau **double-click** atau klik kanan → **Edit**\n• Panel menampilkan: Field, Operator, Value, Label\n• Setiap perubahan langsung terlihat di node",
+          "desc": "{previewHtml:1}\n\u2022 **Klik node** \u2014 panel konfigurasi muncul di sisi kanan\n\u2022 Atau **double-click** atau klik kanan \u2192 **Edit**\n\u2022 Panel menampilkan: Field, Operator, Value, Label\n\u2022 Setiap perubahan langsung terlihat di node",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;gap:8px\"><div style=\"flex:1\"><div style=\"padding:4px 6px;border:1.5px solid #f59e0b;border-radius:4px;text-align:center;font-size:7px;font-weight:700;color:#f59e0b\">CONSTANT</div></div><div style=\"flex:1;border-left:1px solid #e2e8f0;padding-left:8px;font-size:6px\"><div style=\"color:#64748b\">Field: <span style=\"color:#0f172a\">amount</span></div><div style=\"color:#64748b\">Operator: <span style=\"color:#0f172a\">&gt;</span></div><div style=\"color:#64748b\">Value: <span style=\"color:#0f172a\">50000000</span></div></div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;gap:8px\"><div style=\"flex:1\"><div style=\"padding:4px 6px;border:1.5px solid #f59e0b;border-radius:4px;text-align:center;font-size:7px;font-weight:700;color:#f59e0b\">CONSTANT</div></div><div style=\"flex:1;border-left:1px solid #e2e8f0;padding-left:8px;font-size:6px\"><div style=\"color:#64748b\">Field: <span style=\"color:#0f172a\">amount</span></div><div style=\"color:#64748b\">Operator: <span style=\"color:#0f172a\">&gt;</span></div><div style=\"color:#64748b\">Value: <span style=\"color:#0f172a\">50000000</span></div></div></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Mengubah Parameter Node",
-          "desc": "{previewHtml:1}\n• **Field** — Pilih field data transaksi (amount, currency, dll)\n• **Operator** — =, ≠, >, <, CONTAINS, IN, MATCHES, dll\n• **Value** — Nilai yang dibandingkan\n• **Label** — Nama tampilan node (opsional, biar deskriptif)",
+          "desc": "{previewHtml:1}\n\u2022 **Field** \u2014 Pilih field data transaksi (amount, currency, dll)\n\u2022 **Operator** \u2014 =, \u2260, >, <, CONTAINS, IN, MATCHES, dll\n\u2022 **Value** \u2014 Nilai yang dibandingkan\n\u2022 **Label** \u2014 Nama tampilan node (opsional, biar deskriptif)",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;display:grid;grid-template-columns:1fr 1fr;gap:3px\"><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">amount</span><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">&gt;</span><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">50000000</span><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">Label</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;display:grid;grid-template-columns:1fr 1fr;gap:3px\"><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">amount</span><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">&gt;</span><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">50000000</span><span style=\"padding:2px 5px;border-radius:3px;background:#fff;border:1px solid #d1d5db;font-size:6px\">Label</span></div>"
           }
         }
       ]

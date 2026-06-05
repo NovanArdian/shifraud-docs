@@ -10,62 +10,62 @@
       "steps": [
         {
           "num": 1,
-          "title": "LOGICAL — AND / OR / NOT / XOR",
-          "desc": "{previewHtml:1}\n• **AND** — Semua kondisi harus terpenuhi\n• **OR** — Salah satu kondisi cukup\n• **NOT** — Membalikkan hasil kondisi\n• **XOR** — Hanya satu yang boleh terpenuhi",
+          "title": "LOGICAL \u2014 AND / OR / NOT / XOR",
+          "desc": "{previewHtml:1}\n\u2022 **AND** \u2014 Semua kondisi harus terpenuhi\n\u2022 **OR** \u2014 Salah satu kondisi cukup\n\u2022 **NOT** \u2014 Membalikkan hasil kondisi\n\u2022 **XOR** \u2014 Hanya satu yang boleh terpenuhi",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #c7d2fe;overflow:hidden;\"><div style=\"padding:7px 10px;background:linear-gradient(90deg,#eef2ff,#fff);border-bottom:1px solid #c7d2fe;display:flex;align-items:center;gap:6px;\"><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">LOGICAL</span><span style=\"margin-left:auto;font-size:7px;padding:1px 5px;border-radius:4px;background:#eef2ff;color:#6366f1;\">AND / OR / NOT / XOR</span></div><div style=\"padding:8px 10px;display:flex;align-items:center;gap:4px;justify-content:center;\"><div style=\"padding:4px 6px;border-radius:4px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;color:#16a34a;\">Amount > 10jt</div><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6366f1\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><div style=\"padding:4px 6px;border-radius:4px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;color:#16a34a;\">Country ≠ ID</div><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6366f1\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><div style=\"padding:4px 8px;border-radius:4px;background:#fef2f2;border:1px solid #fecaca;font-size:7px;font-weight:600;color:#dc2626;\">ALERT</div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #c7d2fe;overflow:hidden;\"><div style=\"padding:7px 10px;background:linear-gradient(90deg,#eef2ff,#fff);border-bottom:1px solid #c7d2fe;display:flex;align-items:center;gap:6px;\"><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">LOGICAL</span><span style=\"margin-left:auto;font-size:7px;padding:1px 5px;border-radius:4px;background:#eef2ff;color:#6366f1;\">AND / OR / NOT / XOR</span></div><div style=\"padding:8px 10px;display:flex;align-items:center;gap:4px;justify-content:center;\"><div style=\"padding:4px 6px;border-radius:4px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;color:#16a34a;\">Amount > 10jt</div><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6366f1\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><div style=\"padding:4px 6px;border-radius:4px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;color:#16a34a;\">Country \u2260 ID</div><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6366f1\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><div style=\"padding:4px 8px;border-radius:4px;background:#fef2f2;border:1px solid #fecaca;font-size:7px;font-weight:600;color:#dc2626;\">ALERT</div></div></div>"
           }
         },
         {
           "num": 2,
-          "title": "CONTAINS — Pencocokan Teks",
-          "desc": "{previewHtml:1}\n• Mencari kata/pola dalam data teks\n• Cocok untuk: nomor rekening, alamat, deskripsi transaksi\n• Mendukung case-sensitive dan case-insensitive",
+          "title": "CONTAINS \u2014 Pencocokan Teks",
+          "desc": "{previewHtml:1}\n\u2022 Mencari kata/pola dalam data teks\n\u2022 Cocok untuk: nomor rekening, alamat, deskripsi transaksi\n\u2022 Mendukung case-sensitive dan case-insensitive",
           "color": "#10b981",
           "bg": "#f0fdf4",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #a7f3d0;overflow:hidden;\"><div style=\"padding:7px 10px;display:flex;align-items:center;gap:6px;\"><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">CONTAINS</span></div><div style=\"padding:6px 10px 8px;font-size:7px;color:#475569;\">Field: message → cari \"transfer\"</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #a7f3d0;overflow:hidden;\"><div style=\"padding:7px 10px;display:flex;align-items:center;gap:6px;\"><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">CONTAINS</span></div><div style=\"padding:6px 10px 8px;font-size:7px;color:#475569;\">Field: message \u2192 cari \"transfer\"</div></div>"
           }
         },
         {
           "num": 3,
-          "title": "CONSTANT — Perbandingan Nilai",
-          "desc": "{previewHtml:1}\n• Membandingkan nilai data dengan angka tetap\n• Operator: =, !=, >, >=, <, <=\n• Tipe paling sering dipakai",
+          "title": "CONSTANT \u2014 Perbandingan Nilai",
+          "desc": "{previewHtml:1}\n\u2022 Membandingkan nilai data dengan angka tetap\n\u2022 Operator: =, !=, >, >=, <, <=\n\u2022 Tipe paling sering dipakai",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fde68a;overflow:hidden;\"><div style=\"padding:7px 10px;display:flex;align-items:center;gap:6px;\"><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">CONSTANT</span></div><div style=\"padding:6px 10px 8px;display:flex;gap:4px;font-size:7px;\"><span style=\"padding:3px 6px;border-radius:4px;background:#f8fafc;border:1px solid #e2e8f0;color:#0f172a;\">amount > 10000000</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fde68a;overflow:hidden;\"><div style=\"padding:7px 10px;display:flex;align-items:center;gap:6px;\"><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">CONSTANT</span></div><div style=\"padding:6px 10px 8px;display:flex;gap:4px;font-size:7px;\"><span style=\"padding:3px 6px;border-radius:4px;background:#f8fafc;border:1px solid #e2e8f0;color:#0f172a;\">amount > 10000000</span></div></div>"
           }
         },
         {
           "num": 4,
-          "title": "DEVIATION — Deteksi Penyimpangan",
-          "desc": "{previewHtml:1}\n• Mendeteksi perubahan dari nilai normal berdasarkan persentase\n• Cocok untuk: lonjakan transaksi, perubahan pola spending\n• Contoh: transaksi naik 200% dari rata-rata 7 hari",
+          "title": "DEVIATION \u2014 Deteksi Penyimpangan",
+          "desc": "{previewHtml:1}\n\u2022 Mendeteksi perubahan dari nilai normal berdasarkan persentase\n\u2022 Cocok untuk: lonjakan transaksi, perubahan pola spending\n\u2022 Contoh: transaksi naik 200% dari rata-rata 7 hari",
           "color": "#ef4444",
           "bg": "#fef2f2",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fecaca;overflow:hidden;\"><div style=\"padding:7px 10px;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"><path d=\"M13 2L3 14h9l-1 8 10-12h-9l1-8z\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">DEVIATION</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fecaca;overflow:hidden;\"><div style=\"padding:7px 10px;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ef4444\" stroke-width=\"2.5\"><path d=\"M13 2L3 14h9l-1 8 10-12h-9l1-8z\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">DEVIATION</span></div></div>"
           }
         },
         {
           "num": 5,
-          "title": "AGGREGATE — Hitung / Total / Rata",
-          "desc": "{previewHtml:1}\n• **Count** — Jumlah transaksi (contoh: > 50 transaksi/jam)\n• **Sum** — Total nilai (contoh: > 500jt/hari)\n• **Rate** — Frekuensi (contoh: 5 transaksi/menit)",
+          "title": "AGGREGATE \u2014 Hitung / Total / Rata",
+          "desc": "{previewHtml:1}\n\u2022 **Count** \u2014 Jumlah transaksi (contoh: > 50 transaksi/jam)\n\u2022 **Sum** \u2014 Total nilai (contoh: > 500jt/hari)\n\u2022 **Rate** \u2014 Frekuensi (contoh: 5 transaksi/menit)",
           "color": "#7c3aed",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;overflow:hidden;\"><div style=\"padding:7px 10px;display:flex;align-items:center;gap:6px;\"><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">AGGREGATE</span></div><div style=\"padding:6px 10px 8px;display:flex;gap:4px;\"><div style=\"padding:4px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;\">Count > 50</div><div style=\"padding:4px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;\">Sum > 500jt</div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #ddd6fe;overflow:hidden;\"><div style=\"padding:7px 10px;display:flex;align-items:center;gap:6px;\"><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">AGGREGATE</span></div><div style=\"padding:6px 10px 8px;display:flex;gap:4px;\"><div style=\"padding:4px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;\">Count > 50</div><div style=\"padding:4px 6px;border-radius:4px;background:#f5f3ff;font-size:7px;color:#7c3aed;\">Sum > 500jt</div></div></div>"
           }
         },
         {
           "num": 6,
-          "title": "GEO — Deteksi Berdasarkan Lokasi",
-          "desc": "{previewHtml:1}\n• **Geo IP** — Negara/kota asal transaksi\n• **Geo Distance** — Jarak antara dua lokasi\n• **Geo Contains** — Apakah titik dalam area tertentu",
+          "title": "GEO \u2014 Deteksi Berdasarkan Lokasi",
+          "desc": "{previewHtml:1}\n\u2022 **Geo IP** \u2014 Negara/kota asal transaksi\n\u2022 **Geo Distance** \u2014 Jarak antara dua lokasi\n\u2022 **Geo Contains** \u2014 Apakah titik dalam area tertentu",
           "color": "#2563eb",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:7px 10px;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a15 15 0 010 20 15 15 0 010-20z\"/><path d=\"M2 12h20\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">GEO</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:7px 10px;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 2a15 15 0 010 20 15 15 0 010-20z\"/><path d=\"M2 12h20\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">GEO</span></div></div>"
           }
         }
       ]

@@ -6,46 +6,46 @@
       "type": "tutorial",
       "heading": "Deployment",
       "id": "deployment",
-      "intro": "Setelah rule selesai, deploy ke production lewat proses submit → aktivasi.",
+      "intro": "Setelah rule selesai, deploy ke production lewat proses submit \u2192 aktivasi.",
       "steps": [
         {
           "num": 1,
           "title": "Review Sebelum Submit",
-          "desc": "{previewHtml:1}\n• Rule name dan description sudah diisi\n• Risk score dan priority sesuai\n• Semua node terhubung dengan benar\n• Tidak ada node yang terputus",
+          "desc": "{previewHtml:1}\n\u2022 Rule name dan description sudah diisi\n\u2022 Risk score dan priority sesuai\n\u2022 Semua node terhubung dengan benar\n\u2022 Tidak ada node yang terputus",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:8px 12px;background:linear-gradient(90deg,#eff6ff,#fff);border-bottom:1px solid #bfdbfe;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Review Checklist</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:8px 12px;background:linear-gradient(90deg,#eff6ff,#fff);border-bottom:1px solid #bfdbfe;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Review Checklist</span></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Submit Scenario",
-          "desc": "{previewHtml:1}\n• Klik **Submit Scenario** di toolbar\n• Isi komentar submit (untuk audit trail)\n• Klik Submit → rule tersimpan sebagai Draft",
+          "desc": "{previewHtml:1}\n\u2022 Klik **Submit Scenario** di toolbar\n\u2022 Isi komentar submit (untuk audit trail)\n\u2022 Klik Submit \u2192 rule tersimpan sebagai Draft",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fed7aa;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:6px;\"><span style=\"padding:3px 8px;border-radius:4px;background:#f97316;font-size:7px;color:#fff;font-weight:600;\">Submit</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fed7aa;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:6px;\"><span style=\"padding:3px 8px;border-radius:4px;background:#f97316;font-size:7px;color:#fff;font-weight:600;\">Submit</span></div></div>"
           }
         },
         {
           "num": 3,
           "title": "Aktivasi Rule",
-          "desc": "{previewHtml:1}\n• Buka Scenario Management, cari rule\n• Klik **Activate** untuk mengaktifkan\n• Atau **Batch Activation** — aktifkan beberapa rule sekaligus",
+          "desc": "{previewHtml:1}\n\u2022 Buka Scenario Management, cari rule\n\u2022 Klik **Activate** untuk mengaktifkan\n\u2022 Atau **Batch Activation** \u2014 aktifkan beberapa rule sekaligus",
           "color": "#22c55e",
           "bg": "#f0fdf4",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bbf7d0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Activation</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bbf7d0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Activation</span></div></div>"
           }
         },
         {
           "num": 4,
           "title": "Monitoring",
-          "desc": "{previewHtml:1}\n• False positif tinggi? Klik **Deactivate**\n• Perlu penyesuaian? Edit lalu submit ulang\n• Deactivate ≠ Delete — bisa diaktifkan lagi",
+          "desc": "{previewHtml:1}\n\u2022 False positif tinggi? Klik **Deactivate**\n\u2022 Perlu penyesuaian? Edit lalu submit ulang\n\u2022 Deactivate \u2260 Delete \u2014 bisa diaktifkan lagi",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;gap:6px;flex-wrap:wrap;\"><span style=\"padding:3px 8px;border-radius:4px;background:#fef2f2;font-size:7px;color:#dc2626;font-weight:600;\">Deactivate</span><span style=\"padding:3px 8px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;\">Edit Rule</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #ddd6fe;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;gap:6px;flex-wrap:wrap;\"><span style=\"padding:3px 8px;border-radius:4px;background:#fef2f2;font-size:7px;color:#dc2626;font-weight:600;\">Deactivate</span><span style=\"padding:3px 8px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;\">Edit Rule</span></div></div>"
           }
         }
       ]

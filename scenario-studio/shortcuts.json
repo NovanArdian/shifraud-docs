@@ -11,21 +11,21 @@
         {
           "num": 1,
           "title": "Shortcut Dasar",
-          "desc": "{previewHtml:1}\n• **Ctrl+Z** — Undo • **Ctrl+Shift+Z** — Redo\n• **Ctrl+C** — Copy • **Ctrl+V** — Paste\n• **Delete** — Hapus node/grup\n• **Space + Drag** — Pan canvas\n• **Scroll** — Zoom • **Shift + Klik** — Multi-select",
+          "desc": "{previewHtml:1}\n\u2022 **Ctrl+Z** \u2014 Undo \u2022 **Ctrl+Shift+Z** \u2014 Redo\n\u2022 **Ctrl+C** \u2014 Copy \u2022 **Ctrl+V** \u2014 Paste\n\u2022 **Delete** \u2014 Hapus node/grup\n\u2022 **Space + Drag** \u2014 Pan canvas\n\u2022 **Scroll** \u2014 Zoom \u2022 **Shift + Klik** \u2014 Multi-select",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #e2e8f0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;flex-wrap:wrap;gap:4px;\"><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Ctrl+Z</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Ctrl+C</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Del</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Space+Drag</kbd></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #e2e8f0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;flex-wrap:wrap;gap:4px;\"><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Ctrl+Z</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Ctrl+C</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Del</kbd><kbd style=\"padding:3px 6px;border-radius:4px;font-size:7px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;color:#0f172a;font-weight:600;\">Space+Drag</kbd></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Tips",
-          "desc": "{previewHtml:1}\n• Undo sampai 50 langkah ke belakang\n• Copy-paste node antar rule\n• Multi-select dulu, baru aksi (delete/copy/pindah)\n• Space+Drag lebih cepat dari scroll",
+          "desc": "{previewHtml:1}\n\u2022 Undo sampai 50 langkah ke belakang\n\u2022 Copy-paste node antar rule\n\u2022 Multi-select dulu, baru aksi (delete/copy/pindah)\n\u2022 Space+Drag lebih cepat dari scroll",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 12px;\"><div style=\"font-size:7px;color:#475569;\">Undo 50 langkah • Copy antar rule • Multi-select • Space+Drag</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 12px;\"><div style=\"font-size:7px;color:#475569;\">Undo 50 langkah \u2022 Copy antar rule \u2022 Multi-select \u2022 Space+Drag</div></div>"
           }
         }
       ]

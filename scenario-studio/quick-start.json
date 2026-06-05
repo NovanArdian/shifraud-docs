@@ -11,51 +11,51 @@
         {
           "num": 1,
           "title": "Buka Scenario Management",
-          "desc": "{previewHtml:1}\n• Klik menu **Scenario Management** di sidebar kiri\n• Lihat daftar rule yang sudah ada beserta statusnya\n• Klik **+ Add New** di pojok kanan atas",
+          "desc": "{previewHtml:1}\n\u2022 Klik menu **Scenario Management** di sidebar kiri\n\u2022 Lihat daftar rule yang sudah ada beserta statusnya\n\u2022 Klik **+ Add New** di pojok kanan atas",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f8fafc,#fff);border:1px solid #e2e8f0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:6px;border-bottom:1px solid #e2e8f0;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z\"/><polyline points=\"9 22 9 12 15 12 15 22\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Scenario Management</span><span style=\"margin-left:auto;font-size:8px;padding:2px 8px;border-radius:4px;background:#3b82f6;color:#fff;font-weight:600;\">+ Add New</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#f8fafc,#fff);border:1px solid #e2e8f0;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:6px;border-bottom:1px solid #e2e8f0;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z\"/><polyline points=\"9 22 9 12 15 12 15 22\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Scenario Management</span><span style=\"margin-left:auto;font-size:8px;padding:2px 8px;border-radius:4px;background:#3b82f6;color:#fff;font-weight:600;\">+ Add New</span></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Pilih Tipe Rule",
-          "desc": "{previewHtml:1}\n• **GENERAL** — 3 langkah, untuk aturan sederhana\n• **CONDITION** — 4 langkah, untuk aturan kompleks\n• Pilih GENERAL dulu untuk belajar",
+          "desc": "{previewHtml:1}\n\u2022 **GENERAL** \u2014 3 langkah, untuk aturan sederhana\n\u2022 **CONDITION** \u2014 4 langkah, untuk aturan kompleks\n\u2022 Pilih GENERAL dulu untuk belajar",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;display:flex;gap:6px;\"><div style=\"flex:1;border-radius:8px;border:2px solid #f59e0b;background:linear-gradient(180deg,#fffbeb,#fff);overflow:hidden;\"><div style=\"padding:7px 10px;background:linear-gradient(90deg,#f59e0b,#d97706);font-size:9px;font-weight:700;color:#fff;text-align:center;\">GENERAL</div></div><div style=\"flex:1;border-radius:8px;border:1px solid #e2e8f0;background:#f8fafc;overflow:hidden;\"><div style=\"padding:7px 10px;background:#e2e8f0;font-size:9px;font-weight:700;color:#94a3b8;text-align:center;\">CONDITION</div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #e2e8f0;padding:8px;display:flex;gap:6px;\"><div style=\"flex:1;border-radius:8px;border:2px solid #f59e0b;background:linear-gradient(180deg,#fffbeb,#fff);overflow:hidden;\"><div style=\"padding:7px 10px;background:linear-gradient(90deg,#f59e0b,#d97706);font-size:9px;font-weight:700;color:#fff;text-align:center;\">GENERAL</div></div><div style=\"flex:1;border-radius:8px;border:1px solid #e2e8f0;background:#f8fafc;overflow:hidden;\"><div style=\"padding:7px 10px;background:#e2e8f0;font-size:9px;font-weight:700;color:#94a3b8;text-align:center;\">CONDITION</div></div></div>"
           }
         },
         {
           "num": 3,
           "title": "Isi Parameter Rule",
-          "desc": "{previewHtml:1}\n• **Rule Name** — Nama rule (contoh: Deteksi Transfer Besar)\n• **Risk Score** — Nilai 0-100, makin tinggi makin berisiko\n• **Priority** — HIGH / MEDIUM / LOW\n• **Active Period** — Jadwal aktif rule\n• Klik **Continue** untuk lanjut",
+          "desc": "{previewHtml:1}\n\u2022 **Rule Name** \u2014 Nama rule (contoh: Deteksi Transfer Besar)\n\u2022 **Risk Score** \u2014 Nilai 0-100, makin tinggi makin berisiko\n\u2022 **Priority** \u2014 HIGH / MEDIUM / LOW\n\u2022 **Active Period** \u2014 Jadwal aktif rule\n\u2022 Klik **Continue** untuk lanjut",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #c7d2fe;overflow:hidden;\"><div style=\"padding:7px 10px;background:#eef2ff;border-bottom:1px solid #c7d2fe;font-size:9px;font-weight:700;color:#0f172a;\">Configure Parameters</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #c7d2fe;overflow:hidden;\"><div style=\"padding:7px 10px;background:#eef2ff;border-bottom:1px solid #c7d2fe;font-size:9px;font-weight:700;color:#0f172a;\">Configure Parameters</div></div>"
           }
         },
         {
           "num": 4,
           "title": "Buat Flow Deteksi",
-          "desc": "{previewHtml:1}\n• **Drag** node kondisi dari sidebar kiri ke canvas\n• Atur parameter tiap node (field, operator, value)\n• **Hubungkan** node via handle (lingkaran) output → input\n• Klik **Auto-arrange** untuk merapikan layout",
+          "desc": "{previewHtml:1}\n\u2022 **Drag** node kondisi dari sidebar kiri ke canvas\n\u2022 Atur parameter tiap node (field, operator, value)\n\u2022 **Hubungkan** node via handle (lingkaran) output \u2192 input\n\u2022 Klik **Auto-arrange** untuk merapikan layout",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:4px;align-items:center;\"><span style=\"padding:4px 8px;border-radius:4px;background:#fff;border:1.5px solid #6366f1;font-size:7px;font-weight:700;color:#6366f1;\">AMOUNT > 10jt</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 8px;border-radius:4px;background:#fff;border:1.5px solid #f59e0b;font-size:7px;font-weight:700;color:#f59e0b;\">AND</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 8px;border-radius:4px;background:#fff;border:1.5px solid #ef4444;font-size:7px;font-weight:700;color:#ef4444;\">ALERT</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;gap:4px;align-items:center;\"><span style=\"padding:4px 8px;border-radius:4px;background:#fff;border:1.5px solid #6366f1;font-size:7px;font-weight:700;color:#6366f1;\">AMOUNT > 10jt</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 8px;border-radius:4px;background:#fff;border:1.5px solid #f59e0b;font-size:7px;font-weight:700;color:#f59e0b;\">AND</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 8px;border-radius:4px;background:#fff;border:1.5px solid #ef4444;font-size:7px;font-weight:700;color:#ef4444;\">ALERT</span></div>"
           }
         },
         {
           "num": 5,
           "title": "Review & Submit",
-          "desc": "{previewHtml:1}\n• Periksa ringkasan rule (nama, tipe, risk score, flow)\n• Klik **Submit Scenario** untuk menyimpan sebagai Draft\n• Rule siap di-review dan diaktivasi",
+          "desc": "{previewHtml:1}\n\u2022 Periksa ringkasan rule (nama, tipe, risk score, flow)\n\u2022 Klik **Submit Scenario** untuk menyimpan sebagai Draft\n\u2022 Rule siap di-review dan diaktivasi",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #99f6e4;overflow:hidden;\"><div style=\"padding:7px 10px;background:#f0fdfa;border-bottom:1px solid #99f6e4;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Review & Submit</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #99f6e4;overflow:hidden;\"><div style=\"padding:7px 10px;background:#f0fdfa;border-bottom:1px solid #99f6e4;display:flex;align-items:center;gap:6px;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Review & Submit</span></div></div>"
           }
         }
       ]

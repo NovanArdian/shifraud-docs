@@ -6,36 +6,36 @@
       "type": "tutorial",
       "heading": "Konfigurasi Build",
       "id": "build-config",
-      "intro": "Konfigurasi Build memungkinkan Anda mengatur parameter build rule — mapping data, environment variables, dan dependency rule.",
+      "intro": "Konfigurasi Build memungkinkan Anda mengatur parameter build rule \u2014 mapping data, environment variables, dan dependency rule.",
       "steps": [
         {
           "num": 1,
           "title": "Apa Itu Build Config?",
-          "desc": "{previewHtml:1}\n• **Data Mapping** — Petakan field data ke variabel node\n• **Environment** — Pilih Dev / Staging / Production\n• **Rule Dependencies** — Rule lain yang harus jalan dulu\n• **Timeout** — Batas waktu eksekusi (default: 30 detik)",
+          "desc": "{previewHtml:1}\n\u2022 **Data Mapping** \u2014 Petakan field data ke variabel node\n\u2022 **Environment** \u2014 Pilih Dev / Staging / Production\n\u2022 **Rule Dependencies** \u2014 Rule lain yang harus jalan dulu\n\u2022 **Timeout** \u2014 Batas waktu eksekusi (default: 30 detik)",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #c7d2fe;overflow:hidden\"><div style=\"padding:7px 10px;display:grid;grid-template-columns:1fr 1fr;gap:3px\"><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">🗺️ Data Mapping</span><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">🌐 Environment</span><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">🔗 Rule Dependencies</span><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">⏱️ Timeout</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #c7d2fe;overflow:hidden\"><div style=\"padding:7px 10px;display:grid;grid-template-columns:1fr 1fr;gap:3px\"><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">\ud83d\uddfa\ufe0f Data Mapping</span><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">\ud83c\udf10 Environment</span><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">\ud83d\udd17 Rule Dependencies</span><span style=\"padding:2px 5px;border-radius:3px;background:#eef2ff;font-size:6px;color:#4338ca\">\u23f1\ufe0f Timeout</span></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Cara Konfigurasi",
-          "desc": "{previewHtml:1}\n• Buka tab **Build Configuration** saat mengedit rule\n• Atur Data Mapping (biasanya otomatis)\n• Pilih Environment dan atur Dependencies\n• Atur Timeout dan Error Handling\n• Klik **Save** untuk menyimpan",
+          "desc": "{previewHtml:1}\n\u2022 Buka tab **Build Configuration** saat mengedit rule\n\u2022 Atur Data Mapping (biasanya otomatis)\n\u2022 Pilih Environment dan atur Dependencies\n\u2022 Atur Timeout dan Error Handling\n\u2022 Klik **Save** untuk menyimpan",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;align-items:center;gap:4px;justify-content:center\"><span style=\"padding:3px 6px;border-radius:4px;background:#ede9fe;font-size:7px;color:#7c3aed\">🖥️ Development</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:3px 6px;border-radius:4px;background:#ede9fe;font-size:7px;color:#7c3aed\">🚀 Production</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;align-items:center;gap:4px;justify-content:center\"><span style=\"padding:3px 6px;border-radius:4px;background:#ede9fe;font-size:7px;color:#7c3aed\">\ud83d\udda5\ufe0f Development</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:3px 6px;border-radius:4px;background:#ede9fe;font-size:7px;color:#7c3aed\">\ud83d\ude80 Production</span></div>"
           }
         },
         {
           "num": 3,
           "title": "Tips Build Config",
-          "desc": "{previewHtml:1}\n• 🧪 Test di Development dulu sebelum Production\n• 🔗 Atur Dependencies untuk rule yang berurutan\n• ⏱️ Naikkan Timeout untuk rule kompleks\n• 🛑 Pilih Stop on Error untuk rule kritis",
+          "desc": "{previewHtml:1}\n\u2022 \ud83e\uddea Test di Development dulu sebelum Production\n\u2022 \ud83d\udd17 Atur Dependencies untuk rule yang berurutan\n\u2022 \u23f1\ufe0f Naikkan Timeout untuk rule kompleks\n\u2022 \ud83d\uded1 Pilih Stop on Error untuk rule kritis",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f0fdf4;font-size:6px;color:#16a34a\">🧪 Test Dev dulu</span><span style=\"padding:2px 5px;border-radius:3px;background:#eff6ff;font-size:6px;color:#2563eb\">🔗 Atur Dependencies</span></div><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#fff7ed;font-size:6px;color:#d97706\">⏱️ Sesuaikan Timeout</span><span style=\"padding:2px 5px;border-radius:3px;background:#fef2f2;font-size:6px;color:#dc2626\">🛑 Stop/Skip on Error</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f0fdf4;font-size:6px;color:#16a34a\">\ud83e\uddea Test Dev dulu</span><span style=\"padding:2px 5px;border-radius:3px;background:#eff6ff;font-size:6px;color:#2563eb\">\ud83d\udd17 Atur Dependencies</span></div><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#fff7ed;font-size:6px;color:#d97706\">\u23f1\ufe0f Sesuaikan Timeout</span><span style=\"padding:2px 5px;border-radius:3px;background:#fef2f2;font-size:6px;color:#dc2626\">\ud83d\uded1 Stop/Skip on Error</span></div></div>"
           }
         }
       ]

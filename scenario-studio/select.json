@@ -11,21 +11,21 @@
         {
           "num": 1,
           "title": "Memilih Node",
-          "desc": "{previewHtml:1}\n• **Klik satu node** — terpilih (border biru), panel konfigurasi terbuka\n• **Shift + Klik** — multi-select beberapa node\n• **Drag selection box** — seret di area kosong untuk seleksi area\n• **Ctrl+A** — pilih semua node",
+          "desc": "{previewHtml:1}\n\u2022 **Klik satu node** \u2014 terpilih (border biru), panel konfigurasi terbuka\n\u2022 **Shift + Klik** \u2014 multi-select beberapa node\n\u2022 **Drag selection box** \u2014 seret di area kosong untuk seleksi area\n\u2022 **Ctrl+A** \u2014 pilih semua node",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;padding:8px 10px;display:flex;gap:4px\"><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">🖱️ Klik</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">⇧ Shift+Klik</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">📐 Drag box</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">⌨ Ctrl+A</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;padding:8px 10px;display:flex;gap:4px\"><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">\ud83d\uddb1\ufe0f Klik</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">\u21e7 Shift+Klik</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">\ud83d\udcd0 Drag box</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">\u2328 Ctrl+A</span></div>"
           }
         },
         {
           "num": 2,
           "title": "Memindahkan Node",
-          "desc": "{previewHtml:1}\n• **Satu node:** Klik dan seret ke posisi baru\n• **Banyak node:** Pilih (Shift+Klik) → seret salah satu\n• **Connected Move:** Aktifkan di toolbar, node terhubung ikut bergeser\n• Gunakan Auto-Arrange untuk merapikan otomatis",
+          "desc": "{previewHtml:1}\n\u2022 **Satu node:** Klik dan seret ke posisi baru\n\u2022 **Banyak node:** Pilih (Shift+Klik) \u2192 seret salah satu\n\u2022 **Connected Move:** Aktifkan di toolbar, node terhubung ikut bergeser\n\u2022 Gunakan Auto-Arrange untuk merapikan otomatis",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;flex-direction:column;gap:4px\"><div style=\"display:flex;align-items:center;gap:6px\"><span style=\"padding:3px 6px;border-radius:4px;border:1px solid #a78bfa;font-size:7px;font-weight:700;color:#7c3aed\">▶ START</span><span style=\"font-size:7px;color:#94a3b8\">→</span><span style=\"padding:3px 6px;border-radius:4px;border:1px solid #a78bfa;font-size:7px;font-weight:700;color:#7c3aed\">AMOUNT</span><span style=\"font-size:7px;color:#94a3b8\">→</span><span style=\"padding:3px 6px;border-radius:4px;border:1px solid #a78bfa;font-size:7px;font-weight:700;color:#7c3aed\">ALERT</span></div><div style=\"font-size:6px;color:#6d28d9\">Connected Move: pindah AMOUNT → ALERT ikut bergeser</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;flex-direction:column;gap:4px\"><div style=\"display:flex;align-items:center;gap:6px\"><span style=\"padding:3px 6px;border-radius:4px;border:1px solid #a78bfa;font-size:7px;font-weight:700;color:#7c3aed\">\u25b6 START</span><span style=\"font-size:7px;color:#94a3b8\">\u2192</span><span style=\"padding:3px 6px;border-radius:4px;border:1px solid #a78bfa;font-size:7px;font-weight:700;color:#7c3aed\">AMOUNT</span><span style=\"font-size:7px;color:#94a3b8\">\u2192</span><span style=\"padding:3px 6px;border-radius:4px;border:1px solid #a78bfa;font-size:7px;font-weight:700;color:#7c3aed\">ALERT</span></div><div style=\"font-size:6px;color:#6d28d9\">Connected Move: pindah AMOUNT \u2192 ALERT ikut bergeser</div></div>"
           }
         }
       ]

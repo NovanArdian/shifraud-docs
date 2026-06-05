@@ -11,21 +11,21 @@
         {
           "num": 1,
           "title": "Copy-Paste Node/Grup",
-          "desc": "{previewHtml:1}\n• Pilih node/group → **Ctrl+C** (atau klik kanan → Copy)\n• **Ctrl+V** — node hasil paste muncul di dekat kursor\n• Yang ikut: konfigurasi, warna, label, koneksi antar node\n• Tidak ikut: posisi node (ditempatkan ulang)",
+          "desc": "{previewHtml:1}\n\u2022 Pilih node/group \u2192 **Ctrl+C** (atau klik kanan \u2192 Copy)\n\u2022 **Ctrl+V** \u2014 node hasil paste muncul di dekat kursor\n\u2022 Yang ikut: konfigurasi, warna, label, koneksi antar node\n\u2022 Tidak ikut: posisi node (ditempatkan ulang)",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;padding:8px 10px;text-align:center;display:flex;align-items:center;gap:8px;justify-content:center\"><kbd style=\"padding:4px 8px;border-radius:5px;font-size:8px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:700\">Ctrl+C</kbd><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><kbd style=\"padding:4px 8px;border-radius:5px;font-size:8px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:700\">Ctrl+V</kbd></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;padding:8px 10px;text-align:center;display:flex;align-items:center;gap:8px;justify-content:center\"><kbd style=\"padding:4px 8px;border-radius:5px;font-size:8px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:700\">Ctrl+C</kbd><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><kbd style=\"padding:4px 8px;border-radius:5px;font-size:8px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:700\">Ctrl+V</kbd></div>"
           }
         },
         {
           "num": 2,
           "title": "Copy Antar Rule",
-          "desc": "{previewHtml:1}\n• **Ctrl+C** di Rule A, buka Rule B, **Ctrl+V**\n• Berguna untuk reusable logic antar rule\n• Setelah paste, sesuaikan parameter jika diperlukan",
+          "desc": "{previewHtml:1}\n\u2022 **Ctrl+C** di Rule A, buka Rule B, **Ctrl+V**\n\u2022 Berguna untuk reusable logic antar rule\n\u2022 Setelah paste, sesuaikan parameter jika diperlukan",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;display:flex;align-items:center;gap:6px;justify-content:center\"><span style=\"padding:3px 6px;border-radius:4px;background:#f0fdfa;border:1px solid #5eead4;font-size:7px;color:#0f172a\">Rule A</span><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:3px 6px;border-radius:4px;background:#f0fdfa;border:1px solid #5eead4;font-size:7px;color:#0f172a\">Rule B</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;display:flex;align-items:center;gap:6px;justify-content:center\"><span style=\"padding:3px 6px;border-radius:4px;background:#f0fdfa;border:1px solid #5eead4;font-size:7px;color:#0f172a\">Rule A</span><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:3px 6px;border-radius:4px;background:#f0fdfa;border:1px solid #5eead4;font-size:7px;color:#0f172a\">Rule B</span></div>"
           }
         }
       ]

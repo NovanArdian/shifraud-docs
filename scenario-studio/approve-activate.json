@@ -11,31 +11,31 @@
         {
           "num": 1,
           "title": "Submit Rule",
-          "desc": "{previewHtml:1}\n• Klik **Submit Scenario** di toolbar setelah selesai mengedit\n• Isi komentar submit (opsional)\n• Status berubah jadi **Draft (Submitted)** — siap di-review",
+          "desc": "{previewHtml:1}\n\u2022 Klik **Submit Scenario** di toolbar setelah selesai mengedit\n\u2022 Isi komentar submit (opsional)\n\u2022 Status berubah jadi **Draft (Submitted)** \u2014 siap di-review",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #fed7aa;padding:8px 10px;display:flex;flex-direction:column;gap:4px\"><div style=\"display:flex;align-items:center;gap:4px\"><span style=\"padding:4px 8px;border-radius:4px;background:#f97316;font-size:7px;color:#fff;font-weight:600\">Submit</span><span style=\"font-size:7px;color:#475569\">→ Status: Draft (Submitted)</span></div><div style=\"padding:4px;border-radius:4px;background:#fff7ed;font-size:7px;color:#c2410c\">✏️ Komentar: Siap di-review untuk production</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fed7aa;padding:8px 10px;display:flex;flex-direction:column;gap:4px\"><div style=\"display:flex;align-items:center;gap:4px\"><span style=\"padding:4px 8px;border-radius:4px;background:#f97316;font-size:7px;color:#fff;font-weight:600;color:#475569\">\u2192 Status: Draft (Submitted)</span></div><div style=\"padding:4px;border-radius:4px;background:#fff7ed;font-size:7px;color:#c2410c\">\u270f\ufe0f Komentar: Siap di-review untuk production</div></div>"
           }
         },
         {
           "num": 2,
           "title": "Approve oleh Reviewer",
-          "desc": "{previewHtml:1}\n• **Reviewer** melihat rule yang perlu di-approve\n• Bisa melihat detail rule: parameter, flow, konfigurasi\n• **Approve** — setuju, rule siap diaktivasi\n• **Reject** — tolak dengan alasan, rule dikembalikan ke pembuat",
+          "desc": "{previewHtml:1}\n\u2022 **Reviewer** melihat rule yang perlu di-approve\n\u2022 Bisa melihat detail rule: parameter, flow, konfigurasi\n\u2022 **Approve** \u2014 setuju, rule siap diaktivasi\n\u2022 **Reject** \u2014 tolak dengan alasan, rule dikembalikan ke pembuat",
           "color": "#22c55e",
           "bg": "#f0fdf4",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bbf7d0;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;gap:6px\"><span style=\"padding:4px 8px;border-radius:4px;background:#22c55e;font-size:7px;color:#fff;font-weight:600\">✅ Approve</span><span style=\"padding:4px 8px;border-radius:4px;background:#ef4444;font-size:7px;color:#fff;font-weight:600\">❌ Reject</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bbf7d0;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;gap:6px\"><span style=\"padding:4px 8px;border-radius:4px;background:#22c55e;font-size:7px;color:#fff;font-weight:600;border-radius:4px;background:#ef4444;font-size:7px;color:#fff;font-weight:600;0 1px 2px rgba(0,0,0,.04)\">\u274c Reject</span></div></div>"
           }
         },
         {
           "num": 3,
           "title": "Aktivasi Rule",
-          "desc": "{previewHtml:1}\n• Cari rule dengan status **Approved** di Scenario Management\n• Klik **Activate** — rule mulai mendeteksi fraud\n• **Batch Activation** — pilih beberapa rule, aktifkan sekaligus\n• **Deactivate** — nonaktifkan sementara tanpa hapus konfigurasi",
+          "desc": "{previewHtml:1}\n\u2022 Cari rule dengan status **Approved** di Scenario Management\n\u2022 Klik **Activate** \u2014 rule mulai mendeteksi fraud\n\u2022 **Batch Activation** \u2014 pilih beberapa rule, aktifkan sekaligus\n\u2022 **Deactivate** \u2014 nonaktifkan sementara tanpa hapus konfigurasi",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px\"><div style=\"display:flex;justify-content:space-between;align-items:center\"><span style=\"font-size:7px;font-weight:600;color:#0f172a\">Deteksi Transfer Besar</span><span style=\"padding:2px 6px;border-radius:3px;background:#f5f3ff;font-size:7px;color:#7c3aed\">Approved</span></div><div style=\"display:flex;gap:4px;margin-top:4px\"><span style=\"padding:3px 8px;border-radius:4px;background:#22c55e;font-size:7px;color:#fff;font-weight:600\">▶ Activate</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #ddd6fe;padding:8px 10px\"><div style=\"display:flex;justify-content:space-between;align-items:center\"><span style=\"font-size:7px;font-weight:600;color:#0f172a\">Deteksi Transfer Besar</span><span style=\"padding:2px 6px;border-radius:3px;background:#f5f3ff;font-size:7px;color:#7c3aed\">Approved</span></div><div style=\"display:flex;gap:4px;margin-top:4px\"><span style=\"padding:3px 8px;border-radius:4px;background:#22c55e;font-size:7px;color:#fff;font-weight:600;0 1px 2px rgba(0,0,0,.04)\">\u25b6 Activate</span></div></div>"
           }
         }
       ]

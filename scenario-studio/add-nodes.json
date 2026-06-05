@@ -11,21 +11,21 @@
         {
           "num": 1,
           "title": "Cara Menambah Node",
-          "desc": "{previewHtml:1}\n• Klik **+ Condition** di toolbar bawah\n• **Drag** jenis node dari sidebar kiri ke canvas\n• Klik kanan di area kosong → **Add Condition**\n• **Double-click** di area kosong canvas",
+          "desc": "{previewHtml:1}\n\u2022 Klik **+ Condition** di toolbar bawah\n\u2022 **Drag** jenis node dari sidebar kiri ke canvas\n\u2022 Klik kanan di area kosong \u2192 **Add Condition**\n\u2022 **Double-click** di area kosong canvas",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;padding:8px 10px;display:flex;gap:4px;flex-wrap:wrap;justify-content:center\"><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">➕ + Condition</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">📥 Drag sidebar</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">🖱️ Klik kanan</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600\">🔄 Double-click</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;padding:8px 10px;display:flex;gap:4px;flex-wrap:wrap;justify-content:center\"><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;0 1px 2px rgba(0,0,0,.04)\">\ud83d\udd04 Double-click</span></div>"
           }
         },
         {
           "num": 2,
           "title": "Jenis-Jenis Node yang Tersedia",
-          "desc": "{previewHtml:1}\n• **CONSTANT** — Cek nilai tetap (amount > 10jt)\n• **CONTAINS / IN_LIST / REGEX** — Cek string dan daftar\n• **VARIABLE / FREQUENCY / RATIO** — Cek nilai dinamis\n• **DEVIATION** — Cek penyimpangan dari normal\n• **LOGICAL** — AND/OR/NOT untuk menggabungkan kondisi",
+          "desc": "{previewHtml:1}\n\u2022 **CONSTANT** \u2014 Cek nilai tetap (amount > 10jt)\n\u2022 **CONTAINS / IN_LIST / REGEX** \u2014 Cek string dan daftar\n\u2022 **VARIABLE / FREQUENCY / RATIO** \u2014 Cek nilai dinamis\n\u2022 **DEVIATION** \u2014 Cek penyimpangan dari normal\n\u2022 **LOGICAL** \u2014 AND/OR/NOT untuk menggabungkan kondisi",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;overflow:hidden\"><div style=\"padding:7px 10px;display:grid;grid-template-columns:1fr 1fr;gap:3px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">🔵 CONSTANT</span><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">📋 IN_LIST</span><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">🔍 CONTAINS</span><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">✳️ REGEX</span><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">📊 VARIABLE</span><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">⏱️ FREQUENCY</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #ddd6fe;overflow:hidden\"><div style=\"padding:7px 10px;display:grid;grid-template-columns:1fr 1fr;gap:3px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">\ud83d\udd35 CONSTANT</span><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">\ud83d\udccb IN_LIST</span><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">\ud83d\udd0d CONTAINS</span><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">\u2733\ufe0f REGEX</span><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">\ud83d\udcca VARIABLE</span><span style=\"padding:2px 5px;border-radius:3px;background:#f5f3ff;font-size:6px;color:#7c3aed;font-weight:600\">\u23f1\ufe0f FREQUENCY</span></div></div>"
           }
         }
       ]

@@ -6,36 +6,36 @@
       "type": "tutorial",
       "heading": "Import & Export",
       "id": "import-export",
-      "intro": "Fitur Import/Export memungkinkan Anda memindahkan rule antar environment (dev → staging → production) atau berbagi rule dengan tim lain.",
+      "intro": "Fitur Import/Export memungkinkan Anda memindahkan rule antar environment (dev \u2192 staging \u2192 production) atau berbagi rule dengan tim lain.",
       "steps": [
         {
           "num": 1,
           "title": "Export Rule",
-          "desc": "{previewHtml:1}\n• Buka **Scenario Management**, centang rule yang ingin di-export\n• Klik tombol **Export**\n• File JSON ter-download berisi semua parameter, node, koneksi, group",
+          "desc": "{previewHtml:1}\n\u2022 Buka **Scenario Management**, centang rule yang ingin di-export\n\u2022 Klik tombol **Export**\n\u2022 File JSON ter-download berisi semua parameter, node, koneksi, group",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;justify-content:space-between;align-items:center\"><div><div style=\"font-size:7px;font-weight:600\">✅ Deteksi Transfer Besar</div><div style=\"font-size:6px;color:#64748b\">Status: Draft</div></div><span style=\"padding:4px 10px;border-radius:4px;background:#3b82f6;font-size:7px;color:#fff;font-weight:600\">📥 Export</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;justify-content:space-between;align-items:center\"><div><div style=\"font-size:7px;font-weight:600\">\u2705 Deteksi Transfer Besar</div><div style=\"font-size:6px;color:#64748b\">Status: Draft</div></div><span style=\"padding:4px 10px;border-radius:4px;background:#3b82f6;font-size:7px;color:#fff;font-weight:600\">\ud83d\udce5 Export</span></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Import Rule",
-          "desc": "{previewHtml:1}\n• Buka **Scenario Management**, klik **Import**\n• Pilih file JSON hasil export\n• Rule ditambahkan dengan status **Draft**\n• Perlu di-submit dan diaktivasi ulang",
+          "desc": "{previewHtml:1}\n\u2022 Buka **Scenario Management**, klik **Import**\n\u2022 Pilih file JSON hasil export\n\u2022 Rule ditambahkan dengan status **Draft**\n\u2022 Perlu di-submit dan diaktivasi ulang",
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;text-align:center\"><span style=\"padding:4px 10px;border-radius:4px;background:#14b8a6;font-size:8px;color:#fff;font-weight:600\">📤 Import JSON</span><div style=\"font-size:6px;color:#64748b;margin-top:4px\">Pilih file .json → Rule baru (Draft)</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px;text-align:center\"><span style=\"padding:4px 10px;border-radius:4px;background:#14b8a6;font-size:8px;color:#fff;font-weight:600\">\ud83d\udce4 Import JSON</span><div style=\"font-size:6px;color:#64748b;margin-top:4px\">Pilih file .json \u2192 Rule baru (Draft)</div></div>"
           }
         },
         {
           "num": 3,
           "title": "Use Case Import/Export",
-          "desc": "{previewHtml:1}\n• 🔄 **Migrasi** — Pindahkan rule Dev → Staging → Production\n• 👥 **Kolaborasi** — Export, kirim ke rekan, import\n• 💾 **Backup** — Export semua rule sebelum perubahan besar\n• 📋 **Template** — Buat rule template sebagai dasar rule baru",
+          "desc": "{previewHtml:1}\n\u2022 \ud83d\udd04 **Migrasi** \u2014 Pindahkan rule Dev \u2192 Staging \u2192 Production\n\u2022 \ud83d\udc65 **Kolaborasi** \u2014 Export, kirim ke rekan, import\n\u2022 \ud83d\udcbe **Backup** \u2014 Export semua rule sebelum perubahan besar\n\u2022 \ud83d\udccb **Template** \u2014 Buat rule template sebagai dasar rule baru",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:8px;background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#eff6ff;font-size:6px;color:#2563eb\">🔄 Migrasi</span><span style=\"padding:2px 5px;border-radius:3px;background:#fdf2f8;font-size:6px;color:#db2777\">👥 Kolaborasi</span></div><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f0fdf4;font-size:6px;color:#16a34a\">💾 Backup</span><span style=\"padding:2px 5px;border-radius:3px;background:#fffbeb;font-size:6px;color:#d97706\">📋 Template</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #ddd6fe;padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#eff6ff;font-size:6px;color:#2563eb\">\ud83d\udd04 Migrasi</span><span style=\"padding:2px 5px;border-radius:3px;background:#fdf2f8;font-size:6px;color:#db2777\">\ud83d\udc65 Kolaborasi</span></div><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f0fdf4;font-size:6px;color:#16a34a\">\ud83d\udcbe Backup</span><span style=\"padding:2px 5px;border-radius:3px;background:#fffbeb;font-size:6px;color:#d97706\">\ud83d\udccb Template</span></div></div>"
           }
         }
       ]
