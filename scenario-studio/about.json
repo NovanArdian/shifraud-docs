@@ -1,12 +1,12 @@
 {
-  "label": "About Studio",
+  "label": "About Scenario Studio",
   "category": "Scenario Studio",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "About Studio",
+      "heading": "About Scenario Studio",
       "id": "about",
-      "intro": "Scenario Studio Canvas adalah visual editor untuk membuat dan mengelola aturan deteksi fraud melalui antarmuka berbasis langkah yang intuitif. Dengan pendekatan 4-langkah terstruktur, Anda dapat membangun rule kompleks tanpa menulis kode.",
+      "intro": "Scenario Studio adalah visual editor drag-and-drop untuk merancang aturan deteksi fraud menggunakan kanvas ReactFlow. Dengan dua tipe rule (GENERAL 3 langkah, CONDITION 4 langkah) dan 6 tipe kondisi, Anda dapat membangun logika deteksi kompleks tanpa menulis kode.",
       "steps": [
         {
           "num": 1,

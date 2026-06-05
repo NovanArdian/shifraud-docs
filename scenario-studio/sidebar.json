@@ -1,12 +1,12 @@
 {
-  "label": "Sidebar Panel",
+  "label": "Condition Types",
   "category": "Scenario Studio",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Sidebar Panel",
+      "heading": "Condition Types",
       "id": "sidebar",
-      "intro": "Sidebar kiri canvas menampilkan daftar tipe kondisi yang tersedia. Klik untuk menambah node atau drag langsung ke canvas.",
+      "intro": "Sidebar kiri canvas menyediakan 6 tipe kondisi yang bisa di-drag atau di-klik untuk membangun logika deteksi: LOGICAL, CONTAINS, CONSTANT, DEVIATION, AGGREGATE, dan GEO.",
       "steps": [
         {
           "num": 1,

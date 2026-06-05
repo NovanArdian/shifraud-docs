@@ -4,19 +4,25 @@
       "label": "Getting Started",
       "iconName": "IconBook",
       "items": [
-        { "label": "About Studio S", "iconName": "IconBook", "path": "/home/docs/scenario-studio/about" },
-        { "label": "Quick Start", "iconName": "IconBolt", "path": "/home/docs/scenario-studio/quick-start", "isNew": true },
-        { "label": "Canvas Overview", "iconName": "IconEye", "path": "/home/docs/scenario-studio/canvas-overview" },
-        { "label": "Deployment", "iconName": "IconUpload", "path": "/home/docs/scenario-studio/deployment" }
+        { "label": "About Scenario Studio", "iconName": "IconBook", "path": "/home/docs/scenario-studio/about" },
+        { "label": "Quick Start", "iconName": "IconBolt", "path": "/home/docs/scenario-studio/quick-start" },
+        { "label": "Canvas Overview", "iconName": "IconEye", "path": "/home/docs/scenario-studio/canvas-overview" }
       ]
     },
     {
-      "label": "Interface",
+      "label": "Interface Guide",
       "iconName": "IconSettings",
       "items": [
-        { "label": "Toolbar", "iconName": "IconSettings", "path": "/home/docs/scenario-studio/toolbar" },
-        { "label": "Sidebar Panel", "iconName": "IconListDetails", "path": "/home/docs/scenario-studio/sidebar" },
+        { "label": "Toolbar Reference", "iconName": "IconSettings", "path": "/home/docs/scenario-studio/toolbar" },
+        { "label": "Condition Types", "iconName": "IconListDetails", "path": "/home/docs/scenario-studio/sidebar" },
         { "label": "Keyboard Shortcuts", "iconName": "IconKeyboard", "path": "/home/docs/scenario-studio/shortcuts" }
+      ]
+    },
+    {
+      "label": "Configuration",
+      "iconName": "IconSettings",
+      "items": [
+        { "label": "Deployment", "iconName": "IconUpload", "path": "/home/docs/scenario-studio/deployment" }
       ]
     },
     {

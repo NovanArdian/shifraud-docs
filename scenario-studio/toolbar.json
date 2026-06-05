@@ -1,10 +1,10 @@
 {
-  "label": "Toolbar",
+  "label": "Toolbar Reference",
   "category": "Scenario Studio",
   "sections": [
     {
       "type": "tutorial",
-      "heading": "Toolbar",
+      "heading": "Toolbar Reference",
       "id": "toolbar",
       "intro": "Toolbar menyediakan akses cepat ke operasi canvas utama.",
       "steps": [
