@@ -6,46 +6,46 @@
       "type": "tutorial",
       "heading": "Deployment",
       "id": "deployment",
-      "intro": "Setelah rule selesai, deploy ke production lewat proses submit \u2192 aktivasi.",
+      "intro": "Setelah rule selesai, deploy ke production lewat proses submit → aktivasi.",
       "steps": [
         {
           "num": 1,
           "title": "Review Sebelum Submit",
-          "desc": "{previewHtml:1}\n\u2022 Rule name dan description sudah diisi\n\u2022 Risk score dan priority sesuai\n\u2022 Semua node terhubung dengan benar\n\u2022 Tidak ada node yang terputus",
+          "desc": "{previewHtml:1}\n• Rule name dan description sudah diisi\n• Risk score dan priority sesuai\n• Semua node terhubung dengan benar\n• Tidak ada node yang terputus",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"display:flex;\"><div style=\"width:4px;background:#3b82f6;flex-shrink:0;\"></div><div style=\"padding:8px 10px;flex:1;\"><div style=\"display:flex;align-items:center;gap:6px;margin-bottom:4px;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Review Checklist</span></div><div style=\"display:flex;flex-direction:column;gap:2px;font-size:7px;color:#475569;\"><span>\u2705 Rule name & description terisi</span><span>\u2705 Risk score & priority sesuai</span><span>\u2705 Semua node terhubung</span></div></div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"display:flex;\"><div style=\"width:6px;background:#3b82f6;flex-shrink:0;\"></div><div style=\"padding:12px 14px;flex:1;\"><div style=\"display:flex;align-items:center;gap:8px;margin-bottom:4px;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"font-size:13px;font-weight:700;color:#0f172a;\">Review Checklist</span></div><div style=\"display:flex;flex-direction:column;gap:3px;font-size:10px;color:#475569;\"></div></div></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Submit Scenario",
-          "desc": "{previewHtml:1}\n\u2022 Klik **Submit Scenario** di toolbar\n\u2022 Isi komentar submit (untuk audit trail)\n\u2022 Klik Submit \u2192 rule tersimpan sebagai Draft",
+          "desc": "{previewHtml:1}\n• Klik **Submit Scenario** di toolbar\n• Isi komentar submit (untuk audit trail)\n• Klik Submit → rule tersimpan sebagai Draft",
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fed7aa;overflow:hidden;padding:10px 12px;display:flex;align-items:center;gap:8px;justify-content:center;\"><span style=\"padding:5px 14px;border-radius:6px;background:#f97316;font-size:8px;font-weight:700;color:#fff;\">Submit Scenario</span><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#d97706\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 10px;border-radius:5px;background:#fff7ed;border:1px solid #fed7aa;font-size:7px;font-weight:600;color:#92400e;\">Status: Draft</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fed7aa;overflow:hidden;padding:14px 16px;display:flex;align-items:center;gap:11px;justify-content:center;\"><span style=\"padding:8px 20px;border-radius:8px;background:#f97316;font-size:12px;font-weight:700;color:#fff;\">Submit Scenario</span><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#d97706\" stroke-width=\"2.5\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:6px 14px;border-radius:7px;background:#fff7ed;border:1px solid #fed7aa;font-size:10px;font-weight:600;color:#92400e;\">Status: Draft</span></div>"
           }
         },
         {
           "num": 3,
           "title": "Aktivasi Rule",
-          "desc": "{previewHtml:1}\n\u2022 Buka Scenario Management, cari rule\n\u2022 Klik **Activate** untuk mengaktifkan\n\u2022 Atau **Batch Activation** \u2014 aktifkan beberapa rule sekaligus",
+          "desc": "{previewHtml:1}\n• Buka Scenario Management, cari rule\n• Klik **Activate** untuk mengaktifkan\n• Atau **Batch Activation** — aktifkan beberapa rule sekaligus",
           "color": "#22c55e",
           "bg": "#f0fdf4",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bbf7d0;overflow:hidden;padding:10px 12px;display:flex;align-items:center;gap:8px;justify-content:center;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"padding:5px 14px;border-radius:6px;background:#22c55e;font-size:8px;font-weight:700;color:#fff;\">Activate</span><span style=\"font-size:7px;color:#475569;\">atau Batch Activation</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bbf7d0;overflow:hidden;padding:14px 16px;display:flex;align-items:center;gap:11px;justify-content:center;\"><svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#22c55e\" stroke-width=\"2.5\"><path d=\"M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z\"/></svg><span style=\"padding:8px 20px;border-radius:8px;background:#22c55e;font-size:12px;font-weight:700;color:#fff;\">Activate</span><span style=\"font-size:10px;color:#475569;\">atau Batch Activation</span></div>"
           }
         },
         {
           "num": 4,
           "title": "Monitoring",
-          "desc": "{previewHtml:1}\n\u2022 False positif tinggi? Klik **Deactivate**\n\u2022 Perlu penyesuaian? Edit lalu submit ulang\n\u2022 Deactivate \u2260 Delete \u2014 bisa diaktifkan lagi",
+          "desc": "{previewHtml:1}\n• False positif tinggi? Klik **Deactivate**\n• Perlu penyesuaian? Edit lalu submit ulang\n• Deactivate ≠ Delete — bisa diaktifkan lagi",
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #ddd6fe;overflow:hidden;padding:8px 12px;display:flex;gap:6px;flex-wrap:wrap;\"><span style=\"padding:4px 10px;border-radius:5px;background:#fef2f2;border:1px solid #fecaca;font-size:7px;font-weight:600;color:#dc2626;\">\u23f8\ufe0f Deactivate</span><span style=\"padding:4px 10px;border-radius:5px;background:#eff6ff;border:1px solid #bfdbfe;font-size:7px;font-weight:600;color:#2563eb;\">\u270f\ufe0f Edit Rule</span><span style=\"font-size:7px;color:#64748b;\">Deactivate \u2260 Delete \u2014 bisa diaktifkan lagi</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #ddd6fe;overflow:hidden;padding:12px 16px;display:flex;gap:8px;flex-wrap:wrap;\"><span style=\"padding:6px 14px;border-radius:7px;background:#fef2f2;border:1px solid #fecaca;font-size:10px;font-weight:600;color:#dc2626;\">⏸️ Deactivate</span><span style=\"padding:6px 14px;border-radius:7px;background:#eff6ff;border:1px solid #bfdbfe;font-size:10px;font-weight:600;color:#2563eb;\">✏️ Edit Rule</span><span style=\"font-size:10px;color:#64748b;\">Deactivate ≠ Delete — bisa diaktifkan lagi</span></div>"
           }
         }
       ]

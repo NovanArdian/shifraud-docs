@@ -11,41 +11,41 @@
         {
           "num": 1,
           "title": "Membuat Group",
-          "desc": "{previewHtml:1}\n\u2022 **Cara 1:** Pilih node (Shift+Klik) \u2192 Klik kanan \u2192 **Group**\n\u2022 **Cara 2:** Klik kanan canvas \u2192 **Add Group** \u2192 Seret node ke dalamnya\n\u2022 Group bisa diberi nama sesuai fungsinya",
+          "desc": "{previewHtml:1}\n• **Cara 1:** Pilih node (Shift+Klik) → Klik kanan → **Group**\n• **Cara 2:** Klik kanan canvas → **Add Group** → Seret node ke dalamnya\n• Group bisa diberi nama sesuai fungsinya",
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fbcfe8;overflow:hidden;padding:8px;\"><div style=\"border:1.5px dashed #ec4899;border-radius:6px;padding:8px;\"><div style=\"font-size:8px;font-weight:700;color:#db2777;margin-bottom:4px;display:flex;align-items:center;gap:4px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#db2777\" stroke-width=\"2.5\"><path d=\"M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z\"/></svg> Cek Amount</div><div style=\"display:flex;gap:4px;\"><span style=\"padding:2px 6px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;font-weight:600;color:#f59e0b;\">CONSTANT > 50JT</span><span style=\"padding:2px 6px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;font-weight:600;color:#10b981;\">CONTAINS FOREIGN</span></div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fbcfe8;overflow:hidden;padding:12px;\"><div style=\"border:1.5px dashed #ec4899;border-radius:8px;padding:12px;\"><div style=\"font-size:12px;font-weight:700;color:#db2777;margin-bottom:4px;display:flex;align-items:center;gap:6px;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#db2777\" stroke-width=\"3\"><path d=\"M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z\"/></svg> Cek Amount</div><div style=\"display:flex;gap:6px;\"><span style=\"padding:3px 10px;border-radius:5px;background:#f8fafc;border:1px solid #e2e8f0;font-size:9px;font-weight:600;color:#f59e0b;\">CONSTANT > 50JT</span><span style=\"padding:3px 10px;border-radius:5px;background:#f8fafc;border:1px solid #e2e8f0;font-size:9px;font-weight:600;color:#10b981;\">CONTAINS FOREIGN</span></div></div></div>"
           }
         },
         {
           "num": 2,
           "title": "Mengelola Group",
-          "desc": "{previewHtml:1}\n\u2022 \u270f\ufe0f **Edit nama** \u2014 Klik dua kali judul group\n\u2022 \ud83c\udfa8 **Ubah warna** \u2014 Pilih warna dari palet\n\u2022 \ud83d\udcd0 **Ubah ukuran** \u2014 Seret pojok kanan bawah\n\u2022 \ud83c\udf00 **Collapse/Expand** \u2014 Klik segitiga untuk menutup/membuka\n\u2022 \u27a1\ufe0f **Pindah** \u2014 Seret judul group untuk memindahkan semua isinya",
+          "desc": "{previewHtml:1}\n• ✏️ **Edit nama** — Klik dua kali judul group\n• 🎨 **Ubah warna** — Pilih warna dari palet\n• 📐 **Ubah ukuran** — Seret pojok kanan bawah\n• 🌀 **Collapse/Expand** — Klik segitiga untuk menutup/membuka\n• ➡️ **Pindah** — Seret judul group untuk memindahkan semua isinya",
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fde68a;overflow:hidden;padding:10px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;\"><span style=\"padding:3px 8px;border-radius:5px;background:#fff7ed;border:1px solid #fde68a;font-size:7px;font-weight:600;color:#92400e;\">\u270f\ufe0f Edit nama</span><span style=\"padding:3px 8px;border-radius:5px;background:#fdf2f8;border:1px solid #fbcfe8;font-size:7px;font-weight:600;color:#9d174d;\">\ud83c\udfa8 Warna</span><span style=\"padding:3px 8px;border-radius:5px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;font-weight:600;color:#16a34a;\">\ud83d\udcd0 Ukuran</span><span style=\"padding:3px 8px;border-radius:5px;background:#eff6ff;border:1px solid #bfdbfe;font-size:7px;font-weight:600;color:#2563eb;\">\ud83c\udf00 Collapse</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fde68a;overflow:hidden;padding:14px 16px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center;\"><span style=\"padding:5px 12px;border-radius:7px;background:#fff7ed;border:1px solid #fde68a;font-size:10px;font-weight:600;color:#92400e;\">✏️ Edit nama</span><span style=\"padding:5px 12px;border-radius:7px;background:#fdf2f8;border:1px solid #fbcfe8;font-size:10px;font-weight:600;color:#9d174d;\">🎨 Warna</span><span style=\"padding:5px 12px;border-radius:7px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:10px;font-weight:600;color:#16a34a;\">📐 Ukuran</span><span style=\"padding:5px 12px;border-radius:7px;background:#eff6ff;border:1px solid #bfdbfe;font-size:10px;font-weight:600;color:#2563eb;\">🌀 Collapse</span></div>"
           }
         },
         {
           "num": 3,
           "title": "Menghapus Group",
-          "desc": "{previewHtml:1}\n\u2022 **Ungroup** (aman) \u2014 Klik kanan \u2192 Ungroup, node tetap ada di canvas\n\u2022 **Delete Group** \u2014 Hapus group beserta semua node di dalamnya\n\u2022 Kalau ragu, pilih **Ungroup** saja",
+          "desc": "{previewHtml:1}\n• **Ungroup** (aman) — Klik kanan → Ungroup, node tetap ada di canvas\n• **Delete Group** — Hapus group beserta semua node di dalamnya\n• Kalau ragu, pilih **Ungroup** saja",
           "color": "#ef4444",
           "bg": "#fef2f2",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fef2f2;border:1px solid #fecaca;overflow:hidden;padding:10px 12px;display:flex;gap:6px;align-items:center;justify-content:center;\"><span style=\"padding:4px 10px;border-radius:5px;background:#fff;font-size:7px;font-weight:700;color:#16a34a;border:1.5px solid #86efac;\">Ungroup</span><span style=\"font-size:8px;color:#94a3b8;\">vs</span><span style=\"padding:4px 10px;border-radius:5px;background:#fff;font-size:7px;font-weight:700;color:#dc2626;border:1.5px solid #fecaca;\">Delete Group</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fef2f2;border:1px solid #fecaca;overflow:hidden;padding:14px 16px;display:flex;gap:8px;align-items:center;justify-content:center;\"><span style=\"padding:6px 14px;border-radius:7px;background:#fff;font-size:10px;font-weight:700;color:#16a34a;border:1.5px solid #86efac;\">Ungroup</span><span style=\"font-size:12px;color:#94a3b8;\">vs</span><span style=\"padding:6px 14px;border-radius:7px;background:#fff;font-size:10px;font-weight:700;color:#dc2626;border:1.5px solid #fecaca;\">Delete Group</span></div>"
           }
         },
         {
           "num": 4,
           "title": "Tips Groups",
-          "desc": "{previewHtml:1}\n\u2022 \u2705 Beri nama deskriptif (\"Cek Amount\", bukan \"Group 1\")\n\u2022 \u2705 Gunakan warna berbeda untuk fungsi berbeda\n\u2022 \u2705 Collapse group yang jarang diedit untuk hemat ruang\n\u2022 \u2705 Maksimal 5-7 group per rule agar tidak overload",
+          "desc": "{previewHtml:1}\n• ✅ Beri nama deskriptif (\"Cek Amount\", bukan \"Group 1\")\n• ✅ Gunakan warna berbeda untuk fungsi berbeda\n• ✅ Collapse group yang jarang diedit untuk hemat ruang\n• ✅ Maksimal 5-7 group per rule agar tidak overload",
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:linear-gradient(135deg,#eef2ff,#fff);border:1px solid #c7d2fe;overflow:hidden;padding:10px 12px;display:flex;flex-wrap:wrap;gap:4px;\"><span style=\"padding:3px 8px;border-radius:5px;background:#fff;border:1px solid #c7d2fe;font-size:7px;font-weight:600;color:#475569;\">\u2705 Nama deskriptif</span><span style=\"padding:3px 8px;border-radius:5px;background:#fff;border:1px solid #c7d2fe;font-size:7px;font-weight:600;color:#475569;\">\u2705 Warna berbeda</span><span style=\"padding:3px 8px;border-radius:5px;background:#fff;border:1px solid #c7d2fe;font-size:7px;font-weight:600;color:#475569;\">\u2705 Collapse yang jarang diedit</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:linear-gradient(135deg,#eef2ff,#fff);border:1px solid #c7d2fe;overflow:hidden;padding:14px 16px;display:flex;flex-wrap:wrap;gap:6px;\"></div>"
           }
         }
       ]

@@ -11,11 +11,11 @@
         {
           "num": 1,
           "title": "Toolbar Bawah",
-          "desc": "{previewHtml:1}\n\u2022 **Info Rule** \u2014 Ringkasan nama, tipe, jumlah kondisi\n\u2022 **+ Condition** \u2014 Tambah node baru di canvas\n\u2022 **Auto-Arrange** \u2014 Susun ulang node otomatis\n\u2022 **Back / Continue** \u2014 Pindah antar langkah workflow\n\u2022 Continue aktif hanya jika semua field sudah diisi",
+          "desc": "{previewHtml:1}\n• **Info Rule** — Ringkasan nama, tipe, jumlah kondisi\n• **+ Condition** — Tambah node baru di canvas\n• **Auto-Arrange** — Susun ulang node otomatis\n• **Back / Continue** — Pindah antar langkah workflow\n• Continue aktif hanya jika semua field sudah diisi",
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:8px 12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;\"><span style=\"padding:4px 8px;border-radius:5px;background:#3b82f6;font-size:7px;font-weight:700;color:#fff;\">+ Condition</span><span style=\"padding:4px 8px;border-radius:5px;background:#eff6ff;font-size:7px;font-weight:600;color:#2563eb;\">\u2728 Auto-Arrange</span><span style=\"padding:4px 8px;border-radius:5px;background:#f1f5f9;font-size:7px;color:#64748b;\">\u2190 Back</span><span style=\"padding:4px 8px;border-radius:5px;background:#3b82f6;font-size:7px;font-weight:700;color:#fff;\">Continue \u2192</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:12px 16px;display:flex;align-items:center;gap:11px;flex-wrap:wrap;\"><span style=\"padding:6px 12px;border-radius:7px;background:#3b82f6;font-size:10px;font-weight:700;color:#fff;\">+ Condition</span><span style=\"padding:6px 12px;border-radius:7px;background:#eff6ff;font-size:10px;font-weight:600;color:#2563eb;\">✨ Auto-Arrange</span><span style=\"padding:6px 12px;border-radius:7px;background:#f1f5f9;font-size:10px;color:#64748b;\">← Back</span><span style=\"padding:6px 12px;border-radius:7px;background:#3b82f6;font-size:10px;font-weight:700;color:#fff;\">Continue →</span></div></div>"
           }
         },
         {
@@ -25,7 +25,7 @@
           "color": "#8b5cf6",
           "bg": "#f5f3ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #ddd6fe;overflow:hidden;width:160px;\"><div style=\"padding:6px 10px;background:#f5f3ff;border-bottom:1px solid #ddd6fe;font-size:7px;font-weight:700;color:#6d28d9;\">Node Actions</div><div style=\"padding:5px 10px;border-bottom:1px solid #f1f5f9;font-size:7px;color:#475569;\">\u270f\ufe0f Edit Node</div><div style=\"padding:5px 10px;border-bottom:1px solid #f1f5f9;font-size:7px;color:#dc2626;\">\ud83d\uddd1\ufe0f Delete Node</div><div style=\"padding:5px 10px;border-bottom:1px solid #f1f5f9;font-size:7px;color:#7c3aed;\">\ud83c\udfa8 Change Color</div><div style=\"padding:5px 10px;font-size:7px;color:#2563eb;\">\ud83d\udccb Copy Node</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #ddd6fe;overflow:hidden;width:160px;\"><div style=\"padding:10px 14px;background:#f5f3ff;border-bottom:1px solid #ddd6fe;font-size:10px;font-weight:700;color:#6d28d9;\">Node Actions</div><div style=\"padding:8px 14px;border-bottom:1px solid #f1f5f9;font-size:10px;color:#475569;\">✏️ Edit Node</div><div style=\"padding:8px 14px;border-bottom:1px solid #f1f5f9;font-size:10px;color:#dc2626;\">🗑️ Delete Node</div><div style=\"padding:8px 14px;border-bottom:1px solid #f1f5f9;font-size:10px;color:#7c3aed;\">🎨 Change Color</div><div style=\"padding:8px 14px;font-size:10px;color:#2563eb;\">📋 Copy Node</div></div>"
           }
         }
       ]
