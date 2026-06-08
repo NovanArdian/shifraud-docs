@@ -15,7 +15,7 @@
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;padding:8px 10px;text-align:center\"><span style=\"padding:4px 10px;border-radius:5px;background:#f59e0b;color:#fff;font-size:8px;font-weight:700\">\u2728 Auto-Arrange</span><div style=\"font-size:7px;color:#92400e;margin-top:4px\">Satu klik, layout langsung rapi!</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a;overflow:hidden;padding:10px 12px;text-align:center;\"><span style=\"padding:6px 16px;border-radius:6px;background:#f59e0b;font-size:9px;font-weight:700;color:#fff;\">\u2728 Auto-Arrange</span><div style=\"font-size:7px;color:#92400e;margin-top:4px;\">Satu klik, layout langsung rapi!</div></div>"
           }
         },
         {
@@ -25,7 +25,7 @@
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;padding:8px 10px;display:flex;gap:4px;flex-wrap:wrap\"><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb;font-weight:600;0 1px 2px rgba(0,0,0,.04)\">\u270b Pan (Space+Drag)</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;padding:10px 12px;display:flex;gap:6px;flex-wrap:wrap;justify-content:center;\"><span style=\"padding:3px 10px;border-radius:5px;background:#eff6ff;font-size:7px;font-weight:600;color:#2563eb;\">\ud83d\udd12 Snap to Grid</span><span style=\"padding:3px 10px;border-radius:5px;background:#eff6ff;font-size:7px;font-weight:600;color:#2563eb;\">\u2194 Connected Move</span><span style=\"padding:3px 10px;border-radius:5px;background:#eff6ff;font-size:7px;font-weight:600;color:#2563eb;\">\ud83d\udd0d Scroll Zoom</span><span style=\"padding:3px 10px;border-radius:5px;background:#eff6ff;font-size:7px;font-weight:600;color:#2563eb;\">\u270b Pan (Space+Drag)</span></div>"
           }
         }
       ]

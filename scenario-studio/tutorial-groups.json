@@ -15,7 +15,7 @@
           "color": "#ec4899",
           "bg": "#fdf2f8",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fbcfe8;overflow:hidden\"><div style=\"margin:6px;border:1.5px dashed #ec4899;border-radius:6px;padding:6px\"><div style=\"font-size:7px;font-weight:700;color:#db2777;margin-bottom:4px\">\ud83d\udcc1 Cek Amount</div><div style=\"display:flex;gap:4px\"><span style=\"padding:3px 5px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#f59e0b\">CONSTANT > 50JT</span><span style=\"padding:3px 5px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#10b981\">CONTAINS FOREIGN</span></div></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fbcfe8;overflow:hidden;padding:8px;\"><div style=\"border:1.5px dashed #ec4899;border-radius:6px;padding:8px;\"><div style=\"font-size:8px;font-weight:700;color:#db2777;margin-bottom:4px;display:flex;align-items:center;gap:4px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#db2777\" stroke-width=\"2.5\"><path d=\"M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z\"/></svg> Cek Amount</div><div style=\"display:flex;gap:4px;\"><span style=\"padding:2px 6px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;font-weight:600;color:#f59e0b;\">CONSTANT > 50JT</span><span style=\"padding:2px 6px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;font-weight:600;color:#10b981;\">CONTAINS FOREIGN</span></div></div></div>"
           }
         },
         {
@@ -25,7 +25,7 @@
           "color": "#f59e0b",
           "bg": "#fffbeb",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fde68a;padding:8px 10px;display:flex;flex-direction:column;gap:4px\"><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#fef2f2;font-size:6px;color:#dc2626\">\u270f\ufe0f Edit nama</span><span style=\"padding:2px 5px;border-radius:3px;background:#fdf2f8;font-size:6px;color:#db2777\">\ud83c\udfa8 Warna</span></div><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f0fdf4;font-size:6px;color:#16a34a\">\ud83d\udcd0 Ukuran</span><span style=\"padding:2px 5px;border-radius:3px;background:#eff6ff;font-size:6px;color:#2563eb\">\ud83c\udf00 Collapse</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fde68a;overflow:hidden;padding:10px 12px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;\"><span style=\"padding:3px 8px;border-radius:5px;background:#fff7ed;border:1px solid #fde68a;font-size:7px;font-weight:600;color:#92400e;\">\u270f\ufe0f Edit nama</span><span style=\"padding:3px 8px;border-radius:5px;background:#fdf2f8;border:1px solid #fbcfe8;font-size:7px;font-weight:600;color:#9d174d;\">\ud83c\udfa8 Warna</span><span style=\"padding:3px 8px;border-radius:5px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:7px;font-weight:600;color:#16a34a;\">\ud83d\udcd0 Ukuran</span><span style=\"padding:3px 8px;border-radius:5px;background:#eff6ff;border:1px solid #bfdbfe;font-size:7px;font-weight:600;color:#2563eb;\">\ud83c\udf00 Collapse</span></div>"
           }
         },
         {
@@ -35,7 +35,7 @@
           "color": "#ef4444",
           "bg": "#fef2f2",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fef2f2;border:1px solid #fecaca;padding:8px 10px;display:flex;gap:6px;align-items:center\"><span style=\"padding:3px 6px;border-radius:4px;background:#fff;font-size:7px;color:#16a34a;font-weight:600;border:1px solid #bbf7d0\">Ungroup (aman)</span><span style=\"font-size:7px;color:#94a3b8\">vs</span><span style=\"padding:3px 6px;border-radius:4px;background:#fff;font-size:7px;color:#dc2626;font-weight:600;border:1px solid #fecaca\">Delete Group (hapus semua)</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fef2f2;border:1px solid #fecaca;overflow:hidden;padding:10px 12px;display:flex;gap:6px;align-items:center;justify-content:center;\"><span style=\"padding:4px 10px;border-radius:5px;background:#fff;font-size:7px;font-weight:700;color:#16a34a;border:1.5px solid #86efac;\">Ungroup</span><span style=\"font-size:8px;color:#94a3b8;\">vs</span><span style=\"padding:4px 10px;border-radius:5px;background:#fff;font-size:7px;font-weight:700;color:#dc2626;border:1.5px solid #fecaca;\">Delete Group</span></div>"
           }
         },
         {
@@ -45,7 +45,7 @@
           "color": "#6366f1",
           "bg": "#eef2ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#eef2ff,#fff);border:1px solid #c7d2fe;padding:8px 10px;display:flex;flex-wrap:wrap;gap:4px\"><span style=\"padding:3px 6px;border-radius:4px;background:#fff;border:1px solid #e2e8f0;font-size:6px;color:#475569\">\u2705 Nama deskriptif</span><span style=\"padding:3px 6px;border-radius:4px;background:#fff;border:1px solid #e2e8f0;font-size:6px;color:#475569\">\u2705 Warna berbeda</span><span style=\"padding:3px 6px;border-radius:4px;background:#fff;border:1px solid #e2e8f0;font-size:6px;color:#475569\">\u2705 Collapse/Jarang diedit</span></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:linear-gradient(135deg,#eef2ff,#fff);border:1px solid #c7d2fe;overflow:hidden;padding:10px 12px;display:flex;flex-wrap:wrap;gap:4px;\"><span style=\"padding:3px 8px;border-radius:5px;background:#fff;border:1px solid #c7d2fe;font-size:7px;font-weight:600;color:#475569;\">\u2705 Nama deskriptif</span><span style=\"padding:3px 8px;border-radius:5px;background:#fff;border:1px solid #c7d2fe;font-size:7px;font-weight:600;color:#475569;\">\u2705 Warna berbeda</span><span style=\"padding:3px 8px;border-radius:5px;background:#fff;border:1px solid #c7d2fe;font-size:7px;font-weight:600;color:#475569;\">\u2705 Collapse yang jarang diedit</span></div>"
           }
         }
       ]

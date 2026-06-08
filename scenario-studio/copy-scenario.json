@@ -15,7 +15,7 @@
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;align-items:center;gap:6px;justify-content:space-between\"><span style=\"font-size:8px;font-weight:600;color:#0f172a\">Deteksi Transfer Besar</span><span style=\"padding:3px 6px;border-radius:4px;background:#eff6ff;font-size:7px;color:#2563eb\">\ud83d\udccb Duplicate</span></div><div style=\"padding:0 10px 8px;font-size:7px;color:#64748b\">\u2192 Menjadi \"Copy of Deteksi Transfer Besar\"</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:8px 10px;display:flex;align-items:center;gap:8px;justify-content:space-between;\"><div><div style=\"font-size:8px;font-weight:700;color:#0f172a;\">Deteksi Transfer Besar</div><div style=\"font-size:6px;color:#64748b;\">Status: Draft</div></div><span style=\"padding:4px 10px;border-radius:5px;background:#eff6ff;font-size:7px;font-weight:600;color:#2563eb;\">\ud83d\udccb Duplicate</span></div><div style=\"padding:4px 10px 8px;font-size:7px;color:#64748b;border-top:1px solid #eff6ff;padding-top:6px;\">\u2192 Menjadi \"Copy of Deteksi Transfer Besar\"</div></div>"
           }
         },
         {
@@ -25,7 +25,7 @@
           "color": "#14b8a6",
           "bg": "#f0fdfa",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;padding:8px 10px\"><div style=\"font-size:6px;color:#16a34a\">\u2705 Parameter \u2705 Nodes \u2705 Connections \u2705 Groups</div><div style=\"font-size:6px;color:#dc2626\">\u274c History \u274c Status aktivasi</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;overflow:hidden;padding:10px 12px;\"><div style=\"font-size:7px;color:#16a34a;font-weight:600;\">\u2705 Parameter \u2705 Nodes \u2705 Koneksi \u2705 Groups</div><div style=\"font-size:7px;color:#dc2626;margin-top:4px;\">\u274c History \u274c Status aktivasi \u274c Audit trail</div></div>"
           }
         }
       ]

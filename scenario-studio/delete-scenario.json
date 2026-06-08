@@ -15,7 +15,7 @@
           "color": "#ef4444",
           "bg": "#fef2f2",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fef2f2;border:1px solid #fecaca;overflow:hidden\"><div style=\"padding:8px 10px;display:flex;align-items:center;gap:6px\"><span style=\"padding:4px 8px;border-radius:4px;background:#dc2626;font-size:7px;color:#fff;font-weight:600;color:#dc2626;\">Ketik DELETE untuk konfirmasi</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fef2f2;border:1px solid #fecaca;overflow:hidden;padding:10px 12px;display:flex;align-items:center;gap:8px;justify-content:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"><path d=\"M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2\"/></svg><span style=\"font-size:8px;font-weight:700;color:#dc2626;\">Ketik DELETE untuk konfirmasi</span></div>"
           }
         },
         {
@@ -25,7 +25,7 @@
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fed7aa;padding:8px 10px;display:flex;flex-direction:column;gap:3px\"><div style=\"font-size:7px;color:#475569\"><span style=\"color:#16a34a;font-weight:600\">Draft:</span> Hapus langsung</div><div style=\"font-size:7px;color:#475569\"><span style=\"color:#dc2626;font-weight:600\">Active:</span> Deactivate dulu</div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fed7aa;overflow:hidden;padding:10px 12px;\"><div style=\"display:flex;flex-direction:column;gap:4px;\"><div style=\"display:flex;align-items:center;gap:6px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2.5\"><path d=\"M6 12l4 4 8-8\"/></svg><span style=\"font-size:7px;color:#475569;\"><span style=\"color:#16a34a;font-weight:600;\">Draft:</span> Hapus langsung</span></div><div style=\"display:flex;align-items:center;gap:6px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2.5\"><path d=\"M6 12l4 4 8-8\"/></svg><span style=\"font-size:7px;color:#475569;\"><span style=\"color:#dc2626;font-weight:600;\">Active:</span> Deactivate dulu</span></div></div></div>"
           }
         }
       ]

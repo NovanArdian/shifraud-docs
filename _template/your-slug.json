@@ -4,19 +4,51 @@
   "sections": [
     { "type": "heading", "level": 1, "text": "Page Title" },
     { "type": "text", "content": "Deskripsi singkat tentang halaman ini." },
-    { "type": "callout", "variant": "info", "title": "Tip", "content": "Gunakan **bold** dan `code` untuk formatting." },
-    { "type": "code", "language": "typescript", "code": "const example = 'hello';" },
-    { "type": "stepper", "steps": [
-      { "num": 1, "title": "Langkah Pertama", "desc": "Deskripsi langkah pertama." },
-      { "num": 2, "title": "Langkah Kedua", "desc": "Deskripsi langkah kedua." }
-    ]},
-    { "type": "table", "headers": ["Key", "Value"], "rows": [
-      { "key": "Nama", "value": "Fitur Baru" },
-      { "key": "Tipe", "value": "Deteksi" }
-    ]},
-    { "type": "tutorial", "heading": "Judul Tutorial", "intro": "Pengantar tutorial...", "steps": [
-      { "num": 1, "title": "Langkah 1", "desc": "Deskripsi", "color": "#6366f1", "bg": "#eef2ff", "previewHtml": "<div class=\"p-4 bg-indigo-50 rounded-lg border border-indigo-200\"><span class=\"inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-indigo-100 text-indigo-700\">PREVIEW</span><p class=\"mt-2 text-sm text-gray-600\">Konten <strong>HTML</strong> dengan <span class=\"text-indigo-600\">Tailwind</span></p></div>" },
-      { "num": 2, "title": "Langkah 2", "desc": "Deskripsi", "color": "#2563EB", "bg": "#eff6ff" }
-    ]}
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Tip",
+      "content": "Gunakan **bold** dan `code` untuk formatting."
+    },
+    {
+      "type": "code",
+      "language": "typescript",
+      "code": "const example = 'hello';"
+    },
+    {
+      "type": "table",
+      "headers": ["Key", "Value"],
+      "rows": [
+        { "key": "Nama", "value": "Fitur Baru" },
+        { "key": "Tipe", "value": "Deteksi" }
+      ]
+    },
+    {
+      "type": "tutorial",
+      "heading": "Judul Tutorial",
+      "intro": "Pengantar tutorial...",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Langkah 1",
+          "desc": "{previewHtml:1}\n\u2022 Deskripsi langkah, gunakan **bold** untuk penekanan\n\u2022 dan `code` untuk inline code",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #c7d2fe;overflow:hidden;\"><div style=\"display:flex;\"><div style=\"width:4px;background:#6366f1;flex-shrink:0;\"></div><div style=\"padding:10px 12px;flex:1;\"><div style=\"display:flex;align-items:center;gap:6px;margin-bottom:4px;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#6366f1\" stroke-width=\"2\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/></svg><span style=\"font-size:10px;font-weight:700;color:#0f172a;\">Langkah 1</span></div><div style=\"font-size:8px;color:#475569;line-height:1.6;\">Gunakan pattern-card dengan left accent strip dan icon SVG inline untuk preview yang konsisten.</div></div></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Langkah 2",
+          "desc": "{previewHtml:1}\n\u2022 Contoh card dengan node diagram horizontal",
+          "color": "#2563EB",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;padding:10px 12px;display:flex;align-items:center;gap:4px;flex-wrap:wrap;justify-content:center;\"><span style=\"padding:4px 8px;border-radius:6px;background:#fff;border:1.5px solid #f59e0b;font-size:7px;font-weight:700;color:#f59e0b;\">CONSTANT</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 8px;border-radius:6px;background:#fff;border:1.5px solid #6366f1;font-size:7px;font-weight:700;color:#6366f1;\">AND</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 8px;border-radius:6px;background:#fff;border:1.5px solid #ef4444;font-size:7px;font-weight:700;color:#ef4444;\">ALERT</span></div>"
+          }
+        }
+      ]
+    }
   ]
 }

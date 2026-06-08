@@ -15,7 +15,7 @@
           "color": "#3b82f6",
           "bg": "#eff6ff",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;overflow:hidden\"><div style=\"padding:6px 10px;background:#eff6ff;border-bottom:1px solid #bfdbfe;display:flex;justify-content:space-between;align-items:center;font-size:8px;font-weight:700;color:#0f172a\"><span>Scenario Management</span><span style=\"padding:3px 8px;border-radius:4px;background:#3b82f6;font-size:7px;color:#fff\">+ Tambah Scenario</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"display:flex;align-items:center;gap:8px;padding:8px 10px;border-bottom:1px solid #eff6ff;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M12 4v16m8-8H4\"/></svg><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Scenario Management</span><span style=\"margin-left:auto;padding:4px 10px;border-radius:5px;background:#3b82f6;font-size:7px;font-weight:700;color:#fff;\">+ Tambah Scenario</span></div><div style=\"padding:8px 10px;display:flex;gap:6px;\"><span style=\"padding:3px 8px;border-radius:4px;background:#eef2ff;font-size:6px;font-weight:600;color:#6366f1;\">GENERAL</span><span style=\"padding:3px 8px;border-radius:4px;background:#f5f3ff;font-size:6px;font-weight:600;color:#7c3aed;\">CONDITION</span></div></div>"
           }
         },
         {
@@ -25,7 +25,7 @@
           "color": "#f97316",
           "bg": "#fff7ed",
           "previewHtml": {
-            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fed7aa;overflow:hidden\"><div style=\"padding:6px 10px;display:flex;gap:6px\"><span style=\"padding:3px 6px;border-radius:4px;background:#22c55e;font-size:6px;color:#fff;font-weight:600;border-radius:4px;background:#3b82f6;font-size:6px;color:#fff;font-weight:600;border-radius:4px;background:#e2e8f0;font-size:6px;color:#94a3b8\">3: Review</span></div></div>"
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fed7aa;overflow:hidden;padding:10px 12px;display:flex;gap:6px;justify-content:center;\"><span style=\"padding:4px 10px;border-radius:5px;background:#3b82f6;font-size:7px;font-weight:700;color:#fff;\">1: Parameter</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 10px;border-radius:5px;background:#f97316;font-size:7px;font-weight:700;color:#fff;\">2: Flow</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:4px 10px;border-radius:5px;background:#f1f5f9;font-size:7px;font-weight:600;color:#64748b;\">3: Review</span></div>"
           }
         }
       ]
