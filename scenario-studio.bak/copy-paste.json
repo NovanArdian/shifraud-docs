@@ -1,0 +1,34 @@
+{
+  "label": "Copy & Paste",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Copy & Paste",
+      "id": "copy-paste",
+      "intro": "Copy dan paste node atau grup di dalam canvas atau antar rule. Ini menghemat waktu saat membuat rule yang mirip.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Copy-Paste Node/Grup",
+          "desc": "{previewHtml:1}\n\u2022 Pilih node/group \u2192 **Ctrl+C** (atau klik kanan \u2192 Copy)\n\u2022 **Ctrl+V** \u2014 node hasil paste muncul di dekat kursor\n\u2022 Yang ikut: konfigurasi, warna, label, koneksi antar node\n\u2022 Tidak ikut: posisi node (ditempatkan ulang)",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;padding:10px 12px;display:flex;align-items:center;gap:10px;justify-content:center;\"><kbd style=\"padding:5px 12px;border-radius:6px;font-size:9px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:700;color:#0f172a;\">Ctrl+C</kbd><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><kbd style=\"padding:5px 12px;border-radius:6px;font-size:9px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:700;color:#0f172a;\">Ctrl+V</kbd></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Copy Antar Rule",
+          "desc": "{previewHtml:1}\n\u2022 **Ctrl+C** di Rule A, buka Rule B, **Ctrl+V**\n\u2022 Berguna untuk reusable logic antar rule\n\u2022 Setelah paste, sesuaikan parameter jika diperlukan",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;overflow:hidden;padding:10px 12px;display:flex;align-items:center;gap:8px;justify-content:center;\"><div style=\"padding:4px 10px;border-radius:5px;background:#f0fdfa;border:1.5px solid #14b8a6;font-size:7px;font-weight:700;color:#0f172a;\">Rule A</div><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><div style=\"padding:4px 10px;border-radius:5px;background:#f0fdfa;border:1.5px solid #14b8a6;font-size:7px;font-weight:700;color:#0f172a;\">Rule B</div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "label": "Mengedit Group",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Mengedit Group",
+      "id": "edit-group",
+      "intro": "Setelah group dibuat, Anda bisa mengedit berbagai aspeknya \u2014 dari nama, warna, ukuran, hingga isi node di dalamnya.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Edit Nama & Warna Group",
+          "desc": "{previewHtml:1}\n\u2022 **Nama:** Klik dua kali judul \u2192 ketik nama baru \u2192 Enter\n\u2022 **Warna:** Klik kanan \u2192 **Change Color** \u2192 pilih warna\n\u2022 Warna membantu membedakan fungsi group secara visual",
+          "color": "#ec4899",
+          "bg": "#fdf2f8",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fbcfe8;padding:8px 10px;display:flex;flex-direction:column;gap:4px\"><div style=\"display:flex;justify-content:space-between;align-items:center\"><span style=\"padding:4px 8px;border-radius:4px;border:2px dashed #ec4899;font-size:7px;font-weight:700;color:#db2777\">\ud83d\udcc1 Cek Amount</span><span style=\"font-size:7px;color:#94a3b8\">\u2190 Klik 2x untuk edit</span></div><div style=\"display:flex;gap:3px\"><span style=\"width:12px;height:12px;border-radius:3px;background:#ec4899\"></span><span style=\"width:12px;height:12px;border-radius:3px;background:#3b82f6\"></span><span style=\"width:12px;height:12px;border-radius:3px;background:#22c55e\"></span><span style=\"width:12px;height:12px;border-radius:3px;background:#f59e0b\"></span></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Atur Isi Group",
+          "desc": "{previewHtml:1}\n\u2022 **Tambah:** Seret node dari luar ke dalam area group\n\u2022 **Keluarkan:** Seret node keluar dari border group\n\u2022 **Edit node di group:** Klik node \u2014 panel konfigurasi muncul\n\u2022 Node di dalam group tetap bisa dihubungkan ke node luar",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #bfdbfe;padding:8px 10px;display:flex;flex-direction:column;gap:4px;align-items:center\"><div style=\"border:1.5px dashed #3b82f6;border-radius:5px;padding:6px 12px\"><div style=\"font-size:7px;font-weight:700;color:#2563eb;margin-bottom:3px;text-align:center\">\ud83d\udcc1 Group</div><div style=\"display:flex;gap:4px\"><span style=\"padding:2px 5px;border-radius:3px;background:#f8fafc;border:1px solid #e2e8f0;font-size:6px;color:#f59e0b\">CONSTANT</span></div></div><div style=\"font-size:6px;color:#64748b\">\u2195 Seret node masuk/keluar group</div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "label": "Cara Approve & Aktivasi",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Approve & Aktivasi",
+      "id": "approve-activate",
+      "intro": "Setelah rule selesai dibuat dan di-submit, perlu melalui proses approve & aktivasi agar bisa berjalan di production.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Submit Rule",
+          "desc": "{previewHtml:1}\n\u2022 Klik **Submit Scenario** di toolbar setelah selesai mengedit\n\u2022 Isi komentar submit (opsional)\n\u2022 Status berubah jadi **Draft (Submitted)** \u2014 siap di-review",
+          "color": "#f97316",
+          "bg": "#fff7ed",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fed7aa;overflow:hidden;padding:10px 12px;display:flex;flex-direction:column;gap:6px;\"><div style=\"display:flex;align-items:center;gap:6px;justify-content:center;\"><span style=\"padding:4px 10px;border-radius:5px;background:#f97316;font-size:7px;font-weight:700;color:#fff;\">Submit Scenario</span><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#d97706\" stroke-width=\"2\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg><span style=\"padding:3px 8px;border-radius:4px;background:#fff7ed;border:1px solid #fed7aa;font-size:7px;font-weight:600;color:#92400e;\">Status: Submitted</span></div><div style=\"padding:6px 8px;border-radius:4px;background:#fff7ed;font-size:7px;color:#c2410c;\">\u270f\ufe0f Komentar: Siap di-review untuk production</div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Approve oleh Reviewer",
+          "desc": "{previewHtml:1}\n\u2022 **Reviewer** melihat rule yang perlu di-approve\n\u2022 Bisa melihat detail rule: parameter, flow, konfigurasi\n\u2022 **Approve** \u2014 setuju, rule siap diaktivasi\n\u2022 **Reject** \u2014 tolak dengan alasan, rule dikembalikan ke pembuat",
+          "color": "#22c55e",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bbf7d0;overflow:hidden;padding:10px 12px;display:flex;gap:8px;align-items:center;justify-content:center;\"><span style=\"padding:5px 14px;border-radius:5px;background:#22c55e;font-size:8px;font-weight:700;color:#fff;\">\u2705 Approve</span><span style=\"padding:5px 14px;border-radius:5px;background:#fef2f2;border:1px solid #fecaca;font-size:8px;font-weight:700;color:#dc2626;\">\u274c Reject</span></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Aktivasi Rule",
+          "desc": "{previewHtml:1}\n\u2022 Cari rule dengan status **Approved** di Scenario Management\n\u2022 Klik **Activate** \u2014 rule mulai mendeteksi fraud\n\u2022 **Batch Activation** \u2014 pilih beberapa rule, aktifkan sekaligus\n\u2022 **Deactivate** \u2014 nonaktifkan sementara tanpa hapus konfigurasi",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #ddd6fe;overflow:hidden;padding:10px 12px;\"><div style=\"display:flex;justify-content:space-between;align-items:center;\"><span style=\"font-size:8px;font-weight:700;color:#0f172a;\">Deteksi Transfer Besar</span><span style=\"padding:2px 8px;border-radius:4px;background:#f5f3ff;font-size:7px;font-weight:600;color:#7c3aed;\">Approved</span></div><div style=\"display:flex;gap:6px;margin-top:6px;justify-content:center;\"><span style=\"padding:4px 12px;border-radius:5px;background:#22c55e;font-size:7px;font-weight:700;color:#fff;\">\u25b6 Activate</span><span style=\"padding:4px 12px;border-radius:5px;background:#f1f5f9;font-size:7px;color:#64748b;\">Batch Activation</span></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}
