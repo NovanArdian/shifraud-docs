@@ -1,0 +1,34 @@
+{
+  "label": "Menambah Group",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Menambah Group",
+      "id": "add-group",
+      "intro": "Group membantu mengorganisir node-node terkait dalam satu wadah. Panduan ini fokus pada cara menambah group baru.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Buat Group Baru",
+          "desc": "{previewHtml:1}\n• **Cara 1:** Pilih node (Shift+Klik) → Klik kanan → **Group**\n• **Cara 2:** Klik kanan area kosong canvas → **Add Group**\n• Node akan terbungkus dalam border dashed\n• Group otomatis diberi nama default (bisa diedit)",
+          "color": "#ec4899",
+          "bg": "#fdf2f8",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fbcfe8;overflow:hidden\"><div style=\"margin:6px;border:1.5px dashed #ec4899;border-radius:7px;padding:6px\"><div style=\"font-size:10px;font-weight:700;color:#db2777;margin-bottom:3px\">📁 New Group</div><div style=\"display:flex;gap:5px\"><span style=\"padding:3px 6px;border-radius:5px;background:#f8fafc;border:1px solid #e2e8f0;font-size:9px;color:#f59e0b\">CONSTANT</span><span style=\"padding:3px 6px;border-radius:5px;background:#f8fafc;border:1px solid #e2e8f0;font-size:9px;color:#10b981\">CONTAINS</span></div></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Konfigurasi Group",
+          "desc": "{previewHtml:1}\n• ✏️ **Nama** — Klik dua kali judul untuk mengganti nama\n• 🎨 **Warna** — Pilih warna dari palet\n• 📐 **Ukuran** — Seret pojok kanan bawah\n• 🌀 **Collapse/Expand** — Klik segitiga untuk menutup/membuka",
+          "color": "#f59e0b",
+          "bg": "#fffbeb",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);background:#fff;border:1px solid #fde68a;padding:12px 14px;display:flex;flex-wrap:wrap;gap:6px\"><span style=\"padding:5px 10px;border-radius:6px;background:#fffbeb;border:1px solid #fde68a;font-size:10px;color:#92400e\">✏️ Nama: Cek Amount</span><span style=\"padding:5px 10px;border-radius:6px;background:#fdf2f8;border:1px solid #fbcfe8;font-size:10px;color:#9d174d\">🎨 Warna</span><span style=\"padding:5px 10px;border-radius:6px;background:#eff6ff;border:1px solid #bfdbfe;font-size:10px;color:#1e40af\">📐 Ukuran</span></div>"
+          }
+        }
+      ]
+    }
+  ]
+}
