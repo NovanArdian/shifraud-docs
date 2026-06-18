@@ -1,0 +1,44 @@
+{
+  "label": "Cara Mengedit Scenario",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Mengedit Scenario",
+      "id": "edit-scenario",
+      "intro": "Setelah rule dibuat, Anda mungkin perlu mengubah konfigurasinya. Panduan ini menjelaskan cara mengedit rule yang sudah ada.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Buka Rule yang Ingin Diedit",
+          "desc": "{previewHtml:1}\n• Buka **Scenario Management**, cari rule yang ingin diedit\n• Klik nama rule atau ikon **✏️ Edit**\n• Hanya rule **Draft** yang bisa diedit langsung\n• Rule **Active** harus di-deactivate dulu",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:12px 14px;display:flex;align-items:center;justify-content:space-between;\"><div><div style=\"font-size:12px;font-weight:700;color:#0f172a;\">Deteksi Transfer Besar</div><div style=\"font-size:10px;color:#64748b;margin-top:2px;\">Status: <span style=\"padding:1px 10px;border-radius:5px;background:#fef2f2;font-size:9px;font-weight:600;color:#dc2626;\">Inactive</span></div></div><span style=\"padding:6px 14px;border-radius:7px;background:#eff6ff;font-size:10px;font-weight:600;color:#2563eb;\">✏️ Edit</span></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Yang Bisa Diedit",
+          "desc": "{previewHtml:1}\n• **Parameter** — Nama, deskripsi, risk score, priority\n• **Flow** — Tambah/hapus/edit node, ubah koneksi\n• **Group** — Tambah/hapus/edit group\n• Setelah selesai, klik **Save** atau **Submit**",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;overflow:hidden;padding:14px 16px;display:flex;gap:8px;flex-wrap:wrap;\"><span style=\"padding:5px 12px;border-radius:6px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:10px;font-weight:600;color:#16a34a;\">📝 Parameter</span><span style=\"padding:5px 12px;border-radius:6px;background:#eff6ff;border:1px solid #bfdbfe;font-size:10px;font-weight:600;color:#2563eb;\">🎨 Flow</span><span style=\"padding:5px 12px;border-radius:6px;background:#fdf2f8;border:1px solid #fbcfe8;font-size:10px;font-weight:600;color:#db2777;\">📁 Group</span></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Edit Kondisi Node",
+          "desc": "{previewHtml:1}\n• **Klik node** — panel konfigurasi terbuka di kanan\n• Ubah field, operator, atau value\n• Node otomatis ter-update\n• Atau klik kanan → pilih menu yang tersedia",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #ddd6fe;overflow:hidden;padding:14px 16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center;\"><span style=\"padding:6px 12px;border-radius:8px;background:#f5f3ff;border:1.5px solid #a78bfa;font-size:10px;font-weight:700;color:#7c3aed;\">AMOUNT</span><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2.5\"><path d=\"M9 5l7 7-7 7\"/></svg><span style=\"font-size:10px;color:#64748b;\">Klik node → Panel konfigurasi</span></div>"
+          }
+        }
+      ]
+    }
+  ]
+}
