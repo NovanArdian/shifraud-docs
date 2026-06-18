@@ -1,0 +1,64 @@
+{
+  "label": "Discussion",
+  "category": "Alert Issuer",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Collaborate via Discussion",
+      "id": "discussion",
+      "intro": "Discussion memungkinkan tim berkolaborasi dalam menangani alert. Support comment, mention, dan file attachment untuk komunikasi efektif.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Akses Discussion Tab",
+          "desc": "{previewHtml:1}\n• Buka alert detail\n• Pilih tab **Discussion**\n• Discussion thread akan menampilkan semua comments\n• Comments diurutkan chronologically (newest last)\n• Auto-scroll ke comment terbaru",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:12px 14px;display:flex;align-items:center;gap:8px;border-bottom:1px solid #eff6ff;background:linear-gradient(90deg,#eff6ff,#fff);\"><div style=\"width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,#3b82f6,#2563eb);display:flex;align-items:center;justify-content:center;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\"><path d=\"M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z\"/></svg></div><span style=\"font-size:13px;font-weight:700;color:#0f172a;\">Discussion</span><span style=\"padding:2px 8px;border-radius:4px;background:#f0fdf4;border:1px solid #86efac;font-size:8px;font-weight:700;color:#16a34a;\">3 comments</span></div><div style=\"padding:12px 14px;font-size:10px;color:#64748b;text-align:center;\">Collaborate with your team on this alert</div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Add Comment",
+          "desc": "{previewHtml:1}\n• Di bagian bawah discussion, ketik comment di text area\n• Support rich text:\n  - Bold, italic, list\n  - Code block\n  - Links\n• Klik **Send** atau tekan Ctrl+Enter untuk post\n• Comment akan muncul dengan timestamp & avatar",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #c7d2fe;overflow:hidden;\"><div style=\"padding:12px 14px;\"><div style=\"padding:8px 10px;border-radius:8px;background:#f8fafc;border:1px solid #cbd5e1;margin-bottom:8px;\"><textarea style=\"width:100%;border:none;background:transparent;font-size:10px;color:#0f172a;resize:none;outline:none;font-family:inherit;\" rows=\"3\" placeholder=\"Add a comment...\"></textarea></div><div style=\"display:flex;align-items:center;justify-content:space-between;\"><div style=\"display:flex;gap:4px;\"><button style=\"padding:4px 8px;border-radius:5px;background:#f8fafc;border:1px solid #cbd5e1;font-size:8px;color:#64748b;cursor:pointer;\">📎 Attach</button><button style=\"padding:4px 8px;border-radius:5px;background:#f8fafc;border:1px solid #cbd5e1;font-size:8px;color:#64748b;cursor:pointer;\">@ Mention</button></div><button style=\"padding:6px 14px;border-radius:6px;background:#6366f1;border:none;font-size:9px;font-weight:700;color:#fff;cursor:pointer;\">Send</button></div></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Mention Team Members",
+          "desc": "{previewHtml:1}\n• Ketik **@** diikuti nama user\n• Dropdown suggestion akan muncul\n• Pilih user dari list atau lanjut ketik\n• User yang di-mention akan dapat notifikasi\n• Mention akan ter-highlight dalam comment\n• Bisa mention multiple users dalam satu comment",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #ddd6fe;overflow:hidden;\"><div style=\"padding:12px 14px;\"><div style=\"padding:8px 10px;border-radius:8px;background:#f5f3ff;border:1px solid #ddd6fe;margin-bottom:8px;\"><div style=\"display:flex;align-items:center;gap:6px;margin-bottom:4px;\"><div style=\"width:20px;height:20px;border-radius:50%;background:#8b5cf6;display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><span style=\"font-size:8px;font-weight:700;color:#fff;\">JD</span></div><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">John Analyst</span><span style=\"font-size:8px;color:#64748b;\">2 mins ago</span></div><div style=\"font-size:9px;color:#475569;\">Hey <span style=\"padding:2px 6px;border-radius:4px;background:#eef2ff;border:1px solid #c7d2fe;font-weight:700;color:#6366f1;\">@Sarah</span>, can you review this case?</div></div><div style=\"padding:6px 10px;border-radius:6px;background:#f8fafc;border:1px dashed #cbd5e1;\"><div style=\"font-size:9px;color:#0f172a;margin-bottom:4px;\">@<span style=\"font-size:8px;color:#64748b;\">|</span></div><div style=\"padding:4px 8px;border-radius:4px;background:#fff;border:1px solid #cbd5e1;font-size:8px;color:#64748b;\">↓ Sarah Supervisor<br>↓ Mike Manager<br>↓ Tom Analyst</div></div></div></div>"
+          }
+        },
+        {
+          "num": 4,
+          "title": "Attach Files (Optional)",
+          "desc": "{previewHtml:1}\n• Klik icon **📎 Attach** untuk upload file\n• Supported formats:\n  - Images: PNG, JPG, GIF\n  - Documents: PDF, DOC, XLS\n  - Archives: ZIP, RAR\n• Max file size: 10 MB\n• File akan muncul sebagai link dalam comment\n• Click to download/preview",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #99f6e4;overflow:hidden;\"><div style=\"padding:12px 14px;\"><div style=\"padding:8px 10px;border-radius:8px;background:#f0fdfa;border:1px solid #99f6e4;margin-bottom:8px;\"><div style=\"display:flex;align-items:center;gap:6px;margin-bottom:4px;\"><div style=\"width:20px;height:20px;border-radius:50%;background:#14b8a6;display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><span style=\"font-size:8px;font-weight:700;color:#fff;\">SA</span></div><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Sarah Analyst</span><span style=\"font-size:8px;color:#64748b;\">10 mins ago</span></div><div style=\"font-size:9px;color:#475569;margin-bottom:6px;\">Attaching customer verification screenshot</div><div style=\"padding:6px 10px;border-radius:6px;background:#fff;border:1px solid #5eead4;display:flex;align-items:center;gap:6px;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#14b8a6\" stroke-width=\"2\"><path d=\"M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z\"/></svg><div style=\"flex:1;\"><div style=\"font-size:9px;font-weight:600;color:#0f172a;\">verification_screenshot.png</div><div style=\"font-size:8px;color:#64748b;\">2.4 MB</div></div></div></div></div></div>"
+          }
+        },
+        {
+          "num": 5,
+          "title": "View Discussion History",
+          "desc": "{previewHtml:1}\n• Semua comments tersimpan permanent\n• Timeline menampilkan:\n  - Comment content\n  - Author name & avatar\n  - Timestamp (relative & absolute)\n  - Attachments (if any)\n• Bisa scroll ke atas untuk lihat history lama\n• Filter by author (optional)\n• Export discussion untuk audit trail",
+          "color": "#f59e0b",
+          "bg": "#fffbeb",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fde68a;overflow:hidden;\"><div style=\"padding:12px 14px;\"><div style=\"padding:8px 10px;border-radius:8px;background:#fffbeb;border:1px solid #fde68a;margin-bottom:6px;\"><div style=\"display:flex;align-items:center;gap:6px;margin-bottom:4px;\"><div style=\"width:20px;height:20px;border-radius:50%;background:#f59e0b;display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><span style=\"font-size:8px;font-weight:700;color:#fff;\">JD</span></div><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">John Analyst</span><span style=\"font-size:8px;color:#64748b;\">30 mins ago</span></div><div style=\"font-size:9px;color:#475569;\">Alert created - investigating suspicious transaction</div></div><div style=\"padding:8px 10px;border-radius:8px;background:#fffbeb;border:1px solid #fde68a;margin-bottom:6px;\"><div style=\"display:flex;align-items:center;gap:6px;margin-bottom:4px;\"><div style=\"width:20px;height:20px;border-radius:50%;background:#14b8a6;display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><span style=\"font-size:8px;font-weight:700;color:#fff;\">SA</span></div><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Sarah Supervisor</span><span style=\"font-size:8px;color:#64748b;\">15 mins ago</span></div><div style=\"font-size:9px;color:#475569;\">Contacted customer - they denied the transaction. Confirmed fraud.</div></div><div style=\"padding:8px 10px;border-radius:8px;background:#fffbeb;border:1px solid #fde68a;\"><div style=\"display:flex;align-items:center;gap:6px;margin-bottom:4px;\"><div style=\"width:20px;height:20px;border-radius:50%;background:#6366f1;display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><span style=\"font-size:8px;font-weight:700;color:#fff;\">MM</span></div><span style=\"font-size:9px;font-weight:700;color:#0f172a;\">Mike Manager</span><span style=\"font-size:8px;color:#64748b;\">5 mins ago</span></div><div style=\"font-size:9px;color:#475569;\">Approved card block. Closing alert as POSITIVE.</div></div></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}
