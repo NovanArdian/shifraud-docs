@@ -1,0 +1,44 @@
+{
+  "label": "Cara Mengelola Reactions",
+  "category": "Tutorials",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Mengelola Reactions",
+      "id": "manage-reactions",
+      "intro": "Reactions adalah aksi yang dijalankan setelah rule mendeteksi fraud. Misalnya: mengirim email, memblokir transaksi, atau mengirim notifikasi ke tim.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Apa Itu Reactions?",
+          "desc": "{previewHtml:1}\n• **Email** — Kirim notifikasi ke tim fraud\n• **Block Transaction** — Blokir transaksi otomatis\n• **API Call** — Panggil webhook/API eksternal\n• **SMS** — Kirim SMS ke petugas\n• Reactions diatur per rule, tidak global",
+          "color": "#ec4899",
+          "bg": "#fdf2f8",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fbcfe8;overflow:hidden;padding:14px 16px;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;\"><span style=\"padding:5px 12px;border-radius:6px;background:#fdf2f8;border:1px solid #f9a8d4;font-size:10px;font-weight:600;color:#be185d;\">📧 Email</span><span style=\"padding:5px 12px;border-radius:6px;background:#fef2f2;border:1px solid #fecaca;font-size:10px;font-weight:600;color:#dc2626;\">🚫 Block Transaction</span><span style=\"padding:5px 12px;border-radius:6px;background:#eff6ff;border:1px solid #bfdbfe;font-size:10px;font-weight:600;color:#2563eb;\">🔗 API Call</span><span style=\"padding:5px 12px;border-radius:6px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:10px;font-weight:600;color:#16a34a;\">📱 SMS</span></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Menambah Reactions",
+          "desc": "{previewHtml:1}\n• Saat mengedit rule, cari bagian **Reactions**\n• Klik **+ Tambah Reaction**, pilih jenis\n• Atur parameter (email tujuan, URL API, nomor SMS, dll)\n• Satu rule bisa punya beberapa reactions",
+          "color": "#f59e0b",
+          "bg": "#fffbeb",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fde68a;overflow:hidden;padding:14px 16px;\"><div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;\"><span style=\"font-size:12px;font-weight:700;color:#0f172a;\">Reactions</span><span style=\"padding:5px 14px;border-radius:6px;background:#f59e0b;font-size:10px;font-weight:700;color:#fff;\">+ Tambah Reaction</span></div><div style=\"font-size:10px;color:#64748b;\">📧 fraud-team@company.com</div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Mengelola Reactions yang Ada",
+          "desc": "{previewHtml:1}\n• ✏️ **Edit** — Ubah parameter reaction\n• ❌ **Hapus** — Hapus reaction dari rule\n• ⚡ **Test** — Kirim reaction uji coba\n• ⏸️ **Nonaktifkan sementara** — tanpa hapus konfigurasi",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #c7d2fe;overflow:hidden;padding:14px 16px;display:flex;gap:8px;flex-wrap:wrap;\"><span style=\"padding:5px 12px;border-radius:6px;background:#eef2ff;border:1px solid #a5b4fc;font-size:10px;font-weight:600;color:#4338ca;\">✏️ Edit</span><span style=\"padding:5px 12px;border-radius:6px;background:#fef2f2;border:1px solid #fecaca;font-size:10px;font-weight:600;color:#dc2626;\">❌ Hapus</span><span style=\"padding:5px 12px;border-radius:6px;background:#f0fdf4;border:1px solid #bbf7d0;font-size:10px;font-weight:600;color:#16a34a;\">⚡ Test</span><span style=\"padding:5px 12px;border-radius:6px;background:#fff7ed;border:1px solid #fed7aa;font-size:10px;font-weight:600;color:#d97706;\">⏸️ Nonaktifkan</span></div>"
+          }
+        }
+      ]
+    }
+  ]
+}
