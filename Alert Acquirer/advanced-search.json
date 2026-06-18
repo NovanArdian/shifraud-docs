@@ -1,0 +1,64 @@
+{
+  "label": "Advanced Search",
+  "category": "Alert Acquirer",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Advanced Search & Filter",
+      "id": "advanced-search",
+      "intro": "Gunakan fitur advanced search untuk menemukan alert spesifik dengan berbagai kriteria filter. Kombinasi filter dapat meningkatkan akurasi pencarian.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Akses Panel Search",
+          "desc": "{previewHtml:1}\n• Klik tombol **Filter** (ikon funnel) di pojok kanan atas\n• Panel search akan muncul dari sisi kanan\n• Semua field filter akan ditampilkan\n• Klik **Close** atau klik di luar panel untuk menutup",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #bfdbfe;overflow:hidden;\"><div style=\"padding:12px 14px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #eff6ff;\"><span style=\"font-size:13px;font-weight:700;color:#0f172a;\">Advanced Search</span><span style=\"padding:6px 14px;border-radius:7px;background:#3b82f6;font-size:10px;font-weight:700;color:#fff;cursor:pointer;\">🔍 Filter</span></div><div style=\"padding:12px 14px;font-size:10px;color:#64748b;text-align:center;\">Klik tombol Filter untuk membuka panel pencarian dengan berbagai kriteria.</div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Filter by Date Range",
+          "desc": "{previewHtml:1}\n• **Start Date** — Tanggal mulai alert\n• **End Date** — Tanggal akhir alert\n• Format: DD/MM/YYYY\n• Gunakan date picker untuk memudahkan input\n• Default: 30 hari terakhir",
+          "color": "#f59e0b",
+          "bg": "#fffbeb",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #fde68a;overflow:hidden;\"><div style=\"padding:12px 14px;border-bottom:1px solid #fffbeb;\"><div style=\"display:flex;align-items:center;gap:8px;margin-bottom:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:linear-gradient(135deg,#f59e0b,#d97706);display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"18\" rx=\"2\" ry=\"2\"/><line x1=\"16\" y1=\"2\" x2=\"16\" y2=\"6\"/><line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"6\"/><line x1=\"3\" y1=\"10\" x2=\"21\" y2=\"10\"/></svg></div><span style=\"font-size:12px;font-weight:700;color:#0f172a;\">Date Range</span></div></div><div style=\"padding:12px 14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;\"><div style=\"padding:8px 10px;border-radius:6px;background:#f8fafc;border:1px solid #e2e8f0;\"><div style=\"font-size:8px;color:#64748b;text-transform:uppercase;margin-bottom:2px;\">Start Date</div><div style=\"font-size:10px;font-weight:600;color:#0f172a;\">01/01/2024</div></div><div style=\"padding:8px 10px;border-radius:6px;background:#f8fafc;border:1px solid #e2e8f0;\"><div style=\"font-size:8px;color:#64748b;text-transform:uppercase;margin-bottom:2px;\">End Date</div><div style=\"font-size:10px;font-weight:600;color:#0f172a;\">31/01/2024</div></div></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Filter by Transaction Info",
+          "desc": "{previewHtml:1}\n• **Alert ID** — ID alert unik\n• **UTRNNO** — Universal Transaction Number\n• **Customer Name** — Nama customer\n• **Card Number** — Nomor kartu (partial/full)\n• **Amount Range** — Min & max amount transaksi\n• Gunakan partial match untuk pencarian fleksibel",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #c7d2fe;overflow:hidden;\"><div style=\"padding:12px 14px;border-bottom:1px solid #eef2ff;\"><div style=\"display:flex;align-items:center;gap:8px;margin-bottom:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:linear-gradient(135deg,#6366f1,#4f46e5);display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\"><path d=\"M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z\"/></svg></div><span style=\"font-size:12px;font-weight:700;color:#0f172a;\">Transaction Info</span></div></div><div style=\"padding:12px 14px;display:grid;gap:6px;\"><div style=\"padding:6px 10px;border-radius:6px;background:#f8fafc;border:1px solid #e2e8f0;\"><div style=\"font-size:8px;color:#64748b;text-transform:uppercase;\">Alert ID / UTRNNO</div><div style=\"font-size:10px;font-weight:600;color:#0f172a;\">ALT-2024-001234</div></div><div style=\"padding:6px 10px;border-radius:6px;background:#f8fafc;border:1px solid #e2e8f0;\"><div style=\"font-size:8px;color:#64748b;text-transform:uppercase;\">Customer / Card</div><div style=\"font-size:10px;font-weight:600;color:#0f172a;\">John Doe / ****1234</div></div></div></div>"
+          }
+        },
+        {
+          "num": 4,
+          "title": "Filter by Merchant Info",
+          "desc": "{previewHtml:1}\n• **Merchant Name** — Nama merchant/toko\n• **MID** — Merchant ID\n• **Merchant Category** — Kategori bisnis merchant\n• Berguna untuk tracking fraud pattern per merchant\n• Support partial matching",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #ddd6fe;overflow:hidden;\"><div style=\"padding:12px 14px;border-bottom:1px solid #f5f3ff;\"><div style=\"display:flex;align-items:center;gap:8px;margin-bottom:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:linear-gradient(135deg,#8b5cf6,#7c3aed);display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\"><path d=\"M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z\"/><polyline points=\"9 22 9 12 15 12 15 22\"/></svg></div><span style=\"font-size:12px;font-weight:700;color:#0f172a;\">Merchant Info</span></div></div><div style=\"padding:12px 14px;display:grid;gap:6px;\"><div style=\"padding:6px 10px;border-radius:6px;background:#f8fafc;border:1px solid #e2e8f0;\"><div style=\"font-size:8px;color:#64748b;text-transform:uppercase;\">Merchant Name</div><div style=\"font-size:10px;font-weight:600;color:#0f172a;\">ABC Store</div></div><div style=\"padding:6px 10px;border-radius:6px;background:#f8fafc;border:1px solid #e2e8f0;\"><div style=\"font-size:8px;color:#64748b;text-transform:uppercase;\">MID</div><div style=\"font-size:10px;font-weight:600;color:#0f172a;\">MID-123456</div></div></div></div>"
+          }
+        },
+        {
+          "num": 5,
+          "title": "Apply & Reset Filter",
+          "desc": "{previewHtml:1}\n• **Apply** — Terapkan filter dan fetch data\n• **Reset** — Clear semua filter ke default\n• Loading indicator muncul saat fetch data\n• Total hasil search ditampilkan di header tabel\n• Filter akan tersimpan sampai di-reset manual",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #99f6e4;overflow:hidden;\"><div style=\"padding:12px 14px;border-bottom:1px solid #f0fdfa;\"><div style=\"display:flex;align-items:center;justify-content:space-between;\"><span style=\"font-size:12px;font-weight:700;color:#0f172a;\">Filters Applied</span><span style=\"padding:3px 10px;border-radius:5px;background:#f0fdfa;border:1px solid #5eead4;font-size:9px;font-weight:700;color:#14b8a6;\">3 Active</span></div></div><div style=\"padding:12px 14px;display:flex;gap:8px;justify-content:flex-end;\"><button style=\"padding:8px 16px;border-radius:8px;background:#f8fafc;border:1px solid #cbd5e1;font-size:10px;font-weight:700;color:#475569;cursor:pointer;\">Reset</button><button style=\"padding:8px 16px;border-radius:8px;background:#14b8a6;border:none;font-size:10px;font-weight:700;color:#fff;cursor:pointer;\">✓ Apply Filter</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}
