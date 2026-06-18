@@ -1,0 +1,34 @@
+{
+  "label": "Undo & Redo",
+  "category": "Scenario Studio",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Undo & Redo",
+      "id": "undo-redo",
+      "intro": "Undo/Redo membantu Anda bekerja tanpa takut salah. Setiap perubahan tercatat.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Cara Menggunakan",
+          "desc": "{previewHtml:1}\n• **Undo** — Ctrl+Z (batalkan perubahan)\n• **Redo** — Ctrl+Shift+Z (ulangi perubahan)\n• Tidak ada tombol di toolbar — semua via keyboard",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #c7d2fe;overflow:hidden;padding:14px 16px;display:flex;gap:14px;align-items:center;justify-content:center;\"><kbd style=\"padding:8px 16px;border-radius:8px;font-size:12px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:700;color:#0f172a;\">Ctrl+Z</kbd><span style=\"font-size:13px;font-weight:600;color:#6366f1;\">Undo</span><span style=\"color:#e2e8f0;\">|</span><kbd style=\"padding:8px 16px;border-radius:8px;font-size:12px;font-family:monospace;background:#f1f5f9;border:1px solid #e2e8f0;font-weight:700;color:#0f172a;\">Ctrl+Shift+Z</kbd><span style=\"font-size:13px;font-weight:600;color:#6366f1;\">Redo</span></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Yang Tercatat di History",
+          "desc": "{previewHtml:1}\n• ✅ Tambah/hapus/pindah node\n• ✅ Edit konfigurasi node\n• ✅ Tambah/hapus koneksi\n• ✅ Manipulasi grup dan warna\n• History: **50 langkah** terakhir",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:linear-gradient(135deg,#f0fdfa,#fff);border:1px solid #99f6e4;overflow:hidden;padding:14px 16px;\"><div style=\"display:flex;gap:8px;flex-wrap:wrap;justify-content:center;\"><span style=\"padding:5px 12px;border-radius:6px;background:#f0fdf4;font-size:10px;font-weight:600;color:#16a34a;\">+ Tambah</span><span style=\"padding:5px 12px;border-radius:6px;background:#fef2f2;font-size:10px;font-weight:600;color:#dc2626;\">- Hapus</span><span style=\"padding:5px 12px;border-radius:6px;background:#eff6ff;font-size:10px;font-weight:600;color:#2563eb;\">↔ Pindah</span><span style=\"padding:5px 12px;border-radius:6px;background:#f5f3ff;font-size:10px;font-weight:600;color:#7c3aed;\">✎ Edit</span></div><div style=\"font-size:10px;color:#94a3b8;text-align:center;margin-top:4px;\">History: 50 langkah terakhir</div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}
