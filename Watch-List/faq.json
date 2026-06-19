@@ -3,11 +3,11 @@
   "category": "Watch-List",
   "sections": [
     {
-      "type": "faq",
+      "type": "tutorial",
       "heading": "Frequently Asked Questions",
       "id": "faq",
       "intro": "Temukan jawaban atas pertanyaan umum terkait penggunaan modul Watch List.",
-      "items": [
+      "steps": [
         {
           "num": 1,
           "title": "Bedanya Watch List dengan Parameter di Scenario Studio?",

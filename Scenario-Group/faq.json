@@ -3,11 +3,11 @@
   "category": "Scenario Group",
   "sections": [
     {
-      "type": "faq",
+      "type": "tutorial",
       "heading": "Frequently Asked Questions",
       "id": "faq",
       "intro": "Temukan jawaban atas pertanyaan umum terkait penggunaan modul Scenario Group.",
-      "items": [
+      "steps": [
         {
           "num": 1,
           "title": "Bedanya Filtration dan Reaction?",

@@ -3,30 +3,35 @@
   "category": "Case Issuer",
   "sections": [
     {
-      "type": "faq",
+      "type": "tutorial",
       "heading": "Frequently Asked Questions",
       "id": "faq",
       "intro": "Berikut adalah daftar pertanyaan umum terkait Case Issuer untuk membantu Anda memahami fitur dan cara pengoperasiannya.",
-      "items": [
+      "steps": [
         {
-          "q": "Apa perbedaan antara Case Issuer dan Alert Issuer?",
-          "a": "**Alert Issuer** memantau peringatan individu satu per satu. Sedangkan **Case Issuer** adalah grup atau wadah yang menggabungkan banyak alert yang terkait (berdasarkan `Clustering Key` tertentu seperti PAN) menjadi satu entitas. Ini mempermudah analisis data secara holistik."
+          "num": 1,
+          "title": "Apa perbedaan antara Case Issuer dan Alert Issuer?",
+          "desc": "**Alert Issuer** memantau peringatan individu satu per satu. Sedangkan **Case Issuer** adalah grup atau wadah yang menggabungkan banyak alert yang terkait (berdasarkan `Clustering Key` tertentu seperti PAN) menjadi satu entitas. Ini mempermudah analisis data secara holistik."
         },
         {
-          "q": "Bagaimana cara melihat detail alert yang ada di dalam sebuah Case?",
-          "a": "Klik baris Case di tabel untuk membuka panel detail di sebelah kanan layar. Pada bagian **Data In This Case**, Anda akan melihat ringkasan klasifikasi. Klik tombol **View Alerts** pada salah satu klasifikasi untuk otomatis diarahkan ke halaman Alert Issuer yang difilter khusus untuk Case tersebut."
+          "num": 2,
+          "title": "Bagaimana cara melihat detail alert yang ada di dalam sebuah Case?",
+          "desc": "Klik baris Case di tabel untuk membuka panel detail di sebelah kanan layar. Pada bagian **Data In This Case**, Anda akan melihat ringkasan klasifikasi. Klik tombol **View Alerts** pada salah satu klasifikasi untuk otomatis diarahkan ke halaman Alert Issuer yang difilter khusus untuk Case tersebut."
         },
         {
-          "q": "Bagaimana cara menugaskan Case ke analis?",
-          "a": "Gunakan fitur **Bulk Assign**. Aktifkan mode Bulk Assign dari opsi toolbar (icon User Check), centang Case yang ingin Anda tugaskan, lalu pilih nama investigator. Anda bisa menugaskan beberapa Case ke satu investigator sekaligus."
+          "num": 3,
+          "title": "Bagaimana cara menugaskan Case ke analis?",
+          "desc": "Gunakan fitur **Bulk Assign**. Aktifkan mode Bulk Assign dari opsi toolbar (icon User Check), centang Case yang ingin Anda tugaskan, lalu pilih nama investigator. Anda bisa menugaskan beberapa Case ke satu investigator sekaligus."
         },
         {
-          "q": "Analis yang memegang Case sedang cuti, apa yang harus saya lakukan?",
-          "a": "Gunakan fitur **Bulk Reassign**. Mode ini memungkinkan Anda (sebagai Supervisor/Lead) untuk mengambil alih Case dari analis yang tidak aktif, lalu menugaskannya ke analis lain. Proses ini mewajibkan Anda untuk memberikan alasan (misal: \"Analis cuti sakit\") pada dialog formulir yang muncul."
+          "num": 4,
+          "title": "Analis yang memegang Case sedang cuti, apa yang harus saya lakukan?",
+          "desc": "Gunakan fitur **Bulk Reassign**. Mode ini memungkinkan Anda (sebagai Supervisor/Lead) untuk mengambil alih Case dari analis yang tidak aktif, lalu menugaskannya ke analis lain. Proses ini mewajibkan Anda untuk memberikan alasan (misal: \"Analis cuti sakit\") pada dialog formulir yang muncul."
         },
         {
-          "q": "Apa arti dari Risk Score di tabel Case Issuer?",
-          "a": "Risk Score merepresentasikan nilai risiko kumulatif dari kumpulan alert di dalam Case tersebut. Sistem mengagregasi skor dari masing-masing alert berdasarkan formula fraud engine. Skor yang lebih tinggi (warna merah) mengindikasikan tingkat keparahan/urgensi yang lebih besar."
+          "num": 5,
+          "title": "Apa arti dari Risk Score di tabel Case Issuer?",
+          "desc": "Risk Score merepresentasikan nilai risiko kumulatif dari kumpulan alert di dalam Case tersebut. Sistem mengagregasi skor dari masing-masing alert berdasarkan formula fraud engine. Skor yang lebih tinggi (warna merah) mengindikasikan tingkat keparahan/urgensi yang lebih besar."
         }
       ]
     }

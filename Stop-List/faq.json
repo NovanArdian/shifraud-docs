@@ -3,11 +3,11 @@
   "category": "Stop-List",
   "sections": [
     {
-      "type": "faq",
+      "type": "tutorial",
       "heading": "Frequently Asked Questions",
       "id": "faq",
       "intro": "Temukan jawaban atas pertanyaan umum terkait penggunaan modul Stop List.",
-      "items": [
+      "steps": [
         {
           "num": 1,
           "title": "Bedanya Stop List dengan Watch List?",
