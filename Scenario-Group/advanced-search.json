@@ -1,0 +1,29 @@
+{
+  "label": "Advanced Search",
+  "category": "Scenario Group",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Advanced Search (Filter)",
+      "id": "advanced-search",
+      "intro": "Gunakan panel Advanced Search untuk menemukan Scenario Group secara spesifik. Filter ini muncul di sisi kanan layar sebagai drawer yang dapat dibuka/tutup.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Membuka Panel Search",
+          "desc": "{previewHtml:1}\n• Klik ikon Kaca Pembesar (Search) pada toolbar utama.\n• Panel pencarian (drawer) akan meluncur dari sebelah kanan layar.\n• Anda dapat menutup panel dengan mengklik tombol X, atau jika Anda melakukan pencarian, panel otomatis tertutup.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.15);border:1px solid #e2e8f0;background:#fff;width:260px;margin:0 auto;\"><div style=\"padding:14px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;background:#f8fafc;\"><div style=\"font-size:13px;font-weight:800;color:#0f172a;display:flex;align-items:center;gap:8px;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2.5\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"/></svg>Filters</div><div style=\"width:24px;height:24px;border-radius:6px;background:#fff;border:1px solid #cbd5e1;display:flex;align-items:center;justify-content:center;color:#64748b;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/></svg></div></div><div style=\"padding:16px;display:flex;flex-direction:column;gap:12px;\"><div style=\"display:flex;flex-direction:column;gap:4px;\"><div style=\"font-size:10px;font-weight:700;color:#475569;\">Group Name</div><div style=\"padding:8px;border:1px solid #cbd5e1;border-radius:6px;font-size:11px;color:#94a3b8;\">e.g. Fraud Login...</div></div><div style=\"display:flex;flex-direction:column;gap:4px;\"><div style=\"font-size:10px;font-weight:700;color:#475569;\">Description</div><div style=\"padding:8px;border:1px solid #cbd5e1;border-radius:6px;font-size:11px;color:#94a3b8;\">Contains keyword...</div></div></div><div style=\"padding:14px;border-top:1px solid #e2e8f0;background:#f8fafc;display:flex;gap:8px;\"><button style=\"flex:1;padding:8px;border-radius:6px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:11px;font-weight:700;\">Reset</button><button style=\"flex:1;padding:8px;border-radius:6px;background:#2563eb;border:none;color:#fff;font-size:11px;font-weight:700;\">Apply Search</button></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Kriteria Pencarian",
+          "desc": "Kriteria yang dapat Anda filter meliputi:\n1. **Group Name**: Mencari berdasarkan nama dari Scenario Group secara parsial.\n2. **Description**: Mencari keyword yang terkandung dalam deskripsi grup.\n• Klik tombol **Apply Search** untuk menerapkan filter, atau **Reset** untuk mengosongkan semua field dan kembali ke data default."
+        }
+      ]
+    }
+  ]
+}

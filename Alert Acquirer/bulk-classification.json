@@ -1,0 +1,34 @@
+{
+  "label": "Bulk Classification",
+  "category": "Alert Acquirer",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Bulk Classification (Klasifikasi Massal)",
+      "id": "bulk-classification",
+      "intro": "Fitur Bulk Classification memungkinkan Anda mengklasifikasikan (menentukan status fraud) puluhan atau ratusan alert sekaligus. Sangat berguna untuk menangani kasus _fraud attack_ berskala besar dengan pola yang identik.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Aktivasi Mode & Seleksi",
+          "desc": "{previewHtml:1}\n• Pilih opsi `Bulk Classification` dari menu opsi (titik tiga) di toolbar utama.\n• Tabel secara otomatis hanya akan menampilkan alert yang **Belum Diklasifikasi** dan **Tidak Dilock** oleh analis lain.\n• Centang alert yang ingin Anda klasifikasikan, lalu tekan `Classify Selected` di Action Bar.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(59,130,246,.15);border:1px solid #bfdbfe;background:#fff;padding:16px;\"><div style=\"background:#f8fafc;padding:12px;border-radius:10px;border:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;\"><div style=\"font-size:12px;font-weight:700;color:#0f172a;\">Bulk Classification Mode Active</div><div style=\"display:flex;gap:8px;\"><button style=\"padding:6px 12px;border-radius:6px;background:#f1f5f9;color:#64748b;border:1px solid #e2e8f0;font-size:10px;font-weight:700;\">Cancel</button><button style=\"padding:6px 12px;border-radius:6px;background:#2563eb;color:#fff;border:none;font-size:10px;font-weight:700;\">Classify Selected (5)</button></div></div><div style=\"display:flex;flex-direction:column;gap:8px;\"><div style=\"display:flex;align-items:center;gap:12px;padding:10px;border:1px solid #e2e8f0;border-radius:8px;\"><input type=\"checkbox\" checked style=\"width:16px;height:16px;accent-color:#2563eb;\"/><div style=\"flex:1;\"><div style=\"font-size:11px;font-weight:600;color:#0f172a;\">#10293 - Suspected Fraud</div><div style=\"font-size:9px;color:#64748b;margin-top:2px;\">Unclassified</div></div></div></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Dialog Permintaan Klasifikasi",
+          "desc": "{previewHtml:1}\n• Setelah menekan `Classify Selected`, sebuah dialog formulir klasifikasi massal akan muncul.\n• Anda harus mengisi form berikut:\n  1. **Request Name:** Nama representatif untuk permohonan klasifikasi massal ini (misal: \"Klasifikasi Fraud Batch BNI\").\n  2. **Classification:** Tentukan status (misal: `FRAUD`, `NOT_FRAUD`, atau `SUSPICIOUS`).\n  3. **Description:** Penjelasan/alasan mengapa Anda mengklasifikasikan alert-alert tersebut.\n• Klik `Submit` untuk mengirim permohonan. Proses selanjutnya membutuhkan persetujuan Checker via Bulk History.",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.15);border:1px solid #e2e8f0;background:#fff;width:340px;margin:0 auto;\"><div style=\"padding:16px;border-bottom:1px solid #f1f5f9;display:flex;justify-content:space-between;align-items:center;\"><div style=\"font-size:14px;font-weight:800;color:#0f172a;\">Bulk Classification Request</div></div><div style=\"padding:20px;\"><div style=\"background:#eff6ff;padding:12px;border-radius:8px;border:1px solid #bfdbfe;margin-bottom:16px;display:flex;align-items:center;gap:10px;\"><div style=\"font-size:24px;font-weight:900;color:#2563eb;\">5</div><div style=\"font-size:11px;font-weight:600;color:#1e40af;\">Alerts selected for classification</div></div><div style=\"display:flex;flex-direction:column;gap:12px;\"><div style=\"display:flex;flex-direction:column;gap:4px;\"><div style=\"font-size:11px;font-weight:700;color:#475569;\">Request Name <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:8px 10px;border:1px solid #cbd5e1;border-radius:6px;font-size:12px;color:#0f172a;\">Batch Fraud BNI 15 Jun</div></div><div style=\"display:flex;flex-direction:column;gap:4px;\"><div style=\"font-size:11px;font-weight:700;color:#475569;\">Classification <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:8px 10px;border:1px solid #cbd5e1;border-radius:6px;font-size:12px;color:#0f172a;display:flex;justify-content:space-between;\">FRAUD <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2.5\"><path d=\"M6 9l6 6 6-6\"/></svg></div></div><div style=\"display:flex;flex-direction:column;gap:4px;\"><div style=\"font-size:11px;font-weight:700;color:#475569;\">Description <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:8px 10px;border:1px solid #cbd5e1;border-radius:6px;font-size:12px;color:#0f172a;height:50px;\">Serangan fraud massal di mesin EDC yang sama.</div></div></div></div><div style=\"padding:16px;border-top:1px solid #f1f5f9;display:flex;justify-content:flex-end;gap:10px;background:#f8fafc;\"><button style=\"padding:8px 16px;border-radius:8px;background:#fff;color:#64748b;border:1px solid #e2e8f0;font-size:11px;font-weight:700;\">Cancel</button><button style=\"padding:8px 16px;border-radius:8px;background:#2563eb;color:#fff;border:none;font-size:11px;font-weight:700;\">Submit Request</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

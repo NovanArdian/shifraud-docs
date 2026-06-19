@@ -1,0 +1,34 @@
+{
+  "label": "About",
+  "category": "Case Issuer",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "About Case Issuer",
+      "id": "about",
+      "intro": "Case Issuer adalah modul untuk memonitor dan mengelola alert fraud yang telah dikelompokkan (grouped) menjadi Case dari transaksi issuer. Memudahkan investigasi dengan fokus pada grouping data dan detail peringatan yang ada di dalamnya.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Apa itu Case Issuer?",
+          "desc": "{previewHtml:1}\n• Monitor fraud alert dari sisi issuer yang dikelompokkan dalam satu Case\n• Menampilkan indikator **Risk Score**, **Alert Count**, dan **Top Classification**\n• Memiliki fitur **Bulk Assign** dan **Bulk Reassign** untuk distribusi case\n• Klik baris case untuk membuka panel detail yang komprehensif\n• Memungkinkan navigasi langsung dari Case ke kumpulan Alert yang terkait",
+          "color": "#6366f1",
+          "bg": "#e0e7ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(99,102,241,.15);border:1px solid #c7d2fe;\"><div style=\"background:linear-gradient(135deg,#4f46e5 0%,#4338ca 60%,#3730a3 100%);padding:20px 22px;position:relative;overflow:hidden;\"><div style=\"position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.13) 1px,transparent 1px);background-size:18px 18px;\"></div><div style=\"position:relative;z-index:1;display:flex;align-items:center;gap:14px;\"><div style=\"width:48px;height:48px;border-radius:14px;background:rgba(255,255,255,.2);backdrop-filter:blur(8px);border:1.5px solid rgba(255,255,255,.35);display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\"><path d=\"M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z\"/></svg></div><div><div style=\"font-size:17px;font-weight:800;color:#fff;letter-spacing:-.3px;\">Case Issuer</div><div style=\"font-size:11px;color:rgba(255,255,255,.75);margin-top:3px;\">Grouped Case Monitoring for Issuer</div></div><div style=\"margin-left:auto;\"><span style=\"padding:4px 12px;border-radius:20px;background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.4);font-size:10px;font-weight:700;color:#fff;\">Grouped Data</span></div></div></div><div style=\"background:#fff;padding:16px 18px;\"><div style=\"border-top:1px solid #f1f5f9;padding-top:12px;\"><div style=\"font-size:9px;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;\">Fitur Utama</div><div style=\"display:flex;gap:5px;flex-wrap:wrap;\"><span style=\"padding:3px 9px;border-radius:5px;background:rgba(99,102,241,.1);font-size:9px;font-weight:700;color:#6366f1;\">Bulk Assign</span><span style=\"padding:3px 9px;border-radius:5px;background:rgba(5,150,105,.1);font-size:9px;font-weight:700;color:#059669;\">Bulk Reassign</span><span style=\"padding:3px 9px;border-radius:5px;background:rgba(217,119,6,.1);font-size:9px;font-weight:700;color:#d97706;\">Case Detail Shell</span><span style=\"padding:3px 9px;border-radius:5px;background:rgba(220,38,38,.1);font-size:9px;font-weight:700;color:#dc2626;\">Case Action Request</span><span style=\"padding:3px 9px;border-radius:5px;background:rgba(37,99,235,.1);font-size:9px;font-weight:700;color:#2563eb;\">Alert Breakdown</span></div></div></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Tampilan Tabel Utama",
+          "desc": "{previewHtml:1}\n• Kolom **Case ID** — ID unik untuk grup case\n• Kolom **Status** — badge `OPEN`, `CLOSED`, `UNASSIGNED`, dll.\n• Kolom **Alerts** — jumlah alert di dalam case (badge indigo)\n• Kolom **Risk Score** — skor risiko dari case (hijau, kuning, atau merah)\n• Kolom **Clustering Key** — referensi pemersatu case\n• Kolom **Created Date** — kapan case dibuat\n• Kolom **Assigned To** — siapa investigator yang ditugaskan",
+          "color": "#4f46e5",
+          "bg": "#e0e7ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 2px 12px rgba(79,70,229,.1);border:1px solid #e2e8f0;\"><div style=\"background:linear-gradient(90deg,#312e81,#4f46e5);padding:10px 14px;display:flex;align-items:center;gap:8px;\"><span style=\"font-size:11px;font-weight:700;color:#fff;\">Case Issuer List</span></div><div style=\"background:#f8fafc;border-bottom:1px solid #e2e8f0;display:grid;grid-template-columns:1fr 80px 70px 80px 100px;padding:7px 14px;gap:8px;\"><span style=\"font-size:9px;font-weight:700;color:#64748b;text-transform:uppercase;\">Case Info</span><span style=\"font-size:9px;font-weight:700;color:#64748b;text-transform:uppercase;text-align:center;\">Status</span><span style=\"font-size:9px;font-weight:700;color:#64748b;text-transform:uppercase;text-align:center;\">Alerts</span><span style=\"font-size:9px;font-weight:700;color:#64748b;text-transform:uppercase;text-align:center;\">Risk</span><span style=\"font-size:9px;font-weight:700;color:#64748b;text-transform:uppercase;text-align:right;\">Assignee</span></div><div style=\"background:#fff;display:grid;grid-template-columns:1fr 80px 70px 80px 100px;padding:10px 14px;gap:8px;align-items:center;border-bottom:1px solid #f1f5f9;\"><div style=\"display:flex;align-items:center;gap:8px;\"><div style=\"width:22px;height:22px;border-radius:6px;background:#eef2ff;border:1px solid #c7d2fe;display:flex;align-items:center;justify-content:center;\"><svg width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"#4f46e5\"><path d=\"M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z\"/></svg></div><div><div style=\"font-size:10px;font-weight:700;color:#0f172a;\">#CSI-99120</div><div style=\"font-size:8.5px;color:#64748b;margin-top:2px;\">Key: PAN-8991</div></div></div><div style=\"text-align:center;\"><span style=\"padding:3px 8px;border-radius:5px;background:#fef9c3;border:1px solid #fde047;font-size:8.5px;font-weight:700;color:#a16207;\">OPEN</span></div><div style=\"text-align:center;\"><span style=\"padding:3px 8px;border-radius:5px;background:#e0e7ff;border:1px solid #c7d2fe;font-size:8.5px;font-weight:700;color:#4f46e5;\">12 alerts</span></div><div style=\"text-align:center;\"><span style=\"padding:3px 8px;border-radius:5px;background:#fef2f2;border:1px solid #fecaca;font-size:8.5px;font-weight:700;color:#dc2626;\">85</span></div><div style=\"text-align:right;font-size:9px;font-weight:600;color:#334155;\">Novan</div></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

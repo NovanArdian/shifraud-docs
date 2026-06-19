@@ -1,0 +1,34 @@
+{
+  "label": "FAQ",
+  "category": "Scenario Group",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Frequently Asked Questions",
+      "id": "faq",
+      "intro": "Berikut adalah pertanyaan yang sering ditanyakan seputar modul Scenario Group beserta jawabannya.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Apa perbedaan Filtration dan Reaction di Detail Dialog?",
+          "desc": "• **Filtration** berfungsi sebagai filter pra-kondisi. Aturan di dalam Scenario Group ini tidak akan dieksekusi jika transaksi tidak memenuhi kriteria Filtration (misal: blok khusus transaksi kartu kredit).\n• **Reaction** adalah tindakan yang akan diambil *setelah* evaluasi selesai dan sistem mendeteksi kecurangan (Fraud), misalnya mengirim notifikasi email atau memblokir akun secara otomatis."
+        },
+        {
+          "num": 2,
+          "title": "Mengapa tombol Edit / Delete pada detail panel tidak muncul atau disable?",
+          "desc": "Tombol aksi akan dinonaktifkan atau disembunyikan apabila akun Anda tidak memiliki *Role* atau *Permission* yang dibutuhkan (contoh: `EDIT_SCENARIO_GROUP` atau `DELETE_SCENARIO_GROUP`). Silakan hubungi Administrator sistem untuk memeriksa izin akses Anda."
+        },
+        {
+          "num": 3,
+          "title": "Bagaimana cara beralih dari Card View ke Table View?",
+          "desc": "Terdapat ikon *toggle* di pojok kanan atas di area daftar data. Klik ikon baris (Table) untuk beralih ke Table View, atau klik ikon kotak-kotak (Card) untuk kembali ke Card View. Tampilan Detail akan tetap dapat diakses di sebelah kanan layar (bila Anda mengklik salah satu data)."
+        },
+        {
+          "num": 4,
+          "title": "Apakah menghapus Scenario Group juga menghapus rule/skenario di dalamnya?",
+          "desc": "Secara umum, menghapus Scenario Group tidak akan menghapus rule (Scenario) aslinya, melainkan hanya menghapus *pengelompokan* (grup) tersebut. Namun rule yang tergabung di dalamnya akan terlepas dari grup tersebut."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "label": "Filtration Configuration",
+  "category": "Scenario Group",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Filtration Configuration",
+      "id": "filtration-config",
+      "intro": "Filtration Configuration adalah cara cepat untuk mengatur filter yang diterapkan pada Scenario Group langsung dari Detail Panel, tanpa harus membuka Full Detail Dialog.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Membuka Filtration Configuration",
+          "desc": "{previewHtml:1}\n• Dari **Detail Panel** setelah memilih Scenario Group, klik tombol **Filtration Configuration** (ikon gear/settings).\n• Dialog/Drawer konfigurasi filtration akan muncul, menampilkan daftar filter yang sudah terikat dengan grup ini.\n• Anda dapat menambah, mengedit, atau menghapus filter binding dari sini.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(59,130,246,.15);border:1px solid #bfdbfe;background:#fff;width:280px;margin:0 auto;padding:16px;\"><div style=\"display:flex;flex-direction:column;gap:8px;\"><button style=\"padding:10px 14px;border-radius:8px;background:#eff6ff;border:1px solid #bfdbfe;color:#2563eb;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 1v6m0 6v6M5.64 5.64l4.24 4.24m6.36 6.36l4.24 4.24M1 12h6m6 0h6M5.64 18.36l4.24-4.24m6.36-6.36l4.24-4.24\"/></svg>Filtration Configuration</button></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Menambah & Mengelola Filter",
+          "desc": "{previewHtml:1}\n• **Add Filter:** Klik tombol untuk menambahkan filter baru pada grup.\n• **Edit Filter:** Klik ikon pensil pada filter yang sudah ada untuk mengubah konfigurasinya.\n• **Delete Filter:** Klik ikon sampah untuk menghapus ikatan filter dari grup.\n• Perubahan akan langsung tersimpan dan mempengaruhi semua skenario dalam grup tersebut.",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.15);border:1px solid #e2e8f0;background:#fff;width:340px;margin:0 auto;\"><div style=\"padding:16px;border-bottom:1px solid #f1f5f9;display:flex;justify-content:space-between;align-items:center;\"><div style=\"font-size:14px;font-weight:800;color:#0f172a;\">Filtration Configuration</div><button style=\"padding:6px 12px;border-radius:6px;background:#10b981;border:none;color:#fff;font-size:10px;font-weight:700;\">+ Add Filter</button></div><div style=\"padding:16px;\"><div style=\"border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;\"><div style=\"background:#f8fafc;padding:8px 12px;display:grid;grid-template-columns:1fr 80px;border-bottom:1px solid #e2e8f0;\"><span style=\"font-size:10px;font-weight:700;color:#64748b;\">Filter Name</span><span style=\"font-size:10px;font-weight:700;color:#64748b;text-align:right;\">Actions</span></div><div style=\"padding:10px 12px;display:grid;grid-template-columns:1fr 80px;align-items:center;\"><div style=\"font-size:11px;font-weight:600;color:#0f172a;\">Amount > 1000000</div><div style=\"display:flex;justify-content:flex-end;gap:6px;\"><div style=\"width:20px;height:20px;border-radius:4px;background:#eff6ff;display:flex;align-items:center;justify-content:center;color:#3b82f6;cursor:pointer;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><path d=\"M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7\"/><path d=\"M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z\"/></svg></div><div style=\"width:20px;height:20px;border-radius:4px;background:#fef2f2;display:flex;align-items:center;justify-content:center;color:#ef4444;cursor:pointer;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><polyline points=\"3 6 5 6 21 6\"/><path d=\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\"/></svg></div></div></div></div></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

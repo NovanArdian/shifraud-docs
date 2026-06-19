@@ -1,0 +1,34 @@
+{
+  "label": "Bulk Reassign",
+  "category": "Case Acquirer",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Bulk Reassign (Alih Tugas Massal)",
+      "id": "bulk-reassign",
+      "intro": "Fitur Bulk Reassign berguna ketika seorang investigator absen atau berhalangan, sehingga Case yang **sedang ditugaskan padanya** perlu dialihkan massal ke investigator lain agar proses penanganan Case tidak terhambat.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Aktivasi Mode & Data Reassignable",
+          "desc": "{previewHtml:1}\n• **Aktivasi:** Pilih opsi `Bulk Reassign` dari menu toolbar (icon User Share).\n• Mode akan aktif dan memunculkan toolbar khusus Bulk Reassign. Anda dapat mencentang beberapa Case sekaligus di tabel.",
+          "color": "#4f46e5",
+          "bg": "#e0e7ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(79,70,229,.15);border:1px solid #c7d2fe;background:#fff;padding:16px;\"><div style=\"background:#f8fafc;padding:12px;border-radius:10px;border:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;\"><div style=\"font-size:12px;font-weight:700;color:#0f172a;\">Bulk Reassign Mode Active</div><div style=\"display:flex;gap:8px;\"><button style=\"padding:6px 12px;border-radius:6px;background:#f1f5f9;color:#64748b;border:1px solid #e2e8f0;font-size:10px;font-weight:700;\">Cancel</button><button style=\"padding:6px 12px;border-radius:6px;background:#4f46e5;color:#fff;border:none;font-size:10px;font-weight:700;\">Reassign Selected (4)</button></div></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Dialog Alih Tugas & Alasan",
+          "desc": "{previewHtml:1}\n• Setelah mencentang case dan menekan `Reassign Selected`, dialog Reassign akan muncul.\n• Anda diwajibkan untuk:\n  1. **New Assignee:** Memilih investigator baru penerima tugas.\n  2. **Reason:** Memberikan catatan/alasan pengalihan (misal: \"Analis cuti sakit\").\n• Proses ini menggunakan parameter API spesifik yang mewajibkan penyertaan alasan (`reason`).",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.15);border:1px solid #e2e8f0;background:#fff;width:320px;margin:0 auto;\"><div style=\"padding:16px;border-bottom:1px solid #f1f5f9;display:flex;justify-content:space-between;align-items:center;\"><div style=\"font-size:14px;font-weight:800;color:#0f172a;\">Bulk Reassign Case Acquirer</div></div><div style=\"padding:20px;display:flex;flex-direction:column;gap:16px;\"><div style=\"background:#fffbeb;padding:12px;border-radius:8px;border:1px solid #fde68a;display:flex;align-items:center;gap:10px;\"><div style=\"font-size:24px;font-weight:900;color:#d97706;\">4</div><div style=\"font-size:11px;font-weight:600;color:#b45309;\">Cases to be reassigned</div></div><div style=\"display:flex;flex-direction:column;gap:6px;\"><div style=\"font-size:11px;font-weight:700;color:#475569;\">New Assignee <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:10px;border:1px solid #cbd5e1;border-radius:8px;display:flex;justify-content:space-between;align-items:center;\"><span style=\"font-size:12px;color:#0f172a;\">Investigator_03 (invest03)</span><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2.5\"><path d=\"M6 9l6 6 6-6\"/></svg></div></div><div style=\"display:flex;flex-direction:column;gap:6px;\"><div style=\"font-size:11px;font-weight:700;color:#475569;\">Reason <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:10px;border:1px solid #cbd5e1;border-radius:8px;height:60px;\"><span style=\"font-size:12px;color:#0f172a;\">Analis sebelumnya sedang cuti tahunan.</span></div></div></div><div style=\"padding:16px;border-top:1px solid #f1f5f9;display:flex;justify-content:flex-end;gap:10px;background:#f8fafc;\"><button style=\"padding:8px 16px;border-radius:8px;background:#fff;color:#64748b;border:1px solid #e2e8f0;font-size:11px;font-weight:700;\">Cancel</button><button style=\"padding:8px 16px;border-radius:8px;background:#4f46e5;color:#fff;border:none;font-size:11px;font-weight:700;\">Submit Reassign</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

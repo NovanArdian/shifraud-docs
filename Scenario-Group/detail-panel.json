@@ -1,0 +1,34 @@
+{
+  "label": "Detail Panel & History",
+  "category": "Scenario Group",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Detail Panel & Audit History",
+      "id": "detail-panel",
+      "intro": "Setiap kali Anda mengklik baris (Table View) atau kotak (Card View) dari Scenario Group, sebuah panel Detail akan muncul di sebelah kanan untuk memperlihatkan informasi lengkap beserta jejak riwayat perubahannya.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Panel Detail Utama",
+          "desc": "{previewHtml:1}\n• Menampilkan properti utama seperti **Group Name**, **Description**, **Created At**, dan **Created By**.\n• Di bagian atas panel terdapat tombol *Edit* (jika memiliki hak akses) dan *Delete* (ikon tempat sampah).\n• Terdapat juga tombol khusus `View Dialog` (ikon panah keluar) untuk membuka tampilan dialog *Full-screen* yang memiliki fungsi Binding Filtration dan Reaction.",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.1);border:1px solid #e2e8f0;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:16px;border-bottom:1px solid #f1f5f9;display:flex;justify-content:space-between;align-items:flex-start;background:#f8fafc;\"><div><div style=\"font-size:14px;font-weight:800;color:#0f172a;\">Payment Scams</div><div style=\"font-size:10px;color:#64748b;margin-top:2px;\">Created: 15 Jun 2025</div></div><div style=\"display:flex;gap:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:#eef2ff;display:flex;align-items:center;justify-content:center;color:#6366f1;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><path d=\"M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7\"/><path d=\"M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z\"/></svg></div><div style=\"width:24px;height:24px;border-radius:6px;background:#f8fafc;border:1px solid #e2e8f0;display:flex;align-items:center;justify-content:center;color:#64748b;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><polyline points=\"15 3 21 3 21 9\"/><line x1=\"10\" y1=\"14\" x2=\"21\" y2=\"3\"/></svg></div></div></div><div style=\"padding:16px;\"><div style=\"font-size:10px;font-weight:700;color:#94a3b8;text-transform:uppercase;\">Description</div><div style=\"font-size:12px;color:#0f172a;margin-top:4px;\">Rules for high-value suspicious transfers involving multiple banks.</div></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "History Timeline",
+          "desc": "{previewHtml:1}\n• Di bagian bawah panel, terdapat **History Timeline** (`ScenarioGroupHistoryTimeline.tsx`).\n• Menggambarkan jejak *audit trail*: siapa yang membuat, siapa yang terakhir mengubah (Update), dan kapan itu terjadi.\n• Ditampilkan secara kronologis dengan ikon vertikal (misal: titik hijau untuk Create, titik biru/kuning untuk Edit).",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.1);border:1px solid #e2e8f0;background:#fff;width:280px;margin:0 auto;padding:16px;\"><div style=\"font-size:12px;font-weight:800;color:#0f172a;margin-bottom:16px;\">History & Audit Trail</div><div style=\"display:flex;gap:12px;position:relative;\"><div style=\"width:2px;background:#e2e8f0;position:absolute;left:5px;top:6px;bottom:6px;\"></div><div style=\"display:flex;flex-direction:column;gap:16px;width:100%;\"><div style=\"display:flex;gap:12px;position:relative;z-index:1;\"><div style=\"width:12px;height:12px;border-radius:50%;background:#3b82f6;border:2px solid #fff;box-shadow:0 0 0 1px #bfdbfe;\"></div><div><div style=\"font-size:11px;font-weight:700;color:#0f172a;\">Updated by Supervisor</div><div style=\"font-size:9px;color:#64748b;margin-top:2px;\">16 Jun 2025, 14:30</div></div></div><div style=\"display:flex;gap:12px;position:relative;z-index:1;\"><div style=\"width:12px;height:12px;border-radius:50%;background:#10b981;border:2px solid #fff;box-shadow:0 0 0 1px #bbf7d0;\"></div><div><div style=\"font-size:11px;font-weight:700;color:#0f172a;\">Created by Admin</div><div style=\"font-size:9px;color:#64748b;margin-top:2px;\">15 Jun 2025, 10:00</div></div></div></div></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}
