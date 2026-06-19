@@ -9,44 +9,56 @@
       "intro": "Temukan jawaban atas pertanyaan umum terkait penggunaan modul White List.",
       "items": [
         {
-          "question": "Apa perbedaan White List dengan Watch List dan Stop List?",
-          "answer": "**White List** berisi entitas yang dipercaya dan dikecualikan dari deteksi fraud (bypass rules). **Watch List** berisi entitas yang perlu dipantau lebih ketat dan mendapat risk scoring lebih tinggi. **Stop List** berisi entitas yang diblokir sepenuhnya dari sistem (auto-reject). Ketiga list ini bekerja secara independen dengan fungsi yang berbeda dalam strategi fraud prevention."
+          "num": 1,
+          "title": "Bedanya White List, Watch List, dan Stop List?",
+          "desc": "{previewHtml:1}\n• **White List** — Entitas dipercaya, bypass fraud detection\n• **Watch List** — Entitas dipantau, risk score lebih tinggi\n• **Stop List** — Entitas diblokir, auto-reject transaksi\n• Ketiga list bekerja independen dengan fungsi berbeda",
+          "color": "#10b981",
+          "bg": "#ecfdf5",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.06);background:#fff;border:1px solid #a7f3d0;overflow:hidden;padding:12px;display:flex;gap:8px;\"><div style=\"flex:1;border-radius:11px;border:1.5px solid #10b981;background:linear-gradient(180deg,#d1fae5,#fff);overflow:hidden;\"><div style=\"padding:8px 12px;font-size:10px;color:#475569;text-align:center;font-weight:600;\">White List<span style=\"display:block;font-size:9px;color:#94a3b8;font-weight:400;margin-top:2px;\">Bypass</span></div></div><div style=\"flex:1;border-radius:11px;border:1.5px solid #f59e0b;background:linear-gradient(180deg,#fef3c7,#fff);overflow:hidden;\"><div style=\"padding:8px 12px;font-size:10px;color:#475569;text-align:center;font-weight:600;\">Watch List<span style=\"display:block;font-size:9px;color:#94a3b8;font-weight:400;margin-top:2px;\">Monitor</span></div></div><div style=\"flex:1;border-radius:11px;border:1.5px solid #ef4444;background:linear-gradient(180deg,#fee2e2,#fff);overflow:hidden;\"><div style=\"padding:8px 12px;font-size:10px;color:#475569;text-align:center;font-weight:600;\">Stop List<span style=\"display:block;font-size:9px;color:#94a3b8;font-weight:400;margin-top:2px;\">Block</span></div></div></div>"
+          }
         },
         {
-          "question": "Bagaimana cara White List bekerja dengan Scenario Studio?",
-          "answer": "White List dapat direferensikan oleh rule di Scenario Studio menggunakan node condition atau action. Ketika transaksi memiliki atribut yang terdaftar di White List (contoh: IP Address yang sama), rule dapat mengecek keberadaan atribut tersebut dan membuat keputusan bypass atau memberikan score risk yang lebih rendah. White List bersifat dynamic sehingga perubahan data langsung berpengaruh pada eksekusi rule."
+          "num": 2,
+          "title": "Cara White List bekerja dengan Scenario Studio?",
+          "desc": "• White List direferensikan via node **Condition** atau **Action**\n• Rule cek keberadaan atribut transaksi (contoh: IP_ADDRESS)\n• Ketika match, transaksi bisa bypass fraud detection\n• Perubahan data langsung berpengaruh (real-time lookup)",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
         },
         {
-          "question": "Apakah White List bisa memiliki tanggal expired?",
-          "answer": "Ya, setiap White List entry dapat memiliki **Date From** (tanggal mulai berlaku) dan opsional **Date To** (tanggal kadaluarsa). Anda dapat mengaktifkan toggle **Has Expiration Date** saat membuat/edit data. Jika dinonaktifkan, White List akan berlaku selamanya (sampai dihapus secara manual). Sistem secara otomatis akan mengabaikan White List yang sudah melewati tanggal Date To."
+          "num": 3,
+          "title": "Apakah White List bisa expired?",
+          "desc": "• Ya, gunakan **Date From** (mulai berlaku) & **Date To** (kadaluarsa)\n• Toggle **Has Expiration Date** saat create/edit data\n• Kalau toggle dimatikan, Date To akan terkunci & berlaku selamanya\n• Sistem otomatis abaikan entry yang sudah lewat Date To",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         },
         {
-          "question": "Apa itu Reaction dalam White List?",
-          "answer": "**Reaction** adalah tindakan otomatis yang terikat (binding) dengan White List tertentu. Ketika transaksi cocok dengan White List, sistem akan menjalankan reaction yang terkait seperti: override response code, kirim notifikasi email, buat alert, atau tambahkan atribut transaksi ke list lain (White/Stop/Watch List). Reaction memiliki priority (1-10) untuk menentukan urutan eksekusi jika ada multiple reactions."
+          "num": 4,
+          "title": "Apa itu Reaction dalam White List?",
+          "desc": "• **Reaction** = tindakan otomatis yang binding ke White List\n• Ketika transaksi match dengan White List, reaction dieksekusi\n• 7 tipe action: SET_RESPCODE, EMAIL_NOTIFICATION, CREATE_ACQUIRER_ALERT, CREATE_ISSUER_ALERT, ATTR_WHITE_LIST, ATTR_STOP_LIST, ATTR_WATCH_LIST\n• Reaction punya priority (1-10) untuk urutan eksekusi",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
-          "question": "Bagaimana cara import data White List dalam jumlah besar?",
-          "answer": "Gunakan fitur **More Actions > Import List**. Upload file CSV atau JSON (max 25MB) dengan struktur kolom yang sesuai: entityId, value, dateIn, dateOut, reason. Sistem akan memvalidasi file dan menampilkan preview data. Anda dapat memilih data yang ingin diimport menggunakan checkbox, lalu klik **Finalize Import**. Format CSV harus memiliki header yang tepat, sedangkan JSON harus berupa array of objects."
+          "num": 5,
+          "title": "Cara import data White List bulk?",
+          "desc": "• Klik **More Actions** → pilih tab **Import List**\n• Drag & drop file CSV/JSON ke dropzone (max 25MB)\n• Struktur: entityId, value, dateIn, dateOut, reason\n• Sistem validasi & tampilkan preview → pilih data → **Finalize Import**",
+          "color": "#06b6d4",
+          "bg": "#ecfeff"
         },
         {
-          "question": "Apakah bisa export data White List?",
-          "answer": "Ya, gunakan fitur **More Actions > Export List**. Pilih data yang ingin diexport menggunakan checkbox (support Select All), lalu klik **Finalize Export**. File CSV akan otomatis terdownload dengan nama format `white_list - YYYY-MM-DD_HH-mm-ss.csv`. File berisi seluruh kolom White List sesuai struktur database."
+          "num": 6,
+          "title": "Apakah bisa export data White List?",
+          "desc": "• Ya, klik **More Actions** → pilih tab **Export List**\n• Pilih data yang ingin diexport via checkbox (support Select All & Deselect All)\n• Klik **Finalize Export (X)** untuk download\n• File CSV auto download: `white_list - YYYY-MM-DD_HH-mm-ss.csv`",
+          "color": "#14b8a6",
+          "bg": "#f0fdfa"
         },
         {
-          "question": "Apa fungsi dari field Priority di Reaction?",
-          "answer": "**Priority** (nilai 1-10) menentukan urutan eksekusi reaction ketika satu White List memiliki multiple reactions. Reaction dengan priority lebih rendah (nilai 1) akan dieksekusi terlebih dahulu, diikuti priority yang lebih tinggi (nilai 10). Ini penting untuk memastikan sequence yang tepat, misalnya mengirim notifikasi dulu sebelum override response code."
-        },
-        {
-          "question": "Bagaimana cara menghapus White List yang sudah tidak digunakan?",
-          "answer": "Pilih White List dari daftar untuk membuka Detail Panel, lalu klik tombol **Delete Entry** (ikon trash merah). Konfirmasi penghapusan di dialog yang muncul. Data akan dihilangkan dari database secara permanen dan tidak bisa dipulihkan. Pastikan tidak ada rule di Scenario Studio yang masih mereferensikan White List tersebut untuk menghindari error eksekusi rule."
-        },
-        {
-          "question": "Apakah perubahan data White List langsung berpengaruh pada transaksi?",
-          "answer": "Ya, sistem menggunakan **real-time lookup** untuk White List. Setiap perubahan (add, edit, delete) langsung berpengaruh pada transaksi berikutnya tanpa perlu restart atau deployment ulang. Namun, pastikan untuk melakukan testing setelah perubahan data untuk memverifikasi bahwa rule di Scenario Studio berjalan sesuai ekspektasi."
-        },
-        {
-          "question": "Bagaimana cara melihat history perubahan White List?",
-          "answer": "Buka Detail Panel White List (klik data dari daftar), lalu pilih tab **History**. Timeline akan menampilkan jejak audit lengkap: siapa yang membuat/mengubah data, kapan (timestamp), dan jenis aksi (Create/Update). Untuk melihat history dalam tampilan penuh, klik tombol **Expand Timeline** yang akan membuka modal full-screen."
+          "num": 7,
+          "title": "Cara lihat history perubahan White List?",
+          "desc": "• Klik White List dari daftar untuk buka Detail Panel\n• Pilih tab **History** (ada 2 tab: General & History)\n• Timeline tampilkan jejak audit: siapa, kapan, jenis aksi (Create/Update)\n• Tampilan kronologis dari terbaru ke terlama",
+          "color": "#64748b",
+          "bg": "#f8fafc"
         }
       ]
     }

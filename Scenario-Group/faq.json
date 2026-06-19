@@ -3,30 +3,45 @@
   "category": "Scenario Group",
   "sections": [
     {
-      "type": "tutorial",
+      "type": "faq",
       "heading": "Frequently Asked Questions",
       "id": "faq",
-      "intro": "Berikut adalah pertanyaan yang sering ditanyakan seputar modul Scenario Group beserta jawabannya.",
-      "steps": [
+      "intro": "Temukan jawaban atas pertanyaan umum terkait penggunaan modul Scenario Group.",
+      "items": [
         {
           "num": 1,
-          "title": "Apa perbedaan Filtration dan Reaction di Detail Dialog?",
-          "desc": "• **Filtration** berfungsi sebagai filter pra-kondisi. Aturan di dalam Scenario Group ini tidak akan dieksekusi jika transaksi tidak memenuhi kriteria Filtration (misal: blok khusus transaksi kartu kredit).\n• **Reaction** adalah tindakan yang akan diambil *setelah* evaluasi selesai dan sistem mendeteksi kecurangan (Fraud), misalnya mengirim notifikasi email atau memblokir akun secara otomatis."
+          "title": "Bedanya Filtration dan Reaction?",
+          "desc": "• **Filtration** — Filter pra-kondisi di level grup, rule tidak eksekusi jika transaksi tidak match (contoh: khusus kartu kredit)\n• **Reaction** — Tindakan otomatis setelah evaluasi selesai & fraud terdeteksi (contoh: kirim email, blokir akun)\n• Filtration = kondisi masuk, Reaction = aksi keluar\n• Keduanya bisa diatur di tab Full Detail Dialog atau via Filtration Configuration",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 2,
-          "title": "Mengapa tombol Edit / Delete pada detail panel tidak muncul atau disable?",
-          "desc": "Tombol aksi akan dinonaktifkan atau disembunyikan apabila akun Anda tidak memiliki *Role* atau *Permission* yang dibutuhkan (contoh: `EDIT_SCENARIO_GROUP` atau `DELETE_SCENARIO_GROUP`). Silakan hubungi Administrator sistem untuk memeriksa izin akses Anda."
+          "title": "Kenapa tombol Edit/Delete tidak muncul?",
+          "desc": "• Tombol aksi dinonaktifkan jika akun tidak punya **Permission** yang dibutuhkan\n• Contoh permission: `EDIT_SCENARIO_GROUP`, `DELETE_SCENARIO_GROUP`\n• Hubungi Administrator untuk cek izin akses Anda\n• Permission berbasis Role yang di-assign ke User Group",
+          "color": "#ef4444",
+          "bg": "#fef2f2"
         },
         {
           "num": 3,
-          "title": "Bagaimana cara beralih dari Card View ke Table View?",
-          "desc": "Terdapat ikon *toggle* di pojok kanan atas di area daftar data. Klik ikon baris (Table) untuk beralih ke Table View, atau klik ikon kotak-kotak (Card) untuk kembali ke Card View. Tampilan Detail akan tetap dapat diakses di sebelah kanan layar (bila Anda mengklik salah satu data)."
+          "title": "Cara beralih Card View ke Table View?",
+          "desc": "• Ada ikon toggle di pojok kanan atas area daftar data\n• Klik ikon **baris** (Table) untuk Table View\n• Klik ikon **kotak-kotak** (Card) untuk Card View\n• Tampilan Detail Panel tetap bisa diakses dari kedua view\n• Setting view tersimpan di browser session",
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
         },
         {
           "num": 4,
-          "title": "Apakah menghapus Scenario Group juga menghapus rule/skenario di dalamnya?",
-          "desc": "Secara umum, menghapus Scenario Group tidak akan menghapus rule (Scenario) aslinya, melainkan hanya menghapus *pengelompokan* (grup) tersebut. Namun rule yang tergabung di dalamnya akan terlepas dari grup tersebut."
+          "title": "Apakah hapus Scenario Group hapus rule-nya juga?",
+          "desc": "• **Tidak**, menghapus Scenario Group hanya hapus pengelompokan (grup)\n• Rule/skenario asli tetap ada di sistem\n• Rule yang tergabung di grup akan terlepas dari grup tersebut\n• Rule bisa di-assign ulang ke grup lain\n• Group hanya container, bukan owner dari rule",
+          "color": "#10b981",
+          "bg": "#f0fdf4"
+        },
+        {
+          "num": 5,
+          "title": "Apa fungsi Threshold Black dan Grey?",
+          "desc": "• **Threshold Black** — Nilai ambang batas untuk klasifikasi fraud berat (Black)\n• **Threshold Grey** — Nilai ambang batas untuk klasifikasi mencurigakan (Grey)\n• Grey umumnya lebih kecil dari Black\n• Digunakan untuk menentukan severity level transaksi\n• Threshold ini digunakan oleh rule engine untuk decision making",
+          "color": "#7c3aed",
+          "bg": "#faf5ff"
         }
       ]
     }

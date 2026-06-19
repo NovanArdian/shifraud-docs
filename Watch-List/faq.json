@@ -3,35 +3,45 @@
   "category": "Watch-List",
   "sections": [
     {
-      "type": "tutorial",
+      "type": "faq",
       "heading": "Frequently Asked Questions",
       "id": "faq",
-      "intro": "Berikut adalah pertanyaan yang sering ditanyakan seputar pengoperasian modul Watch List.",
-      "steps": [
+      "intro": "Temukan jawaban atas pertanyaan umum terkait penggunaan modul Watch List.",
+      "items": [
         {
           "num": 1,
-          "title": "Apa bedanya Watch List dengan Parameter di Scenario Studio?",
-          "desc": "**Parameter** adalah nilai *hard-coded* tunggal yang menempel di satu skenario (misalnya: Nominal > 1.000.000). Sebaliknya, **Watch List** adalah sekumpulan data massal yang bersifat terpusat. Anda dapat mereferensikan satu Watch List ke *puluhan skenario* sekaligus. Jika ada perubahan pada Watch List (misalnya penambahan IP baru), semua skenario yang terikat otomatis menggunakan data terbaru — tanpa perlu merevisi satu per satu."
+          "title": "Bedanya Watch List dengan Parameter di Scenario Studio?",
+          "desc": "• **Parameter** — Nilai hard-coded tunggal menempel di 1 skenario\n• **Watch List** — Kumpulan data massal terpusat, bisa direferensi ke puluhan skenario\n• Perubahan Watch List otomatis update semua skenario terhubung\n• Tidak perlu revisi satu per satu jika ada update data",
+          "color": "#6366f1",
+          "bg": "#eef2ff"
         },
         {
           "num": 2,
           "title": "Format apa yang didukung untuk Import Watch Value?",
-          "desc": "Sistem hanya mendukung dua format file untuk fitur Import:\n- **CSV** (`.csv`) — format teks terpisah koma\n- **JSON** (`.json`) — format data terstruktur\n\nUkuran maksimum file adalah **25 MB**. Format Excel (`.xlsx` / `.xls`) **tidak** didukung di fitur Import Watch Value ini."
+          "desc": "• Sistem support **CSV** (.csv) dan **JSON** (.json)\n• Ukuran maksimum file: **25 MB**\n• Format Excel (.xlsx / .xls) **tidak** didukung\n• Gunakan CSV untuk file besar (parsing lebih cepat)",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
         },
         {
           "num": 3,
-          "title": "Bisakah satu nilai dimasukkan lebih dari sekali ke dalam Watch List yang sama?",
-          "desc": "Secara teknis, nilai (*Watch Value*) di dalam satu Watch List harus unik. Jika Anda melakukan *import* dan terdapat data ganda (*duplicate*), sistem akan mengabaikan nilai duplikat atau mengeluarkan notifikasi validasi error. Pastikan file yang diunggah sudah bersih dari duplikasi sebelum proses *Finalize Import*."
+          "title": "Bisakah satu nilai masuk lebih dari sekali?",
+          "desc": "• Tidak, Watch Value di dalam satu Watch List harus unik\n• Saat import, sistem akan abaikan atau beri validasi error untuk duplikat\n• Pastikan file sudah bersih dari duplikasi sebelum Finalize Import\n• Gunakan spreadsheet untuk validasi data sebelum upload",
+          "color": "#ef4444",
+          "bg": "#fef2f2"
         },
         {
           "num": 4,
-          "title": "Mengapa tab Watch Value atau Import/Export tidak bisa diakses?",
-          "desc": "Modul-modul ini dilindungi oleh *Permission Role* spesifik:\n- **`VIEW_WATCH_LIST_WATCH_VALUE`** — mengontrol visibilitas tab *Watch Value*.\n- **`ADD_WATCH_LIST_WATCH_VALUE`** — mengontrol tombol *Add New Record*.\n- **`EDIT_WATCH_LIST_WATCH_VALUE`** — mengontrol tombol *Edit Entry*.\n- **`DELETE_WATCH_LIST_WATCH_VALUE`** — mengontrol tombol *Decommission Record*.\n\nApabila tombol atau tab tidak muncul, berarti *User Group* Anda belum diberikan izin akses oleh Administrator."
+          "title": "Kenapa tab Watch Value tidak bisa diakses?",
+          "desc": "• Modul dilindungi **Permission Role** spesifik:\n• `VIEW_WATCH_LIST_WATCH_VALUE` — visibilitas tab Watch Value\n• `ADD_WATCH_LIST_WATCH_VALUE` — tombol Add New Record\n• `EDIT_WATCH_LIST_WATCH_VALUE` — tombol Edit Entry\n• `DELETE_WATCH_LIST_WATCH_VALUE` — tombol Decommission Record\n• Hubungi Administrator untuk mendapat izin akses",
+          "color": "#7c3aed",
+          "bg": "#faf5ff"
         },
         {
           "num": 5,
-          "title": "Bagaimana cara mengekspor semua Watch Values sekaligus?",
-          "desc": "Buka tab **Export** di dalam *Watch List Details Dialog*, lalu klik tombol **Select All** untuk memilih seluruh nilai yang terdaftar. Setelah itu klik **Finalize Export (n)** — sistem akan mengunduh file CSV secara otomatis dengan nama `watch_value - [timestamp].csv` ke folder unduhan lokal Anda."
+          "title": "Cara export semua Watch Values sekaligus?",
+          "desc": "• Buka **Review Details** → pilih tab **Export**\n• Klik tombol **Select All** untuk pilih semua nilai\n• Klik **Finalize Export (n)** untuk download\n• File CSV auto download: `watch_value - [timestamp].csv`",
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
         }
       ]
     }

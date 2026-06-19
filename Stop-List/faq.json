@@ -3,59 +3,52 @@
   "category": "Stop-List",
   "sections": [
     {
-      "type": "tutorial",
+      "type": "faq",
       "heading": "Frequently Asked Questions",
       "id": "faq",
-      "intro": "Kumpulan pertanyaan umum seputar penggunaan Stop List, troubleshooting, dan best practices untuk memaksimalkan efektivitas blocking mechanism di sistem fraud prevention.",
-      "steps": [
+      "intro": "Temukan jawaban atas pertanyaan umum terkait penggunaan modul Stop List.",
+      "items": [
         {
           "num": 1,
-          "title": "Perbedaan Stop List vs Watch List",
-          "desc": "**Q: Apa perbedaan mendasar antara Stop List dan Watch List?**\n\nA: Stop List adalah **blocking aktif** yang langsung menolak transaksi tanpa perlu rule tambahan. Watch List adalah **referensi data** yang digunakan oleh rules di Scenario Studio untuk decision making.\n\n**Stop List:**\n• Langsung memblokir transaksi yang mengandung atribut terdaftar\n• Berbasis Attribute + Value spesifik (contoh: Card Number = 4111111111111111)\n• Efektif segera setelah dibuat tanpa perlu aktivasi rule\n• Digunakan untuk hard blocking (fraud confirmed, blacklist permanent)\n\n**Watch List:**\n• Hanya sebagai reference data untuk rules\n• Berbasis List Name + kumpulan nilai (contoh: \"High-Risk IPs\" berisi 1000+ IP addresses)\n• Harus dirujuk oleh rule di Scenario Studio untuk berfungsi\n• Digunakan untuk flexible scoring dan conditional logic",
-          "color": "#8b5cf6",
-          "bg": "#f5f3ff"
+          "title": "Bedanya Stop List dengan Watch List?",
+          "desc": "• **Stop List** — Blocking aktif, langsung tolak transaksi tanpa rule tambahan\n• **Watch List** — Referensi data untuk rules di Scenario Studio\n• Stop List berbasis Attribute + Value spesifik (contoh: Card Number = 4111111111111111)\n• Watch List berbasis List Name + kumpulan nilai untuk flexible scoring",
+          "color": "#ef4444",
+          "bg": "#fef2f2"
         },
         {
           "num": 2,
-          "title": "Expiration Date & Time Management",
-          "desc": "**Q: Bagaimana cara kerja Has Expiration Date toggle?**\n\nA: Toggle **Has Expiration Date** menentukan apakah Stop List entry memiliki batas waktu berlaku:\n\n**Saat Toggle OFF (Default):**\n• Field Date To akan disabled dan ter-clear otomatis\n• Entry akan berlaku permanent dari Date From hingga dihapus manual\n• Cocok untuk blacklist permanent (confirmed fraud, company policy)\n\n**Saat Toggle ON:**\n• Field Date To akan enabled dan menjadi required\n• Validasi otomatis memastikan Date To > Date From\n• Entry akan auto-expire setelah melewati Date To\n• Cocok untuk temporary blocking (investigation period, trial suspension)\n\n> Expired entries tidak otomatis terhapus dari database tetapi tidak lagi aktif memblokir transaksi. Gunakan filter search untuk menemukan expired entries.",
+          "title": "Cara kerja Has Expiration Date toggle?",
+          "desc": "• Toggle **OFF** (default): Date To disabled & ter-clear, entry berlaku permanent\n• Toggle **ON**: Date To enabled & jadi required, validasi Date To > Date From\n• Entry auto-expire setelah lewat Date To\n• Toggle OFF cocok untuk blacklist permanent (confirmed fraud)\n• Toggle ON cocok untuk temporary blocking (investigation period)",
           "color": "#f59e0b",
           "bg": "#fffbeb"
         },
         {
           "num": 3,
-          "title": "Attribute Types & Transaction Attributes",
-          "desc": "**Q: Atribut apa saja yang bisa digunakan di Stop List?**\n\nA: Stop List mendukung **semua Transaction Attributes** yang dikonfigurasi sistem. Atribut umum meliputi:\n\n**Identity Attributes:**\n• Card Number / PAN (Primary Account Number)\n• Card BIN (Bank Identification Number)\n• Phone Number\n• Email Address\n• Customer ID / User ID\n\n**Technical Attributes:**\n• IP Address\n• Device ID / Device Fingerprint\n• User Agent\n• Session ID\n\n**Merchant Attributes:**\n• Merchant ID\n• Terminal ID\n• MCC (Merchant Category Code)\n\n> Jika atribut yang Anda butuhkan tidak muncul di dropdown, hubungi administrator untuk menambahkan Transaction Attribute baru di konfigurasi sistem.",
+          "title": "Atribut apa saja yang bisa digunakan?",
+          "desc": "• Stop List support **semua Transaction Attributes** di sistem\n• **Identity**: Card Number/PAN, Card BIN, Phone Number, Email, Customer ID\n• **Technical**: IP Address, Device ID, User Agent, Session ID\n• **Merchant**: Merchant ID, Terminal ID, MCC\n• Hubungi admin jika atribut tidak muncul di dropdown",
           "color": "#06b6d4",
           "bg": "#ecfeff"
         },
         {
           "num": 4,
-          "title": "Import/Export Best Practices",
-          "desc": "**Q: Apa best practice untuk Import & Export Stop List?**\n\n**Import Best Practices:**\n• Gunakan format CSV untuk file besar (>1000 entries) karena parsing lebih cepat\n• Pastikan kolom `entityType` match dengan nama Transaction Attribute di sistem\n• Validasi file di local spreadsheet sebelum upload untuk menghindari error\n• Import maksimal 25MB per file (±100,000 entries)\n• Gunakan Verification Center untuk review data sebelum Finalize Import\n\n**Export Best Practices:**\n• Export secara berkala untuk backup dan audit trail\n• Gunakan filter search sebelum export untuk mengekstrak subset spesifik\n• File export otomatis ter-timestamp untuk version control\n• Export hanya entries yang diperlukan untuk menjaga ukuran file\n\n**Format File Tips:**\n• Date format harus: `yyyy-MM-dd HH:mm:ss` atau ISO 8601\n• Boolean field (`isExpired`) gunakan: `true`/`false` atau `1`/`0`\n• Karakter special di field reason harus di-escape dengan quotes",
+          "title": "Best practice Import & Export Stop List?",
+          "desc": "• **Import**: Gunakan CSV untuk file besar (>1000 entries), parsing lebih cepat\n• Pastikan kolom `entityType` match dengan Transaction Attribute di sistem\n• Validasi file di spreadsheet lokal sebelum upload\n• Max 25MB per file (±100,000 entries)\n• **Export**: Export berkala untuk backup & audit trail\n• Export otomatis ter-timestamp untuk version control",
           "color": "#10b981",
           "bg": "#f0fdf4"
         },
         {
           "num": 5,
-          "title": "Performance & Scalability",
-          "desc": "**Q: Berapa banyak Stop List entries yang bisa ditangani sistem?**\n\nA: Sistem dioptimasi untuk handle **100,000+ entries** dengan performa stabil:\n\n**Performance Characteristics:**\n• Blocking check dilakukan dengan O(1) complexity menggunakan indexed lookup\n• Response time rata-rata <5ms untuk single attribute check\n• Pagination di main view: 25-50 entries per page (configurable)\n• Search/filter operation: sub-second response untuk 100K+ entries\n\n**Scalability Tips:**\n• Gunakan expiration date untuk auto-cleanup entries lama\n• Review dan hapus expired/obsolete entries secara berkala\n• Untuk volume >500K entries, pertimbangkan partitioning by attribute type\n• Monitor History timeline untuk entries yang sering di-update (indikasi inefficiency)\n\n> Jika system response melambat, periksa jumlah active entries dan consider archiving old data.",
-          "color": "#ef4444",
-          "bg": "#fef2f2"
+          "title": "Apa fungsi tombol View Reactions?",
+          "desc": "• Buka portal **Stop List Reactions** — manage tindakan otomatis\n• Ketika transaksi match Stop List, reaction akan dieksekusi\n• 7 tipe action: SET_RESPCODE, EMAIL_NOTIFICATION, CREATE_ACQUIRER_ALERT, CREATE_ISSUER_ALERT, ATTR_WHITE_LIST, ATTR_STOP_LIST, ATTR_WATCH_LIST\n• Reaction punya priority (1-10) untuk urutan eksekusi",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
         },
         {
           "num": 6,
-          "title": "Audit & Compliance",
-          "desc": "**Q: Bagaimana cara tracking perubahan untuk compliance audit?**\n\nA: Setiap Stop List entry memiliki **complete audit trail** di tab History:\n\n**Audit Capabilities:**\n• Setiap Create, Update, Delete tercatat dengan timestamp presisi detik\n• Initiator (user email/ID) terekam untuk setiap action\n• Description field menjelaskan nature of change\n• Status badges menunjukkan lifecycle state (ACTIVE, VERIFIED, DETECTED, dll)\n• Timeline visual memudahkan chronological review\n\n**Compliance Best Practices:**\n• Isi field Reason dengan detail untuk justify blocking decision\n• Review History timeline saat investigation atau audit request\n• Export entries berkala untuk external archiving dan reporting\n• Gunakan User Group untuk segregation of duties\n• Document business logic di field Reason untuk regulatory compliance\n\n**Expand Timeline Feature:**\n• Klik \"Expand Timeline\" untuk fullscreen modal view\n• Print atau screenshot untuk audit documentation\n• Filter history by date range untuk periodic reporting",
-          "color": "#7c3aed",
-          "bg": "#f5f3ff"
-        },
-        {
-          "num": 7,
-          "title": "View Reactions: Transaction Impact",
-          "desc": "**Q: Apa fungsi tombol View Reactions di Detail Panel?**\n\nA: **View Reactions** membuka portal ke **Stop List Reactions** — log lengkap semua transaksi yang terblokir oleh entry Stop List tersebut.\n\n**Reactions Data:**\n• Transaction ID & timestamp saat transaksi terblokir\n• Full transaction metadata (amount, merchant, card details, dll)\n• Blocking reason & rule reference\n• User/customer impacted\n• Response action yang dikirim ke upstream system\n\n**Use Cases:**\n• Investigasi fraud pattern dari blocked transactions\n• Validate efektivitas Stop List entry (apakah benar-benar blocking fraud?)\n• Calculate business impact (berapa transaksi legitimate yang false positive)\n• Generate report untuk stakeholder tentang blocking effectiveness\n• Post-mortem analysis untuk improve detection accuracy\n\n> Akses View Reactions memerlukan permission `VIEW_STOP_LIST_REACTIONS` pada user profile Anda.",
-          "color": "#ec4899",
-          "bg": "#fdf2f8"
+          "title": "Cara lihat history perubahan Stop List?",
+          "desc": "• Klik Stop List dari daftar untuk buka Detail Panel\n• Pilih tab **History** (ada 2 tab: General & History)\n• Timeline tampilkan jejak audit: siapa, kapan, jenis aksi (Create/Update/Delete)\n• Tampilan kronologis dari terbaru ke terlama\n• Gunakan untuk compliance audit & investigation",
+          "color": "#64748b",
+          "bg": "#f8fafc"
         }
       ]
     }
