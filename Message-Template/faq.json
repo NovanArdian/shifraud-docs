@@ -11,37 +11,52 @@
         {
           "num": 1,
           "title": "Bagaimana cara kerja Placeholder?",
-          "desc": "• **Placeholder** memetakan atribut transaksi secara dinamis.\n• Ketika transaksi memicu rule, penanda khusus seperti `<hpan>` (nomor kartu) atau `<amount>` (nominal transaksi) di dalam template akan dievaluasi dan digantikan oleh nilai transaksi riil.\n• Pastikan penulisan tag placeholder sesuai dengan label atribut yang dipilih dari asisten dropdown.",
+          "desc": "{previewHtml:1}\n• **Placeholder** memetakan atribut transaksi secara dinamis.\n• Ketika transaksi memicu rule, penanda khusus seperti `<hpan>` (nomor kartu) atau `<amount>` (nominal transaksi) di dalam template akan dievaluasi dan digantikan oleh nilai transaksi riil.\n• Pastikan penulisan tag placeholder sesuai dengan label atribut yang dipilih dari asisten dropdown.",
           "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(59,130,246,.1);border:1px solid #bfdbfe;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#1e40af;margin-bottom:8px;text-align:center'>Placeholder Mapping</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:8px;border-radius:8px;background:#eff6ff;border:1px solid #bfdbfe'><div style='font-size:8px;font-weight:700;color:#1e40af;margin-bottom:3px'>Template:</div><div style='font-size:7px;color:#475569;font-family:monospace'>Card <span style='color:#dc2626'>&lt;hpan&gt;</span> amount <span style='color:#dc2626'>&lt;amount&gt;</span></div></div><div style='text-align:center;font-size:10px;color:#60a5fa'>↓</div><div style='padding:8px;border-radius:8px;background:#dcfce7;border:1px solid #86efac'><div style='font-size:8px;font-weight:700;color:#166534;margin-bottom:3px'>Output:</div><div style='font-size:7px;color:#475569;font-family:monospace'>Card <span style='color:#166534'>4111****1111</span> amount <span style='color:#166534'>50000</span></div></div></div></div>"
+          }
         },
         {
           "num": 2,
           "title": "Reaction mana saja yang menggunakan template ini?",
-          "desc": "• Modul **Reactions** pada Stop List, White List, Scenario Studio, dan Scenario Group.\n• Ketika dikonfigurasi dengan action type **EMAIL_NOTIFICATION**, sistem akan meminta Anda memilih salah satu **Message Template** sebagai format pesan notifikasi yang akan dikirim ke contact person atau group.",
+          "desc": "{previewHtml:1}\n• Modul **Reactions** pada Stop List, White List, Scenario Studio, dan Scenario Group.\n• Ketika dikonfigurasi dengan action type **EMAIL_NOTIFICATION**, sistem akan meminta Anda memilih salah satu **Message Template** sebagai format pesan notifikasi yang akan dikirim ke contact person atau group.",
           "color": "#10b981",
-          "bg": "#f0fdf4"
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(16,185,129,.1);border:1px solid #a7f3d0;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#166534;margin-bottom:8px;text-align:center'>Used in Reactions</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:6px 8px;border-radius:6px;background:#dcfce7;border:1px solid #86efac;display:flex;align-items:center;gap:6px'><span style='font-size:7px;font-weight:700;color:#166534'>✓ Stop List</span></div><div style='padding:6px 8px;border-radius:6px;background:#dcfce7;border:1px solid #86efac;display:flex;align-items:center;gap:6px'><span style='font-size:7px;font-weight:700;color:#166534'>✓ White List</span></div><div style='padding:6px 8px;border-radius:6px;background:#dcfce7;border:1px solid #86efac;display:flex;align-items:center;gap:6px'><span style='font-size:7px;font-weight:700;color:#166534'>✓ Scenario Studio</span></div><div style='padding:6px 8px;border-radius:6px;background:#dcfce7;border:1px solid #86efac;display:flex;align-items:center;gap:6px'><span style='font-size:7px;font-weight:700;color:#166534'>✓ Scenario Group</span></div><div style='padding:6px;border-radius:6px;background:#eff6ff;border:1px solid #bfdbfe;text-align:center'><span style='font-size:7px;font-weight:700;color:#1e40af'>Action: EMAIL_NOTIFICATION</span></div></div></div>"
+          }
         },
         {
           "num": 3,
           "title": "Apakah subjek email mendukung placeholder?",
-          "desc": "• **Ya.** Subjek pesan (Subject field) sepenuhnya mendukung penyisipan placeholder dinamis.\n• Contoh subjek: `[Alert] Transaksi Mencurigakan Kartu <hpan>`.\n• Sistem akan me-replace parameter di subjek dengan cara yang sama seperti di body text template.",
+          "desc": "{previewHtml:1}\n• **Ya.** Subjek pesan (Subject field) sepenuhnya mendukung penyisipan placeholder dinamis.\n• Contoh subjek: `[Alert] Transaksi Mencurigakan Kartu <hpan>`.\n• Sistem akan me-replace parameter di subjek dengan cara yang sama seperti di body text template.",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "bg": "#fffbeb",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(245,158,11,.1);border:1px solid #fde68a;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#92400e;margin-bottom:8px;text-align:center'>Subject Placeholder</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:8px;border-radius:8px;background:#fef3c7;border:1px solid #fde68a'><div style='font-size:8px;font-weight:700;color:#92400e;margin-bottom:3px'>Subject Template:</div><div style='font-size:7px;color:#475569;font-family:monospace'>[Alert] Card <span style='color:#dc2626'>&lt;hpan&gt;</span></div></div><div style='text-align:center;font-size:10px;color:#fbbf24'>↓</div><div style='padding:8px;border-radius:8px;background:#dcfce7;border:1px solid #86efac'><div style='font-size:8px;font-weight:700;color:#166534;margin-bottom:3px'>Email Subject:</div><div style='font-size:7px;color:#475569;font-family:monospace'>[Alert] Card <span style='color:#166534'>4111****1111</span></div></div></div></div>"
+          }
         },
         {
           "num": 4,
           "title": "Berapa kapasitas panjang konten template?",
-          "desc": "• Teks area template mendukung penulisan hingga **4000 karakter**.\n• Ini sangat mencukupi untuk merancang email notifikasi yang memuat detail detail tabel transaksi, disclaimer hukum, maupun pesan pemberitahuan singkat untuk WhatsApp dan Telegram.",
+          "desc": "{previewHtml:1}\n• Teks area template mendukung penulisan hingga **4000 karakter**.\n• Ini sangat mencukupi untuk merancang email notifikasi yang memuat detail detail tabel transaksi, disclaimer hukum, maupun pesan pemberitahuan singkat untuk WhatsApp dan Telegram.",
           "color": "#ec4899",
-          "bg": "#fdf2f8"
+          "bg": "#fdf2f8",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(236,72,153,.1);border:1px solid #fbcfe8;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#9f1239;margin-bottom:8px;text-align:center'>Template Capacity</div><div style='padding:10px;border-radius:8px;background:linear-gradient(135deg,#fdf2f8,#fff);border:1px solid #fbcfe8'><div style='display:flex;justify-content:space-between;margin-bottom:8px'><span style='font-size:8px;font-weight:700;color:#9f1239'>Max Characters</span><span style='font-size:10px;font-weight:800;color:#be185d'>4000</span></div><div style='display:flex;flex-direction:column;gap:4px'><div style='padding:4px 6px;border-radius:4px;background:#dcfce7;border:1px solid #86efac;font-size:7px;color:#166534'>✓ Email notifications</div><div style='padding:4px 6px;border-radius:4px;background:#dbeafe;border:1px solid #93c5fd;font-size:7px;color:#1e40af'>✓ WhatsApp messages</div><div style='padding:4px 6px;border-radius:4px;background:#f0f9ff;border:1px solid #bae6fd;font-size:7px;color:#075985'>✓ Telegram messages</div></div></div></div>"
+          }
         },
         {
           "num": 5,
           "title": "Bagaimana jika data atribut placeholder bernilai kosong (null)?",
-          "desc": "• Jika data transaksi tidak membawa parameter atribut yang didefinisikan di template, parser sistem secara aman akan me-replace tag tersebut dengan nilai kosong `\"\"` (atau default placeholder string).\n• Hal ini mencegah kegagalan pengiriman pesan atau error parsing pada log engine.",
+          "desc": "{previewHtml:1}\n• Jika data transaksi tidak membawa parameter atribut yang didefinisikan di template, parser sistem secara aman akan me-replace tag tersebut dengan nilai kosong `\"\"` (atau default placeholder string).\n• Hal ini mencegah kegagalan pengiriman pesan atau error parsing pada log engine.",
           "color": "#64748b",
-          "bg": "#f8fafc"
+          "bg": "#f8fafc",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,.08);border:1px solid #e2e8f0;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#475569;margin-bottom:8px;text-align:center'>Null Value Handling</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:8px;border-radius:8px;background:#f8fafc;border:1px solid #e2e8f0'><div style='font-size:8px;font-weight:700;color:#475569;margin-bottom:3px'>Template:</div><div style='font-size:7px;color:#64748b;font-family:monospace'>Card <span style='color:#dc2626'>&lt;hpan&gt;</span> Merchant <span style='color:#dc2626'>&lt;merchant&gt;</span></div></div><div style='padding:8px;border-radius:8px;background:#fef3c7;border:1px solid #fde68a'><div style='font-size:8px;font-weight:700;color:#92400e;margin-bottom:3px'>Data: merchant = null</div></div><div style='text-align:center;font-size:10px;color:#94a3b8'>↓</div><div style='padding:8px;border-radius:8px;background:#dcfce7;border:1px solid #86efac'><div style='font-size:8px;font-weight:700;color:#166534;margin-bottom:3px'>Output:</div><div style='font-size:7px;color:#475569;font-family:monospace'>Card 4111****1111 Merchant <span style='color:#ef4444'>\"\"</span></div></div></div></div>"
+          }
         }
       ]
     }

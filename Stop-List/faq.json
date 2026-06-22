@@ -11,44 +11,62 @@
         {
           "num": 1,
           "title": "Bedanya Stop List dengan Watch List?",
-          "desc": "• **Stop List** — Blocking aktif, langsung tolak transaksi tanpa rule tambahan\n• **Watch List** — Referensi data untuk rules di Scenario Studio\n• Stop List berbasis Attribute + Value spesifik (contoh: Card Number = 4111111111111111)\n• Watch List berbasis List Name + kumpulan nilai untuk flexible scoring",
+          "desc": "{previewHtml:1}\n• **Stop List** — Blocking aktif, langsung tolak transaksi tanpa rule tambahan\n• **Watch List** — Referensi data untuk rules di Scenario Studio\n• Stop List berbasis Attribute + Value spesifik (contoh: Card Number = 4111111111111111)\n• Watch List berbasis List Name + kumpulan nilai untuk flexible scoring",
           "color": "#ef4444",
-          "bg": "#fef2f2"
+          "bg": "#fef2f2",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(239,68,68,.1);border:1px solid #fecaca;background:#fff;width:300px;margin:0 auto;padding:12px;display:flex;gap:8px'><div style='flex:1;border-radius:8px;border:2px solid #ef4444;background:linear-gradient(135deg,#fef2f2,#fff);padding:10px'><div style='font-size:10px;font-weight:800;color:#991b1b;margin-bottom:6px;text-align:center'>Stop List</div><div style='font-size:8px;color:#475569;text-align:center'>🚫 Auto Block<br/>Attribute + Value</div></div><div style='flex:1;border-radius:8px;border:2px solid #f59e0b;background:linear-gradient(135deg,#fffbeb,#fff);padding:10px'><div style='font-size:10px;font-weight:800;color:#92400e;margin-bottom:6px;text-align:center'>Watch List</div><div style='font-size:8px;color:#475569;text-align:center'>👁 Reference<br/>List Name + Values</div></div></div>"
+          }
         },
         {
           "num": 2,
           "title": "Cara kerja Has Expiration Date toggle?",
-          "desc": "• Toggle **OFF** (default): Date To disabled & ter-clear, entry berlaku permanent\n• Toggle **ON**: Date To enabled & jadi required, validasi Date To > Date From\n• Entry auto-expire setelah lewat Date To\n• Toggle OFF cocok untuk blacklist permanent (confirmed fraud)\n• Toggle ON cocok untuk temporary blocking (investigation period)",
+          "desc": "{previewHtml:1}\n• Toggle **OFF** (default): Date To disabled & ter-clear, entry berlaku permanent\n• Toggle **ON**: Date To enabled & jadi required, validasi Date To > Date From\n• Entry auto-expire setelah lewat Date To\n• Toggle OFF cocok untuk blacklist permanent (confirmed fraud)\n• Toggle ON cocok untuk temporary blocking (investigation period)",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "bg": "#fffbeb",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(245,158,11,.1);border:1px solid #fde68a;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='display:flex;flex-direction:column;gap:8px'><div style='padding:8px;border-radius:8px;background:#fef3c7;border:1px solid #fde68a'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:4px'><span style='font-size:9px;font-weight:700;color:#92400e'>Has Expiration</span><div style='width:32px;height:18px;border-radius:12px;background:#cbd5e1;position:relative'><div style='width:14px;height:14px;border-radius:50%;background:#fff;position:absolute;top:2px;left:2px'></div></div></div><div style='font-size:8px;color:#78350f'>Date To: Disabled | Permanent</div></div><div style='padding:8px;border-radius:8px;background:#dcfce7;border:1px solid #86efac'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:4px'><span style='font-size:9px;font-weight:700;color:#166534'>Has Expiration</span><div style='width:32px;height:18px;border-radius:12px;background:#10b981;position:relative'><div style='width:14px;height:14px;border-radius:50%;background:#fff;position:absolute;top:2px;right:2px'></div></div></div><div style='font-size:8px;color:#166534'>Date To: Enabled | Auto-expire</div></div></div></div>"
+          }
         },
         {
           "num": 3,
           "title": "Atribut apa saja yang bisa digunakan?",
-          "desc": "• Stop List support **semua Transaction Attributes** di sistem\n• **Identity**: Card Number/PAN, Card BIN, Phone Number, Email, Customer ID\n• **Technical**: IP Address, Device ID, User Agent, Session ID\n• **Merchant**: Merchant ID, Terminal ID, MCC\n• Hubungi admin jika atribut tidak muncul di dropdown",
+          "desc": "{previewHtml:1}\n• Stop List support **semua Transaction Attributes** di sistem\n• **Identity**: Card Number/PAN, Card BIN, Phone Number, Email, Customer ID\n• **Technical**: IP Address, Device ID, User Agent, Session ID\n• **Merchant**: Merchant ID, Terminal ID, MCC\n• Hubungi admin jika atribut tidak muncul di dropdown",
           "color": "#06b6d4",
-          "bg": "#ecfeff"
+          "bg": "#ecfeff",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(6,182,212,.1);border:1px solid #a5f3fc;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#0e7490;margin-bottom:8px'>Transaction Attributes</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:6px 8px;border-radius:6px;background:#ecfeff;border:1px solid #a5f3fc'><div style='font-size:8px;font-weight:700;color:#0e7490'>👤 Identity</div><div style='font-size:7px;color:#475569;margin-top:2px'>Card Number, Email, Phone, Customer ID</div></div><div style='padding:6px 8px;border-radius:6px;background:#f0f9ff;border:1px solid #bae6fd'><div style='font-size:8px;font-weight:700;color:#0284c7'>⚙️ Technical</div><div style='font-size:7px;color:#475569;margin-top:2px'>IP Address, Device ID, User Agent</div></div><div style='padding:6px 8px;border-radius:6px;background:#faf5ff;border:1px solid #e9d5ff'><div style='font-size:8px;font-weight:700;color:#7c3aed'>🏪 Merchant</div><div style='font-size:7px;color:#475569;margin-top:2px'>Merchant ID, Terminal ID, MCC</div></div></div></div>"
+          }
         },
         {
           "num": 4,
           "title": "Best practice Import & Export Stop List?",
-          "desc": "• **Import**: Gunakan CSV untuk file besar (>1000 entries), parsing lebih cepat\n• Pastikan kolom `entityType` match dengan Transaction Attribute di sistem\n• Validasi file di spreadsheet lokal sebelum upload\n• Max 25MB per file (±100,000 entries)\n• **Export**: Export berkala untuk backup & audit trail\n• Export otomatis ter-timestamp untuk version control",
+          "desc": "{previewHtml:1}\n• **Import**: Gunakan CSV untuk file besar (>1000 entries), parsing lebih cepat\n• Pastikan kolom `entityType` match dengan Transaction Attribute di sistem\n• Validasi file di spreadsheet lokal sebelum upload\n• Max 25MB per file (±100,000 entries)\n• **Export**: Export berkala untuk backup & audit trail\n• Export otomatis ter-timestamp untuk version control",
           "color": "#10b981",
-          "bg": "#f0fdf4"
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(16,185,129,.1);border:1px solid #a7f3d0;background:#fff;width:300px;margin:0 auto;padding:12px;display:flex;gap:8px'><div style='flex:1;padding:8px;border-radius:8px;background:linear-gradient(135deg,#f0fdf4,#fff);border:1px solid #86efac'><div style='font-size:9px;font-weight:800;color:#166534;margin-bottom:6px;text-align:center'>📥 Import</div><div style='font-size:7px;color:#475569;line-height:1.4'>• CSV format<br/>• Max 25MB<br/>• ±100K entries<br/>• Validate first</div></div><div style='flex:1;padding:8px;border-radius:8px;background:linear-gradient(135deg,#eff6ff,#fff);border:1px solid #93c5fd'><div style='font-size:9px;font-weight:800;color:#1e40af;margin-bottom:6px;text-align:center'>📤 Export</div><div style='font-size:7px;color:#475569;line-height:1.4'>• Backup data<br/>• Timestamped<br/>• Audit trail<br/>• Version control</div></div></div>"
+          }
         },
         {
           "num": 5,
           "title": "Apa fungsi tombol View Reactions?",
-          "desc": "• Buka portal **Stop List Reactions** — manage tindakan otomatis\n• Ketika transaksi match Stop List, reaction akan dieksekusi\n• 7 tipe action: SET_RESPCODE, EMAIL_NOTIFICATION, CREATE_ACQUIRER_ALERT, CREATE_ISSUER_ALERT, ATTR_WHITE_LIST, ATTR_STOP_LIST, ATTR_WATCH_LIST\n• Reaction punya priority (1-10) untuk urutan eksekusi",
+          "desc": "{previewHtml:1}\n• Buka portal **Stop List Reactions** — manage tindakan otomatis\n• Ketika transaksi match Stop List, reaction akan dieksekusi\n• 7 tipe action: SET_RESPCODE, EMAIL_NOTIFICATION, CREATE_ACQUIRER_ALERT, CREATE_ISSUER_ALERT, ATTR_WHITE_LIST, ATTR_STOP_LIST, ATTR_WATCH_LIST\n• Reaction punya priority (1-10) untuk urutan eksekusi",
           "color": "#ec4899",
-          "bg": "#fdf2f8"
+          "bg": "#fdf2f8",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(236,72,153,.1);border:1px solid #fbcfe8;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#9f1239;margin-bottom:8px;text-align:center'>Stop List Reactions</div><div style='padding:8px;border-radius:8px;background:linear-gradient(135deg,#fdf2f8,#fff);border:1px solid #fbcfe8'><div style='font-size:8px;color:#475569;margin-bottom:6px'>When transaction matches:</div><div style='display:flex;flex-direction:column;gap:4px'><div style='padding:4px 6px;border-radius:4px;background:#fff;border:1px solid #e5e7eb;font-size:7px;color:#0f172a'>Priority 1: SET_RESPCODE</div><div style='padding:4px 6px;border-radius:4px;background:#fff;border:1px solid #e5e7eb;font-size:7px;color:#0f172a'>Priority 2: EMAIL_NOTIFICATION</div><div style='padding:4px 6px;border-radius:4px;background:#fff;border:1px solid #e5e7eb;font-size:7px;color:#0f172a'>Priority 3: CREATE_ALERT</div></div></div></div>"
+          }
         },
         {
           "num": 6,
           "title": "Cara lihat history perubahan Stop List?",
-          "desc": "• Klik Stop List dari daftar untuk buka Detail Panel\n• Pilih tab **History** (ada 2 tab: General & History)\n• Timeline tampilkan jejak audit: siapa, kapan, jenis aksi (Create/Update/Delete)\n• Tampilan kronologis dari terbaru ke terlama\n• Gunakan untuk compliance audit & investigation",
+          "desc": "{previewHtml:1}\n• Klik Stop List dari daftar untuk buka Detail Panel\n• Pilih tab **History** (ada 2 tab: General & History)\n• Timeline tampilkan jejak audit: siapa, kapan, jenis aksi (Create/Update/Delete)\n• Tampilan kronologis dari terbaru ke terlama\n• Gunakan untuk compliance audit & investigation",
           "color": "#64748b",
-          "bg": "#f8fafc"
+          "bg": "#f8fafc",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,.08);border:1px solid #e2e8f0;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:10px'><span style='font-size:9px;font-weight:800;color:#0f172a'>History Timeline</span><span style='padding:2px 6px;border-radius:4px;background:#f1f5f9;font-size:7px;font-weight:700;color:#475569'>AUDIT TRAIL</span></div><div style='display:flex;flex-direction:column;gap:8px'><div style='border-left:2px solid #10b981;padding-left:8px'><div style='font-size:8px;font-weight:700;color:#166534'>CREATED</div><div style='font-size:7px;color:#64748b;margin-top:2px'>by admin • 2024-01-15 10:30</div></div><div style='border-left:2px solid #3b82f6;padding-left:8px'><div style='font-size:8px;font-weight:700;color:#1e40af'>UPDATED</div><div style='font-size:7px;color:#64748b;margin-top:2px'>by analyst • 2024-01-20 14:15</div></div><div style='border-left:2px solid #ef4444;padding-left:8px'><div style='font-size:8px;font-weight:700;color:#991b1b'>DELETED</div><div style='font-size:7px;color:#64748b;margin-top:2px'>by supervisor • 2024-01-25 09:00</div></div></div></div>"
+          }
         }
       ]
     }

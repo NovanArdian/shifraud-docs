@@ -11,37 +11,52 @@
         {
           "num": 1,
           "title": "Apa perbedaan laporan tipe Standard dan Additional?",
-          "desc": "• **Standard (Bawaan):** Laporan template global yang disediakan langsung oleh sistem ShiFor untuk memonitor ringkasan aktivitas transaksi dan performa deteksi harian.\n• **Additional (Tambahan):** Laporan kustomisasi khusus yang disiapkan secara spesifik oleh administrator database untuk memenuhi kebutuhan audit unik institusi Anda.",
+          "desc": "{previewHtml:1}\n• **Standard (Bawaan):** Laporan template global yang disediakan langsung oleh sistem ShiFor untuk memonitor ringkasan aktivitas transaksi dan performa deteksi harian.\n• **Additional (Tambahan):** Laporan kustomisasi khusus yang disiapkan secara spesifik oleh administrator database untuk memenuhi kebutuhan audit unik institusi Anda.",
           "color": "#7c3aed",
-          "bg": "#f5f3ff"
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(124,58,237,.1);border:1px solid #e9d5ff;background:#fff;width:300px;margin:0 auto;padding:12px;display:flex;gap:8px'><div style='flex:1;padding:8px;border-radius:8px;background:linear-gradient(135deg,#eff6ff,#fff);border:1px solid #93c5fd'><div style='font-size:9px;font-weight:800;color:#1e40af;margin-bottom:6px;text-align:center'>Standard</div><div style='font-size:7px;color:#475569;text-align:center;line-height:1.4'>📊 Built-in<br/>Global template<br/>System provided</div></div><div style='flex:1;padding:8px;border-radius:8px;background:linear-gradient(135deg,#f5f3ff,#fff);border:1px solid #ddd6fe'><div style='font-size:9px;font-weight:800;color:#7c3aed;margin-bottom:6px;text-align:center'>Additional</div><div style='font-size:7px;color:#475569;text-align:center;line-height:1.4'>⚙️ Custom<br/>Institution specific<br/>DB Admin setup</div></div></div>"
+          }
         },
         {
           "num": 2,
           "title": "Format dokumen apa saja yang didukung saat ekspor?",
-          "desc": "• Sistem mendukung dua format dokumen populer:\n  - **PDF Document (.pdf):** Ideal untuk pelaporan formal, rapat managerial, dan arsip statis karena tampilannya konsisten dan rapi.\n  - **Excel Spreadsheet (.xlsx):** Sempurna jika Anda ingin memilah, memfilter, atau mengolah data transaksi laporan lebih lanjut menggunakan rumus spreadsheet.",
+          "desc": "{previewHtml:1}\n• Sistem mendukung dua format dokumen populer:\n  - **PDF Document (.pdf):** Ideal untuk pelaporan formal, rapat managerial, dan arsip statis karena tampilannya konsisten dan rapi.\n  - **Excel Spreadsheet (.xlsx):** Sempurna jika Anda ingin memilah, memfilter, atau mengolah data transaksi laporan lebih lanjut menggunakan rumus spreadsheet.",
           "color": "#10b981",
-          "bg": "#f0fdf4"
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(16,185,129,.1);border:1px solid #a7f3d0;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#166534;margin-bottom:8px;text-align:center'>Export Formats</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:8px;border-radius:8px;background:#fee2e2;border:1px solid #fca5a5'><div style='display:flex;align-items:center;gap:6px;margin-bottom:3px'><svg width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#dc2626' stroke-width='2.5'><path d='M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z'/><polyline points='14 2 14 8 20 8'/></svg><span style='font-size:8px;font-weight:700;color:#991b1b'>PDF Document</span></div><div style='font-size:7px;color:#475569'>Formal report • Static archive</div></div><div style='padding:8px;border-radius:8px;background:#dcfce7;border:1px solid #86efac'><div style='display:flex;align-items:center;gap:6px;margin-bottom:3px'><svg width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#16a34a' stroke-width='2.5'><path d='M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z'/><polyline points='14 2 14 8 20 8'/></svg><span style='font-size:8px;font-weight:700;color:#166534'>Excel Spreadsheet</span></div><div style='font-size:7px;color:#475569'>Data analysis • Formulas</div></div></div></div>"
+          }
         },
         {
           "num": 3,
           "title": "Bagaimana otomatisasi penjadwalan berjalan?",
-          "desc": "• Sistem backend menggunakan mekanisme penjadwalan (background cron runner) yang memicu penarikan data secara berkala sesuai frekuensi yang Anda atur (Daily, Weekly, atau Monthly).\n• Setelah laporan berhasil digenerate di latar belakang, sistem akan mengirimkannya secara instan sebagai lampiran email ke seluruh alamat yang terdaftar di daftar **Recipients**.",
+          "desc": "{previewHtml:1}\n• Sistem backend menggunakan mekanisme penjadwalan (background cron runner) yang memicu penarikan data secara berkala sesuai frekuensi yang Anda atur (Daily, Weekly, atau Monthly).\n• Setelah laporan berhasil digenerate di latar belakang, sistem akan mengirimkannya secara instan sebagai lampiran email ke seluruh alamat yang terdaftar di daftar **Recipients**.",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "bg": "#fffbeb",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(245,158,11,.1);border:1px solid #fde68a;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#92400e;margin-bottom:8px;text-align:center'>Schedule Automation</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:6px;border-radius:6px;background:#fef3c7;border:1px solid #fde68a;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#f59e0b;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>1</div><span style='font-size:8px;color:#0f172a'>Cron trigger (Daily/Weekly/Monthly)</span></div><div style='padding:6px;border-radius:6px;background:#fef3c7;border:1px solid #fde68a;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#f59e0b;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>2</div><span style='font-size:8px;color:#0f172a'>Generate report background</span></div><div style='padding:6px;border-radius:6px;background:#fef3c7;border:1px solid #fde68a;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#f59e0b;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>3</div><span style='font-size:8px;color:#0f172a'>Send email to Recipients</span></div></div></div>"
+          }
         },
         {
           "num": 4,
           "title": "Bagaimana cara menambahkan email penerima baru ke jadwal?",
-          "desc": "• Alamat email penerima diambil secara dinamis dari modul **Contact Setup**.\n• Jika Anda ingin menambahkan penerima baru yang belum terdaftar, buka modul **Contact Setup** terlebih dahulu, daftarkan nama dan email kontak tersebut, lalu kembali ke drawer **Edit Schedule** untuk memilih email kontak tersebut di kolom **Recipients**.",
+          "desc": "{previewHtml:1}\n• Alamat email penerima diambil secara dinamis dari modul **Contact Setup**.\n• Jika Anda ingin menambahkan penerima baru yang belum terdaftar, buka modul **Contact Setup** terlebih dahulu, daftarkan nama dan email kontak tersebut, lalu kembali ke drawer **Edit Schedule** untuk memilih email kontak tersebut di kolom **Recipients**.",
           "color": "#0ea5e9",
-          "bg": "#f0f9ff"
+          "bg": "#f0f9ff",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(14,165,233,.1);border:1px solid #bae6fd;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#075985;margin-bottom:8px;text-align:center'>Add New Recipient</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:6px;border-radius:6px;background:#f0f9ff;border:1px solid #bae6fd;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#0ea5e9;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>1</div><span style='font-size:8px;color:#0f172a'>Buka Contact Setup</span></div><div style='padding:6px;border-radius:6px;background:#f0f9ff;border:1px solid #bae6fd;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#0ea5e9;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>2</div><span style='font-size:8px;color:#0f172a'>Daftar email kontak</span></div><div style='padding:6px;border-radius:6px;background:#f0f9ff;border:1px solid #bae6fd;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#0ea5e9;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>3</div><span style='font-size:8px;color:#0f172a'>Pilih di Edit Schedule</span></div></div></div>"
+          }
         },
         {
           "num": 5,
           "title": "Mengapa laporan terjadwal saya gagal terkirim?",
-          "desc": "• Beberapa faktor penyebab kegagalan pengiriman laporan meliputi:\n  - Status otomatisasi template laporan dalam kondisi nonaktif (**Disabled**).\n  - Tidak ada data transaksi yang terjadi dalam rentang waktu relatif yang ditentukan (menghasilkan laporan kosong).\n  - Terjadi kendala konektivitas dengan Mail Server (SMTP) institusi saat mengirimkan lampiran email.",
+          "desc": "{previewHtml:1}\n• Beberapa faktor penyebab kegagalan pengiriman laporan meliputi:\n  - Status otomatisasi template laporan dalam kondisi nonaktif (**Disabled**).\n  - Tidak ada data transaksi yang terjadi dalam rentang waktu relatif yang ditentukan (menghasilkan laporan kosong).\n  - Terjadi kendala konektivitas dengan Mail Server (SMTP) institusi saat mengirimkan lampiran email.",
           "color": "#ec4899",
-          "bg": "#fdf2f8"
+          "bg": "#fdf2f8",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(236,72,153,.1);border:1px solid #fbcfe8;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#9f1239;margin-bottom:8px;text-align:center'>Delivery Failed Causes</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:8px;border-radius:8px;background:#fee2e2;border:1px solid #fca5a5'><div style='display:flex;align-items:center;gap:6px;margin-bottom:4px'><svg width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#dc2626' stroke-width='2.5'><circle cx='12' cy='12' r='10'/><line x1='15' y1='9' x2='9' y2='15'/><line x1='9' y1='9' x2='15' y2='15'/></svg><span style='font-size:8px;font-weight:700;color:#991b1b'>Schedule Disabled</span></div><div style='font-size:7px;color:#475569'>Automation OFF</div></div><div style='padding:8px;border-radius:8px;background:#fef3c7;border:1px solid #fde68a'><div style='display:flex;align-items:center;gap:6px;margin-bottom:4px'><svg width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#d97706' stroke-width='2.5'><path d='M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z'/><line x1='12' y1='9' x2='12' y2='13'/><line x1='12' y1='17' x2='12.01' y2='17'/></svg><span style='font-size:8px;font-weight:700;color:#92400e'>No Data</span></div><div style='font-size:7px;color:#475569'>Empty report period</div></div><div style='padding:8px;border-radius:8px;background:#f8fafc;border:1px solid #e2e8f0'><div style='display:flex;align-items:center;gap:6px;margin-bottom:4px'><svg width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#64748b' stroke-width='2.5'><path d='M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z'/><line x1='12' y1='9' x2='12' y2='13'/><line x1='12' y1='17' x2='12.01' y2='17'/></svg><span style='font-size:8px;font-weight:700;color:#475569'>SMTP Error</span></div><div style='font-size:7px;color:#64748b'>Mail server issue</div></div></div></div>"
+          }
         }
       ]
     }

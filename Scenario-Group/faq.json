@@ -11,37 +11,52 @@
         {
           "num": 1,
           "title": "Bedanya Filtration dan Reaction?",
-          "desc": "• **Filtration** — Filter pra-kondisi di level grup, rule tidak eksekusi jika transaksi tidak match (contoh: khusus kartu kredit)\n• **Reaction** — Tindakan otomatis setelah evaluasi selesai & fraud terdeteksi (contoh: kirim email, blokir akun)\n• Filtration = kondisi masuk, Reaction = aksi keluar\n• Keduanya bisa diatur di tab Full Detail Dialog atau via Filtration Configuration",
+          "desc": "{previewHtml:1}\n• **Filtration** — Filter pra-kondisi di level grup, rule tidak eksekusi jika transaksi tidak match (contoh: khusus kartu kredit)\n• **Reaction** — Tindakan otomatis setelah evaluasi selesai & fraud terdeteksi (contoh: kirim email, blokir akun)\n• Filtration = kondisi masuk, Reaction = aksi keluar\n• Keduanya bisa diatur di tab Full Detail Dialog atau via Filtration Configuration",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "bg": "#fffbeb",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(245,158,11,.1);border:1px solid #fde68a;background:#fff;width:300px;margin:0 auto;padding:12px;display:flex;gap:8px'><div style='flex:1;padding:8px;border-radius:8px;background:linear-gradient(135deg,#eff6ff,#fff);border:1px solid #93c5fd'><div style='font-size:9px;font-weight:800;color:#1e40af;margin-bottom:6px;text-align:center'>Filtration</div><div style='font-size:7px;color:#475569;text-align:center;line-height:1.4'>📥 Input Filter<br/>Pra-kondisi<br/>Kondisi masuk</div></div><div style='flex:1;padding:8px;border-radius:8px;background:linear-gradient(135deg,#fef3c7,#fff);border:1px solid #fde68a'><div style='font-size:9px;font-weight:800;color:#92400e;margin-bottom:6px;text-align:center'>Reaction</div><div style='font-size:7px;color:#475569;text-align:center;line-height:1.4'>📤 Action<br/>Auto response<br/>Aksi keluar</div></div></div>"
+          }
         },
         {
           "num": 2,
           "title": "Kenapa tombol Edit/Delete tidak muncul?",
-          "desc": "• Tombol aksi dinonaktifkan jika akun tidak punya **Permission** yang dibutuhkan\n• Contoh permission: `EDIT_SCENARIO_GROUP`, `DELETE_SCENARIO_GROUP`\n• Hubungi Administrator untuk cek izin akses Anda\n• Permission berbasis Role yang di-assign ke User Group",
+          "desc": "{previewHtml:1}\n• Tombol aksi dinonaktifkan jika akun tidak punya **Permission** yang dibutuhkan\n• Contoh permission: `EDIT_SCENARIO_GROUP`, `DELETE_SCENARIO_GROUP`\n• Hubungi Administrator untuk cek izin akses Anda\n• Permission berbasis Role yang di-assign ke User Group",
           "color": "#ef4444",
-          "bg": "#fef2f2"
+          "bg": "#fef2f2",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(239,68,68,.1);border:1px solid #fecaca;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#991b1b;margin-bottom:8px;text-align:center'>Required Permissions</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:6px 8px;border-radius:6px;background:#f0fdf4;border:1px solid #86efac;display:flex;justify-content:space-between;align-items:center'><span style='font-size:7px;font-weight:700;color:#166534'>EDIT_SCENARIO_GROUP</span><span style='font-size:6px;color:#64748b'>Edit access</span></div><div style='padding:6px 8px;border-radius:6px;background:#fee2e2;border:1px solid #fca5a5;display:flex;justify-content:space-between;align-items:center'><span style='font-size:7px;font-weight:700;color:#991b1b'>DELETE_SCENARIO_GROUP</span><span style='font-size:6px;color:#64748b'>Delete access</span></div></div><div style='margin-top:6px;padding:6px;border-radius:6px;background:#fafafa;border:1px solid #e5e7eb;text-align:center'><span style='font-size:7px;color:#64748b'>Contact Administrator</span></div></div>"
+          }
         },
         {
           "num": 3,
           "title": "Cara beralih Card View ke Table View?",
-          "desc": "• Ada ikon toggle di pojok kanan atas area daftar data\n• Klik ikon **baris** (Table) untuk Table View\n• Klik ikon **kotak-kotak** (Card) untuk Card View\n• Tampilan Detail Panel tetap bisa diakses dari kedua view\n• Setting view tersimpan di browser session",
+          "desc": "{previewHtml:1}\n• Ada ikon toggle di pojok kanan atas area daftar data\n• Klik ikon **baris** (Table) untuk Table View\n• Klik ikon **kotak-kotak** (Card) untuk Card View\n• Tampilan Detail Panel tetap bisa diakses dari kedua view\n• Setting view tersimpan di browser session",
           "color": "#3b82f6",
-          "bg": "#eff6ff"
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(59,130,246,.1);border:1px solid #bfdbfe;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#1e40af;margin-bottom:8px;text-align:center'>View Toggle</div><div style='display:flex;gap:8px;justify-content:center'><div style='padding:10px;border-radius:8px;background:#eff6ff;border:2px solid #3b82f6'><div style='display:grid;grid-template-columns:repeat(2,1fr);gap:4px;margin-bottom:4px'><div style='width:18px;height:18px;border-radius:4px;background:#93c5fd'></div><div style='width:18px;height:18px;border-radius:4px;background:#93c5fd'></div><div style='width:18px;height:18px;border-radius:4px;background:#93c5fd'></div><div style='width:18px;height:18px;border-radius:4px;background:#93c5fd'></div></div><div style='font-size:7px;font-weight:700;color:#1e40af;text-align:center'>Card View</div></div><div style='padding:10px;border-radius:8px;background:#f8fafc;border:1px solid #cbd5e1'><div style='display:flex;flex-direction:column;gap:3px;margin-bottom:4px'><div style='width:40px;height:3px;border-radius:2px;background:#cbd5e1'></div><div style='width:40px;height:3px;border-radius:2px;background:#cbd5e1'></div><div style='width:40px;height:3px;border-radius:2px;background:#cbd5e1'></div></div><div style='font-size:7px;font-weight:700;color:#475569;text-align:center'>Table View</div></div></div></div>"
+          }
         },
         {
           "num": 4,
           "title": "Apakah hapus Scenario Group hapus rule-nya juga?",
-          "desc": "• **Tidak**, menghapus Scenario Group hanya hapus pengelompokan (grup)\n• Rule/skenario asli tetap ada di sistem\n• Rule yang tergabung di grup akan terlepas dari grup tersebut\n• Rule bisa di-assign ulang ke grup lain\n• Group hanya container, bukan owner dari rule",
+          "desc": "{previewHtml:1}\n• **Tidak**, menghapus Scenario Group hanya hapus pengelompokan (grup)\n• Rule/skenario asli tetap ada di sistem\n• Rule yang tergabung di grup akan terlepas dari grup tersebut\n• Rule bisa di-assign ulang ke grup lain\n• Group hanya container, bukan owner dari rule",
           "color": "#10b981",
-          "bg": "#f0fdf4"
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(16,185,129,.1);border:1px solid #a7f3d0;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#166534;margin-bottom:8px;text-align:center'>Delete Group Impact</div><div style='display:flex;flex-direction:column;gap:8px'><div style='padding:8px;border-radius:8px;background:#fee2e2;border:1px solid #fca5a5'><div style='display:flex;align-items:center;gap:6px;margin-bottom:4px'><svg width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='#dc2626' stroke-width='2.5'><polyline points='3 6 5 6 21 6'/><path d='M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2'/></svg><span style='font-size:8px;font-weight:700;color:#991b1b'>Group Deleted</span></div><div style='font-size:7px;color:#475569'>Scenario Group dihapus</div></div><div style='padding:8px;border-radius:8px;background:#dcfce7;border:1px solid #86efac'><div style='font-size:7px;font-weight:700;color:#166534;margin-bottom:4px'>✓ Rule A: Tetap ada</div><div style='font-size:7px;font-weight:700;color:#166534;margin-bottom:4px'>✓ Rule B: Tetap ada</div><div style='font-size:7px;font-weight:700;color:#166534'>✓ Rule C: Tetap ada</div></div><div style='padding:6px;border-radius:6px;background:#eff6ff;border:1px solid #93c5fd;text-align:center'><span style='font-size:7px;font-weight:700;color:#1e40af'>Rules bisa di-assign ke grup lain</span></div></div></div>"
+          }
         },
         {
           "num": 5,
           "title": "Apa fungsi Threshold Black dan Grey?",
-          "desc": "• **Threshold Black** — Nilai ambang batas untuk klasifikasi fraud berat (Black)\n• **Threshold Grey** — Nilai ambang batas untuk klasifikasi mencurigakan (Grey)\n• Grey umumnya lebih kecil dari Black\n• Digunakan untuk menentukan severity level transaksi\n• Threshold ini digunakan oleh rule engine untuk decision making",
+          "desc": "{previewHtml:1}\n• **Threshold Black** — Nilai ambang batas untuk klasifikasi fraud berat (Black)\n• **Threshold Grey** — Nilai ambang batas untuk klasifikasi mencurigakan (Grey)\n• Grey umumnya lebih kecil dari Black\n• Digunakan untuk menentukan severity level transaksi\n• Threshold ini digunakan oleh rule engine untuk decision making",
           "color": "#7c3aed",
-          "bg": "#faf5ff"
+          "bg": "#faf5ff",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(124,58,237,.1);border:1px solid #e9d5ff;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#6b21a8;margin-bottom:8px;text-align:center'>Threshold Classification</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:8px;border-radius:8px;background:#1f2937;border:2px solid #374151'><div style='display:flex;justify-content:space-between;align-items:center'><span style='font-size:8px;font-weight:700;color:#fff'>Threshold Black</span><span style='font-size:10px;font-weight:800;color:#fff'>≥ 850</span></div><div style='font-size:7px;color:#9ca3af;margin-top:2px'>High severity fraud</div></div><div style='padding:8px;border-radius:8px;background:#64748b;border:1px solid #94a3b8'><div style='display:flex;justify-content:space-between;align-items:center'><span style='font-size:8px;font-weight:700;color:#fff'>Threshold Grey</span><span style='font-size:10px;font-weight:800;color:#fff'>≥ 500</span></div><div style='font-size:7px;color:#e2e8f0;margin-top:2px'>Suspicious activity</div></div><div style='padding:6px;border-radius:6px;background:#faf5ff;border:1px solid #e9d5ff;text-align:center'><span style='font-size:7px;color:#6b21a8'>Grey < Black • Rule engine decision</span></div></div></div>"
+          }
         }
       ]
     }

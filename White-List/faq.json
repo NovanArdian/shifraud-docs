@@ -21,44 +21,62 @@
         {
           "num": 2,
           "title": "Cara White List bekerja dengan Scenario Studio?",
-          "desc": "• White List direferensikan via node **Condition** atau **Action**\n• Rule cek keberadaan atribut transaksi (contoh: IP_ADDRESS)\n• Ketika match, transaksi bisa bypass fraud detection\n• Perubahan data langsung berpengaruh (real-time lookup)",
+          "desc": "{previewHtml:1}\n• White List direferensikan via node **Condition** atau **Action**\n• Rule cek keberadaan atribut transaksi (contoh: IP_ADDRESS)\n• Ketika match, transaksi bisa bypass fraud detection\n• Perubahan data langsung berpengaruh (real-time lookup)",
           "color": "#8b5cf6",
-          "bg": "#f5f3ff"
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(139,92,246,.1);border:1px solid #ddd6fe;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#6b21a8;margin-bottom:8px;text-align:center'>Scenario Studio Integration</div><div style='display:flex;align-items:center;gap:6px;justify-content:center'><div style='padding:6px 10px;border-radius:8px;background:#f5f3ff;border:1px solid #ddd6fe;font-size:8px;font-weight:700;color:#7c3aed'>Condition Node</div><div style='font-size:10px;color:#94a3b8'>→</div><div style='padding:6px 10px;border-radius:8px;background:#ecfdf5;border:1px solid #86efac;font-size:8px;font-weight:700;color:#166534'>White List</div><div style='font-size:10px;color:#94a3b8'>→</div><div style='padding:6px 10px;border-radius:8px;background:#dbeafe;border:1px solid #93c5fd;font-size:8px;font-weight:700;color:#1e40af'>Bypass</div></div><div style='margin-top:8px;padding:6px;border-radius:6px;background:#fafafa;border:1px solid #e5e7eb;text-align:center'><span style='font-size:7px;color:#64748b'>Real-time lookup • Auto-sync changes</span></div></div>"
+          }
         },
         {
           "num": 3,
           "title": "Apakah White List bisa expired?",
-          "desc": "• Ya, gunakan **Date From** (mulai berlaku) & **Date To** (kadaluarsa)\n• Toggle **Has Expiration Date** saat create/edit data\n• Kalau toggle dimatikan, Date To akan terkunci & berlaku selamanya\n• Sistem otomatis abaikan entry yang sudah lewat Date To",
+          "desc": "{previewHtml:1}\n• Ya, gunakan **Date From** (mulai berlaku) & **Date To** (kadaluarsa)\n• Toggle **Has Expiration Date** saat create/edit data\n• Kalau toggle dimatikan, Date To akan terkunci & berlaku selamanya\n• Sistem otomatis abaikan entry yang sudah lewat Date To",
           "color": "#ec4899",
-          "bg": "#fdf2f8"
+          "bg": "#fdf2f8",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(236,72,153,.1);border:1px solid #fbcfe8;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='display:flex;flex-direction:column;gap:8px'><div style='padding:8px;border-radius:8px;background:#ecfdf5;border:1px solid #86efac'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:4px'><span style='font-size:9px;font-weight:700;color:#166534'>Has Expiration: OFF</span><div style='width:32px;height:18px;border-radius:12px;background:#cbd5e1;position:relative'><div style='width:14px;height:14px;border-radius:50%;background:#fff;position:absolute;top:2px;left:2px'></div></div></div><div style='font-size:8px;color:#166534'>Berlaku selamanya • No Date To</div></div><div style='padding:8px;border-radius:8px;background:#fef3c7;border:1px solid #fde68a'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:4px'><span style='font-size:9px;font-weight:700;color:#92400e'>Has Expiration: ON</span><div style='width:32px;height:18px;border-radius:12px;background:#f59e0b;position:relative'><div style='width:14px;height:14px;border-radius:50%;background:#fff;position:absolute;top:2px;right:2px'></div></div></div><div style='font-size:8px;color:#92400e'>Auto-expire setelah Date To</div></div></div></div>"
+          }
         },
         {
           "num": 4,
           "title": "Apa itu Reaction dalam White List?",
-          "desc": "• **Reaction** = tindakan otomatis yang binding ke White List\n• Ketika transaksi match dengan White List, reaction dieksekusi\n• 7 tipe action: SET_RESPCODE, EMAIL_NOTIFICATION, CREATE_ACQUIRER_ALERT, CREATE_ISSUER_ALERT, ATTR_WHITE_LIST, ATTR_STOP_LIST, ATTR_WATCH_LIST\n• Reaction punya priority (1-10) untuk urutan eksekusi",
+          "desc": "{previewHtml:1}\n• **Reaction** = tindakan otomatis yang binding ke White List\n• Ketika transaksi match dengan White List, reaction dieksekusi\n• 7 tipe action: SET_RESPCODE, EMAIL_NOTIFICATION, CREATE_ACQUIRER_ALERT, CREATE_ISSUER_ALERT, ATTR_WHITE_LIST, ATTR_STOP_LIST, ATTR_WATCH_LIST\n• Reaction punya priority (1-10) untuk urutan eksekusi",
           "color": "#f59e0b",
-          "bg": "#fffbeb"
+          "bg": "#fffbeb",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(245,158,11,.1);border:1px solid #fde68a;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#92400e;margin-bottom:8px;text-align:center'>White List Reactions</div><div style='padding:8px;border-radius:8px;background:linear-gradient(135deg,#fffbeb,#fff);border:1px solid #fde68a'><div style='font-size:8px;color:#475569;margin-bottom:6px'>When transaction matches:</div><div style='display:flex;flex-direction:column;gap:4px'><div style='padding:4px 6px;border-radius:4px;background:#fff;border:1px solid #e5e7eb;font-size:7px;color:#0f172a;display:flex;justify-content:space-between'><span>SET_RESPCODE</span><span style='color:#94a3b8'>P1</span></div><div style='padding:4px 6px;border-radius:4px;background:#fff;border:1px solid #e5e7eb;font-size:7px;color:#0f172a;display:flex;justify-content:space-between'><span>EMAIL_NOTIFICATION</span><span style='color:#94a3b8'>P2</span></div><div style='padding:4px 6px;border-radius:4px;background:#fff;border:1px solid #e5e7eb;font-size:7px;color:#0f172a;display:flex;justify-content:space-between'><span>CREATE_ALERT</span><span style='color:#94a3b8'>P3</span></div></div></div></div>"
+          }
         },
         {
           "num": 5,
           "title": "Cara import data White List bulk?",
-          "desc": "• Klik **More Actions** → pilih tab **Import List**\n• Drag & drop file CSV/JSON ke dropzone (max 25MB)\n• Struktur: entityId, value, dateIn, dateOut, reason\n• Sistem validasi & tampilkan preview → pilih data → **Finalize Import**",
+          "desc": "{previewHtml:1}\n• Klik **More Actions** → pilih tab **Import List**\n• Drag & drop file CSV/JSON ke dropzone (max 25MB)\n• Struktur: entityId, value, dateIn, dateOut, reason\n• Sistem validasi & tampilkan preview → pilih data → **Finalize Import**",
           "color": "#06b6d4",
-          "bg": "#ecfeff"
+          "bg": "#ecfeff",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(6,182,212,.1);border:1px solid #a5f3fc;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#0e7490;margin-bottom:8px;text-align:center'>Import Workflow</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:6px;border-radius:6px;background:#ecfeff;border:1px solid #a5f3fc;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#06b6d4;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>1</div><span style='font-size:8px;color:#0f172a'>Click More Actions</span></div><div style='padding:6px;border-radius:6px;background:#ecfeff;border:1px solid #a5f3fc;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#06b6d4;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>2</div><span style='font-size:8px;color:#0f172a'>Upload CSV/JSON</span></div><div style='padding:6px;border-radius:6px;background:#ecfeff;border:1px solid #a5f3fc;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#06b6d4;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>3</div><span style='font-size:8px;color:#0f172a'>Review & Select</span></div><div style='padding:6px;border-radius:6px;background:#dcfce7;border:1px solid #86efac;text-align:center'><span style='font-size:7px;font-weight:700;color:#166534'>✓ Finalize Import</span></div></div></div>"
+          }
         },
         {
           "num": 6,
           "title": "Apakah bisa export data White List?",
-          "desc": "• Ya, klik **More Actions** → pilih tab **Export List**\n• Pilih data yang ingin diexport via checkbox (support Select All & Deselect All)\n• Klik **Finalize Export (X)** untuk download\n• File CSV auto download: `white_list - YYYY-MM-DD_HH-mm-ss.csv`",
+          "desc": "{previewHtml:1}\n• Ya, klik **More Actions** → pilih tab **Export List**\n• Pilih data yang ingin diexport via checkbox (support Select All & Deselect All)\n• Klik **Finalize Export (X)** untuk download\n• File CSV auto download: `white_list - YYYY-MM-DD_HH-mm-ss.csv`",
           "color": "#14b8a6",
-          "bg": "#f0fdfa"
+          "bg": "#f0fdfa",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(20,184,166,.1);border:1px solid #99f6e4;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='font-size:9px;font-weight:800;color:#134e4a;margin-bottom:8px;text-align:center'>Export Workflow</div><div style='display:flex;flex-direction:column;gap:6px'><div style='padding:6px;border-radius:6px;background:#f0fdfa;border:1px solid #99f6e4;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#14b8a6;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>1</div><span style='font-size:8px;color:#0f172a'>More Actions → Export</span></div><div style='padding:6px;border-radius:6px;background:#f0fdfa;border:1px solid #99f6e4;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#14b8a6;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>2</div><span style='font-size:8px;color:#0f172a'>Select entries</span></div><div style='padding:6px;border-radius:6px;background:#f0fdfa;border:1px solid #99f6e4;display:flex;align-items:center;gap:6px'><div style='width:18px;height:18px;border-radius:50%;background:#14b8a6;color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center'>3</div><span style='font-size:8px;color:#0f172a'>Finalize Export</span></div><div style='padding:6px;border-radius:6px;background:#dbeafe;border:1px solid #93c5fd;text-align:center'><span style='font-size:7px;font-weight:700;color:#1e40af'>📥 white_list-2024-01-15_14-30-00.csv</span></div></div></div>"
+          }
         },
         {
           "num": 7,
           "title": "Cara lihat history perubahan White List?",
-          "desc": "• Klik White List dari daftar untuk buka Detail Panel\n• Pilih tab **History** (ada 2 tab: General & History)\n• Timeline tampilkan jejak audit: siapa, kapan, jenis aksi (Create/Update)\n• Tampilan kronologis dari terbaru ke terlama",
+          "desc": "{previewHtml:1}\n• Klik White List dari daftar untuk buka Detail Panel\n• Pilih tab **History** (ada 2 tab: General & History)\n• Timeline tampilkan jejak audit: siapa, kapan, jenis aksi (Create/Update)\n• Tampilan kronologis dari terbaru ke terlama",
           "color": "#64748b",
-          "bg": "#f8fafc"
+          "bg": "#f8fafc",
+          "previewHtml": {
+            "1": "<div style='font-family:system-ui;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,.08);border:1px solid #e2e8f0;background:#fff;width:300px;margin:0 auto;padding:12px'><div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:10px'><span style='font-size:9px;font-weight:800;color:#0f172a'>History Timeline</span><span style='padding:2px 6px;border-radius:4px;background:#f1f5f9;font-size:7px;font-weight:700;color:#475569'>AUDIT</span></div><div style='display:flex;flex-direction:column;gap:8px'><div style='border-left:2px solid #10b981;padding-left:8px'><div style='font-size:8px;font-weight:700;color:#166534'>CREATED</div><div style='font-size:7px;color:#64748b;margin-top:2px'>by admin • 2024-01-10 08:30</div></div><div style='border-left:2px solid #3b82f6;padding-left:8px'><div style='font-size:8px;font-weight:700;color:#1e40af'>UPDATED</div><div style='font-size:7px;color:#64748b;margin-top:2px'>by analyst • 2024-01-15 14:20</div></div></div></div>"
+          }
         }
       ]
     }
