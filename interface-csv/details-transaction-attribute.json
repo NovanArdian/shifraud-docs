@@ -1,0 +1,34 @@
+{
+  "label": "Transaction Attribute",
+  "category": "interface-csv",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Pemetaan Transaction Attribute",
+      "id": "details-transaction-attribute",
+      "intro": "Sub-tab Transaction Attribute merupakan jembatan (bridge) vital yang menghubungkan data dari file eksternal (kolom CSV yang didapat dari tab Message Column Config) ke variabel deteksi fraud internal ShiFor (seperti `amount`, `hpan`, `currency`, dll).",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar Pemetaan Atribut",
+          "desc": "{previewHtml:1}\n• Tabel menampilkan semua relasi antara parameter internal dengan sumber field dari Header/Body/Column Config.\n• Elemen penting:\n  - **Name:** Nama atribut internal sistem ShiFor (contoh: `AcquiringInstitutionID`).\n  - **Field Source:** Sumber asal field tersebut (`HEADER`, `BODY`, atau langsung merujuk pada pemrosesan CSV).\n  - **Field Tag:** Path atau nama referensi field dari pesan asli CSV (contoh merujuk pada nama kolom `TransactionID` atau `Amount`).\n• Atribut yang dipetakan dengan benar akan memungkinkan mesin *rule engine* mengevaluasi transaksi offline tersebut.",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);border:1px solid #a7f3d0;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:10px 14px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;background:#f0fdf4;\"><span style=\"font-size:11px;font-weight:800;color:#0f172a;\">Transaction Attribute</span><span style=\"padding:3px 8px;border-radius:5px;background:#059669;font-size:9px;font-weight:700;color:#fff;\">+ Add</span></div><div style=\"padding:0;\"><table style=\"width:100%;border-collapse:collapse;font-size:9px;\"><tr style=\"background:#f8fafc;\"><td style=\"padding:6px 10px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Name</td><td style=\"padding:6px 10px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Src</td><td style=\"padding:6px 10px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Field Tag</td></tr><tr><td style=\"padding:6px 10px;color:#0f172a;font-weight:600;border-bottom:1px solid #f1f5f9;\">PrimaryAccountNumber</td><td style=\"padding:6px 10px;\"><span style=\"padding:1px 4px;border-radius:3px;background:rgba(59,130,246,.1);font-size:8px;font-weight:700;color:#2563eb;\">BODY</span></td><td style=\"padding:6px 10px;color:#10b981;font-family:monospace;\">CardNumber</td></tr><tr><td style=\"padding:6px 10px;color:#0f172a;font-weight:600;border-bottom:1px solid #f1f5f9;\">TransactionAmount</td><td style=\"padding:6px 10px;\"><span style=\"padding:1px 4px;border-radius:3px;background:rgba(59,130,246,.1);font-size:8px;font-weight:700;color:#2563eb;\">BODY</span></td><td style=\"padding:6px 10px;color:#10b981;font-family:monospace;\">Amount</td></tr></table></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Form Tambah / Edit Transaction Attribute",
+          "desc": "{previewHtml:1}\nDrawer form berukuran **480px** menyediakan field pemetaan ini:\n1. **Name** *(Wajib)*: Nama atribut standar internal ShiFor yang ingin diisi (misal: `amount`, `hpan`, `merchantId`).\n2. **Source Data** *(Wajib)*: Pilih apakah nilai atribut ini diambil dari bagian `HEADER` atau `BODY` dari request API/file upload.\n3. **Field Tag** *(Wajib)*: Merujuk ke nama parameter field / nama kolom yang terdaftar pada tab Message Column Config (atau Header/Body). Sistem secara otomatis mengambil daftar field yang valid saat *Source Data* dipilih.\n4. **Description** *(Wajib)*: Catatan deskriptif terkait pemetaan ini.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1);border:1px solid #a7f3d0;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:12px 14px;border-bottom:1px solid #a7f3d0;background:linear-gradient(135deg,#f0fdf4,#dcfce7);\"><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:#059669;display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2.5\"><path d=\"M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z\"/><line x1=\"7\" y1=\"7\" x2=\"7.01\" y2=\"7\"/></svg></div><div><div style=\"font-size:11px;font-weight:800;color:#0f172a;\">Create Attribute</div><div style=\"font-size:8px;color:#64748b;\">Map internal attribute to CSV field</div></div></div></div><div style=\"padding:10px 14px;display:flex;flex-direction:column;gap:6px;font-size:9.5px;\"><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Name <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter name</div></div><div style=\"display:flex;gap:6px;\"><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Source data <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#0f172a;font-size:9px;\">BODY</div></div><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Field tag <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #059669;border-radius:5px;color:#0f172a;font-size:9px;background:rgba(16,185,129,.05);\">CardNumber</div></div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Description <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;min-height:30px;\">Enter description</div></div></div><div style=\"padding:8px 14px;border-top:1px solid #a7f3d0;display:flex;gap:6px;\"><button style=\"flex:1;padding:5px;border-radius:5px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:9px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:5px;border-radius:5px;background:#059669;border:none;color:#fff;font-size:9px;font-weight:700;\">Create</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

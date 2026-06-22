@@ -1,0 +1,34 @@
+{
+  "label": "Mapping Overview",
+  "category": "interface-xlsx",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Laci Pemetaan Utama (1400px)",
+      "id": "details-drawer",
+      "intro": "Laci detail pemetaan (Details Drawer) berukuran raksasa 1400px menyediakan panel terpadu dengan 8 sub-tab berbasis pills untuk mengelola seluruh aspek parameter transaksi XLSX, mulai dari jaringan fisik hingga kode status respons akhir. Tab tambahan khusus XLSX adalah Message Column Config untuk mengatur urutan dan pemetaan kolom file XLSX (Excel).",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Membuka Laci Pemetaan Utama",
+          "desc": "{previewHtml:1}\n• Klik salah satu konfigurasi skema XLSX pada daftar utama untuk membuka panel detail di sisi kanan.\n• Pada tab **General**, klik tombol hijau utama **View Details** untuk memunculkan laci pemetaan raksasa berukuran **1400px**.\n• Laci ini terbagi menjadi **8 sub-tab** utama berorientasi pills yang mengontrol seluruh siklus parser pesan transaksi XLSX.",
+          "color": "#107c41",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);border:1px solid #bbf7d0;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:10px 14px;border-bottom:1px solid #bbf7d0;display:flex;justify-content:space-between;align-items:center;background:#f0fdf4;\"><span style=\"font-size:10px;font-weight:700;color:#107c41;border-bottom:2px solid #107c41;\">General</span><span style=\"font-size:10px;font-weight:600;color:#64748b;\">History</span></div><div style=\"padding:12px;display:flex;gap:12px;align-items:center;\"><div style=\"flex:1;\"><div style=\"font-size:8px;font-weight:700;color:#64748b;text-transform:uppercase;\">Internal Name</div><div style=\"font-size:11px;font-weight:700;color:#1e293b;\">XLSX_BATCH_IMPORT</div></div><button style=\"padding:6px 12px;border-radius:5px;background:#107c41;border:none;color:#fff;font-size:9.5px;font-weight:700;cursor:pointer;\">View Details</button></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Navigasi 8 Sub-Tab Pemetaan",
+          "desc": "{previewHtml:1}\nSub-tab pills yang tersedia di bagian atas laci meliputi:\n1. **Network (nc):** Mengatur koneksi SSL, host/domain, IP local/remote, port, dan error code.\n2. **Message Type (mt):** Mendefinisikan endpoint URL dan arah pesan (AUTH/TRANSACTION/INQUIRY/BULK_TRANSACTION).\n3. **Header Field (hf):** Memetakan field parameter header transaksi XLSX.\n4. **Body Field (bf):** Memetakan field body payload transaksi (termasuk konfigurasi file upload untuk bulk transaction).\n5. **Transaction Attribute (ta):** Mengikat field XLSX ke variabel analisis fraud internal.\n6. **Message Column Config (mc):** Mengatur urutan kolom XLSX, tipe data, dan status mandatory — *tab khusus format XLSX*.\n7. **Transaction Type (tt):** Pemetaan kode tipe transaksi eksternal ke internal.\n8. **Response Code (rc):** Pemetaan kode hasil respons status eksternal ke internal.\n\n> Pelajari rincian lengkap konfigurasi, penambahan data (Add), pengubahan data (Edit), serta pencarian (Search) untuk masing-masing sub-tab pada berkas panduan khusus di menu navigasi samping.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,.12);border:1px solid #bbf7d0;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:10px;background:#f0fdf4;display:flex;gap:4px;flex-wrap:wrap;\"><span style=\"padding:3px 6px;border-radius:10px;background:#107c41;color:#fff;font-size:7.5px;font-weight:700;\">Network</span><span style=\"padding:3px 6px;border-radius:10px;background:#fff;border:1px solid #bbf7d0;color:#107c41;font-size:7.5px;font-weight:600;\">Msg Type</span><span style=\"padding:3px 6px;border-radius:10px;background:#fff;border:1px solid #bbf7d0;color:#107c41;font-size:7.5px;font-weight:600;\">Header</span><span style=\"padding:3px 6px;border-radius:10px;background:#fff;border:1px solid #bbf7d0;color:#107c41;font-size:7.5px;font-weight:600;\">Body</span><span style=\"padding:3px 6px;border-radius:10px;background:#fff;border:1px solid #bbf7d0;color:#107c41;font-size:7.5px;font-weight:600;\">Attrib</span><span style=\"padding:3px 6px;border-radius:10px;background:#fff;border:1px solid #d97706;color:#d97706;font-size:7.5px;font-weight:700;\">Col Config</span><span style=\"padding:3px 6px;border-radius:10px;background:#fff;border:1px solid #bbf7d0;color:#107c41;font-size:7.5px;font-weight:600;\">Trans Type</span><span style=\"padding:3px 6px;border-radius:10px;background:#fff;border:1px solid #bbf7d0;color:#107c41;font-size:7.5px;font-weight:600;\">Response</span></div><div style=\"padding:16px;font-size:10px;color:#64748b;text-align:center;\">Pilih salah satu tab di atas untuk mengonfigurasi komponen skema XLSX secara mendalam.</div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

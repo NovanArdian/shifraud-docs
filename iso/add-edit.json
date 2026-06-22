@@ -1,0 +1,34 @@
+{
+  "label": "Add & Edit Data",
+  "category": "iso",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Manajemen Konfigurasi: Add & Edit",
+      "id": "add-edit",
+      "intro": "Modul ini memfasilitasi penambahan konfigurasi ISO8583 baru maupun pengeditan konfigurasi yang sudah ada. Setiap konfigurasi mewakili satu skema ISO 8583 dengan parameter header, bitmap, dan timeout yang spesifik.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Membuka Form Tambah / Edit",
+          "desc": "{previewHtml:1}\n• Klik tombol **Add** pada toolbar untuk membuat konfigurasi baru.\n• Klik tombol **Edit** pada panel detail untuk mengubah konfigurasi terpilih.\n• Drawer form berukuran **480px** akan muncul dari sisi kanan layar.\n• Badge indikator menunjukkan mode saat ini — **Add** atau **Edit**.",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(99,102,241,.12);border:1px solid #c7d2fe;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:12px 14px;border-bottom:1px solid #c7d2fe;background:linear-gradient(135deg,#eef2ff,#e0e7ff);\"><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:#6366f1;display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2.5\"><path d=\"M16 18l2-2-2-2\"/><path d=\"M8 6L6 8l2 2\"/><path d=\"M14.5 4l-5 16\"/></svg></div><div><div style=\"font-size:11px;font-weight:800;color:#1e1b4b;\">Create Config</div><div style=\"font-size:8px;color:#6366f1;\">Fill in the config details and save</div></div></div></div><div style=\"padding:10px 14px;display:flex;flex-direction:column;gap:6px;font-size:9.5px;\"><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Name <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter config name</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Header Length <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">0</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Bitmap Encoding <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Choose bitmap encoding</div></div><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:14px;height:14px;border:1.5px solid #cbd5e1;border-radius:3px;\"></div><span style=\"font-weight:600;color:#374151;font-size:9px;\">Secondary Bitmap</span></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Timeout Seconds <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">0</div></div></div><div style=\"padding:8px 14px;border-top:1px solid #c7d2fe;display:flex;gap:6px;\"><button style=\"flex:1;padding:5px;border-radius:5px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:9px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:5px;border-radius:5px;background:#6366f1;border:none;color:#fff;font-size:9px;font-weight:700;\">Create</button></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Detail Field Form",
+          "desc": "{previewHtml:1}\nForm konfigurasi ISO8583 menyediakan field berikut:\n\n1. **Name** *(Wajib)*: Nama identifikasi konfigurasi skema ISO8583.\n2. **Header Length** *(Wajib)*: Panjang header ISO message dalam bytes. Menentukan berapa byte awal yang merupakan header sebelum MTI.\n3. **Bitmap Encoding** *(Wajib)*: Tipe encoding bitmap — pilih dari `ASCII`, `BINARY`, atau `EBCDIC`. Menentukan cara bitmap di-encode dalam pesan ISO.\n4. **Secondary Bitmap** *(Opsional)*: Checkbox untuk mengaktifkan secondary bitmap (field 65-128). Jika diaktifkan, pesan ISO dapat menggunakan field di atas 64.\n5. **Timeout Seconds** *(Wajib)*: Batas waktu maksimum (dalam detik) untuk menunggu respons transaksi ISO.\n\n> **Catatan:** Scheme Type otomatis diatur ke `ISO8583` dan tidak dapat diubah.",
+          "color": "#4f46e5",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(99,102,241,.08);border:1px solid #c7d2fe;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:10px 14px;border-bottom:1px solid #e2e8f0;background:linear-gradient(135deg,#eef2ff,#e0e7ff);\"><div style=\"font-size:10px;font-weight:800;color:#1e1b4b;\">Field Configuration</div><div style=\"font-size:8px;color:#6366f1;margin-top:1px;\">ISO8583 scheme parameters</div></div><div style=\"padding:10px 14px;display:flex;flex-direction:column;gap:6px;\"><div style=\"padding:6px 8px;border-radius:6px;background:#f8fafc;border-left:3px solid #6366f1;\"><div style=\"font-size:8px;font-weight:700;color:#1e1b4b;\">Name <span style=\"color:#ef4444;\">*</span></div><div style=\"font-size:7.5px;color:#64748b;margin-top:2px;\">Identifikasi skema ISO8583</div></div><div style=\"padding:6px 8px;border-radius:6px;background:#f8fafc;border-left:3px solid #818cf8;\"><div style=\"font-size:8px;font-weight:700;color:#1e1b4b;\">Header Length <span style=\"color:#ef4444;\">*</span></div><div style=\"font-size:7.5px;color:#64748b;margin-top:2px;\">Panjang header dalam bytes</div></div><div style=\"padding:6px 8px;border-radius:6px;background:#f8fafc;border-left:3px solid #a5b4fc;\"><div style=\"font-size:8px;font-weight:700;color:#1e1b4b;\">Bitmap Encoding <span style=\"color:#ef4444;\">*</span></div><div style=\"font-size:7.5px;color:#64748b;margin-top:2px;\">ASCII / BINARY / EBCDIC</div></div><div style=\"padding:6px 8px;border-radius:6px;background:#f8fafc;border-left:3px solid #c7d2fe;\"><div style=\"font-size:8px;font-weight:700;color:#1e1b4b;\">Secondary Bitmap</div><div style=\"font-size:7.5px;color:#64748b;margin-top:2px;\">Enable field 65-128</div></div><div style=\"padding:6px 8px;border-radius:6px;background:#f8fafc;border-left:3px solid #4f46e5;\"><div style=\"font-size:8px;font-weight:700;color:#1e1b4b;\">Timeout Seconds <span style=\"color:#ef4444;\">*</span></div><div style=\"font-size:7.5px;color:#64748b;margin-top:2px;\">Batas waktu respons transaksi</div></div></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

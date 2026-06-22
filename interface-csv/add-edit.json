@@ -1,0 +1,34 @@
+{
+  "label": "Add & Edit Data",
+  "category": "interface-csv",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Manajemen Konfigurasi: Add & Edit",
+      "id": "add-edit",
+      "intro": "Modul ini memfasilitasi pembuatan dan pembaruan data konfigurasi antarmuka skema CSV utama melalui Drawer panel samping kanan berukuran 480px. Proses validasi form berjalan secara real-time untuk memastikan input valid sebelum disimpan ke database.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Membuka Drawer Create / Edit",
+          "desc": "{previewHtml:1}\n• **Tambah Konfigurasi (Add):** Klik tombol **Add Config** pada toolbar atas halaman utama untuk membuka drawer *Create Config*.\n• **Ubah Konfigurasi (Edit):** Klik salah satu baris/kartu pada daftar konfigurasi utama untuk membuka panel detail, lalu klik tombol **Edit Config** di sisi kanan.\n• Drawer akan menampilkan judul **Create Config** atau **Edit Config**, badge visual status aksi, serta ikon kode (`IconCode`).",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1);border:1px solid #a7f3d0;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:14px 16px;border-bottom:1px solid #a7f3d0;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(135deg,#f0fdf4,#dcfce7);\"><div><div style=\"display:flex;align-items:center;gap:8px;\"><div style=\"width:30px;height:30px;border-radius:8px;background:#059669;display:flex;align-items:center;justify-content:center;\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2.5\"><polyline points=\"16 18 22 12 16 6\"/><polyline points=\"8 6 2 12 8 18\"/></svg></div><div><div style=\"font-size:12px;font-weight:800;color:#0f172a;\">Create Config</div><div style=\"font-size:9px;color:#64748b;\">Fill in the config details and save</div></div></div></div><div><span style=\"padding:2px 8px;border-radius:12px;background:#dcfce7;border:1px solid #86efac;font-size:9px;font-weight:700;color:#059669;\">● Add</span></div></div><div style=\"padding:14px 16px;display:flex;flex-direction:column;gap:10px;\"><div style=\"font-size:9px;font-weight:800;color:#64748b;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px;\">Config Information</div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Name <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:7px 10px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:11px;color:#94a3b8;\">Enter config name</div></div></div><div style=\"padding:12px 16px;border-top:1px solid #a7f3d0;background:#f8fafc;display:flex;gap:8px;\"><button style=\"flex:1;padding:7px;border-radius:7px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:10px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:7px;border-radius:7px;background:#059669;border:none;color:#fff;font-size:10px;font-weight:700;opacity:0.6;cursor:not-allowed;\">Create</button></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Parameter Form Utama",
+          "desc": "{previewHtml:1}\nLengkapi kolom form isian berikut:\n1. **Name** *(Wajib)*: Masukkan nama identifikasi unik untuk skema CSV ini (misal: `CSV_BATCH_IMPORT`). Karakter harus bermakna dan disarankan menggunakan format UPPERCASE bersnake-case untuk konsistensi.\n2. **Scheme Type** *(Otomatis)*: Sistem mengunci tipe skema secara implisit sebagai `CSV` untuk form ini.\n\n> Klik tombol **Create** (atau **Update** jika mengedit) setelah selesai mengisi data untuk mendaftarkan skema. Klik **Cancel** jika ingin membatalkan pendaftaran.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1);border:1px solid #a7f3d0;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:14px 16px;display:flex;flex-direction:column;gap:10px;\"><div style=\"font-size:9px;font-weight:800;color:#64748b;text-transform:uppercase;letter-spacing:.05em;\">Config Information</div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Name <span style=\"color:#ef4444;\">*</span></div><input type=\"text\" value=\"CSV_BATCH_IMPORT\" style=\"padding:7px 10px;border:1.5px solid #059669;border-radius:7px;font-size:11px;color:#0f172a;outline:none;\"/></div></div><div style=\"padding:12px 16px;border-top:1px solid #a7f3d0;background:#f8fafc;display:flex;gap:8px;\"><button style=\"flex:1;padding:7px;border-radius:7px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:10px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:7px;border-radius:7px;background:#059669;border:none;color:#fff;font-size:10px;font-weight:700;box-shadow:0 2px 8px rgba(5,150,105,.35);\">Create</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

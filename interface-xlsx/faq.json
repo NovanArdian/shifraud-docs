@@ -1,0 +1,64 @@
+{
+  "label": "FAQ",
+  "category": "interface-xlsx",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Frequently Asked Questions",
+      "id": "faq",
+      "intro": "Temukan jawaban atas berbagai pertanyaan umum mengenai konfigurasi antarmuka pemrosesan batch offline (Interface XLSX) di sistem ShiFor.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Apa kegunaan utama dari modul Interface XLSX?",
+          "desc": "{previewHtml:1}\n• Modul ini memfasilitasi integrasi data transaksi offline (bulk upload) ke engine ShiFor melalui skema format file Excel (.xlsx).\n• Alih-alih menerima transaksi satuan via API (seperti JSON), fitur ini memungkinkan bank atau institusi mengirim file spreadsheet massal yang berisi banyak baris transaksi sekaligus.\n• Sistem akan mem-parsing setiap baris worksheet XLSX sesuai dengan urutan indeks kolom (Message Column Config) dan mengeksekusi fraud detection secara asinkronus (batch processing).",
+          "color": "#107c41",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(16,124,65,.08);border:1px solid #bbf7d0;background:#fff;width:280px;margin:0 auto;padding:12px;\"><div style=\"display:flex;align-items:center;justify-content:space-between;gap:6px;\"><div style=\"padding:6px;background:#f0fdf4;border-radius:6px;border:1px solid #bbf7d0;text-align:center;flex:1;\"><div style=\"font-size:8px;font-weight:700;color:#107c41;\">File .xlsx</div><div style=\"font-size:7px;color:#64748b;margin-top:2px;\">Excel Upload</div></div><div style=\"color:#107c41;font-size:12px;font-weight:800;\">➔</div><div style=\"padding:6px;background:#f0fdf4;border-radius:6px;border:1px dashed #107c41;text-align:center;flex:1;\"><div style=\"font-size:8px;font-weight:700;color:#0f172a;\">XLSX Parser</div><div style=\"font-size:7px;color:#107c41;margin-top:2px;\">Column Index</div></div><div style=\"color:#107c41;font-size:12px;font-weight:800;\">➔</div><div style=\"padding:6px;background:#107c41;border-radius:6px;text-align:center;flex:1;color:#fff;\"><div style=\"font-size:8px;font-weight:800;\">Batch Engine</div><div style=\"font-size:7px;opacity:0.8;margin-top:2px;\">Asynchronous</div></div></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Bagaimana cara mengatur pembacaan file XLSX berukuran besar?",
+          "desc": "{previewHtml:1}\n• Pada tab **Message Type**, buatlah konfigurasi dengan State `BULK_TRANSACTION`.\n• Setelah terbuat, buka tab **Body Field**, tambahkan field baru (biasanya bernama `fileData`). Saat tipe pesan adalah BULK_TRANSACTION, form akan memunculkan opsi khusus unggah file.\n• Anda dapat menentukan ukuran file maksimum di field **Max File Size** (mendukung konversi cerdas dari Bytes, KB, ke MB) serta ekstensi yang valid di **Allowed Extensions** (seperti `.xlsx`).",
+          "color": "#f59e0b",
+          "bg": "#fffbeb",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(245,158,11,.08);border:1px solid #fde68a;background:#fff;width:280px;margin:0 auto;padding:10px;display:flex;flex-direction:column;gap:6px;\"><div style=\"font-size:8px;font-weight:700;color:#64748b;text-transform:uppercase;\">File Upload Config</div><div style=\"display:flex;gap:4px;\"><div style=\"flex:1;padding:4px 6px;background:#fef3c7;border-radius:4px;font-size:8px;font-weight:700;color:#d97706;\">Max Size: 50MB</div><div style=\"flex:1;padding:4px 6px;background:#f1f5f9;border-radius:4px;font-size:8px;font-weight:700;color:#475569;\">Ext: .xlsx</div></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Apa perbedaan Message Column Config di XLSX dengan Body Field di JSON?",
+          "desc": "{previewHtml:1}\n• **JSON Body Field** bergantung pada nama struktur variabel bersarang (key-value) untuk membedakan data.\n• **XLSX Message Column Config** bekerja dengan indeks posisi flat dari kiri ke kanan (kolom spreadsheet). Fitur ini eksklusif untuk format file berbasis tabel/flat. Anda harus mengkonfigurasi `Column Index` (dimulai dari 0 untuk Kolom A) agar parser ShiFor tahu urutan field dalam baris sheet XLSX yang masuk.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(59,130,246,.08);border:1px solid #bfdbfe;background:#fff;width:280px;margin:0 auto;padding:10px;display:flex;flex-direction:column;gap:6px;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:4px 8px;background:#f8fafc;border-radius:6px;border:1px solid #e2e8f0;\"><span style=\"font-size:8.5px;font-weight:700;color:#1e293b;\">JSON (Key-Value)</span><code style=\"font-size:8px;color:#2563eb;\">{\"cardNumber\": \"...\"}</code></div><div style=\"display:flex;justify-content:space-between;align-items:center;padding:4px 8px;background:#f8fafc;border-radius:6px;border:1px solid #e2e8f0;\"><span style=\"font-size:8.5px;font-weight:700;color:#1e293b;\">XLSX (Col Position)</span><code style=\"font-size:8px;color:#107c41;\">Col 0 ➔ cardNumber</code></div></div>"
+          }
+        },
+        {
+          "num": 4,
+          "title": "Bagaimana menghubungkan urutan kolom XLSX tersebut agar diproses oleh rule deteksi?",
+          "desc": "{previewHtml:1}\n• Setelah kolom-kolom dikonfigurasi di tab **Message Column Config**, buka tab **Transaction Attribute**.\n• Buat mapping baru. Pilih atribut standar ShiFor (misal: `amount`), pilih sumber `BODY`, lalu pilih **Field Tag** yang merujuk pada nama kolom XLSX yang baru saja dibuat.\n• Pemetaan ini memberitahu sistem: \"Ambil data dari kolom ke-X, lalu jadikan itu sebagai nilai 'amount' transaksi.\"",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(139,92,246,.08);border:1px solid #ddd6fe;background:#fff;width:280px;margin:0 auto;padding:10px;display:flex;flex-direction:column;gap:4px;\"><div style=\"display:flex;align-items:center;justify-content:space-between;padding:4px 8px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;\"><div style=\"font-size:8px;font-weight:700;color:#1e293b;\">XLSX Column name</div><div style=\"font-size:7.5px;color:#107c41;font-weight:700;\">\"amount\"</div></div><div style=\"text-align:center;font-size:8px;color:#94a3b8;\">▼ bound as transaction attribute</div><div style=\"display:flex;align-items:center;justify-content:space-between;padding:4px 8px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;\"><div style=\"font-size:8px;font-weight:700;color:#1e293b;\">ShiFor Attr Name</div><div style=\"font-size:7.5px;color:#7c3aed;font-weight:700;\">\"amount\"</div></div></div>"
+          }
+        },
+        {
+          "num": 5,
+          "title": "Apakah ada peringatan jika mengubah urutan indeks XLSX di tabel production?",
+          "desc": "{previewHtml:1}\n• **SANGAT PENTING:** Mengubah urutan index di tab Message Column Config akan mengubah cara parser membaca spreadsheet.\n• Jika format file eksternal yang diunggah belum mengikuti format indeks yang baru, hal ini akan menyebabkan error kegagalan parsing massal (data *mismatch*).\n• Lakukan perubahan indeks secara hati-hati, amati log **History**, dan koordinasikan dengan pihak pengirim file.",
+          "color": "#ef4444",
+          "bg": "#fef2f2",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(239,68,68,.08);border:1px solid #fca5a5;background:#fff;width:280px;margin:0 auto;padding:12px;\"><div style=\"display:flex;align-items:center;justify-content:space-between;\"><span style=\"font-size:9.5px;font-weight:800;color:#991b1b;\">Parser Error: Mismatch</span><span style=\"width:8px;height:8px;border-radius:50%;background:#ef4444;\"></span></div><div style=\"margin-top:6px;font-size:8px;color:#475569;\">Expected Index 0: <span style=\"font-weight:700;\">cardNumber</span> (String)<br/>Found in file Index 0: <span style=\"font-weight:700;color:#dc2626;\">10000.00</span> (Decimal)</div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

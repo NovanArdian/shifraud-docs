@@ -1,0 +1,34 @@
+{
+  "label": "Transaction Type",
+  "category": "interface-xlsx",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Konfigurasi Transaction Type",
+      "id": "details-transaction-type",
+      "intro": "Sub-tab Transaction Type berfungsi untuk memetakan kode tipe transaksi eksternal (dari file XLSX) ke dalam kode tipe transaksi internal sistem. Mapping ini memastikan bahwa setiap jenis transaksi dari sumber eksternal dapat diidentifikasi dan diproses sesuai dengan kategori transaksi standar dalam engine fraud detection.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar & Detail Transaction Type",
+          "desc": "{previewHtml:1}\n• Tabel menampilkan mapping kode tipe transaksi eksternal ke internal yang terdaftar.\n• Informasi kolom mencakup:\n  - **Code:** Kode tipe transaksi eksternal yang berasal dari file XLSX.\n  - **Description:** Penjelasan singkat tentang maksud/kategori transaksi eksternal.\n  - **Internal Code:** Badge yang menampilkan kode transaksi internal sistem dengan variant light.\n• Gunakan tombol **Search** untuk mencari mapping spesifik dan **Add Code** untuk membuat mapping baru.\n• Klik baris untuk melihat detail mapping dan history timeline.",
+          "color": "#107c41",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);border:1px solid #bbf7d0;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:10px 14px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;background:#f0fdf4;\"><span style=\"font-size:11px;font-weight:800;color:#0f172a;\">Transaction Type</span><div style=\"display:flex;gap:4px;\"><span style=\"padding:3px 8px;border-radius:5px;border:1px solid #cbd5e1;font-size:9px;font-weight:700;color:#475569;\">Search</span><span style=\"padding:3px 8px;border-radius:5px;background:#107c41;font-size:9px;font-weight:700;color:#fff;\">+ Add</span></div></div><div style=\"padding:0;\"><table style=\"width:100%;border-collapse:collapse;font-size:9px;\"><tr style=\"background:#f8fafc;\"><td style=\"padding:6px 10px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Code</td><td style=\"padding:6px 10px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Description</td><td style=\"padding:6px 10px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Internal</td></tr><tr><td style=\"padding:6px 10px;color:#0f172a;font-weight:600;border-bottom:1px solid #f1f5f9;\">PURCH</td><td style=\"padding:6px 10px;color:#64748b;border-bottom:1px solid #f1f5f9;\">Purchase</td><td style=\"padding:6px 10px;border-bottom:1px solid #f1f5f9;\"><span style=\"padding:1px 4px;border-radius:3px;background:rgba(139,92,246,.1);font-size:8px;font-weight:700;color:#8b5cf6;\">PURCHASE</span></td></tr><tr><td style=\"padding:6px 10px;color:#0f172a;font-weight:600;border-bottom:1px solid #f1f5f9;\">WDRW</td><td style=\"padding:6px 10px;color:#64748b;border-bottom:1px solid #f1f5f9;\">Withdrawal</td><td style=\"padding:6px 10px;border-bottom:1px solid #f1f5f9;\"><span style=\"padding:1px 4px;border-radius:3px;background:rgba(139,92,246,.1);font-size:8px;font-weight:700;color:#8b5cf6;\">WITHDRAW</span></td></tr></table></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Form Tambah / Edit Transaction Type",
+          "desc": "{previewHtml:1}\nDrawer form menyediakan field berikut:\n1. **External Code** *(Wajib)*: Kode tipe transaksi eksternal yang berasal dari file XLSX.\n2. **Description** *(Wajib)*: Penjelasan singkat tentang maksud/kategori transaksi eksternal.\n3. **Internal Transaction Type** *(Wajib)*: Pilih kode transaksi internal sistem dari dropdown.\n4. **Notes** *(Opsional)*: Catatan tambahan untuk mapping ini.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1);border:1px solid #bbf7d0;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:12px 14px;border-bottom:1px solid #bbf7d0;background:linear-gradient(135deg,#f0fdf4,#dcfce7);\"><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:#107c41;display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2.5\"><path d=\"M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z\"/></svg></div><div><div style=\"font-size:11px;font-weight:800;color:#0f172a;\">Create Transaction Type</div><div style=\"font-size:8px;color:#64748b;\">Map external to internal code</div></div></div></div><div style=\"padding:10px 14px;display:flex;flex-direction:column;gap:6px;font-size:9.5px;\"><div style=\"display:flex;gap:6px;\"><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">External Code <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter code</div></div><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Internal Type <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Choose</div></div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Description <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter description</div></div></div><div style=\"padding:8px 14px;border-top:1px solid #bbf7d0;display:flex;gap:6px;\"><button style=\"flex:1;padding:5px;border-radius:5px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:9px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:5px;border-radius:5px;background:#107c41;border:none;color:#fff;font-size:9px;font-weight:700;\">Create</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

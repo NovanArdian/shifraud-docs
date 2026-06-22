@@ -1,0 +1,34 @@
+{
+  "label": "Response Code",
+  "category": "interface-csv",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Konfigurasi Response Code",
+      "id": "details-response-code",
+      "intro": "Sub-tab Response Code (Ext Resp Code) digunakan untuk memetakan status eksekusi atau kode persetujuan (approval code) dari file CSV eksternal ke respons kode standar internal ShiFor. Ini memungkinkan sistem untuk memahami apakah sebuah transaksi sukses, gagal, atau ditolak secara seragam.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar & Detail Response Code",
+          "desc": "{previewHtml:1}\n• Tabel menampilkan daftar pemetaan kode respons.\n• Informasi yang tercantum:\n  - **Code:** Kode status/respons yang berasal dari sumber data CSV.\n  - **Description:** Penjelasan tentang arti kode eksternal tersebut.\n  - **Internal Code:** Kode respons terstandarisasi sistem ShiFor yang dipetakan.\n• Serupa dengan pemetaan Transaction Type, data ini diaplikasikan saat proses parsing file CSV masuk.",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);border:1px solid #a7f3d0;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:10px 14px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;background:#f0fdf4;\"><span style=\"font-size:11px;font-weight:800;color:#0f172a;\">Response Code</span><span style=\"padding:3px 8px;border-radius:5px;background:#059669;font-size:9px;font-weight:700;color:#fff;\">+ Add</span></div><div style=\"padding:0;\"><table style=\"width:100%;border-collapse:collapse;font-size:9px;\"><tr style=\"background:#f8fafc;\"><td style=\"padding:6px 10px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Ext Code</td><td style=\"padding:6px 10px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Description</td><td style=\"padding:6px 10px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Int Code</td></tr><tr><td style=\"padding:6px 10px;color:#0f172a;font-weight:700;border-bottom:1px solid #f1f5f9;\">OK</td><td style=\"padding:6px 10px;color:#64748b;border-bottom:1px solid #f1f5f9;\">Success Approval</td><td style=\"padding:6px 10px;color:#059669;font-weight:700;border-bottom:1px solid #f1f5f9;\">00 - APPROVED</td></tr><tr><td style=\"padding:6px 10px;color:#0f172a;font-weight:700;border-bottom:1px solid #f1f5f9;\">ERR</td><td style=\"padding:6px 10px;color:#64748b;border-bottom:1px solid #f1f5f9;\">System Error</td><td style=\"padding:6px 10px;color:#059669;font-weight:700;border-bottom:1px solid #f1f5f9;\">96 - SYSTEM ERROR</td></tr></table></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Form Tambah / Edit Response Code",
+          "desc": "{previewHtml:1}\nDrawer form berukuran **480px** menyediakan field pemetaan berikut:\n1. **Code** *(Wajib)*: Masukkan kode status/respons asli dari file CSV (misal: `OK`, `ERR`, `000`).\n2. **Description** *(Wajib)*: Masukkan deskripsi singkat mengenai kode eksternal tersebut.\n3. **Internal Code** *(Wajib)*: Pilih kode respons internal ShiFor dari dropdown list. Dropdown ini akan menampilkan master data respons sistem.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1);border:1px solid #a7f3d0;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:12px 14px;border-bottom:1px solid #a7f3d0;background:linear-gradient(135deg,#f0fdf4,#dcfce7);\"><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:#059669;display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2.5\"><polyline points=\"16 18 22 12 16 6\"/><polyline points=\"8 6 2 12 8 18\"/></svg></div><div><div style=\"font-size:11px;font-weight:800;color:#0f172a;\">Create Response Code</div><div style=\"font-size:8px;color:#64748b;\">Fill in the response code details</div></div></div></div><div style=\"padding:10px 14px;display:flex;flex-direction:column;gap:6px;font-size:9.5px;\"><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Code <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter code</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Description <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter description</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Internal code <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Choose internal code</div></div></div><div style=\"padding:8px 14px;border-top:1px solid #a7f3d0;display:flex;gap:6px;\"><button style=\"flex:1;padding:5px;border-radius:5px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:9px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:5px;border-radius:5px;background:#059669;border:none;color:#fff;font-size:9px;font-weight:700;\">Create</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

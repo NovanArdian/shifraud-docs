@@ -1,0 +1,34 @@
+{
+  "label": "Response Code",
+  "category": "iso",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Konfigurasi Response Code",
+      "id": "details-response-code",
+      "intro": "Sub-tab Response Code digunakan untuk memetakan kode respons eksternal yang dikirimkan oleh jaringan switching bank (misal kode ISO8583 field 39) ke dalam kode status respons internal ShiFor. Pemetaan ini menjamin bahwa status transaksi berhasil, gagal, atau fraud terdeteksi dapat diproses seragam.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar & Detail Response Code Mapping",
+          "desc": "{previewHtml:1}\n• Tabel pemetaan menampilkan relasi status kode respons eksternal ke internal.\n• Kolom tabel meliputi:\n  - **Ext Code:** Kode respon eksternal dari ISO8583 (biasanya field 39, misal `00` atau `51`).\n  - **Description:** Deskripsi arti kode respons eksternal.\n  - **Int Code:** Kode status internal ShiFor yang dipetakan.\n• Tabel ini mempermudah pelacakan pemetaan status respons switching.",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(99,102,241,.08);border:1px solid #c7d2fe;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:10px 14px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;background:#eef2ff;\"><span style=\"font-size:11px;font-weight:800;color:#1e1b4b;\">Response Code</span><span style=\"padding:3px 8px;border-radius:5px;background:#6366f1;font-size:9px;font-weight:700;color:#fff;\">+ Add</span></div><div style=\"padding:0;\"><table style=\"width:100%;border-collapse:collapse;font-size:8.5px;\"><tr style=\"background:#f8fafc;\"><td style=\"padding:6px 8px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Ext Code</td><td style=\"padding:6px 8px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Description</td><td style=\"padding:6px 8px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Int Code</td></tr><tr><td style=\"padding:6px 8px;color:#1e1b4b;font-weight:700;border-bottom:1px solid #f1f5f9;\">00</td><td style=\"padding:6px 8px;color:#64748b;border-bottom:1px solid #f1f5f9;\">Approved / Success</td><td style=\"padding:6px 8px;color:#4f46e5;font-weight:700;border-bottom:1px solid #f1f5f9;\">00 - APPROVED</td></tr><tr><td style=\"padding:6px 8px;color:#1e1b4b;font-weight:700;border-bottom:1px solid #f1f5f9;\">51</td><td style=\"padding:6px 8px;color:#64748b;border-bottom:1px solid #f1f5f9;\">Insufficient Funds</td><td style=\"padding:6px 8px;color:#4f46e5;font-weight:700;border-bottom:1px solid #f1f5f9;\">51 - INSUFFICIENT_BALANCE</td></tr></table></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Form Tambah / Edit Response Code",
+          "desc": "{previewHtml:1}\nDrawer form samping kanan berukuran **480px** menyediakan field-field pemetaan berikut:\n1. **Code** *(Wajib)*: Kode respons eksternal bank switching (misalnya `00` atau `51`).\n2. **Description** *(Wajib)*: Deskripsi singkat dari arti kode eksternal tersebut.\n3. **Internal code** *(Wajib)*: Dropdown pilihan kode respons standar internal ShiFor.",
+          "color": "#4f46e5",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(99,102,241,.1);border:1px solid #c7d2fe;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:12px 14px;border-bottom:1px solid #c7d2fe;background:linear-gradient(135deg,#eef2ff,#e0e7ff);\"><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:#6366f1;display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2.5\"><path d=\"M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5\"/></svg></div><div><div style=\"font-size:11px;font-weight:800;color:#1e1b4b;\">Create Ext Resp Code</div><div style=\"font-size:8px;color:#6366f1;\">Fill in the ext resp code details</div></div></div></div><div style=\"padding:10px 14px;display:flex;flex-direction:column;gap:6px;font-size:9.5px;\"><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Code <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Code</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Description <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Description</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Internal code <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Choose internal code</div></div></div><div style=\"padding:8px 14px;border-top:1px solid #c7d2fe;display:flex;gap:6px;\"><button style=\"flex:1;padding:5px;border-radius:5px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:9px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:5px;border-radius:5px;background:#6366f1;border:none;color:#fff;font-size:9px;font-weight:700;\">Create</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

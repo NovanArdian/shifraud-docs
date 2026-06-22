@@ -1,0 +1,34 @@
+{
+  "label": "Message Type",
+  "category": "iso",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Konfigurasi Tipe Pesan (Message Type)",
+      "id": "details-message-type",
+      "intro": "Sub-tab Message Type digunakan untuk mendefinisikan tipe-tipe endpoint transaksi ISO8583 (biasanya diidentifikasi dengan MTI seperti 0100, 0200) beserta arah pesan dan properti timeout. Konfigurasi ini berfungsi sebagai routing transaksi dalam sistem.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar & Detail Message Type",
+          "desc": "{previewHtml:1}\n• Daftar message type menampilkan seluruh MTI/endpoint yang telah dikonfigurasi.\n• Informasi yang ditampilkan meliputi:\n  - **Name:** Nama identifikasi endpoint transaksi.\n  - **Endpoint Value:** Nilai MTI (Message Type Identifier, contoh: `0100`, `0200`).\n  - **State:** Kategori pesan transaksi — pilihannya adalah `AUTH`, `TRANSACTION`, atau `INQUIRY`.\n• Klik entri untuk menampilkan opsi edit atau delete.",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(99,102,241,.08);border:1px solid #c7d2fe;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:10px 14px;border-bottom:1px solid #cbd5e1;background:#eef2ff;\"><span style=\"font-size:11px;font-weight:800;color:#1e1b4b;\">Message Type</span></div><div style=\"padding:8px;\"><div style=\"padding:8px 10px;border-radius:8px;background:rgba(99,102,241,.04);border-left:3px solid #6366f1;margin-bottom:6px;\"><div style=\"display:flex;justify-content:space-between;align-items:center;\"><span style=\"font-size:10px;font-weight:700;color:#1e1b4b;\">ISO_AUTH_REQUEST</span><span style=\"padding:1px 5px;border-radius:3px;background:rgba(99,102,241,.1);font-size:7.5px;font-weight:800;color:#4f46e5;\">AUTH</span></div><div style=\"font-size:8.5px;color:#64748b;margin-top:2px;\">MTI: 0100</div></div><div style=\"padding:8px 10px;border-radius:8px;border-left:3px solid transparent;\"><div style=\"display:flex;justify-content:space-between;align-items:center;\"><span style=\"font-size:10px;font-weight:700;color:#64748b;\">ISO_PURCHASE</span><span style=\"padding:1px 5px;border-radius:3px;background:rgba(20,184,166,.1);font-size:7.5px;font-weight:800;color:#14b8a6;\">TRANSACTION</span></div><div style=\"font-size:8.5px;color:#94a3b8;margin-top:2px;\">MTI: 0200</div></div></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Form Tambah / Edit Message Type",
+          "desc": "{previewHtml:1}\nDrawer form berukuran **480px** menyediakan field berikut:\n1. **Name** *(Wajib)*: Nama identifikasi tipe pesan.\n2. **Endpoint Value** *(Wajib)*: Nilai MTI (Message Type Identifier) transaksi.\n3. **Message Type** *(Wajib)*: Kategori tipe pesan — pilih dari `AUTH`, `TRANSACTION`, atau `INQUIRY`.\n4. **Timeout (seconds)** *(Opsional)*: Batas waktu timeout dalam detik khusus untuk tipe pesan ini.\n5. **Ignore Log** *(Opsional)*: Checkbox untuk mengabaikan pencatatan log transaksi tipe ini.",
+          "color": "#4f46e5",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(99,102,241,.12);border:1px solid #c7d2fe;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:12px 14px;border-bottom:1px solid #c7d2fe;background:linear-gradient(135deg,#eef2ff,#e0e7ff);\"><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:#6366f1;display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2.5\"><path d=\"M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71\"/><path d=\"M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71\"/></svg></div><div><div style=\"font-size:11px;font-weight:800;color:#1e1b4b;\">Create Message Type</div><div style=\"font-size:8px;color:#6366f1;\">Fill details and save changes</div></div></div></div><div style=\"padding:10px 14px;display:flex;flex-direction:column;gap:6px;font-size:9.5px;\"><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Name <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter message type name</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Endpoint Value <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;display:flex;align-items:center;gap:4px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><path d=\"M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71\"/></svg>Enter endpoint value (MTI)</div></div><div style=\"display:flex;gap:6px;\"><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Message Type <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Choose</div></div><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Timeout (seconds)</span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">0</div></div></div><div style=\"display:flex;align-items:center;gap:6px;margin-top:2px;\"><div style=\"width:12px;height:12px;border:1px solid #cbd5e1;border-radius:3px;\"></div><span style=\"font-weight:600;color:#374151;\">Ignore Log</span></div></div><div style=\"padding:8px 14px;border-top:1px solid #cbd5e1;display:flex;gap:6px;\"><button style=\"flex:1;padding:5px;border-radius:5px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:9px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:5px;border-radius:5px;background:#6366f1;border:none;color:#fff;font-size:9px;font-weight:700;\">Create</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

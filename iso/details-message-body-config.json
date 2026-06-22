@@ -1,0 +1,34 @@
+{
+  "label": "Message Body Config",
+  "category": "iso",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Konfigurasi Message Body Config",
+      "id": "details-message-body-config",
+      "intro": "Sub-tab Message Body Config digunakan untuk memetakan field payload pesan spesifik ke nomor field ISO8583 global untuk setiap tipe pesan (Message Type) yang dipilih. Ini memungkinkan parsing elemen data dinamis pada pesan MTI tertentu (misalnya MTI 0100 memiliki format field body yang berbeda dengan 0200).",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Pemetaan Field per Tipe Pesan",
+          "desc": "{previewHtml:1}\n• Halaman ini menampilkan daftar pemetaan field untuk tipe pesan yang aktif.\n• Setiap pemetaan memiliki informasi:\n  - **Field Name:** Nama internal field.\n  - **ISO Field Number:** Hubungan ke bit field global ISO8583 (misal field 2, field 11).\n  - **Sequence:** Urutan prioritas parsing data.\n  - **DER Type:** Aturan tipe encoding DER untuk parsing field nested.\n• Panel luar di sisi kiri digunakan untuk memilih tipe pesan (Message Type) terlebih dahulu.",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(99,102,241,.08);border:1px solid #c7d2fe;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:10px 14px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;background:#eef2ff;\"><span style=\"font-size:10px;font-weight:800;color:#1e1b4b;\">Msg Body Config (0100)</span><span style=\"padding:3px 8px;border-radius:5px;background:#6366f1;font-size:9px;font-weight:700;color:#fff;\">+ Map Field</span></div><div style=\"padding:0;\"><table style=\"width:100%;border-collapse:collapse;font-size:8.5px;\"><tr style=\"background:#f8fafc;\"><td style=\"padding:6px 8px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Field Name</td><td style=\"padding:6px 8px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">ISO Field</td><td style=\"padding:6px 8px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Seq</td></tr><tr><td style=\"padding:6px 8px;color:#1e1b4b;font-weight:700;border-bottom:1px solid #f1f5f9;\">pan</td><td style=\"padding:6px 8px;color:#4f46e5;font-weight:700;border-bottom:1px solid #f1f5f9;\">2</td><td style=\"padding:6px 8px;color:#64748b;border-bottom:1px solid #f1f5f9;\">1</td></tr><tr><td style=\"padding:6px 8px;color:#1e1b4b;font-weight:700;border-bottom:1px solid #f1f5f9;\">stan</td><td style=\"padding:6px 8px;color:#4f46e5;font-weight:700;border-bottom:1px solid #f1f5f9;\">11</td><td style=\"padding:6px 8px;color:#64748b;border-bottom:1px solid #f1f5f9;\">2</td></tr></table></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Form Tambah / Edit Pemetaan Message Body",
+          "desc": "{previewHtml:1}\nDrawer form samping kanan berukuran **480px** menyediakan field-field pemetaan berikut:\n1. **Field name** *(Wajib)*: Nama identifikasi field (contoh: `pan`, `stan`).\n2. **Description** *(Wajib)*: Deskripsi kegunaan field ini.\n3. **Length** *(Wajib)*: Panjang data field.\n4. **ISO Field Number** *(Wajib)*: Nomor bit field ISO global yang terkait (misalnya `2` atau `11`).\n5. **Sequence** *(Wajib)*: Nomor urutan parsing.\n6. **DER** *(Wajib)*: Jenis parsing DER (pilihan dropdown: `Choose DER`).",
+          "color": "#4f46e5",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(99,102,241,.1);border:1px solid #c7d2fe;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:12px 14px;border-bottom:1px solid #c7d2fe;background:linear-gradient(135deg,#eef2ff,#e0e7ff);\"><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:#6366f1;display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2.5\"><path d=\"M16 18l2-2-2-2\"/><path d=\"M8 6L6 8l2 2\"/><path d=\"M14.5 4l-5 16\"/></svg></div><div><div style=\"font-size:11px;font-weight:800;color:#1e1b4b;\">Create Body Field</div><div style=\"font-size:8px;color:#6366f1;\">Fill in the body field details and save</div></div></div></div><div style=\"padding:10px 14px;display:flex;flex-direction:column;gap:6px;font-size:9.5px;\"><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Field name <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Field name</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Description <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter description</div></div><div style=\"display:flex;gap:6px;\"><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Length <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Length</div></div><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">ISO Field Number <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">ISO Field</div></div></div><div style=\"display:flex;gap:6px;\"><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Sequence <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Sequence</div></div><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">DER <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Choose DER</div></div></div></div><div style=\"padding:8px 14px;border-top:1px solid #c7d2fe;display:flex;gap:6px;\"><button style=\"flex:1;padding:5px;border-radius:5px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:9px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:5px;border-radius:5px;background:#6366f1;border:none;color:#fff;font-size:9px;font-weight:700;\">Create</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

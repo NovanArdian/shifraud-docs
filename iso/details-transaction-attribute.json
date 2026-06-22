@@ -1,0 +1,34 @@
+{
+  "label": "Transaction Attribute",
+  "category": "iso",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Konfigurasi Transaction Attribute",
+      "id": "details-transaction-attribute",
+      "intro": "Sub-tab Transaction Attribute digunakan untuk memetakan atau mengikat nilai field ISO8583 tertentu (baik dari Header maupun Body) ke dalam variabel atribut analisis fraud internal ShiFor (misalnya variabel PAN, processing code, atau amount). Atribut ini yang nantinya dievaluasi oleh rule engine untuk mendeteksi indikasi fraud.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar & Detail Transaction Attribute",
+          "desc": "{previewHtml:1}\n• Halaman ini menampilkan tabel pemetaan atribut transaksi yang aktif.\n• Setiap baris pemetaan berisi:\n  - **Name:** Nama identitas pemetaan atribut.\n  - **Attribute Name:** Atribut target analisis internal ShiFor.\n  - **Source Data:** Asal sumber data (HEADER atau BODY).\n  - **Field Tag:** Field penanda sumber (misal nama field body atau header).\n• Panel luar di sisi kiri digunakan untuk memilih tipe pesan (Message Type) terlebih dahulu.",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(99,102,241,.08);border:1px solid #c7d2fe;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:10px 14px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;background:#eef2ff;\"><span style=\"font-size:10px;font-weight:800;color:#1e1b4b;\">Transaction Attribute</span><span style=\"padding:3px 8px;border-radius:5px;background:#6366f1;font-size:9px;font-weight:700;color:#fff;\">+ Add Attr</span></div><div style=\"padding:0;\"><table style=\"width:100%;border-collapse:collapse;font-size:8.5px;\"><tr style=\"background:#f8fafc;\"><td style=\"padding:6px 8px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Name</td><td style=\"padding:6px 8px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Attr Name</td><td style=\"padding:6px 8px;font-weight:700;color:#475569;border-bottom:1px solid #e2e8f0;\">Source</td></tr><tr><td style=\"padding:6px 8px;color:#1e1b4b;font-weight:700;border-bottom:1px solid #f1f5f9;\">attr_pan</td><td style=\"padding:6px 8px;color:#4f46e5;font-weight:700;border-bottom:1px solid #f1f5f9;\">pan</td><td style=\"padding:6px 8px;color:#64748b;border-bottom:1px solid #f1f5f9;\">BODY</td></tr><tr><td style=\"padding:6px 8px;color:#1e1b4b;font-weight:700;border-bottom:1px solid #f1f5f9;\">attr_stan</td><td style=\"padding:6px 8px;color:#4f46e5;font-weight:700;border-bottom:1px solid #f1f5f9;\">stan</td><td style=\"padding:6px 8px;color:#64748b;border-bottom:1px solid #f1f5f9;\">BODY</td></tr></table></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Form Tambah / Edit Transaction Attribute",
+          "desc": "{previewHtml:1}\nDrawer form samping kanan berukuran **480px** menyediakan field-field pengikatan berikut:\n1. **Name** *(Wajib)*: Nama pemetaan atribut transaksi.\n2. **Attribute Name** *(Wajib)*: Nama variabel atribut internal ShiFor.\n3. **Source data** *(Wajib)*: Pilih sumber pengambilan data dari dropdown (`HEADER` atau `BODY`).\n4. **Field tag** *(Wajib)*: Field tag atau nomor field ISO8583 yang diikat (misalnya field `2` atau `11`).\n5. **Description** *(Wajib)*: Keterangan deskripsi fungsi pengikatan atribut.",
+          "color": "#4f46e5",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(99,102,241,.1);border:1px solid #c7d2fe;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:12px 14px;border-bottom:1px solid #c7d2fe;background:linear-gradient(135deg,#eef2ff,#e0e7ff);\"><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:#6366f1;display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2.5\"><path d=\"M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z\"/><path d=\"M7 7h.01\"/></svg></div><div><div style=\"font-size:11px;font-weight:800;color:#1e1b4b;\">Create Transaction Attribute</div><div style=\"font-size:8px;color:#6366f1;\">Fill in the transaction attribute details</div></div></div></div><div style=\"padding:10px 14px;display:flex;flex-direction:column;gap:6px;font-size:9.5px;\"><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Name <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Name</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Attribute Name <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Attribute Name</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Source data <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Choose source data</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Field tag <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Field tag</div></div><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Description <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter description</div></div></div><div style=\"padding:8px 14px;border-top:1px solid #c7d2fe;display:flex;gap:6px;\"><button style=\"flex:1;padding:5px;border-radius:5px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:9px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:5px;border-radius:5px;background:#6366f1;border:none;color:#fff;font-size:9px;font-weight:700;\">Create</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

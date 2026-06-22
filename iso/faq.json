@@ -1,0 +1,64 @@
+{
+  "label": "FAQ",
+  "category": "iso",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Frequently Asked Questions",
+      "id": "faq",
+      "intro": "Temukan jawaban atas berbagai pertanyaan umum mengenai konfigurasi antarmuka pesan switching online (Interface ISO8583) di sistem ShiFor.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Apa kegunaan utama dari modul Interface ISO8583?",
+          "desc": "{previewHtml:1}\n• Modul ini memfasilitasi integrasi pesan transaksi online secara real-time ke engine ShiFor menggunakan standar protokol ISO 8583.\n• Berbeda dengan REST API yang menggunakan format JSON, protokol ISO 8583 menggunakan data biner terstruktur (bit fields) yang dihubungkan melalui koneksi TCP socket persisten.\n• Sistem akan menguraikan (decode) byte stream dari socket jaringan dan memetakan field-field tersebut untuk dianalisis oleh rule engine.",
+          "color": "#6366f1",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(99,102,241,.08);border:1px solid #c7d2fe;background:#fff;width:280px;margin:0 auto;padding:12px;\"><div style=\"display:flex;align-items:center;justify-content:space-between;gap:6px;\"><div style=\"padding:6px;background:#eef2ff;border-radius:6px;border:1px solid #cbd5e1;text-align:center;flex:1;\"><div style=\"font-size:8px;font-weight:700;color:#4f46e5;\">Bank switching</div><div style=\"font-size:7px;color:#94a3b8;margin-top:2px;\">TCP Client</div></div><div style=\"color:#6366f1;font-size:12px;font-weight:800;\">➔</div><div style=\"padding:6px;background:#eef2ff;border-radius:6px;border:1px dashed #6366f1;text-align:center;flex:1;\"><div style=\"font-size:8px;font-weight:700;color:#1e1b4b;\">Socket Listener</div><div style=\"font-size:7px;color:#6366f1;margin-top:2px;\">Port: 9002</div></div><div style=\"color:#6366f1;font-size:12px;font-weight:800;\">➔</div><div style=\"padding:6px;background:#6366f1;border-radius:6px;text-align:center;flex:1;color:#fff;\"><div style=\"font-size:8px;font-weight:800;\">ShiFor Engine</div><div style=\"font-size:7px;opacity:0.8;margin-top:2px;\">Fraud Rules</div></div></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Bagaimana cara kerja Bitmap Encoding (ASCII vs BINARY)?",
+          "desc": "{previewHtml:1}\n• Bitmap dalam pesan ISO 8583 menentukan field mana saja yang terisi data dalam transaksi tersebut.\n• **BINARY Encoding:** Bitmap direpresentasikan sebagai byte biner mentah (raw bytes) berukuran 8 byte (atau 16 byte jika menggunakan secondary bitmap).\n• **ASCII Encoding:** Bitmap di-encode sebagai string hexadecimal (16 atau 32 karakter hexadecimal).\n• Jika konfigurasi bitmap encoding tidak cocok antara ShiFor dan bank switching, maka proses parsing pesan akan mengalami error kegagalan struktural (mismatch length).",
+          "color": "#4f46e5",
+          "bg": "#eef2ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(99,102,241,.08);border:1px solid #c7d2fe;background:#fff;width:280px;margin:0 auto;padding:10px;display:flex;flex-direction:column;gap:6px;\"><div style=\"display:flex;justify-content:space-between;align-items:center;padding:4px 8px;background:#f8fafc;border-radius:6px;border:1px solid #e2e8f0;\"><span style=\"font-size:8.5px;font-weight:700;color:#1e1b4b;\">BINARY (8 Bytes)</span><code style=\"font-size:8px;color:#4f46e5;font-weight:700;\">0x72 0x30 0x01 ...</code></div><div style=\"display:flex;justify-content:space-between;align-items:center;padding:4px 8px;background:#f8fafc;border-radius:6px;border:1px solid #e2e8f0;\"><span style=\"font-size:8.5px;font-weight:700;color:#1e1b4b;\">ASCII (16 Hex Chars)</span><code style=\"font-size:8px;color:#0891b2;font-weight:700;\">\"723001F0...\"</code></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Kapan kita harus mengaktifkan Secondary Bitmap?",
+          "desc": "{previewHtml:1}\n• Secara default, ISO 8583 memiliki primary bitmap untuk field 1 hingga 64.\n• Jika transaksi Anda memerlukan field di atas 64 (misalnya field 90 untuk original data elements atau field 120 untuk data privat), maka **Secondary Bitmap** (field 65) harus dicentang (diaktifkan).\n• Saat aktif, parser ShiFor akan membaca 8 byte (atau 16 karakter) tambahan setelah primary bitmap untuk memetakan field 65-128.",
+          "color": "#0891b2",
+          "bg": "#ecfeff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(99,102,241,.08);border:1px solid #c7d2fe;background:#fff;width:280px;margin:0 auto;padding:12px;\"><div style=\"display:flex;gap:4px;\"><div style=\"flex:1;padding:6px;background:rgba(99,102,241,.1);border:1px solid #c7d2fe;border-radius:6px;text-align:center;\"><div style=\"font-size:8px;font-weight:800;color:#4f46e5;\">Primary Bitmap</div><div style=\"font-size:7px;color:#64748b;margin-top:2px;\">Fields 1 - 64</div></div><div style=\"flex:1;padding:6px;background:rgba(6,182,212,.1);border:1px dashed #06b6d4;border-radius:6px;text-align:center;\"><div style=\"font-size:8px;font-weight:800;color:#0891b2;\">Secondary Bitmap</div><div style=\"font-size:7px;color:#64748b;margin-top:2px;\">Fields 65 - 128</div></div></div></div>"
+          }
+        },
+        {
+          "num": 4,
+          "title": "Apa perbedaan antara Body Config dan Message Body Config?",
+          "desc": "{previewHtml:1}\n• **Body Config:** Merupakan kamus global yang mendefinisikan karakteristik dasar dari masing-masing nomor field ISO8583 (seperti tipe data, panjang maksimum, dan format encoding field tersebut secara global).\n• **Message Body Config:** Merupakan pemetaan yang mengaitkan field payload spesifik (misalnya `pan`, `stan`, `amount`) ke nomor field ISO8583 tersebut pada tipe pesan (Message Type) tertentu.\n• Pemetaan spesifik ini memungkinkan MTI yang berbeda memiliki struktur parsing field yang berbeda pula.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(99,102,241,.08);border:1px solid #c7d2fe;background:#fff;width:280px;margin:0 auto;padding:10px;display:flex;flex-direction:column;gap:4px;\"><div style=\"font-size:8px;font-weight:700;color:#64748b;text-transform:uppercase;\">Schema Mapping Flow</div><div style=\"display:flex;align-items:center;justify-content:space-between;padding:4px 8px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;\"><div style=\"font-size:8px;font-weight:700;color:#1e1b4b;\">Body Config (Global)</div><div style=\"font-size:7.5px;color:#4f46e5;font-weight:700;\">Field 2 = BCD</div></div><div style=\"text-align:center;font-size:8px;color:#94a3b8;\">▼ mapped per message type</div><div style=\"display:flex;align-items:center;justify-content:space-between;padding:4px 8px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;\"><div style=\"font-size:8px;font-weight:700;color:#1e1b4b;\">Msg Body (MTI 0100)</div><div style=\"font-size:7.5px;color:#0891b2;font-weight:700;\">Field 2 ➔ \"pan\"</div></div></div>"
+          }
+        },
+        {
+          "num": 5,
+          "title": "Mengapa status koneksi Socket di sub-tab Network tidak terhubung?",
+          "desc": "{previewHtml:1}\n• Pastikan konfigurasi **IP Address** dan **Port** lokal/eksternal sudah benar.\n• Jika Anda bertindak sebagai server (Use Domain = false), pastikan port tersebut tidak sedang digunakan oleh layanan lain dan tidak diblokir oleh firewall.\n• Cek apakah port tujuan memerlukan handshake **SSL/TLS**. Jika ya, centang opsi SSL ke `true` agar komunikasi berjalan aman.",
+          "color": "#ef4444",
+          "bg": "#fef2f2",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(239,68,68,.08);border:1px solid #fca5a5;background:#fff;width:280px;margin:0 auto;padding:12px;\"><div style=\"display:flex;align-items:center;justify-content:space-between;\"><span style=\"font-size:9.5px;font-weight:800;color:#991b1b;\">Diagnostic: DISCONNECTED</span><span style=\"width:8px;height:8px;border-radius:50%;background:#ef4444;\"></span></div><div style=\"margin-top:6px;display:flex;flex-direction:column;gap:3px;font-size:8px;color:#475569;\"><div>✔ Host & Port Configured</div><div>✘ Local Port Available (Blocked/In Use)</div><div>✔ SSL configuration verified</div></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

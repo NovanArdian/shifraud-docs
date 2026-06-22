@@ -1,0 +1,34 @@
+{
+  "label": "Network Config",
+  "category": "interface-csv",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Konfigurasi Network (Jaringan)",
+      "id": "details-network",
+      "intro": "Sub-tab Network pada laci pemetaan CSV memungkinkan pengguna mendaftarkan parameter koneksi jaringan untuk menerima atau mengirimkan data transaksi CSV. Konfigurasi meliputi pengaturan SSL, alamat IP/domain, port, dan kode respons jaringan.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar & Detail Network Config",
+          "desc": "{previewHtml:1}\n• Daftar network config menampilkan seluruh entri koneksi jaringan yang terdaftar.\n• Klik salah satu entri untuk melihat detail:\n  - **Name:** Nama identifikasi jaringan.\n  - **SSL:** Status enkripsi koneksi (true/false).\n  - **Use Domain:** Menentukan apakah menggunakan Domain URL atau Local Address.\n  - **Local Address & Port:** Alamat IP dan port server lokal.\n  - **Domain URL:** Alamat URL API eksternal.\n  - **Response Code:** Kode respons jaringan default.\n  - **Response Code Desc:** Deskripsi kode respons.\n• Gunakan tombol **Search** untuk menyaring data dan **Add** untuk mendaftarkan jaringan baru.",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);border:1px solid #a7f3d0;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:10px 14px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;background:#f0fdf4;\"><span style=\"font-size:11px;font-weight:800;color:#0f172a;\">Network Config</span><div style=\"display:flex;gap:4px;\"><span style=\"padding:3px 8px;border-radius:5px;border:1px solid #cbd5e1;font-size:9px;font-weight:700;color:#475569;\">Search</span><span style=\"padding:3px 8px;border-radius:5px;background:#059669;font-size:9px;font-weight:700;color:#fff;\">+ Add</span></div></div><div style=\"padding:10px 14px;display:flex;flex-direction:column;gap:8px;\"><div style=\"padding:8px 10px;border-radius:8px;border:1px solid #10b981;background:rgba(16,185,129,.04);display:flex;justify-content:space-between;align-items:center;\"><div><div style=\"font-size:10px;font-weight:700;color:#0f172a;\">NETWORK_CSV_01</div><div style=\"display:flex;gap:4px;margin-top:3px;\"><span style=\"padding:1px 5px;background:rgba(16,185,129,.1);border-radius:3px;font-size:8px;font-weight:700;color:#059669;\">SSL: true</span><span style=\"padding:1px 5px;background:#f1f5f9;border-radius:3px;font-size:8px;font-weight:700;color:#64748b;\">Port: 8443</span></div></div><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#059669\" stroke-width=\"2.5\"><path d=\"M9 18l6-6-6-6\"/></svg></div></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Form Tambah / Edit Network Config",
+          "desc": "{previewHtml:1}\nDrawer form berukuran **560px** menyediakan field berikut:\n1. **Name** *(Wajib)*: Nama identifikasi unik koneksi jaringan.\n2. **SSL** *(Wajib)*: Status enkripsi koneksi — pilih `true` atau `false`.\n3. **Use Domain** *(Wajib)*: Pilih `true` (Client mode → Domain URL) atau `false` (Server mode → Local Address & Port).\n4. **Domain URL** *(Wajib jika Use Domain = true)*: Alamat URL API tujuan.\n5. **Local Address** *(Wajib jika Use Domain = false)*: Alamat IP server lokal.\n6. **Local Port** *(Wajib jika Use Domain = false)*: Nomor port server lokal.\n7. **Response Code** *(Wajib)*: Kode respons jaringan default.\n8. **Response Code Description** *(Wajib)*: Deskripsi kode respons.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1);border:1px solid #a7f3d0;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:12px 14px;border-bottom:1px solid #a7f3d0;background:linear-gradient(135deg,#f0fdf4,#dcfce7);\"><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:24px;height:24px;border-radius:6px;background:#059669;display:flex;align-items:center;justify-content:center;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"white\" stroke-width=\"2.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><line x1=\"2\" y1=\"12\" x2=\"22\" y2=\"12\"/><path d=\"M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z\"/></svg></div><div><div style=\"font-size:11px;font-weight:800;color:#0f172a;\">Create Network Config</div><div style=\"font-size:8px;color:#64748b;\">Fill details and save changes</div></div></div></div><div style=\"padding:10px 14px;display:flex;flex-direction:column;gap:6px;font-size:9.5px;\"><div style=\"display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Name <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter network name</div></div><div style=\"display:flex;gap:6px;\"><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">SSL <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Choose</div></div><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Use Domain <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Choose</div></div></div><div style=\"display:flex;gap:6px;\"><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Local Address <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter address</div></div><div style=\"flex:1;display:flex;flex-direction:column;gap:2px;\"><span style=\"font-weight:700;color:#374151;\">Local Port <span style=\"color:#ef4444;\">*</span></span><div style=\"padding:5px 8px;border:1.5px solid #cbd5e1;border-radius:5px;color:#94a3b8;font-size:9px;\">Enter port</div></div></div></div><div style=\"padding:8px 14px;border-top:1px solid #a7f3d0;display:flex;gap:6px;\"><button style=\"flex:1;padding:5px;border-radius:5px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:9px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:5px;border-radius:5px;background:#059669;border:none;color:#fff;font-size:9px;font-weight:700;\">Create</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}
