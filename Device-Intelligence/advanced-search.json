@@ -1,0 +1,44 @@
+{
+  "label": "Advanced Search",
+  "category": "Device Intelligence",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Advanced Search & Filtering",
+      "id": "advanced-search",
+      "intro": "Advanced Search memungkinkan Anda memfilter konfigurasi Device Intelligence (Risk Config & Behavior Threshold) berdasarkan Key, Flag Name, Status, atau Score Range. Search panel muncul di sisi kanan workspace dengan form filter yang instant.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Membuka Search Panel",
+          "desc": "{previewHtml:1}\n• Klik tombol **Search** (ikon magnifying glass) di toolbar workspace.\n• Search panel akan slide-in dari sisi kanan dengan lebar 300px.\n• Panel memiliki header dengan badge context (Risk Config/Behavior Threshold) dan tombol close (X).\n• Form terdiri dari filter fields yang menyesuaikan workspace aktif: **Key** (Behavior) atau **Flag Name** (Risk Config).",
+          "color": "#4f46e5",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 8px 24px rgba(79,70,229,.12);border:1px solid #c7d2fe;background:#fff;width:260px;margin:0 auto;\"><div style=\"padding:14px 16px;border-bottom:1px solid #e0e7ff;background:linear-gradient(135deg,#f5f3ff,#e0e7ff);\"><div style=\"display:flex;justify-content:space-between;align-items:start;\"><div><div style=\"display:flex;align-items:center;gap:8px;margin-bottom:4px;\"><div style=\"font-size:13px;font-weight:800;color:#0f172a;\">Search Filter</div><span style=\"padding:2px 8px;border-radius:12px;background:#e0e7ff;border:1px solid #c7d2fe;font-size:8px;font-weight:700;color:#4f46e5;\">● Risk Config</span></div><div style=\"font-size:9px;color:#64748b;\">Filter configurations</div></div><div style=\"width:18px;height:18px;border-radius:6px;background:#fff;border:1px solid #cbd5e1;display:flex;align-items:center;justify-content:center;cursor:pointer;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"2.5\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"/><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"/></svg></div></div></div><div style=\"padding:14px 16px;display:flex;flex-direction:column;gap:10px;\"><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Flag name</div><div style=\"position:relative;\"><span style=\"position:absolute;left:9px;top:50%;transform:translateY(-50%);font-size:10px;\">🔍</span><input placeholder=\"e.g. HIGH_RISK\" style=\"width:100%;padding:7px 7px 7px 26px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;box-sizing:border-box;background:#f8f9fa;\"/></div></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Score range</div><div style=\"display:flex;gap:6px;\"><input placeholder=\"Min\" style=\"flex:1;padding:7px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;box-sizing:border-box;\"/><span style=\"color:#94a3b8;align-self:center;font-size:10px;font-weight:700;\">—</span><input placeholder=\"Max\" style=\"flex:1;padding:7px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;box-sizing:border-box;\"/></div></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Status</div><div style=\"padding:7px 10px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;color:#94a3b8;display:flex;align-items:center;justify-content:space-between;\">All Status<svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"><polyline points=\"6 9 12 15 18 9\"/></svg></div></div></div><div style=\"padding:10px 16px;border-top:1px solid #e2e8f0;background:#f8fafc;display:flex;gap:8px;\"><button style=\"flex:1;padding:7px;border-radius:7px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:10px;font-weight:700;\">Reset</button><button style=\"flex:1;padding:7px;border-radius:7px;background:#4f46e5;border:none;color:#fff;font-size:10px;font-weight:700;\">Apply</button></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Filter Field: Flag Name / Key (Context-Aware)",
+          "desc": "• **Flag Name** (Risk Config workspace): Text input untuk mencari berdasarkan nama flag risiko seperti `HIGH_RISK`, `MEDIUM_RISK`, `LOW_RISK`, `SUSPICIOUS`.\n  - Field ini melakukan partial match dan case-insensitive.\n  - Input `HIGH` akan mencocokkan `HIGH_RISK`, `HIGH_VOLUME`, dll.\n  - Icon search (🔍) di sebelah kiri menandakan fungsi pencarian.\n\n• **Key** (Behavior Threshold workspace): Text input untuk mencari berdasarkan key threshold seperti `TYPING_SPEED_MS`, `TOUCH_PRESSURE_MIN`.\n  - Mendukung partial match untuk fleksibilitas filtering.\n  - Contoh: Input `TOUCH` akan mencocokkan `TOUCH_PRESSURE_MIN`, `TOUCH_PRESSURE_MAX`, dll."
+        },
+        {
+          "num": 3,
+          "title": "Filter Field: Score Range (Risk Config Only)",
+          "desc": "• **Score Range**: Dua input numerik (Min & Max) untuk memfilter berdasarkan rentang Risk Score.\n  - Min: Nilai minimum skor (0–100).\n  - Max: Nilai maksimum skor (0–100).\n  - Validasi otomatis memastikan Max harus ≥ Min.\n  - Contoh: Min = 50, Max = 100 akan menampilkan hanya config dengan skor tinggi (HIGH & SUSPICIOUS).\n\n• Field ini **hanya muncul di workspace Risk Configuration** karena Behavior Threshold tidak memiliki Risk Score.\n\n> Filter score range berguna untuk quick filtering berdasarkan severity level."
+        },
+        {
+          "num": 4,
+          "title": "Filter Field: Status (Active/Inactive)",
+          "desc": "• **Status**: Dropdown untuk memfilter berdasarkan Rule Status (Active/Inactive/All).\n  - **All Status**: Menampilkan semua konfigurasi tanpa filter status (default).\n  - **Active**: Menampilkan hanya config yang statusnya aktif.\n  - **Inactive**: Menampilkan hanya config yang statusnya nonaktif.\n\n• Filter status tersedia di **kedua workspace** (Risk Config & Behavior Threshold).\n• Kombinasikan dengan filter lain untuk pencarian lebih spesifik.\n\n> Misalnya: Filter \"Flag Name = HIGH\" + \"Status = Active\" untuk melihat hanya HIGH_RISK yang sedang aktif."
+        },
+        {
+          "num": 5,
+          "title": "Action Buttons: Reset & Apply",
+          "desc": "• **Reset**: Menghapus semua filter dan mengembalikan list ke state awal (menampilkan semua konfigurasi).\n  - Selected item tetap aktif.\n  - Search form di-reset ke nilai default.\n\n• **Apply**: Menjalankan search query dengan criteria yang telah diisi.\n  - Button menampilkan loading spinner saat proses filtering.\n  - Hasil filter langsung ditampilkan di List Panel.\n  - Search panel tetap terbuka agar Anda dapat memodifikasi filter dengan cepat.\n\n> Semua field filter bersifat opsional dan dapat dikombinasikan. Sistem melakukan AND operation untuk multiple filters. Filtering berjalan client-side (instant) untuk performa optimal."
+        }
+      ]
+    }
+  ]
+}
