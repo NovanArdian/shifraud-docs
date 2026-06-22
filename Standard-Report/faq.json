@@ -1,0 +1,49 @@
+{
+  "label": "FAQ",
+  "category": "Standard-Report",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Frequently Asked Questions",
+      "id": "faq",
+      "intro": "Temukan jawaban atas berbagai pertanyaan umum mengenai modul cetak dan otomatisasi laporan (Standard Report) di sistem ShiFor.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Apa perbedaan laporan tipe Standard dan Additional?",
+          "desc": "• **Standard (Bawaan):** Laporan template global yang disediakan langsung oleh sistem ShiFor untuk memonitor ringkasan aktivitas transaksi dan performa deteksi harian.\n• **Additional (Tambahan):** Laporan kustomisasi khusus yang disiapkan secara spesifik oleh administrator database untuk memenuhi kebutuhan audit unik institusi Anda.",
+          "color": "#7c3aed",
+          "bg": "#f5f3ff"
+        },
+        {
+          "num": 2,
+          "title": "Format dokumen apa saja yang didukung saat ekspor?",
+          "desc": "• Sistem mendukung dua format dokumen populer:\n  - **PDF Document (.pdf):** Ideal untuk pelaporan formal, rapat managerial, dan arsip statis karena tampilannya konsisten dan rapi.\n  - **Excel Spreadsheet (.xlsx):** Sempurna jika Anda ingin memilah, memfilter, atau mengolah data transaksi laporan lebih lanjut menggunakan rumus spreadsheet.",
+          "color": "#10b981",
+          "bg": "#f0fdf4"
+        },
+        {
+          "num": 3,
+          "title": "Bagaimana otomatisasi penjadwalan berjalan?",
+          "desc": "• Sistem backend menggunakan mekanisme penjadwalan (background cron runner) yang memicu penarikan data secara berkala sesuai frekuensi yang Anda atur (Daily, Weekly, atau Monthly).\n• Setelah laporan berhasil digenerate di latar belakang, sistem akan mengirimkannya secara instan sebagai lampiran email ke seluruh alamat yang terdaftar di daftar **Recipients**.",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
+        },
+        {
+          "num": 4,
+          "title": "Bagaimana cara menambahkan email penerima baru ke jadwal?",
+          "desc": "• Alamat email penerima diambil secara dinamis dari modul **Contact Setup**.\n• Jika Anda ingin menambahkan penerima baru yang belum terdaftar, buka modul **Contact Setup** terlebih dahulu, daftarkan nama dan email kontak tersebut, lalu kembali ke drawer **Edit Schedule** untuk memilih email kontak tersebut di kolom **Recipients**.",
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
+        },
+        {
+          "num": 5,
+          "title": "Mengapa laporan terjadwal saya gagal terkirim?",
+          "desc": "• Beberapa faktor penyebab kegagalan pengiriman laporan meliputi:\n  - Status otomatisasi template laporan dalam kondisi nonaktif (**Disabled**).\n  - Tidak ada data transaksi yang terjadi dalam rentang waktu relatif yang ditentukan (menghasilkan laporan kosong).\n  - Terjadi kendala konektivitas dengan Mail Server (SMTP) institusi saat mengirimkan lampiran email.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
+        }
+      ]
+    }
+  ]
+}

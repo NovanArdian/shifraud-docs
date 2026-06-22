@@ -1,0 +1,41 @@
+{
+  "label": "Header Field Mapping",
+  "category": "interface-json",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Sub-Tab: Header Field Mapping",
+      "id": "details-header-field",
+      "intro": "Sub-tab Header Field digunakan untuk memetakan parameter data yang terletak pada struktur header transaksi JSON (seperti metadata otentikasi, tipe konten, atau token sesi).",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar Header Field & Grid Kolom",
+          "desc": "{previewHtml:1}\n• **Panel Samping Kiri (Endpoint Sidebar - 310px):** Menampilkan daftar seluruh endpoint (Message Types) yang terdaftar. Pengguna **harus memilih salah satu endpoint** terlebih dahulu di sidebar ini untuk menampilkan dan mengelola parameter header field yang berkaitan dengan endpoint tersebut.\n• **Penjelasan Kolom data:**\n  - **Field Name:** Nama variabel header JSON (contoh: `Authorization`).\n  - **Data Type:** Tipe representasi data (badge abu-abu, contoh: `STRING`, `NUMBER`).\n  - **Length:** Batas kapasitas maksimal panjang string/angka.\n  - **Sequence:** Nomor antrean eksekusi parser data.\n  - **DER:** Jenis alur data. Menampilkan badge status **REQUEST**, **RESPONSE**, atau **BI_DIRECTIONAL**.\n• **Aksi Toolbar:**\n  - **Search:** Membuka sidebar pencarian header field.\n  - **Add Header Field:** Membuka drawer form 480px untuk menambahkan field header baru.\n  - **Edit / Delete Header Field:** Memperbarui atau membuang field header terpilih.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);border:1px solid #cbd5e1;background:#fff;\"><div style=\"padding:10px 14px;border-bottom:1px solid #cbd5e1;display:flex;justify-content:space-between;align-items:center;background:#f8fafc;\"><span style=\"font-size:11px;font-weight:800;color:#0f172a;\">Header Fields</span><div style=\"display:flex;gap:4px;\"><button style=\"padding:4px 8px;border-radius:5px;border:1px solid #cbd5e1;background:#fff;font-size:8.5px;font-weight:700;color:#475569;\">Search</button><button style=\"padding:4px 8px;border-radius:5px;background:#2563eb;border:none;color:#fff;font-size:8.5px;font-weight:700;\">+ Add Field</button></div></div><div style=\"padding:12px;\"><table style=\"width:100%;border-collapse:collapse;text-align:left;font-size:9.5px;\"><thead><tr style=\"border-bottom:1.5px solid #e2e8f0;color:#64748b;text-transform:uppercase;font-size:8.5px;\"><th style=\"padding:6px;\">Field Name</th><th style=\"padding:6px;\">Type</th><th style=\"padding:6px;\">Len</th><th style=\"padding:6px;\">Seq</th><th style=\"padding:6px;\">DER</th></tr></thead><tbody><tr style=\"border-bottom:1px solid #f1f5f9;\"><td style=\"padding:8px 6px;font-weight:700;color:#1e293b;\">Authorization</td><td style=\"padding:8px 6px;\"><span style=\"padding:2px 4px;background:#f1f5f9;border-radius:4px;color:#475569;font-weight:600;\">STRING</span></td><td style=\"padding:8px 6px;font-weight:600;\">256</td><td style=\"padding:8px 6px;font-weight:600;\">1</td><td style=\"padding:8px 6px;\"><span style=\"padding:2px 6px;background:rgba(37,99,235,0.1);border-radius:4px;font-size:8px;font-weight:700;color:#2563eb;\">REQUEST</span></td></tr></tbody></table></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Parameter Form Utama (Drawer 480px)",
+          "desc": "{previewHtml:1}\nBuka drawer *Create/Edit Header Field*, isi parameter form berikut:\n1. **Field name** *(Wajib)*: Nama variabel di header JSON (misal: `Authorization`).\n2. **Description** *(Wajib, Textarea)*: Keterangan kegunaan field ini (misal: `HTTP Bearer auth token`).\n3. **Length** *(Wajib, tipe angka)*: Kapasitas panjang field.\n4. **Sequence** *(Wajib, tipe angka)*: Urutan parsing field.\n5. **Data type** *(Wajib)*: Dropdown tipe data dasar (menyaring data bertipe Object/Array, hanya menyisakan `STRING`, `NUMBER`, `BOOLEAN`, dll.).\n6. **DER** *(Wajib)*: Dropdown jenis transmisi field data (**REQUEST**, **RESPONSE**, atau **BI_DIRECTIONAL**).",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1);border:1px solid #cbd5e1;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:14px 16px;border-bottom:1px solid #cbd5e1;background:linear-gradient(135deg,#eff6ff,#dbeafe);display:flex;justify-content:space-between;align-items:center;\"><div><div style=\"font-size:12px;font-weight:800;color:#0f172a;\">Create Header Field</div><div style=\"font-size:9px;color:#64748b;\">Fill details and save</div></div><span style=\"padding:2px 8px;border-radius:12px;background:#dbeafe;border:1px solid #93c5fd;font-size:9px;font-weight:700;color:#2563eb;\">● Add</span></div><div style=\"padding:14px 16px;display:flex;flex-direction:column;gap:8px;max-height:220px;overflow-y:auto;\"><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Field name <span style=\"color:#ef4444;\">*</span></div><input type=\"text\" value=\"Authorization\" style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;outline:none;\"/></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Description <span style=\"color:#ef4444;\">*</span></div><textarea style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;outline:none;resize:none;\">HTTP Bearer auth token</textarea></div><div style=\"display:flex;gap:6px;\"><div style=\"flex:1;display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Length <span style=\"color:#ef4444;\">*</span></div><input type=\"number\" value=\"256\" style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;\"/></div><div style=\"flex:1;display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Sequence <span style=\"color:#ef4444;\">*</span></div><input type=\"number\" value=\"1\" style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;\"/></div></div><div style=\"display:flex;gap:6px;\"><div style=\"flex:1;display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Data type <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;color:#0f172a;\">STRING</div></div><div style=\"flex:1;display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">DER <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;color:#0f172a;\">REQUEST</div></div></div></div><div style=\"padding:12px 16px;border-top:1px solid #cbd5e1;background:#f8fafc;display:flex;gap:8px;\"><button style=\"flex:1;padding:7px;border-radius:7px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:10px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:7px;border-radius:7px;background:#2563eb;border:none;color:#fff;font-size:10px;font-weight:700;\">Create</button></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Penyaringan Field Header (Search Sidebar)",
+          "desc": "• Klik **Search** pada toolbar sub-tab Header Field untuk menampilkan sidebar pencarian.\n• Masukkan nama field pada kolom filter **Field name**.\n• Klik **Apply Filters** untuk menerapkan filter atau **Reset** untuk memuat ulang seluruh field header.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
+        }
+      ]
+    }
+  ]
+}

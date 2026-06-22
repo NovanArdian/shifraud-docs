@@ -1,0 +1,39 @@
+{
+  "label": "Advanced Search",
+  "category": "Scenario-Verification",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Pencarian Lanjutan & Penyaringan",
+      "id": "advanced-search",
+      "intro": "Gunakan fitur Advanced Search untuk menyaring daftar riwayat eksekusi verifikasi skenario. Anda dapat memfilter data berdasarkan kecocokan aturan, pembuat tugas, status eksekusi, serta jendela waktu eksekusi simulasi.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Buka Panel Filter",
+          "desc": "{previewHtml:1}\n• Klik tombol **Search** (ikon Kaca Pembesar) pada toolbar daftar utama.\n• Panel filter samping kanan selebar **320px** akan terbuka secara geser (drawer overlay).",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;border:1px solid #cbd5e1;box-shadow:0 2px 10px rgba(0,0,0,.04);background:#fff;padding:8px 12px;display:flex;justify-content:space-between;align-items:center;\"><span style=\"font-size:11px;font-weight:700;color:#334155;\">Toolbar Actions</span><div style=\"padding:5px 10px;border-radius:6px;border:1px solid #cbd5e1;background:#f8fafc;font-size:9.5px;font-weight:700;color:#475569;display:flex;align-items:center;gap:4px;cursor:pointer;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"/></svg>Search</div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Atur Kriteria Penyaringan",
+          "desc": "{previewHtml:1}\n• Masukkan kriteria penyaringan pada field yang tersedia:\n  - **Rule ID:** Memfilter hasil verifikasi yang dijalankan pada ID rule tertentu saja.\n  - **User ID:** Memfilter riwayat berdasarkan ID pengguna yang menginisiasi simulasi.\n  - **Status:** Memilih satu status tertentu (QUEUE, PROCESS, RUNNING, COMPLETED, FAILED).\n  - **Date From / Date To:** Memfilter berdasarkan rentang waktu eksekusi dalam format standard ISO (`YYYY-MM-DDTHH:mm:ss.SSSZ`).",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.08);border:1px solid #e2e8f0;background:#fff;width:260px;margin:0 auto;\"><div style=\"padding:12px 14px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;background:#f8fafc;\"><div style=\"display:flex;align-items:center;gap:6px;\"><span style=\"font-size:11px;font-weight:800;color:#0f172a;\">Search Verification</span><span style=\"padding:1.5px 5px;background:#dbeafe;border-radius:4px;font-size:8px;font-weight:700;color:#2563eb;\">Search</span></div></div><div style=\"padding:12px;display:flex;flex-direction:column;gap:10px;\"><div style=\"display:flex;flex-direction:column;gap:3px;\"><label style=\"font-size:9.5px;font-weight:700;color:#475569;\">Rule ID</label><input type=\"number\" placeholder=\"e.g. 17\" style=\"border:1px solid #cbd5e1;border-radius:6px;padding:5px 8px;font-size:10px;outline:none;\"/></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><label style=\"font-size:9.5px;font-weight:700;color:#475569;\">Status</label><div style=\"border:1px solid #cbd5e1;border-radius:6px;padding:5px 8px;font-size:10px;color:#9ca3af;display:flex;justify-content:space-between;align-items:center;\"><span>Choose status</span><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#9ca3af\" stroke-width=\"2.5\"><path d=\"m6 9 6 6 6-6\"/></svg></div></div></div><div style=\"padding:8px 12px;border-top:1px solid #e2e8f0;display:flex;gap:6px;\"><button style=\"flex:1;padding:5px;border-radius:5px;background:#fff;border:1px solid #cbd5e1;color:#64748b;font-size:9.5px;font-weight:700;\">Reset</button><button style=\"flex:1;padding:5px;border-radius:5px;background:#2563eb;border:none;color:#fff;font-size:9.5px;font-weight:700;\">Apply Filters</button></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Terapkan dan Reset Filter",
+          "desc": "• Klik **Apply Filters** untuk menyaring riwayat berdasarkan kriteria yang dipilih. Halaman daftar riwayat verifikasi akan otomatis dimuat ulang dan menampilkan data yang relevan.\n• Klik **Reset** untuk menghapus seluruh kriteria filter yang aktif dan mengembalikan daftar riwayat ke tampilan default."
+        }
+      ]
+    }
+  ]
+}

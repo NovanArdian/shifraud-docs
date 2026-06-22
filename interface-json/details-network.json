@@ -1,0 +1,41 @@
+{
+  "label": "Network Mapping",
+  "category": "interface-json",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Sub-Tab: Network Configuration",
+      "id": "details-network",
+      "intro": "Sub-tab Network digunakan untuk mengatur parameter konektivitas jaringan eksternal. Pengaturan ini menentukan bagaimana sistem ShiFor terhubung dengan host luar atau bertindak sebagai port pendengar server.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar Koneksi Jaringan & Kolom Data",
+          "desc": "{previewHtml:1}\n• Menampilkan seluruh konfigurasi jaringan yang terdaftar untuk skema JSON terpilih.\n• **Penjelasan Kolom data:**\n  - **Name:** Nama identifikasi jaringan beserta informasi ringkas rute koneksi. \n    - Jika mode adalah **SERVER**, menampilkan badge **Address** (local IP), **Port** (local port), dan **Domain** (bila ada).\n    - Jika mode adalah **CLIENT**, menampilkan badge **Address** (remote IP), **Port** (remote port), dan **Domain**.\n  - **SSL:** Menandakan status keaktifan enkripsi SSL. Menampilkan badge hijau **Active** atau jingga **Not Active**.\n  - **General Error:** Menampilkan badge merah kode status kesalahan bawaan (contoh: `99`).\n• **Aksi Toolbar:**\n  - **Search:** Mengaktifkan sidebar filter pencarian jaringan (320px).\n  - **Add Network:** Membuka laci input konfigurasi jaringan baru (560px).\n  - **Edit Network / Delete Network:** Tombol aksi khusus untuk memodifikasi atau menghapus item terpilih.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);border:1px solid #cbd5e1;background:#fff;\"><div style=\"padding:10px 14px;border-bottom:1px solid #cbd5e1;display:flex;justify-content:space-between;align-items:center;background:#f8fafc;\"><span style=\"font-size:11px;font-weight:800;color:#0f172a;\">Network Configuration</span><div style=\"display:flex;gap:4px;\"><button style=\"padding:4px 8px;border-radius:5px;border:1px solid #cbd5e1;background:#fff;font-size:8.5px;font-weight:700;color:#475569;\">Search</button><button style=\"padding:4px 8px;border-radius:5px;background:#2563eb;border:none;color:#fff;font-size:8.5px;font-weight:700;\">+ Add Network</button></div></div><div style=\"padding:12px;\"><table style=\"width:100%;border-collapse:collapse;text-align:left;\"><thead><tr style=\"border-bottom:1.5px solid #e2e8f0;font-size:9px;color:#64748b;text-transform:uppercase;\"><th style=\"padding:6px;\">Name</th><th style=\"padding:6px;width:80px;\">SSL</th><th style=\"padding:6px;width:70px;\">Error</th></tr></thead><tbody style=\"font-size:10px;\"><tr style=\"border-bottom:1px solid #f1f5f9;\"><td style=\"padding:8px 6px;\"><div style=\"font-weight:700;color:#1e293b;\">Acquirer Connection</div><div style=\"display:flex;gap:4px;margin-top:4px;\"><span style=\"padding:1.5px 5px;background:rgba(37,99,235,0.08);border-radius:4px;font-size:8px;color:#2563eb;font-weight:600;\">Address: 10.20.30.40</span><span style=\"padding:1.5px 5px;background:rgba(13,148,136,0.08);border-radius:4px;font-size:8px;color:#0d9488;font-weight:600;\">Port: 8080</span></div></td><td style=\"padding:8px 6px;\"><span style=\"padding:2px 6px;background:rgba(16,185,129,0.1);border-radius:4px;font-size:8px;font-weight:700;color:#10b981;\">Active</span></td><td style=\"padding:8px 6px;\"><span style=\"padding:2px 6px;background:rgba(239,68,68,0.1);border-radius:4px;font-size:8px;font-weight:700;color:#ef4444;\">99</span></td></tr></tbody></table></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Parameter Input Form (Drawer 560px)",
+          "desc": "{previewHtml:1}\nBuka drawer *Create/Edit Network Config*, isi seluruh parameter:\n1. **Name** *(Wajib)*: Nama identifikasi jaringan (contoh: `Acquirer Host IP`).\n2. **SSL** *(Wajib)*: Pilihan keaktifan protokol keamanan SSL (**true** / **false**).\n3. **Use Domain** *(Wajib)*: Menentukan metode pemanggilan host (**true** / **false**).\n4. **Kondisi Domain (Conditional Inputs):**\n   - Jika `Use Domain = true`, isi kolom **Domain URL** *(Wajib)* dengan alamat domain tujuan.\n   - Jika `Use Domain = false`, isi kolom **Local Address** *(Wajib)* (misal: `127.0.0.1`) dan **Local Port** *(Wajib, tipe angka)* (misal: `8080`).\n5. **Response Code** *(Wajib)*: Kode status kesalahan fallback jika terjadi anomali jaringan.\n6. **Response Code Description** *(Wajib)*: Keterangan penjelas kode error fallback.",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1);border:1px solid #cbd5e1;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:14px 16px;border-bottom:1px solid #cbd5e1;background:linear-gradient(135deg,#eff6ff,#dbeafe);display:flex;justify-content:space-between;align-items:center;\"><div><div style=\"font-size:12px;font-weight:800;color:#0f172a;\">Create Network Config</div><div style=\"font-size:9px;color:#64748b;\">Fill details and save</div></div><span style=\"padding:2px 8px;border-radius:12px;background:#dbeafe;border:1px solid #93c5fd;font-size:9px;font-weight:700;color:#2563eb;\">● Add</span></div><div style=\"padding:14px 16px;display:flex;flex-direction:column;gap:10px;max-height:220px;overflow-y:auto;\"><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Name <span style=\"color:#ef4444;\">*</span></div><input type=\"text\" value=\"Acquirer Host IP\" style=\"padding:7px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10.5px;outline:none;\"/></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">SSL <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:7px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10.5px;color:#0f172a;\">true</div></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Use Domain <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:7px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10.5px;color:#0f172a;\">false</div></div><div style=\"display:flex;gap:8px;\"><div style=\"flex:2;display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Local Address <span style=\"color:#ef4444;\">*</span></div><input type=\"text\" value=\"10.20.30.40\" style=\"padding:7px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10.5px;outline:none;\"/></div><div style=\"flex:1;display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Local Port <span style=\"color:#ef4444;\">*</span></div><input type=\"number\" value=\"8080\" style=\"padding:7px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10.5px;outline:none;\"/></div></div></div><div style=\"padding:12px 16px;border-top:1px solid #cbd5e1;background:#f8fafc;display:flex;gap:8px;\"><button style=\"flex:1;padding:7px;border-radius:7px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:10px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:7px;border-radius:7px;background:#2563eb;border:none;color:#fff;font-size:10px;font-weight:700;\">Create</button></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Penyaringan Jaringan (Search Sidebar)",
+          "desc": "• Klik **Search** pada toolbar sub-tab Network untuk menampilkan sidebar filter pencarian.\n• Masukkan kata kunci pencarian pada kolom filter **Name**.\n• Klik **Apply Filters** untuk memperbarui daftar data atau **Reset** untuk membersihkan pencarian.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
+        }
+      ]
+    }
+  ]
+}

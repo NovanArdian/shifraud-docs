@@ -1,0 +1,49 @@
+{
+  "label": "FAQ",
+  "category": "Scenario-Verification",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Frequently Asked Questions",
+      "id": "faq",
+      "intro": "Temukan jawaban atas berbagai pertanyaan umum mengenai modul simulasi verifikasi skenario (Scenario Verification) di sistem ShiFor.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Apa bedanya Scenario Verification dengan pengujian rule biasa?",
+          "desc": "• **Scenario Verification** mensimulasikan rule fraud secara massal menggunakan sekumpulan data transaksi historis riil dalam jendela waktu tertentu (misal: 10,000 transaksi dari bulan lalu).\n• Pengujian rule biasa di editor canvas (Scenario Studio) umumnya hanya menguji data sampel statis tunggal untuk satu skenario kasus saja.\n• Modul ini ditujukan untuk **Impact Analysis** sebelum rule resmi diaktifkan.",
+          "color": "#7c3aed",
+          "bg": "#f5f3ff"
+        },
+        {
+          "num": 2,
+          "title": "Apakah alert dari simulasi verifikasi masuk ke dashboard utama?",
+          "desc": "• **Tidak.** Seluruh alert yang terdeteksi selama simulasi verifikasi bersifat mandiri dan terisolasi.\n• Simulasi tidak memicu notifikasi keluar (Email/WA/Telegram) dan tidak membuat entri baru di modul **Alert Acquirer / Alert Issuer** maupun **Case Acquirer / Case Issuer**.\n• Ini menjamin tim investigator tidak akan terganggu oleh alert simulasi pengujian.",
+          "color": "#10b981",
+          "bg": "#f0fdf4"
+        },
+        {
+          "num": 3,
+          "title": "Mengapa persentase data yang terpicu (Triggered %) sangat penting?",
+          "desc": "• **Triggered %** yang terlalu tinggi (misal: > 5%) mengindikasikan rule Anda terlalu sensitif. Ini berpotensi menghasilkan volume alert yang terlalu besar di produksi (alert fatigue) dan banyak *false positives*.\n• **Triggered %** yang terlalu rendah (0% pada ribuan transaksi) bisa berarti rule Anda kurang sensitif atau kriteria threshold yang ditetapkan terlalu ketat/salah.\n• Gunakan metrik ini untuk menyempurnakan batasan threshold di Scenario Studio.",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
+        },
+        {
+          "num": 4,
+          "title": "Berapa batas maksimum sampel transaksi dalam sekali jalan?",
+          "desc": "• Batas maksimum transaksi sampel yang dapat diproses dalam satu kali klik verifikasi adalah **20,000 transaksi**.\n• Batasan ini diterapkan untuk mengoptimalkan utilitas server ShiFor serta memastikan respons hasil eksekusi tetap cepat tanpa membebani database operasional.",
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
+        },
+        {
+          "num": 5,
+          "title": "Apa yang menyebabkan status verifikasi menjadi FAILED?",
+          "desc": "• Beberapa penyebab utama kegagalan (FAILED) simulasi meliputi:\n  - **Logika Rule Bermasalah:** Terdapat diagram sirkular (looping) atau variabel referensi node yang tidak valid di Scenario Studio.\n  - **Data Tidak Ditemukan:** Rentang waktu transaksi yang Anda masukkan tidak memiliki data transaksi sama sekali di database.\n  - **Gangguan Server:** Terjadi pemutusan koneksi database sementara selama pemrosesan data massal berlangsung.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "label": "FAQ",
+  "category": "interface-json",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Frequently Asked Questions",
+      "id": "faq",
+      "intro": "Temukan jawaban atas berbagai pertanyaan umum mengenai konfigurasi kamus antarmuka JSON (Interface JSON) di sistem ShiFor.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Apa kegunaan utama dari modul Interface JSON?",
+          "desc": "• Modul ini digunakan untuk mendefinisikan kamus parser data payload transaksi dalam format JSON.\n• Dengan mendaftarkan field transaksi di level header/body dan memetankannya ke **Transaction Attribute**, engine deteksi fraud ShiFor dapat menganalisis nominal transaksi (`amount`), nomor kartu (`hpan`), atau lokasi IP pengirim secara universal tanpa membutuhkan modifikasi kode pemrogram backend.",
+          "color": "#7c3aed",
+          "bg": "#f5f3ff"
+        },
+        {
+          "num": 2,
+          "title": "Kapan saya harus menggunakan Domain URL dibandingkan Local Address/Port di tab Network?",
+          "desc": "• Pengaturan ditentukan oleh dropdown **Use Domain**:\n  - Setel **Use Domain = true** jika sistem bertindak sebagai Client yang bertugas memanggil/mengonsumsi API pihak ketiga secara eksternal. Masukkan alamat API lengkap di kolom **Domain URL**.\n  - Setel **Use Domain = false** jika sistem bertindak sebagai Server pendengar transaksi masuk. Masukkan alamat IP dan port yang ditentukan pada kolom **Local Address** dan **Local Port**.",
+          "color": "#10b981",
+          "bg": "#f0fdf4"
+        },
+        {
+          "num": 3,
+          "title": "Bagaimana cara mendefinisikan field JSON terstruktur (nested object atau array)?",
+          "desc": "• Pada sub-tab **Body Field**, pilih tipe data (**Data type**) yang sesuai:\n  - Gunakan tipe `OBJECT` jika field tersebut bertindak sebagai objek induk (parent object) yang menampung objek lain di dalamnya.\n  - Gunakan tipe `ARRAY_OBJ` jika field tersebut berupa list berisi kumpulan objek sejenis.\n• Penulisan path parameter pada sub-tab **Transaction Attribute** kemudian dapat menggunakan notasi titik (dot-notation) yang terstruktur (contoh: `body.transaction.details.amount`).",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
+        },
+        {
+          "num": 4,
+          "title": "Apakah pembaruan konfigurasi skema JSON langsung aktif secara real-time?",
+          "desc": "• Ya, seluruh perubahan pemetaan parameter yang berhasil disimpan akan langsung diterapkan pada transaksi yang masuk berikutnya.\n• **PENTING:** Selalu lakukan simulasi pengujian pesan JSON terlebih dahulu di lingkungan *Staging / Sandbox* sebelum menyimpan konfigurasi baru di lingkungan *Production* untuk menghindari kegagalan analisis transaksi akibat kesalahan pemetaan.",
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
+        },
+        {
+          "num": 5,
+          "title": "Bagaimana log modifikasi (History) membantu troubleshooting?",
+          "desc": "• Karena pemetaan skema data sangat sensitif, tab **History** menyimpan log audit perubahan parameter secara terperinci.\n• Inisiator, tanggal, dan rangkuman aktivitas perubahan dicatat secara kronologis.\n• Accordion pembanding (**Previous Value** vs **New Value**) memfasilitasi tim IT dan auditor untuk melacak secara instan nilai parameter sebelum dan sesudah perubahan jika terjadi kegagalan parser data.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
+        }
+      ]
+    }
+  ]
+}

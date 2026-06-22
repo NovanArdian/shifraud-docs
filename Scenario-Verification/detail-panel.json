@@ -1,0 +1,39 @@
+{
+  "label": "Detail Panel",
+  "category": "Scenario-Verification",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Inspeksi Detail & Metrik Verifikasi",
+      "id": "detail-panel",
+      "intro": "Setiap tugas simulasi verifikasi memiliki panel rincian yang memaparkan hasil eksekusi secara komprehensif. Investigator dapat melihat metrik keberhasilan deteksi fraud, profil inisiator, serta rentang waktu pemrosesan data.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Buka Panel Detail",
+          "desc": "• Klik baris atau kartu simulasi pada daftar utama.\n• Pada **Card View**, rincian akan tersemat secara halus tepat di bawah baris kartu yang aktif.\n• Pada **Table View**, panel detail tersemat sebagai sidebar permanen selebar **22rem** di sisi kanan halaman dengan tab **General**."
+        },
+        {
+          "num": 2,
+          "title": "Metrik Hasil Verifikasi",
+          "desc": "{previewHtml:1}\n• Bagian utama rincian menyajikan metrik kuantitatif pengujian:\n  - **Triggered Data & Percentage:** Jumlah dan persentase transaksi sampel yang memicu aturan fraud (alert terdeteksi).\n  - **Not Triggered Data & Percentage:** Jumlah dan persentase transaksi sampel yang lolos (tidak memicu logika rule).\n  - **Total Data Used:** Jumlah transaksi sampel yang diproses dalam jendela pengujian.\n  - **Taken Time (Durasi Eksekusi):** Waktu yang dibutuhkan oleh mesin deteksi untuk memproses seluruh data transaksi (dalam milidetik).\n  - **Executed By:** Nama pengguna pelaksana simulasi.",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.08);border:1px solid #bbf7d0;background:#fff;width:380px;margin:0 auto;\"><div style=\"padding:12px 14px;background:#fafdfb;border-bottom:1px solid #e8f5e9;display:flex;align-items:center;gap:6px;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2.5\"><polyline points=\"22 12 18 12 15 21 9 3 6 12 2 12\"/></svg><span style=\"font-size:10.5px;font-weight:800;color:#16a34a;text-transform:uppercase;letter-spacing:.5px;\">Verification Metrics</span></div><div style=\"padding:14px;display:grid;grid-template-columns:1fr 1fr;gap:12px;\"><div style=\"display:flex;align-items:center;gap:8px;\"><div style=\"width:28px;height:28px;border-radius:6px;background:#e0f2fe;display:flex;align-items:center;justify-content:center;color:#0284c7;\">%</div><div><div style=\"font-size:8px;font-weight:700;color:#94a3b8;text-transform:uppercase;\">Triggered %</div><div style=\"font-size:11px;font-weight:700;color:#0f172a;\">2.50%</div></div></div><div style=\"display:flex;align-items:center;gap:8px;\"><div style=\"width:28px;height:28px;border-radius:6px;background:#fef3c7;display:flex;align-items:center;justify-content:center;color:#d97706;\">%</div><div><div style=\"font-size:8px;font-weight:700;color:#94a3b8;text-transform:uppercase;\">Not Triggered %</div><div style=\"font-size:11px;font-weight:700;color:#0f172a;\">97.50%</div></div></div><div style=\"display:flex;align-items:center;gap:8px;\"><div style=\"width:28px;height:28px;border-radius:6px;background:#dcfce7;display:flex;align-items:center;justify-content:center;color:#16a34a;\">✓</div><div><div style=\"font-size:8px;font-weight:700;color:#94a3b8;text-transform:uppercase;\">Triggered Data</div><div style=\"font-size:11px;font-weight:700;color:#0f172a;\">25 txs</div></div></div><div style=\"display:flex;align-items:center;gap:8px;\"><div style=\"width:28px;height:28px;border-radius:6px;background:#fee2e2;display:flex;align-items:center;justify-content:center;color:#dc2626;\">✗</div><div><div style=\"font-size:8px;font-weight:700;color:#94a3b8;text-transform:uppercase;\">Not Triggered Data</div><div style=\"font-size:11px;font-weight:700;color:#0f172a;\">975 txs</div></div></div><div style=\"display:flex;align-items:center;gap:8px;\"><div style=\"width:28px;height:28px;border-radius:6px;background:#f3e8ff;display:flex;align-items:center;justify-content:center;color:#a855f7;\">⏱</div><div><div style=\"font-size:8px;font-weight:700;color:#94a3b8;text-transform:uppercase;\">Taken Time</div><div style=\"font-size:11px;font-weight:700;color:#0f172a;\">245 ms</div></div></div><div style=\"display:flex;align-items:center;gap:8px;\"><div style=\"width:28px;height:28px;border-radius:6px;background:#e0f2fe;display:flex;align-items:center;justify-content:center;color:#0284c7;\">👤</div><div><div style=\"font-size:8px;font-weight:700;color:#94a3b8;text-transform:uppercase;\">Executed By</div><div style=\"font-size:11px;font-weight:700;color:#0f172a;\">John Doe</div></div></div></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Data Transaksi & Waktu Eksekusi",
+          "desc": "{previewHtml:1}\n• Bagian bawah menyajikan parameter audit temporal:\n  - **Transaction Sample Date:** Jendela waktu transaksi historis riil yang ditarik sebagai basis pengujian (From & To).\n  - **Execution Window:** Timestamp presisi waktu dimulainya simulasi (Started) dan berakhirnya simulasi (Ended) di server ShiFor.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;border:1px solid #cbd5e1;background:#fff;padding:12px;width:300px;margin:0 auto;display:flex;flex-direction:column;gap:8px;\"><div style=\"font-size:8.5px;font-weight:800;color:#64748b;text-transform:uppercase;\">Transaction Sample Date</div><div style=\"font-size:10px;color:#334155;display:flex;flex-direction:column;gap:3px;\"><div>📅 From: 2026-06-01 00:00:00</div><div>📅 To: 2026-06-22 10:53:00</div><div>👤 Total Data Used: 1000</div></div><div style=\"border-top:1px dashed #e2e8f0;padding-top:6px;margin-top:2px;\"></div><div style=\"font-size:8.5px;font-weight:800;color:#64748b;text-transform:uppercase;\">Execution Window</div><div style=\"font-size:10px;color:#334155;display:flex;flex-direction:column;gap:3px;\"><div>⏱ Started: 2026-06-22 10:53:20</div><div>⏱ Ended: 2026-06-22 10:53:21</div></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

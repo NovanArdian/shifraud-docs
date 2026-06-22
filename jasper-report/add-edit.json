@@ -1,0 +1,34 @@
+{
+  "label": "Add Edit",
+  "category": "jasper-report",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Mengelola Template JRXML Laporan",
+      "id": "add-edit",
+      "intro": "Pelajari cara mengunggah berkas rancangan JRXML baru ke sistem atau memperbarui nama dan deskripsi template laporan yang sudah ada.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Buka Drawer Tambah / Edit Laporan",
+          "desc": "• Klik tombol **Add Report** (+ Add Report) di pojok kanan atas toolbar utama untuk pendaftaran baru.\n• Atau klik tombol **Edit Report** di panel detail untuk memodifikasi laporan yang ada.\n• Drawer berukuran lebar **450px** akan terbuka secara geser dari sisi kanan."
+        },
+        {
+          "num": 2,
+          "title": "Isi Detail & Unggah JRXML",
+          "desc": "{previewHtml:1}\n• Lengkapi formulir drawer:\n  - **Report name (Wajib):** Nama judul dokumen laporan kustom.\n  - **Description (Wajib):** Uraian ringkas tujuan dan fungsi laporan.\n  - **JRXML File (Wajib saat Tambah):** Tarik dan lepas (*drag & drop*) berkas JRXML dari komputer Anda ke area Dropzone, atau klik area tersebut untuk memilih berkas. Berkas tidak boleh melebihi ukuran **3MB** dan harus berformat `.jrxml`.\n• Setelah berkas diunggah, nama berkas dan ukurannya dalam KB akan ditampilkan di bawah dropzone.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.08);border:1px solid #bfdbfe;background:#fff;width:340px;margin:0 auto;\"><div style=\"padding:12px 14px;border-bottom:1px solid #e9d5ff;background:#faf5ff;display:flex;justify-content:space-between;align-items:center;\"><div style=\"display:flex;align-items:center;gap:6px;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"><path d=\"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z\"/></svg><span style=\"font-size:11px;font-weight:800;color:#0f172a;\">Create Report</span></div></div><div style=\"padding:14px;display:flex;flex-direction:column;gap:12px;\"><div style=\"display:flex;flex-direction:column;gap:4px;\"><label style=\"font-size:10px;font-weight:700;color:#374151;\">Report name <span style=\"color:#ef4444;\">*</span></label><input type=\"text\" placeholder=\"Enter report name\" value=\"Monthly Audit Details\" style=\"border:1px solid #cbd5e1;border-radius:6px;padding:6px 10px;font-size:11px;outline:none;\"/></div><div style=\"display:flex;flex-direction:column;gap:4px;\"><label style=\"font-size:10px;font-weight:700;color:#374151;\">Description <span style=\"color:#ef4444;\">*</span></label><textarea placeholder=\"Describe the report purpose\" style=\"border:1px solid #cbd5e1;border-radius:6px;padding:6px 10px;font-size:11px;outline:none;font-family:inherit;min-height:40px;\">Merchant transaction details for monthly audit.</textarea></div><div style=\"display:flex;flex-direction:column;gap:4px;\"><label style=\"font-size:10px;font-weight:700;color:#374151;\">JRXML File <span style=\"color:#ef4444;\">*</span></label><div style=\"border:1.5px dashed #cbd5e1;border-radius:8px;padding:16px;text-align:center;background:#fafafa;\"><div style=\"font-size:10px;font-weight:600;color:#4b5563;\">Click to upload or drag and drop</div><div style=\"font-size:8.5px;color:#9ca3af;margin-top:2px;\">JRXML (max. 3MB)</div></div></div><div style=\"border:1px solid #e2e8f0;border-radius:8px;padding:8px;display:flex;align-items:center;gap:8px;background:#f8fafc;\"><span style=\"font-size:14px;\">📄</span><div style=\"flex:1;min-width:0;\"><div style=\"font-size:9.5px;font-weight:600;color:#0f172a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;\">monthly_audit.jrxml</div><div style=\"font-size:8.5px;color:#64748b;\">142.50 KB</div></div></div></div><div style=\"padding:10px 14px;border-top:1px solid #e5e7eb;background:#f9fafb;display:flex;gap:8px;\"><button style=\"flex:1;padding:6px;border-radius:6px;background:#fff;border:1px solid #d1d5db;color:#4b5563;font-size:10px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:6px;border-radius:6px;background:#2563eb;border:none;color:#fff;font-size:10px;font-weight:700;\">Create</button></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Simpan Template",
+          "desc": "• Klik tombol **Create** (saat Tambah) atau **Update** (saat Edit) di bagian bawah drawer.\n• Sistem akan mengunggah berkas JRXML ke server ShiFor untuk divalidasi dan dikompilasi secara real-time. Jika berhasil, notifikasi sukses akan muncul dan daftar laporan akan diperbarui."
+        }
+      ]
+    }
+  ]
+}

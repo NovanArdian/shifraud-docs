@@ -1,0 +1,41 @@
+{
+  "label": "Response Code Mapping",
+  "category": "interface-json",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Sub-Tab: Response Code Mapping",
+      "id": "details-response-code",
+      "intro": "Sub-tab Response Code digunakan untuk memetakan kode respons status transaksi dari jaringan eksternal (misal: 00 untuk transaksi sukses, 51 untuk dana tidak cukup) ke kode status standar internal ShiFor.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar Response Code & Kolom Translasi",
+          "desc": "{previewHtml:1}\n• Menampilkan daftar konversi kode status respons transaksi.\n• **Penjelasan Kolom data:**\n  - **Code:** Kode status respons eksternal asli dari data payload (contoh: `00` atau `51`).\n  - **Description:** Keterangan penjelasan arti kode status respons eksternal (contoh: `Approved` atau `Insufficient Funds`).\n  - **Internal Code:** Hasil konversi kode internal ShiFor. Menampilkan badge abu-abu bertuliskan kode internal (contoh: `SUCCESS` atau `DECLINED_LIMIT`).\n• **Aksi Toolbar:**\n  - **Search:** Membuka laci samping pencarian kode respons.\n  - **Add Response Code:** Membuka drawer form 480px untuk membuat pemetaan kode respons baru.\n  - **Edit / Delete Response Code:** Memperbarui atau menghapus pemetaan kode terpilih.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);border:1px solid #cbd5e1;background:#fff;\"><div style=\"padding:10px 14px;border-bottom:1px solid #cbd5e1;display:flex;justify-content:space-between;align-items:center;background:#f8fafc;\"><span style=\"font-size:11px;font-weight:800;color:#0f172a;\">Response Code Mapping</span><div style=\"display:flex;gap:4px;\"><button style=\"padding:4px 8px;border-radius:5px;border:1px solid #cbd5e1;background:#fff;font-size:8.5px;font-weight:700;color:#475569;\">Search</button><button style=\"padding:4px 8px;border-radius:5px;background:#2563eb;border:none;color:#fff;font-size:8.5px;font-weight:700;\">+ Add Mapping</button></div></div><div style=\"padding:12px;\"><table style=\"width:100%;border-collapse:collapse;text-align:left;font-size:9.5px;\"><thead><tr style=\"border-bottom:1.5px solid #e2e8f0;color:#64748b;text-transform:uppercase;font-size:8.5px;\"><th style=\"padding:6px;width:70px;\">Code</th><th style=\"padding:6px;\">Description</th><th style=\"padding:6px;width:100px;\">Internal Code</th></tr></thead><tbody><tr style=\"border-bottom:1px solid #f1f5f9;\"><td style=\"padding:8px 6px;font-weight:700;color:#1e293b;\">51</td><td style=\"padding:8px 6px;color:#475569;\">Insufficient Funds</td><td style=\"padding:8px 6px;\"><span style=\"padding:2px 6px;background:#f1f5f9;border-radius:4px;color:#334155;font-weight:700;font-size:8.5px;\">DECLINED_LIMIT</span></td></tr></tbody></table></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Parameter Form Utama (Drawer 480px)",
+          "desc": "{previewHtml:1}\nBuka drawer *Create/Edit Response Code*, isi parameter form berikut:\n1. **Code** *(Wajib)*: Masukkan kode status respons eksternal asli (misal: `51`).\n2. **Description** *(Wajib)*: Keterangan deskripsi fungsi kode tersebut (misal: `Insufficient Funds`).\n3. **Internal code** *(Wajib)*: Dropdown pilihan kode internal sistem ShiFor. Dropdown menyajikan nama kode internal beserta keterangannya.",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1);border:1px solid #cbd5e1;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:14px 16px;border-bottom:1px solid #cbd5e1;background:linear-gradient(135deg,#eff6ff,#dbeafe);display:flex;justify-content:space-between;align-items:center;\"><div><div style=\"font-size:12px;font-weight:800;color:#0f172a;\">Create Response Code</div><div style=\"font-size:9px;color:#64748b;\">Fill details and save</div></div><span style=\"padding:2px 8px;border-radius:12px;background:#dbeafe;border:1px solid #93c5fd;font-size:9px;font-weight:700;color:#2563eb;\">● Add</span></div><div style=\"padding:14px 16px;display:flex;flex-direction:column;gap:10px;\"><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Code <span style=\"color:#ef4444;\">*</span></div><input type=\"text\" value=\"51\" style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;outline:none;\"/></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Description <span style=\"color:#ef4444;\">*</span></div><input type=\"text\" value=\"Insufficient Funds\" style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;outline:none;\"/></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Internal code <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;color:#0f172a;display:flex;justify-content:space-between;align-items:center;\">DECLINED_LIMIT <span>▼</span></div></div></div><div style=\"padding:12px 16px;border-top:1px solid #cbd5e1;background:#f8fafc;display:flex;gap:8px;\"><button style=\"flex:1;padding:7px;border-radius:7px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:10px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:7px;border-radius:7px;background:#2563eb;border:none;color:#fff;font-size:10px;font-weight:700;\">Create</button></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Penyaringan Kode Respons (Search Sidebar)",
+          "desc": "• Klik **Search** pada toolbar sub-tab Response Code untuk menampilkan sidebar pencarian.\n• Kolom pencarian menyajikan filter berdasarkan **Code** dan **Description**.\n• Klik **Apply Filters** untuk menyaring data atau **Reset** untuk menampilkan seluruh data pemetaan.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "label": "Transaction Attribute Mapping",
+  "category": "interface-json",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Sub-Tab: Transaction Attribute Mapping",
+      "id": "details-transaction-attribute",
+      "intro": "Sub-tab Transaction Attribute digunakan untuk mengikat (binding) variabel parameter data JSON (baik dari header maupun body) ke nama atribut transaksi internal sistem (contoh: amount, hpan) agar dapat terbaca oleh rule deteksi fraud.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar Atribut Transaksi & Kolom Data",
+          "desc": "{previewHtml:1}\n• **Panel Samping Kiri (Endpoint Sidebar - 310px):** Menampilkan seluruh endpoint (Message Types) yang terdaftar. Pengguna **harus memilih salah satu endpoint** terlebih dahulu di sidebar ini untuk menampilkan dan mengelola pemetaan atribut transaksi yang berkaitan dengan endpoint tersebut.\n• **Penjelasan Kolom data:**\n  - **Name:** Nama atribut internal sistem deteksi (contoh: `amount`, `hpan`).\n  - **Source Data:** Sumber bagian payload JSON asal data diambil. Menampilkan badge status **HEADER** (biru) atau **BODY** (teal).\n  - **Field Tag:** Path target parameter JSON (contoh: `body.transaction.amount`). Ditampilkan dengan gaya huruf monospace.\n  - **Description:** Catatan penjelasan peran atribut tersebut dalam deteksi.\n• **Aksi Toolbar:**\n  - **Search:** Membuka laci penyaringan atribut transaksi.\n  - **Add Attribute:** Membuka drawer form 480px untuk mendaftarkan atribut baru.\n  - **Edit / Delete Attribute:** Memodifikasi atau membuang atribut terpilih.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);border:1px solid #cbd5e1;background:#fff;\"><div style=\"padding:10px 14px;border-bottom:1px solid #cbd5e1;display:flex;justify-content:space-between;align-items:center;background:#f8fafc;\"><span style=\"font-size:11px;font-weight:800;color:#0f172a;\">Transaction Attribute</span><div style=\"display:flex;gap:4px;\"><button style=\"padding:4px 8px;border-radius:5px;border:1px solid #cbd5e1;background:#fff;font-size:8.5px;font-weight:700;color:#475569;\">Search</button><button style=\"padding:4px 8px;border-radius:5px;background:#2563eb;border:none;color:#fff;font-size:8.5px;font-weight:700;\">+ Add Attribute</button></div></div><div style=\"padding:12px;\"><table style=\"width:100%;border-collapse:collapse;text-align:left;font-size:9.5px;\"><thead><tr style=\"border-bottom:1.5px solid #e2e8f0;color:#64748b;text-transform:uppercase;font-size:8.5px;\"><th style=\"padding:6px;\">Name</th><th style=\"padding:6px;width:70px;\">Source</th><th style=\"padding:6px;\">Field Tag</th></tr></thead><tbody><tr style=\"border-bottom:1px solid #f1f5f9;\"><td style=\"padding:8px 6px;font-weight:700;color:#1e293b;\">amount</td><td style=\"padding:8px 6px;\"><span style=\"padding:2px 6px;background:rgba(13,148,136,0.1);border-radius:4px;font-size:8px;font-weight:700;color:#0d9488;\">BODY</span></td><td style=\"padding:8px 6px;\"><code style=\"font-family:monospace;background:#f1f5f9;padding:2px 4px;border-radius:4px;color:#0f172a;font-size:9px;\">body.transaction.amount</code></td></tr></tbody></table></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Parameter Form Utama (Drawer 480px)",
+          "desc": "{previewHtml:1}\nBuka drawer *Create/Edit Transaction Attribute*, isi parameter form berikut:\n1. **Name** *(Wajib)*: Nama variabel atribut deteksi internal (misal: `amount`).\n2. **Source data** *(Wajib)*: Dropdown pilihan asal payload data JSON (**HEADER** atau **BODY**).\n3. **Field tag** *(Wajib)*: Jalur tag parameter data JSON (misal: `body.transaction.amount` atau `header.token`).\n4. **Description** *(Wajib, Textarea)*: Keterangan deskripsi peran atribut.",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1);border:1px solid #cbd5e1;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:14px 16px;border-bottom:1px solid #cbd5e1;background:linear-gradient(135deg,#eff6ff,#dbeafe);display:flex;justify-content:space-between;align-items:center;\"><div><div style=\"font-size:12px;font-weight:800;color:#0f172a;\">Create Attribute</div><div style=\"font-size:9px;color:#64748b;\">Fill details and save</div></div><span style=\"padding:2px 8px;border-radius:12px;background:#dbeafe;border:1px solid #93c5fd;font-size:9px;font-weight:700;color:#2563eb;\">● Add</span></div><div style=\"padding:14px 16px;display:flex;flex-direction:column;gap:10px;\"><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Name <span style=\"color:#ef4444;\">*</span></div><input type=\"text\" value=\"amount\" style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;outline:none;\"/></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Source data <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;color:#0f172a;\">BODY</div></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Field tag <span style=\"color:#ef4444;\">*</span></div><input type=\"text\" value=\"body.transaction.amount\" style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;outline:none;\"/></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:9px;font-weight:700;color:#374151;\">Description <span style=\"color:#ef4444;\">*</span></div><textarea style=\"padding:6px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10px;outline:none;resize:none;\">Volume nominal transaksi fraud</textarea></div></div><div style=\"padding:12px 16px;border-top:1px solid #cbd5e1;background:#f8fafc;display:flex;gap:8px;\"><button style=\"flex:1;padding:7px;border-radius:7px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:10px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:7px;border-radius:7px;background:#2563eb;border:none;color:#fff;font-size:10px;font-weight:700;\">Create</button></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Penyaringan Atribut Transaksi (Search Sidebar)",
+          "desc": "• Klik **Search** pada toolbar sub-tab Transaction Attribute untuk menampilkan sidebar pencarian.\n• Masukkan nama atribut pada filter **Name**.\n• Klik **Apply Filters** untuk menyaring data atau **Reset** untuk menampilkan seluruh data atribut transaksi.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
+        }
+      ]
+    }
+  ]
+}

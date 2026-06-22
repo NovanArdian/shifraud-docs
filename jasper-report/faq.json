@@ -1,0 +1,49 @@
+{
+  "label": "FAQ",
+  "category": "jasper-report",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Frequently Asked Questions",
+      "id": "faq",
+      "intro": "Temukan jawaban atas berbagai pertanyaan umum seputar manajemen template dan mesin penjadwalan Jasper Report di sistem ShiFor.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Apa itu file JRXML dan bagaimana cara mendesainnya?",
+          "desc": "• **JRXML (.jrxml)** adalah file markup berbasis XML yang mendefinisikan struktur, query, variabel, dan elemen tata letak visual dari laporan JasperReports.\n• Anda dapat mendesain file ini secara visual (Drag & Drop) menggunakan software desktop **Jaspersoft Studio** (gratis) sebelum mengunggah berkas tersebut ke ShiFor.",
+          "color": "#7c3aed",
+          "bg": "#f5f3ff"
+        },
+        {
+          "num": 2,
+          "title": "Mengapa file JRXML saya ditolak oleh sistem saat diunggah?",
+          "desc": "• Beberapa penyebab kegagalan unggah berkas JRXML meliputi:\n  - Ukuran berkas melebihi batas maksimal **3MB**.\n  - Ekstensi berkas bukan berformat `.jrxml` atau `.xml`.\n  - Struktur XML di dalam berkas rusak atau mengandung referensi resource lokal (misalnya path gambar lokal seperti `C:\\images\\logo.png`) yang tidak dapat diakses oleh server ShiFor.",
+          "color": "#10b981",
+          "bg": "#f0fdf4"
+        },
+        {
+          "num": 3,
+          "title": "Bagaimana cara melakukan otomatisasi jadwal pada Jasper Report?",
+          "desc": "• Terdapat dua cara:\n  1. Menggunakan drawer **Report Engine Automation** saat pendaftaran pertama kali untuk menyusun konfigurasi info laporan dan jadwal otomatis secara langsung.\n  2. Mengklik tombol **Schedule Configuration / Edit Schedule** di bagian bawah detail panel tab General untuk laporan kustom yang sudah terdaftar di sistem.",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
+        },
+        {
+          "num": 4,
+          "title": "Di mana saya harus mendaftarkan email tujuan penerima laporan?",
+          "desc": "• Kontak penerima diambil dari data modul **Contact Setup** utama.\n• Daftarkan email investigator atau manager terlebih dahulu di modul **Contact Setup** dengan saluran platform **Email**, kemudian kembali ke modul Jasper Report untuk memilih email tersebut di dropdown **Recipients**.",
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
+        },
+        {
+          "num": 5,
+          "title": "Bagaimana cara melihat riwayat unggahan berkas JRXML?",
+          "desc": "• Buka detail panel laporan kustom Anda, lalu klik tab **History**.\n• Di sini, sistem menyajikan log kronologis audit trail lengkap dengan inisiator (email pelaksana), penanda waktu, pesan status, serta detail perbandingan nilai lama dan nilai baru dalam accordion **Previous Value** dan **New Value**.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
+        }
+      ]
+    }
+  ]
+}

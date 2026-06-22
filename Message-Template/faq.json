@@ -1,0 +1,49 @@
+{
+  "label": "FAQ",
+  "category": "Message-Template",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Frequently Asked Questions",
+      "id": "faq",
+      "intro": "Temukan jawaban atas pertanyaan umum terkait pembuatan, pengisian placeholder, dan penggunaan Message Template di dalam sistem ShiFor.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Bagaimana cara kerja Placeholder?",
+          "desc": "• **Placeholder** memetakan atribut transaksi secara dinamis.\n• Ketika transaksi memicu rule, penanda khusus seperti `<hpan>` (nomor kartu) atau `<amount>` (nominal transaksi) di dalam template akan dievaluasi dan digantikan oleh nilai transaksi riil.\n• Pastikan penulisan tag placeholder sesuai dengan label atribut yang dipilih dari asisten dropdown.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff"
+        },
+        {
+          "num": 2,
+          "title": "Reaction mana saja yang menggunakan template ini?",
+          "desc": "• Modul **Reactions** pada Stop List, White List, Scenario Studio, dan Scenario Group.\n• Ketika dikonfigurasi dengan action type **EMAIL_NOTIFICATION**, sistem akan meminta Anda memilih salah satu **Message Template** sebagai format pesan notifikasi yang akan dikirim ke contact person atau group.",
+          "color": "#10b981",
+          "bg": "#f0fdf4"
+        },
+        {
+          "num": 3,
+          "title": "Apakah subjek email mendukung placeholder?",
+          "desc": "• **Ya.** Subjek pesan (Subject field) sepenuhnya mendukung penyisipan placeholder dinamis.\n• Contoh subjek: `[Alert] Transaksi Mencurigakan Kartu <hpan>`.\n• Sistem akan me-replace parameter di subjek dengan cara yang sama seperti di body text template.",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
+        },
+        {
+          "num": 4,
+          "title": "Berapa kapasitas panjang konten template?",
+          "desc": "• Teks area template mendukung penulisan hingga **4000 karakter**.\n• Ini sangat mencukupi untuk merancang email notifikasi yang memuat detail detail tabel transaksi, disclaimer hukum, maupun pesan pemberitahuan singkat untuk WhatsApp dan Telegram.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
+        },
+        {
+          "num": 5,
+          "title": "Bagaimana jika data atribut placeholder bernilai kosong (null)?",
+          "desc": "• Jika data transaksi tidak membawa parameter atribut yang didefinisikan di template, parser sistem secara aman akan me-replace tag tersebut dengan nilai kosong `\"\"` (atau default placeholder string).\n• Hal ini mencegah kegagalan pengiriman pesan atau error parsing pada log engine.",
+          "color": "#64748b",
+          "bg": "#f8fafc"
+        }
+      ]
+    }
+  ]
+}

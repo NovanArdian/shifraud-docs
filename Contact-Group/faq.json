@@ -1,0 +1,49 @@
+{
+  "label": "FAQ",
+  "category": "Contact-Group",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Frequently Asked Questions",
+      "id": "faq",
+      "intro": "Temukan jawaban atas pertanyaan umum seputar manajemen pengelompokan kontak penerima (Contact Group) di sistem ShiFor.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Bedanya Contact Group dengan Contact Setup?",
+          "desc": "• **Contact Setup** — Digunakan untuk mendaftarkan informasi kontak *individual* (Firstname, Lastname, Platform, dan nilai alamat kontak seperti email atau nomor telepon).\n• **Contact Group** — Digunakan untuk menggabungkan beberapa kontak individual tersebut ke dalam satu nama kelompok dengan satu platform komunikasi tertentu.\n• Di modul **Reactions**, Anda dapat memilih Recipient Type berupa individual (**RECIPIENT**) menggunakan Contact Setup atau kolektif grup (**RECIPIENT_GROUP**) menggunakan Contact Group.",
+          "color": "#7c3aed",
+          "bg": "#f5f3ff"
+        },
+        {
+          "num": 2,
+          "title": "Apakah satu kontak bisa masuk ke beberapa grup?",
+          "desc": "• **Ya**, satu Contact Setup (kontak individual) dapat dimasukkan ke dalam beberapa Contact Group yang berbeda sekaligus.\n• Operasi *Link* (menambahkan) dilakukan melalui tombol **Add Contact** di dalam **Contact Group Detail Dialog** (portal View Contacts).\n• Operasi *Unlink* (melepas) dilakukan dengan mencentang kontak yang ingin dihapus dari grup, lalu klik **Delete Contact** — ini hanya memutus kaitan kontak dari grup, data Contact Setup aslinya tidak terhapus.",
+          "color": "#10b981",
+          "bg": "#f0fdf4"
+        },
+        {
+          "num": 3,
+          "title": "Apa yang terjadi jika Contact Setup dihapus dari sistem?",
+          "desc": "• Jika data **Contact Setup** individual dihapus dari modul Contact Setup utama, maka kaitan kontak tersebut dengan semua grup yang dimilikinya akan ikut terputus secara otomatis.\n• Grup itu sendiri tidak terhapus — hanya keanggotaan kontak tersebut yang hilang dari grup.\n• Data grup dan konfigurasi reaksi yang menggunakan grup tersebut tetap berfungsi selama masih ada anggota kontak lain dalam grup.",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
+        },
+        {
+          "num": 4,
+          "title": "Bagaimana platform grup mempengaruhi anggotanya?",
+          "desc": "• **Platform** pada Contact Group menentukan saluran komunikasi notifikasi yang akan digunakan untuk seluruh anggota grup.\n• Sebaiknya kontak yang ditambahkan ke dalam grup memiliki platform yang sama dengan platform grup (misal: grup platform Email sebaiknya diisi kontak-kontak berplatform Email).\n• Sistem tidak memblokir penambahan kontak lintas platform, namun pengiriman notifikasi akan mengikuti konfigurasi platform di tingkat grup.",
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff"
+        },
+        {
+          "num": 5,
+          "title": "Bagaimana histori audit grup dilacak?",
+          "desc": "• Setiap pembuatan (Create), pembaruan data (Update), dan penghapusan (Delete) grup tercatat secara detail.\n• Riwayat audit log dapat dilihat melalui tab **History** di Detail Panel.\n• Khusus untuk **Table View**, perubahan field (seperti Group Name atau Platform) dipaparkan secara komparatif melalui dropdown Accordion **Previous Value** dan **New Value**.\n• Perubahan keanggotaan kontak (link/unlink) juga tercatat dalam log histori grup.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
+        }
+      ]
+    }
+  ]
+}

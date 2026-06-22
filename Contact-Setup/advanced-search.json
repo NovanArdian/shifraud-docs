@@ -1,0 +1,24 @@
+{
+  "label": "Advanced Search",
+  "category": "Contact-Setup",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Search & Filtering",
+      "id": "advanced-search",
+      "intro": "Gunakan Search Panel yang terletak di sebelah kanan halaman untuk mempermudah penyaringan data kontak berdasarkan beberapa kriteria sekaligus secara real-time.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Membuka & Mengisi Search Panel",
+          "desc": "{previewHtml:1}\n• Klik tombol **Search** (ikon magnifying glass) di toolbar kanan atas untuk membuka Search Panel.\n• Search panel berupa Paper sidebar selebar 320px yang muncul di sisi kanan halaman utama.\n• Form menyediakan kolom input pencarian spesifik:\n  - **Firstname**: Teks pencarian berdasarkan nama depan penerima.\n  - **Lastname**: Teks pencarian berdasarkan nama belakang penerima.\n  - **Contact**: Teks pencarian alamat kontak (misal: domain `@email.com` atau potongan nomor WhatsApp).\n  - **Platform**: Filter pilihan platform komunikasi (Email, Telegram, WhatsApp).\n• Klik tombol **Apply Filters** di footer panel untuk menyaring data kontak yang ter-render di main view.\n• Klik tombol **Reset** untuk mengosongkan filter dan memuat kembali seluruh kontak terdaftar semula.",
+          "color": "#0ea5e9",
+          "bg": "#f0f9ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.08);border:1px solid #e2e8f0;background:#fff;width:280px;margin:0 auto;\"><div style=\"padding:14px 16px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;\"><div><div style=\"display:flex;align-items:center;gap:8px;margin-bottom:4px;\"><div style=\"font-size:13px;font-weight:800;color:#0f172a;\">Search Contact</div><span style=\"padding:2px 8px;border-radius:12px;background:#e0f2fe;border:1px solid #bae6fd;font-size:8px;font-weight:700;color:#0284c7;\">Filters</span></div><div style=\"font-size:9.5px;color:#64748b;\">Set filter criteria</div></div></div><div style=\"padding:16px;display:flex;flex-direction:column;gap:12px;\"><div style=\"display:flex;flex-direction:column;gap:4px;\"><div style=\"font-size:10.5px;font-weight:700;color:#374151;\">Firstname</div><div style=\"padding:7px 10px;border:1px solid #cbd5e1;border-radius:8px;font-size:11px;color:#94a3b8;\">Enter firstname</div></div><div style=\"display:flex;flex-direction:column;gap:4px;\"><div style=\"font-size:10.5px;font-weight:700;color:#374151;\">Lastname</div><div style=\"padding:7px 10px;border:1px solid #cbd5e1;border-radius:8px;font-size:11px;color:#94a3b8;\">Enter lastname</div></div><div style=\"display:flex;flex-direction:column;gap:4px;\"><div style=\"font-size:10.5px;font-weight:700;color:#374151;\">Contact</div><div style=\"padding:7px 10px;border:1px solid #cbd5e1;border-radius:8px;font-size:11px;color:#94a3b8;\">Enter contact value</div></div><div style=\"display:flex;flex-direction:column;gap:4px;\"><div style=\"font-size:10.5px;font-weight:700;color:#374151;\">Platform</div><div style=\"padding:7px 10px;border:1px solid #cbd5e1;border-radius:8px;font-size:11px;color:#94a3b8;display:flex;align-items:center;justify-content:space-between;\">Choose platform <span style=\"font-size:8px;color:#64748b;\">▼</span></div></div></div><div style=\"padding:12px 16px;border-top:1px solid #e2e8f0;background:#f8fafc;display:flex;gap:8px;\"><button style=\"flex:1;padding:7px;border-radius:8px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:10px;font-weight:700;\">Reset</button><button style=\"flex:1;padding:7px;border-radius:8px;background:#2563eb;border:none;color:#fff;font-size:10px;font-weight:700;box-shadow:0 2px 8px rgba(37,99,235,.25);\">Apply Filters</button></div></div>"
+          }
+        }
+      ]
+    }
+  ]
+}

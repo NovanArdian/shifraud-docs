@@ -1,0 +1,42 @@
+{
+  "label": "FAQ",
+  "category": "Contact-Setup",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Frequently Asked Questions",
+      "id": "faq",
+      "intro": "Temukan jawaban atas pertanyaan umum seputar manajemen pendaftaran kontak penerima (Contact Setup) di sistem ShiFor.",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Bedanya Contact Setup dengan Contact Group?",
+          "desc": "• **Contact Setup** — Digunakan untuk mendaftarkan informasi kontak personal/individual penerima secara terpisah (seperti Firstname, Lastname, Platform, dan nilai alamat kontaknya).\n• **Contact Group** — Digunakan untuk menggabungkan beberapa data kontak individual tersebut ke dalam satu nama kelompok (grup) tertentu.\n• Di modul **Reactions**, Anda dapat memilih Recipient Type berupa individual (**RECIPIENT**) menggunakan Contact Setup atau grup (**RECIPIENT_GROUP**) menggunakan Contact Group.",
+          "color": "#2563eb",
+          "bg": "#eff6ff"
+        },
+        {
+          "num": 2,
+          "title": "Bagaimana aturan format penulisan Contact Value?",
+          "desc": "Format penulisan menyesuaikan platform yang Anda pilih:\n• **Email**: Alamat email standar yang valid (misal: `operator@bank.com`).\n• **WhatsApp**: Nomor telepon aktif berformat internasional tanpa tanda spasi, tanda tambah, atau tanda hubung (misal: `628123456789`).\n• **Telegram**: Telegram Chat ID/User ID atau Chat Room ID tujuan (misal: `198273645`).\n• Form akan otomatis divalidasi secara real-time berdasarkan platform yang Anda tetapkan.",
+          "color": "#10b981",
+          "bg": "#f0fdf4"
+        },
+        {
+          "num": 3,
+          "title": "Mengapa kolom input Contact terkunci sebelum memilih Platform?",
+          "desc": "• Input **Contact** membutuhkan validasi skema spesifik dan ikon identifikasi di sebelah kiri input box (surat 📧 untuk Email, chat 💬 untuk WhatsApp, pesawat kertas ✈ untuk Telegram).\n• Sistem mengunci field ini hingga Platform dipilih guna menghindari inkonsistensi tipe platform dengan nilai kontak yang ditulis.",
+          "color": "#f59e0b",
+          "bg": "#fffbeb"
+        },
+        {
+          "num": 4,
+          "title": "Bagaimana histori audit data dilacak?",
+          "desc": "• Setiap pembuatan (Create), pembaruan data (Update), dan penghapusan (Delete) tercatat secara detail.\n• Riwayat audit log dapat dilihat melalui tab **History** di Detail Panel.\n• Khusus untuk Table View, perubahan field dipaparkan secara komparatif melalui dropdown Accordion **Previous Value** dan **New Value**.",
+          "color": "#ec4899",
+          "bg": "#fdf2f8"
+        }
+      ]
+    }
+  ]
+}

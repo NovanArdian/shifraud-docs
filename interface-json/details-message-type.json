@@ -1,0 +1,41 @@
+{
+  "label": "Message Type Mapping",
+  "category": "interface-json",
+  "sections": [
+    {
+      "type": "tutorial",
+      "heading": "Sub-Tab: Message Type Mapping",
+      "id": "details-message-type",
+      "intro": "Sub-tab Message Type digunakan untuk mendefinisikan daftar endpoint URL yang valid beserta arah alur pesan transaksi tersebut (apakah pesan tersebut bertindak sebagai permintaan/REQUEST atau tanggapan/RESPONSE).",
+      "steps": [
+        {
+          "num": 1,
+          "title": "Daftar Tipe Pesan & Kolom Data",
+          "desc": "{previewHtml:1}\n• Menampilkan daftar seluruh endpoint pemetaan tipe pesan.\n• **Penjelasan Kolom data:**\n  - **Name:** Nama unik pendefinisian jenis pesan transaksi (contoh: `Card Authorization Request`).\n  - **Endpoint Value:** Path URL endpoint transaksi terkait (contoh: `/api/v1/authorize`). Ditampilkan dengan ikon rantai/tautan.\n  - **Message Type:** Kategori penentu alur transaksi. Menampilkan badge status **REQUEST** (biru) atau **RESPONSE** (hijau).\n• **Aksi Toolbar:**\n  - **Search:** Membuka sidebar pencarian khusus tipe pesan.\n  - **Add Message Type:** Membuka drawer form 560px untuk membuat tipe pesan baru.\n  - **Edit / Delete Message Type:** Memodifikasi atau menghapus pemetaan tipe pesan terpilih.",
+          "color": "#3b82f6",
+          "bg": "#eff6ff",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);border:1px solid #cbd5e1;background:#fff;\"><div style=\"padding:10px 14px;border-bottom:1px solid #cbd5e1;display:flex;justify-content:space-between;align-items:center;background:#f8fafc;\"><span style=\"font-size:11px;font-weight:800;color:#0f172a;\">Message Type</span><div style=\"display:flex;gap:4px;\"><button style=\"padding:4px 8px;border-radius:5px;border:1px solid #cbd5e1;background:#fff;font-size:8.5px;font-weight:700;color:#475569;\">Search</button><button style=\"padding:4px 8px;border-radius:5px;background:#2563eb;border:none;color:#fff;font-size:8.5px;font-weight:700;\">+ Add Message Type</button></div></div><div style=\"padding:12px;\"><table style=\"width:100%;border-collapse:collapse;text-align:left;\"><thead><tr style=\"border-bottom:1.5px solid #e2e8f0;font-size:9px;color:#64748b;text-transform:uppercase;\"><th style=\"padding:6px;\">Name</th><th style=\"padding:6px;\">Endpoint</th><th style=\"padding:6px;width:80px;\">Type</th></tr></thead><tbody style=\"font-size:10px;\"><tr style=\"border-bottom:1px solid #f1f5f9;\"><td style=\"padding:8px 6px;font-weight:700;color:#1e293b;\">Card Authorization</td><td style=\"padding:8px 6px;color:#2563eb;display:flex;align-items:center;gap:3px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"/><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"/></svg>/api/v1/auth</td><td style=\"padding:8px 6px;\"><span style=\"padding:2px 6px;background:rgba(37,99,235,0.1);border-radius:4px;font-size:8px;font-weight:700;color:#2563eb;\">REQUEST</span></td></tr></tbody></table></div></div>"
+          }
+        },
+        {
+          "num": 2,
+          "title": "Parameter Input Form (Drawer 560px)",
+          "desc": "{previewHtml:1}\nBuka drawer *Create/Edit Message Type*, lengkapi kolom berikut:\n1. **Name** *(Wajib)*: Nama identifikasi tipe pesan (contoh: `Card Authorization Request`).\n2. **Endpoint Value** *(Wajib)*: Path lengkap URL endpoint yang dituju (contoh: `/api/v1/auth`). Dilengkapi dengan ikon link di sisi kiri input.\n3. **Message Type** *(Wajib)*: Dropdown pilihan tipe endpoint transaksi (**REQUEST** atau **RESPONSE**).",
+          "color": "#10b981",
+          "bg": "#f0fdf4",
+          "previewHtml": {
+            "1": "<div style=\"font-family:system-ui,-apple-system,sans-serif;border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.1);border:1px solid #cbd5e1;background:#fff;width:300px;margin:0 auto;\"><div style=\"padding:14px 16px;border-bottom:1px solid #cbd5e1;background:linear-gradient(135deg,#eff6ff,#dbeafe);display:flex;justify-content:space-between;align-items:center;\"><div><div style=\"font-size:12px;font-weight:800;color:#0f172a;\">Create Message Type</div><div style=\"font-size:9px;color:#64748b;\">Fill details and save</div></div><span style=\"padding:2px 8px;border-radius:12px;background:#dbeafe;border:1px solid #93c5fd;font-size:9px;font-weight:700;color:#2563eb;\">● Add</span></div><div style=\"padding:14px 16px;display:flex;flex-direction:column;gap:10px;\"><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Name <span style=\"color:#ef4444;\">*</span></div><input type=\"text\" value=\"Card Authorization Request\" style=\"padding:7px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10.5px;outline:none;\"/></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Endpoint Value <span style=\"color:#ef4444;\">*</span></div><div style=\"position:relative;display:flex;align-items:center;\"><span style=\"position:absolute;left:8px;color:#94a3b8;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"/><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"/></svg></span><input type=\"text\" value=\"/api/v1/auth\" style=\"padding:7px 7px 7px 24px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10.5px;outline:none;width:100%;\"/></div></div><div style=\"display:flex;flex-direction:column;gap:3px;\"><div style=\"font-size:10px;font-weight:700;color:#374151;\">Message Type <span style=\"color:#ef4444;\">*</span></div><div style=\"padding:7px;border:1.5px solid #cbd5e1;border-radius:7px;font-size:10.5px;color:#0f172a;\">REQUEST</div></div></div><div style=\"padding:12px 16px;border-top:1px solid #cbd5e1;background:#f8fafc;display:flex;gap:8px;\"><button style=\"flex:1;padding:7px;border-radius:7px;background:#fff;border:1px solid #cbd5e1;color:#475569;font-size:10px;font-weight:700;\">Cancel</button><button style=\"flex:1;padding:7px;border-radius:7px;background:#2563eb;border:none;color:#fff;font-size:10px;font-weight:700;\">Create</button></div></div>"
+          }
+        },
+        {
+          "num": 3,
+          "title": "Penyaringan Tipe Pesan (Search Sidebar)",
+          "desc": "• Klik **Search** pada toolbar sub-tab Message Type untuk menampilkan sidebar pencarian.\n• Kolom pencarian menyajikan filter pencarian berdasarkan **Name** dan **Endpoint Value**.\n• Klik **Apply Filters** untuk menerapkan penyaringan atau **Reset** untuk menampilkan seluruh data.",
+          "color": "#8b5cf6",
+          "bg": "#f5f3ff"
+        }
+      ]
+    }
+  ]
+}
