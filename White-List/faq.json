@@ -7,7 +7,7 @@
       "heading": "Frequently Asked Questions",
       "id": "faq",
       "intro": "Temukan jawaban atas pertanyaan umum terkait penggunaan modul White List.",
-      "items": [
+      "step": [
         {
           "num": 1,
           "title": "Bedanya White List, Watch List, dan Stop List?",
